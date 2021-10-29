@@ -7,10 +7,21 @@ class Mundo{
     public:
         //Lista doble personas
         ListaPersonas * listaPersonas;
-        int cantidadNombres;
+        Archivos * archivos;
+        int maximoHumanos;//99999
         int cantidadApellidos;
-        //QString nombres[cantidadNombres];
-        //QString apellidos[cantidadApellidos];
+        int cantidadNombres;
+        int cantidadPaises;
+        int cantidadProfesiones;
+        int cantidadCreencias;
+
+        //Arreglo que se llena con los .txt
+
+        QString apellidos[1000];
+        QString nombres[1000];
+        QString paises[100];
+        QString creencias[10];
+        QString profesiones[50];
 
         Mundo();
 };

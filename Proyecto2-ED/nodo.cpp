@@ -1,7 +1,16 @@
 #include "nodo.h"
 
 Nodo::Nodo(){
-    persona = NULL;
-    siguiente = NULL;
-    anterior = NULL;
+    this->persona = NULL;
+    this->siguiente = NULL;
+    this->anterior = NULL;
 }
+Nodo::Nodo(Persona * _persona){
+    this->persona = _persona;
+    this->siguiente=NULL;
+    this->anterior=NULL;
+}
+void Nodo::imprimir(){
+    persona->imprimir();
+}
+

@@ -6,9 +6,20 @@
 class ListaPersonas{
     public:
         //Esta estructura se puede usar para el mundo
+        int largo;
         Nodo * primerNodo;//Primera persona
         Nodo * ultimoNodo;//Ultima persona
-        ListaPersonas();
-};
 
+        ListaPersonas();
+        bool estaVacia();
+        //Este mae tiene que insertar en orden, es un algoritmo como el que se usa en heap
+        void insertarAlInicio(Persona *);
+        void insertarAlFinal(Persona *);
+        void imprimir();
+        void imprimirDesdeElFinal();
+        Nodo * borrarAlInicio();
+        Nodo * borrarAlFinal();
+        Nodo * buscar(Persona *);
+        void insertarEnPosicion(int);
+};
 #endif // LISTAPERSONAS_H

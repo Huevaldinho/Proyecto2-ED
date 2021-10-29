@@ -10,6 +10,8 @@ class Nodo{
         Nodo * anterior;
 
         Nodo();
+        Nodo(Persona *);
+        void imprimir();
 };
 
 #endif // NODO_H
