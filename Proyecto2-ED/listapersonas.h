@@ -15,6 +15,7 @@ class ListaPersonas{
         //Este mae tiene que insertar en orden, es un algoritmo como el que se usa en heap
         void insertarAlInicio(Persona *);
         void insertarAlFinal(Persona *);
+        //Falta Insertar en orden
         void imprimir();
         void imprimirDesdeElFinal();
         Nodo * borrarAlInicio();

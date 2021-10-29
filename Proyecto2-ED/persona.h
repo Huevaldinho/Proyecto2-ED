@@ -5,6 +5,7 @@
 
 class Persona{
     public:
+        int estado;             //-1 Muerto, 0 Mundo y 1 Cielo
         int ID;                 //ID unico
         QString nombre;         //Nombre persona
         QString apellido;       //Apellido de familia
@@ -17,7 +18,7 @@ class Persona{
         int sizeArrays;         //Para recorrer el array mas facil
         int pecados[7];         //Pecados
         int buenasAcciones[7];  //Buenas acciones
-        //ERROR AQUI
+        Persona * padre;
         ListaPersonas * hijos;// o es mejor hacer dos punteros, uno de Padre y otro de Hijo?
 
         Persona();

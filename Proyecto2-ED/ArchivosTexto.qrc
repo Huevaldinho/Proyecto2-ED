@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/src">
+        <file>archivosTexto/apellidos.txt</file>
+        <file>archivosTexto/creencias.txt</file>
+        <file>archivosTexto/nombres.txt</file>
+        <file>archivosTexto/paises.txt</file>
+        <file>archivosTexto/profesiones.txt</file>
+    </qresource>
+</RCC>

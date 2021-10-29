@@ -6,14 +6,13 @@ Mundo::Mundo(){
     this->archivos = new Archivos();
 
     //Mete la info de los archivos a los arrays
-    this->archivos->lecturaApellidos(this->apellidos);
+    this->archivos->lecturaApellidos(this->apellidos);//Recibe array de apellidos y lo rellena con los datos del .txt
     this->archivos->lecturaNombres(this->nombres);
     this->archivos->lecturaPaises(this->paises);
     this->archivos->lecturaProfesiones(this->profesiones);
     this->archivos->lecturaCreencias(this->creencias);
 
-
-
+    //Para saber cuantos apellidos se cargaron
     this->cantidadApellidos=this->archivos->contadorApellidos;
     this->cantidadNombres=this->archivos->contadorNombres;
     this->cantidadPaises=this->archivos->contadorPaises;
@@ -47,5 +46,6 @@ Mundo::Mundo(){
     qDebug()<<"Cantidad de profesiones: "<<this->cantidadProfesiones;
     qDebug()<<"Cantidad de creencias: "<<this->cantidadCreencias;
     qDebug();
+    //Lista de personas
     this->listaPersonas= new ListaPersonas();
 }
