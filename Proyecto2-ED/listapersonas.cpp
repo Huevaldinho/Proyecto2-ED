@@ -37,8 +37,12 @@ void ListaPersonas::insertadoEspecialOrdenadoMenorAMayor(Persona * persona){
         Nodo * nuevo = new Nodo(persona);
         Nodo * tmp = this->primerNodo;
         while (tmp!=NULL){
-            if (persona->ID==tmp->persona->ID)
+            qDebug()<<"persona: "<<persona->ID<<" - tmp: "<<tmp->persona->ID;
+            if (persona->ID==tmp->persona->ID){
+                qDebug()<<"REPETIDOO";
+                largo--;//es porque abajo se le suma 1
                 break;
+            }
             if (persona->ID>=this->ultimoNodo->persona->ID){
                 this->ultimoNodo->siguiente = nuevo;
                 this->ultimoNodo->siguiente->anterior = this->ultimoNodo;
@@ -67,13 +71,70 @@ void ListaPersonas::insertadoEspecialOrdenadoMenorAMayor(Persona * persona){
     }
     largo++;
 }
+void ListaPersonas::insertarDesdeArbol(Nodo * _tmp,Persona * persona){
+    //tmp es un nodo de la lista de personas del mundo
+    //tmp es el que me permite determinar si tengo que insertar hacia delante de la lista
+    //o hacia atras.
+    if (estaVacia())
+        this->primerNodo = this->ultimoNodo = new Nodo(persona);
+    else{
+        Nodo * nuevo = new Nodo(persona);
+        Nodo * tmp = _tmp;
+        while (tmp!=NULL){
+            qDebug()<<"persona: "<<persona->ID<<" - tmp: "<<tmp->persona->ID;
+            if (persona->ID==tmp->persona->ID){
+                qDebug()<<"REPETIDOO";
+                largo--;//es porque abajo se le suma 1
+                break;
+            }
+            if (persona->ID>this->ultimoNodo->persona->ID){
+                qDebug()<<"Inserta en mayor que ultimo nodo"<<"- ultimo: "<<this->ultimoNodo->persona->ID<<" -nuevo: "<<nuevo->persona->ID;
+
+                this->ultimoNodo->siguiente = nuevo;
+                this->ultimoNodo->siguiente->anterior = this->ultimoNodo;
+                this->ultimoNodo = this->ultimoNodo->siguiente;
+                break;
+            }else if(persona->ID<this->primerNodo->persona->ID){
+                qDebug()<<"Inserta en menor que ultimo nodo"<<" -nuevo: "<<nuevo->persona->ID<<" - primero: "<<this->primerNodo->persona->ID;
+                this->primerNodo->anterior = nuevo;
+                this->primerNodo->anterior->siguiente = this->primerNodo;
+                this->primerNodo = this->primerNodo->anterior;
+                break;
+            }else{//Buscarlo en medio de la lista
+                if ((persona->ID>tmp->persona->ID) &&(persona->ID<tmp->siguiente->persona->ID)){
+                    qDebug()<<"Inserta en tmp siguiente - tmp: "<<tmp->persona->ID<<"-nuevo:"<<nuevo->persona->ID<<"-tmp siguiente: "<<tmp->siguiente->persona->ID;
+                    nuevo->siguiente=tmp->siguiente;
+                    nuevo->anterior=tmp;
+                    tmp->siguiente->anterior=nuevo;
+                    tmp->siguiente=nuevo;
+                    break;
+                }else if ((persona->ID<tmp->persona->ID) &&( persona->ID>tmp->anterior->persona->ID)){
+                    //tmp anterior < nuevo < tmp y nuevo
+                    qDebug()<<"Inserta en tmp anterior"<<" -anterior: "<<tmp->anterior->persona->ID<<" -nuevo: "<<nuevo->persona->ID<<" -tmp: "<<tmp->persona->ID;
+
+                    nuevo->siguiente=tmp;//Pega nuevo con tmp nuevo->tmp
+                    nuevo->anterior=tmp->anterior;//Pega nuevo con tmpAnterior tmpAnterior->nuevo
+                    tmp->anterior->siguiente=nuevo;//Pega tmpAnteriorSiguiente con nuevo tmpAnteriorSiguiente->nuevo
+                    tmp->anterior=nuevo;//Pega tmpAnterior con nuevo tmpAnterior con nuevo nuevo->tmp
+
+                    break;
+                }
+            }
+            if (tmp->persona->ID>persona->ID)
+                tmp=tmp->anterior;
+            else
+                tmp=tmp->siguiente;
+        }
+    }
+    largo++;
+}
 void ListaPersonas::imprimir(){
     Nodo * tmp = this->primerNodo;
     while (tmp != NULL){
         tmp->imprimir();
         tmp = tmp->siguiente;
     }
-    qDebug();
+    qDebug()<<"Termina imprimir";
 }
 void ListaPersonas::imprimirDesdeElFinal(){
     Nodo * tmp = this->ultimoNodo;

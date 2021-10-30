@@ -2,6 +2,7 @@
 
 Mundo::Mundo(){
     this->maximoHumanos=99999;
+    this->arbolMundo = new ArbolMundo();
     //Instancia y carga todos los archivos
     this->archivos = new Archivos();
 
@@ -20,26 +21,26 @@ Mundo::Mundo(){
     this->cantidadCreencias=this->archivos->contadorCreencias;
 
 
-    qDebug()<<"APELLIDOS:\n ";
-    for (int i=0;i<this->archivos->contadorApellidos;i++){
-        qDebug()<<this->apellidos[i];
-    }
-    qDebug()<<"\nNOMBRES: \n";
-    for (int i=0;i<this->archivos->contadorNombres;i++){
-        qDebug()<<this->nombres[i];
-    }
-    qDebug()<<"\nPAISES: \n";
-    for (int i=0;i<this->archivos->contadorPaises;i++){
-        qDebug()<<this->paises[i];
-    }
-    qDebug()<<"\nPROFESIONES: \n";
-    for (int i=0;i<this->archivos->contadorProfesiones;i++){
-        qDebug()<<this->profesiones[i];
-    }
-    qDebug()<<"\nCREENCIAS: \n";
-    for (int i=0;i<this->archivos->contadorCreencias;i++){
-        qDebug()<<this->creencias[i];
-    }
+//    qDebug()<<"APELLIDOS:\n ";
+//    for (int i=0;i<this->archivos->contadorApellidos;i++){
+//        qDebug()<<this->apellidos[i];
+//    }
+//    qDebug()<<"\nNOMBRES: \n";
+//    for (int i=0;i<this->archivos->contadorNombres;i++){
+//        qDebug()<<this->nombres[i];
+//    }
+//    qDebug()<<"\nPAISES: \n";
+//    for (int i=0;i<this->archivos->contadorPaises;i++){
+//        qDebug()<<this->paises[i];
+//    }
+//    qDebug()<<"\nPROFESIONES: \n";
+//    for (int i=0;i<this->archivos->contadorProfesiones;i++){
+//        qDebug()<<this->profesiones[i];
+//    }
+//    qDebug()<<"\nCREENCIAS: \n";
+//    for (int i=0;i<this->archivos->contadorCreencias;i++){
+//        qDebug()<<this->creencias[i];
+//    }
     qDebug()<<"\nCantidad de apellidos: "<<this->cantidadApellidos;
     qDebug()<<"Cantidad de nombres: "<<this->cantidadNombres;
     qDebug()<<"Cantidad de paises: "<<this->cantidadPaises;
@@ -62,7 +63,7 @@ QString Mundo::GenerarApellidoRandom(){
     //srand(time(NULL));
     //Numero random entre n hasta m
     int limite_inferior = 0;
-    int limite_superior=this->cantidadApellidos;
+    int limite_superior=this->cantidadApellidos-1;
     int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
     return apellidos[variable];
 }
@@ -71,7 +72,7 @@ QString Mundo::GenerarNombreRandom(){
     //srand(time(NULL));
     //Numero random entre n hasta m
     int limite_inferior = 0;
-    int limite_superior=this->cantidadNombres;
+    int limite_superior=this->cantidadNombres-1;
     int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
     return nombres[variable];
 
@@ -81,7 +82,7 @@ QString Mundo::GenerarPaisRandom(){
     //srand(time(NULL));
     //Numero random entre n hasta m
     int limite_inferior = 0;
-    int limite_superior=this->cantidadPaises;
+    int limite_superior=this->cantidadPaises-1;
     int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
     return paises[variable];
 
@@ -91,7 +92,7 @@ QString Mundo::GenerarProfesionRandom(){
     //srand(time(NULL));
     //Numero random entre n hasta m
     int limite_inferior = 0;
-    int limite_superior=this->cantidadProfesiones;
+    int limite_superior=this->cantidadProfesiones-1;
     int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
     return profesiones[variable];
 
@@ -101,8 +102,17 @@ QString Mundo::GenerarCreenciaRandom(){
     //srand(time(NULL));
     //Numero random entre n hasta m
     int limite_inferior = 0;
-    int limite_superior=this->cantidadCreencias;
+    int limite_superior=this->cantidadCreencias-1;
     int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
     return creencias[variable];
 
+}
+void Mundo::GenerarNpersonas(int n){
+    Persona * tmp = NULL;
+    for (int i=0;i<n;i++){
+        tmp = new Persona(GenerarIDRandom(),GenerarNombreRandom(),GenerarApellidoRandom(),GenerarPaisRandom(),GenerarCreenciaRandom(),GenerarProfesionRandom(),"felipeobando2001@gmail.com");
+        listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
+        tmp = NULL;
+    }
+    qDebug()<<"CANTIDAD DE PERSONAS CREADAS: "<<listaPersonas->largo;
 }

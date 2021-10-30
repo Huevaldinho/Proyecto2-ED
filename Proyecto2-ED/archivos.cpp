@@ -10,7 +10,7 @@ Archivos::Archivos(){
 void Archivos::lecturaApellidos(QString * apellidos){
     std::string line;        //Donde se va guardando cada linea del archivo para meterla al arreglo
     std::ifstream rfile;    //Para cargar el archivo
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//apellidos100.txt");
+    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//apellidos10.txt");
     if (rfile.is_open()) {//Si lo pudo abrir hace la vara
         while (std::getline(rfile, line)) {//mientras tenga lineas para avanzar
             QString qstr = QString::fromStdString(line);//Convierte la linea en QString

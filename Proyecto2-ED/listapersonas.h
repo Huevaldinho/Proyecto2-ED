@@ -16,6 +16,7 @@ class ListaPersonas{
         void insertarAlInicio(Persona *);
         void insertarAlFinal(Persona *);
         void insertadoEspecialOrdenadoMenorAMayor(Persona *);
+        void insertarDesdeArbol(Nodo * tmp,Persona * nueva);
         //Falta Insertar en orden
         void imprimir();
         void imprimirDesdeElFinal();

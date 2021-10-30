@@ -1,0 +1,11 @@
+release/arbolmundo.o
+release/archivos.o
+release/listapersonas.o
+release/main.o
+release/mainwindow.o
+release/mundo.o
+release/nodo.o
+release/nodoarbol.o
+release/persona.o
+release/qrc_ArchivosTexto.o
+release/moc_mainwindow.o

@@ -9,5 +9,6 @@
         <file>archivosTexto/profesiones50.txt</file>
         <file>archivosTexto/profesiones10.txt</file>
         <file>archivosTexto/paises10.txt</file>
+        <file>archivosTexto/apellidos10.txt</file>
     </qresource>
 </RCC>

@@ -16,6 +16,8 @@ class Mundo;
 class ListaPersonas;
 class Nodo;
 class Archivos;
+class ArbolMundo;
+class NodoArbol;
 
 
 #include <QString>
@@ -28,6 +30,8 @@ class Archivos;
 #include "mundo.h"
 #include "nodo.h"
 #include "archivos.h"
+#include "arbolmundo.h"
+#include "nodoarbol.h"
 
 using namespace std;
 

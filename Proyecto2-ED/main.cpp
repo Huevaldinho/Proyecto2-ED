@@ -5,19 +5,38 @@
 
 int main(int argc, char *argv[]){
     QApplication a(argc, argv);
-    //MainWindow w;
-    //w.show();
-    //Sirve ak7
-    //Persona * persona1 = new Persona(100,"Felipe","Obando","Costa Rica","N/A","Estudiante","felipeobando2001@gmail.com");
-    //Persona * persona2 = new Persona(50,"Carlos","Castro","Paraguay","N/A","Plomero","felipeobando2001@gmail.com");
 
-    Mundo * mundo= new Mundo();
-    //mundo->listaPersonas->insertarAlInicio(persona1);
-    //mundo->listaPersonas->insertarAlInicio(persona2);
-    //for (int i=0;i<10000;i++)
-        //mundo->listaPersonas->insertadoEspecialOrdenadoMenorAMayor(new Persona(mundo->GenerarIDRandom(),mundo->GenerarNombreRandom(),mundo->GenerarApellidoRandom(),mundo->GenerarPaisRandom(),mundo->GenerarCreenciaRandom(),mundo->GenerarProfesionRandom(),"felipeobando2001@gmail.com"));
-    mundo->listaPersonas->imprimir();
-    qDebug()<<"CANTIDAD DE PERSONAS CREADAS: "<<mundo->listaPersonas->largo;
+    Mundo * mundo = new Mundo();
+
+
+//    MainWindow w;
+//    //Crea el mundo y lo pasa a la ventana
+//    w.mundo=mundo;
+//    w.show();
+
+//    mundo->GenerarNpersonas(10);//Genera personas con informacion random y las ordena de menor a mayor en la lista
+//    mundo->listaPersonas->imprimir();
+//    qDebug()<<"1% de "<<mundo->listaPersonas->largo<<": "<<(mundo->listaPersonas->largo*0.1);
+
+
+    //Pruebas arbol
+    ArbolMundo * arbol= new ArbolMundo();
+    arbol->listaPersonas=mundo->listaPersonas;
+    for (int i=0;i<10;i++){
+        //arbol->insertar(new Nodo(new Persona(mundo->GenerarIDRandom(),mundo->GenerarNombreRandom(),mundo->GenerarApellidoRandom(),mundo->GenerarPaisRandom(),mundo->GenerarCreenciaRandom(),mundo->GenerarProfesionRandom(),"felipeobando2001@gmail.com")));
+        arbol->listaPersonas->insertarDesdeArbol(arbol->listaPersonas->primerNodo,new Persona(mundo->GenerarIDRandom(),mundo->GenerarNombreRandom(),mundo->GenerarApellidoRandom(),mundo->GenerarPaisRandom(),mundo->GenerarCreenciaRandom(),mundo->GenerarProfesionRandom(),"felipeobando2001@gmail.com"));
+
+    }
+
+    arbol->listaPersonas->imprimir();
+    arbol->listaPersonas->insertarDesdeArbol(arbol->listaPersonas->ultimoNodo,new Persona(6000,mundo->GenerarNombreRandom(),mundo->GenerarApellidoRandom(),mundo->GenerarPaisRandom(),mundo->GenerarCreenciaRandom(),mundo->GenerarProfesionRandom(),"felipeobando2001@gmail.com"));
+    arbol->listaPersonas->imprimir();
+
+    qDebug()<<"Cantidad de nodos: "<<arbol->contadorNodos(arbol->raiz);
+    qDebug()<<"Altura: "<<arbol->altura(arbol->raiz);
+    qDebug()<<"Cantidad de hojas: "<<arbol->cantHojas(arbol->raiz);
+
+
 
     return a.exec();
 }
