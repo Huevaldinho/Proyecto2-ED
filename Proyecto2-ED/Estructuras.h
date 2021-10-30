@@ -6,8 +6,8 @@
 #include <fstream>
 #include <stdlib.h>
 #include <cstdlib>
-#include <ctime>
 #include <random>
+#include <time.h>
 
 
 

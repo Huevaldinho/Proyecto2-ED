@@ -49,3 +49,60 @@ Mundo::Mundo(){
     //Lista de personas
     this->listaPersonas= new ListaPersonas();
 }
+int Mundo::GenerarIDRandom(){//se se pone el srand NO SIRVE
+    //srand(time(NULL));
+    int variable=-1;
+    int limite_inferior = 0;
+    int limite_superior=this->maximoHumanos;
+    variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    return variable;
+}
+//Retorna apellido random de la lista
+QString Mundo::GenerarApellidoRandom(){
+    //srand(time(NULL));
+    //Numero random entre n hasta m
+    int limite_inferior = 0;
+    int limite_superior=this->cantidadApellidos;
+    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    return apellidos[variable];
+}
+//Retorna nombre random de la lista
+QString Mundo::GenerarNombreRandom(){
+    //srand(time(NULL));
+    //Numero random entre n hasta m
+    int limite_inferior = 0;
+    int limite_superior=this->cantidadNombres;
+    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    return nombres[variable];
+
+}
+//Retorna pais random de la lista
+QString Mundo::GenerarPaisRandom(){
+    //srand(time(NULL));
+    //Numero random entre n hasta m
+    int limite_inferior = 0;
+    int limite_superior=this->cantidadPaises;
+    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    return paises[variable];
+
+}
+//Retorna profesion random de la lista
+QString Mundo::GenerarProfesionRandom(){
+    //srand(time(NULL));
+    //Numero random entre n hasta m
+    int limite_inferior = 0;
+    int limite_superior=this->cantidadProfesiones;
+    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    return profesiones[variable];
+
+}
+//Retorna creencia random de la lista
+QString Mundo::GenerarCreenciaRandom(){
+    //srand(time(NULL));
+    //Numero random entre n hasta m
+    int limite_inferior = 0;
+    int limite_superior=this->cantidadCreencias;
+    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    return creencias[variable];
+
+}

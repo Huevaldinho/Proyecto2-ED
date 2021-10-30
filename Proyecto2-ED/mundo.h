@@ -24,6 +24,14 @@ class Mundo{
         QString profesiones[50];
 
         Mundo();
+        int GenerarIDRandom();
+        QString GenerarApellidoRandom();
+        QString GenerarNombreRandom();
+        QString GenerarPaisRandom();
+        QString GenerarProfesionRandom();
+        QString GenerarCreenciaRandom();
+
 };
+
 
 #endif // MUNDO_H
