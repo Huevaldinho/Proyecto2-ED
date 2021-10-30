@@ -125,12 +125,14 @@ compiler_rcc_clean:
 	-$(DEL_FILE) debug\qrc_ArchivosTexto.cpp
 debug/qrc_ArchivosTexto.cpp: ../Proyecto2-ED/ArchivosTexto.qrc \
 		C:/Qt/6.1.3/mingw81_64/bin/rcc.exe \
-		../Proyecto2-ED/archivosTexto/paises.txt \
-		../Proyecto2-ED/archivosTexto/creencias.txt \
-		../Proyecto2-ED/archivosTexto/profesiones.txt \
 		../Proyecto2-ED/archivosTexto/nombres1000.txt \
-		../Proyecto2-ED/archivosTexto/apellidos100.txt \
+		../Proyecto2-ED/archivosTexto/paises100.txt \
 		../Proyecto2-ED/archivosTexto/nombres100.txt \
+		../Proyecto2-ED/archivosTexto/creencias.txt \
+		../Proyecto2-ED/archivosTexto/profesiones10.txt \
+		../Proyecto2-ED/archivosTexto/apellidos100.txt \
+		../Proyecto2-ED/archivosTexto/profesiones50.txt \
+		../Proyecto2-ED/archivosTexto/paises10.txt \
 		../Proyecto2-ED/archivosTexto/apellidos1000.txt
 	C:\Qt\6.1.3\mingw81_64\bin\rcc.exe -name ArchivosTexto ..\Proyecto2-ED\ArchivosTexto.qrc -o debug\qrc_ArchivosTexto.cpp
 

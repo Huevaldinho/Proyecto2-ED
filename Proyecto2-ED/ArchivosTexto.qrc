@@ -1,11 +1,13 @@
 <RCC>
     <qresource prefix="/src">
         <file>archivosTexto/creencias.txt</file>
-        <file>archivosTexto/paises.txt</file>
-        <file>archivosTexto/profesiones.txt</file>
         <file>archivosTexto/apellidos100.txt</file>
         <file>archivosTexto/apellidos1000.txt</file>
         <file>archivosTexto/nombres100.txt</file>
         <file>archivosTexto/nombres1000.txt</file>
+        <file>archivosTexto/paises100.txt</file>
+        <file>archivosTexto/profesiones50.txt</file>
+        <file>archivosTexto/profesiones10.txt</file>
+        <file>archivosTexto/paises10.txt</file>
     </qresource>
 </RCC>

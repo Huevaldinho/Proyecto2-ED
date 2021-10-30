@@ -10,7 +10,7 @@ Archivos::Archivos(){
 void Archivos::lecturaApellidos(QString * apellidos){
     std::string line;        //Donde se va guardando cada linea del archivo para meterla al arreglo
     std::ifstream rfile;    //Para cargar el archivo
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//apellidos1000.txt");
+    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//apellidos100.txt");
     if (rfile.is_open()) {//Si lo pudo abrir hace la vara
         while (std::getline(rfile, line)) {//mientras tenga lineas para avanzar
             QString qstr = QString::fromStdString(line);//Convierte la linea en QString
@@ -23,7 +23,7 @@ void Archivos::lecturaApellidos(QString * apellidos){
 void Archivos::lecturaNombres(QString * nombres){
     std::string line;
     std::ifstream rfile;//
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//nombres1000.txt");
+    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//nombres100.txt");
     if (rfile.is_open()) {
         while (std::getline(rfile, line)) {
             QString qstr = QString::fromStdString(line);//Convierte la linea en QString
@@ -36,7 +36,7 @@ void Archivos::lecturaNombres(QString * nombres){
 void Archivos::lecturaPaises(QString * paises){
     std::string line;
     std::ifstream rfile;//
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//paises.txt");
+    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//paises10.txt");//100 y 10
     if (rfile.is_open()) {
         while (std::getline(rfile, line)) {
             QString qstr = QString::fromStdString(line);//Convierte la linea en QString
@@ -49,7 +49,7 @@ void Archivos::lecturaPaises(QString * paises){
 void Archivos::lecturaProfesiones(QString * profesiones){
     std::string line;
     std::ifstream rfile;//
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//profesiones.txt");
+    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//profesiones50.txt");
     if (rfile.is_open()) {
         while (std::getline(rfile, line)) {
             QString qstr = QString::fromStdString(line);//Convierte la linea en QString

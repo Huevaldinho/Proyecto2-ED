@@ -1,0 +1,50 @@
+Carpintero
+Cerrajero
+Mecánico
+Pescador
+Albañil
+Fontanero o plomero
+Carpintero
+Soldador
+Pintor de brocha gorda
+Sastre
+Pastor ganadero
+Agricultor
+Carnicero
+Lechero
+Cocinero
+Lavandero
+Escultor
+Editor
+Obrero
+Locutor
+Escritor
+Vendedor
+Repartidor
+Cajero
+Vigilante
+Animador
+Frutero
+Deshollinador
+Artesano
+Tornero
+Barrendero
+Panadero
+Barbero
+Leñador
+Peletero
+Impresor
+Policía
+Electricista
+Peluquero
+Abogado
+Ingeniero
+Biólogo
+Matemático
+Profesor
+Físico
+Químico
+Electricista
+Técnico de sonido
+Filósofo
+Antropólogo
