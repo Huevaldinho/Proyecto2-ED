@@ -14,10 +14,9 @@ int main(int argc, char *argv[]){
     Mundo * mundo= new Mundo();
     //mundo->listaPersonas->insertarAlInicio(persona1);
     //mundo->listaPersonas->insertarAlInicio(persona2);
-    for (int i=0;i<100;i++)
+    for (int i=0;i<10000;i++)
         mundo->listaPersonas->insertadoEspecialOrdenadoMenorAMayor(new Persona(mundo->GenerarIDRandom(),mundo->GenerarNombreRandom(),mundo->GenerarApellidoRandom(),mundo->GenerarPaisRandom(),mundo->GenerarCreenciaRandom(),mundo->GenerarProfesionRandom(),"felipeobando2001@gmail.com"));
-
     mundo->listaPersonas->imprimir();
-
+    qDebug()<<"CANTIDAD DE PERSONAS CREADAS: "<<mundo->listaPersonas->largo;
     return a.exec();
 }

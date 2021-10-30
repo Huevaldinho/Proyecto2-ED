@@ -128,8 +128,10 @@ debug/qrc_ArchivosTexto.cpp: ../Proyecto2-ED/ArchivosTexto.qrc \
 		../Proyecto2-ED/archivosTexto/paises.txt \
 		../Proyecto2-ED/archivosTexto/creencias.txt \
 		../Proyecto2-ED/archivosTexto/profesiones.txt \
-		../Proyecto2-ED/archivosTexto/apellidos.txt \
-		../Proyecto2-ED/archivosTexto/nombres.txt
+		../Proyecto2-ED/archivosTexto/nombres1000.txt \
+		../Proyecto2-ED/archivosTexto/apellidos100.txt \
+		../Proyecto2-ED/archivosTexto/nombres100.txt \
+		../Proyecto2-ED/archivosTexto/apellidos1000.txt
 	C:\Qt\6.1.3\mingw81_64\bin\rcc.exe -name ArchivosTexto ..\Proyecto2-ED\ArchivosTexto.qrc -o debug\qrc_ArchivosTexto.cpp
 
 compiler_moc_predefs_make_all: debug/moc_predefs.h
