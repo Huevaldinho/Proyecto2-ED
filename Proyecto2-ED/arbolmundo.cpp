@@ -5,6 +5,8 @@ ArbolMundo::ArbolMundo(){
     this->listaPersonas=NULL;
 }
 void ArbolMundo::insertar(Nodo * persona){
+        // Para que se empiece a crear un arbol balanceado deberiamos
+    //buscar la persona de la mitad de la lista (se crea un arbol cada 100, se busca al 50, 100,150,200...)
      this->raiz = insertarRecursivo(this->raiz , persona);
 }
 NodoArbol * ArbolMundo::insertarRecursivo(NodoArbol * raiz, Nodo * nodoPersona){
@@ -19,6 +21,18 @@ NodoArbol * ArbolMundo::insertarRecursivo(NodoArbol * raiz, Nodo * nodoPersona){
         raiz->hijoizquierdo=insertarRecursivo(raiz->hijoizquierdo,nodoPersona);
     }
     return raiz;
+}
+void imprimirArbol(NodoArbol * raiz,int contador){
+    if (raiz==NULL)
+        return;
+    else{
+        imprimirArbol(raiz->hijoizquierdo,contador+1);
+        for (int i=0;i<contador;i++){
+            qDebug()<<"  ";
+        }
+        qDebug()<<raiz->nodoPersona->persona->ID;
+        imprimirArbol(raiz->hijoderecho,contador+1);
+    }
 }
 int ArbolMundo::contadorNodos(NodoArbol* nodoArbol){
     if (nodoArbol == NULL)

@@ -8,6 +8,8 @@
 #include <cstdlib>
 #include <random>
 #include <time.h>
+#include <math.h>
+#include <cmath>
 
 
 class Persona;

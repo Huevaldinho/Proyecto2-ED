@@ -15,10 +15,13 @@ int main(int argc, char *argv[]){
 //    w.show();
 
 
-    mundo->GenerarNpersonas(10);//Genera personas con informacion random y las ordena de menor a mayor en la lista
-    mundo->listaPersonas->imprimir();
-    qDebug()<<"1% de "<<mundo->listaPersonas->largo<<": "<<(mundo->listaPersonas->largo*0.1);
-
+    mundo->GenerarNpersonas(1000);//Genera personas con informacion random y las ordena de menor a mayor en la lista
+    mundo->listaPersonas->imprimir();//Imprime
+    int unoPorciento=mundo->listaPersonas->largo*0.1;
+    qDebug()<<"1% de "<<mundo->listaPersonas->largo<<": "<<(unoPorciento);
+    qDebug()<<"Humanos en mundo: "<<mundo->listaPersonas->largo;
+    qDebug()<<"PuedoGenerarArbol retorna: "<<mundo->PuedoGenerarArbol(mundo->listaPersonas->largo);
+    //Falta crear el arbol con los 100
 
     //Pruebas arbol
 //    ArbolMundo * arbol= new ArbolMundo();

@@ -10,21 +10,20 @@ class Mundo{
         ArbolMundo * arbolMundo;
         Archivos * archivos;
         int maximoHumanos;//99999
+        double porcentaje;//1%
+        int cantidadHumanosParaCrearArbol;//100 o 1000, hay que ver
         int cantidadApellidos;
         int cantidadNombres;
         int cantidadPaises;
         int cantidadProfesiones;
         int cantidadCreencias;
 
-        //Arreglo que se llena con los .txt
-
+        //Arreglos que se llenan con los .txt
         QString apellidos[1000];
         QString nombres[1000];
         QString paises[100];
         QString creencias[10];
         QString profesiones[50];
-
-
 
         Mundo();
         int GenerarIDRandom();
@@ -34,7 +33,7 @@ class Mundo{
         QString GenerarProfesionRandom();
         QString GenerarCreenciaRandom();
         void GenerarNpersonas(int);
-
+        bool PuedoGenerarArbol(int n);//utiliza n%cantidadHumanosParaCrearArbol
 };
 
 

@@ -58,7 +58,7 @@ SOURCES       = ..\Proyecto2-ED\arbolmundo.cpp \
 		..\Proyecto2-ED\mundo.cpp \
 		..\Proyecto2-ED\nodo.cpp \
 		..\Proyecto2-ED\nodoarbol.cpp \
-		..\Proyecto2-ED\persona.cpp release\qrc_ArchivosTexto.cpp \
+		..\Proyecto2-ED\persona.cpp release\qrc_rsc.cpp \
 		release\moc_mainwindow.cpp
 OBJECTS       = release/arbolmundo.o \
 		release/archivos.o \
@@ -69,7 +69,7 @@ OBJECTS       = release/arbolmundo.o \
 		release/nodo.o \
 		release/nodoarbol.o \
 		release/persona.o \
-		release/qrc_ArchivosTexto.o \
+		release/qrc_rsc.o \
 		release/moc_mainwindow.o
 
 DIST          =  ..\Proyecto2-ED\Estructuras.h \
@@ -108,10 +108,10 @@ qmake: FORCE
 qmake_all: FORCE
 
 dist:
-	$(ZIP) Proyecto2-ED.zip $(SOURCES) $(DIST) ..\Proyecto2-ED\Proyecto2-ED.pro C:\Qt\6.1.3\mingw81_64\mkspecs\features\spec_pre.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\device_config.prf C:\Qt\6.1.3\mingw81_64\mkspecs\common\sanitize.conf C:\Qt\6.1.3\mingw81_64\mkspecs\common\gcc-base.conf C:\Qt\6.1.3\mingw81_64\mkspecs\common\g++-base.conf C:\Qt\6.1.3\mingw81_64\mkspecs\features\win32\windows_vulkan_sdk.prf C:\Qt\6.1.3\mingw81_64\mkspecs\common\windows-vulkan.conf C:\Qt\6.1.3\mingw81_64\mkspecs\common\g++-win32.conf C:\Qt\6.1.3\mingw81_64\mkspecs\common\windows-desktop.conf C:\Qt\6.1.3\mingw81_64\mkspecs\qconfig.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_ext_freetype.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_ext_libpng.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_concurrent.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_concurrent_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_core.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_core_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_dbus.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_dbus_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_designer.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_designer_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_designercomponents_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_entrypoint_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_fb_support_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_gui.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_gui_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_help.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_help_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsanimation.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsanimation_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsfolderlistmodel.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsfolderlistmodel_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsqmlmodels.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsqmlmodels_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labssettings.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labssettings_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labssharedimage.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labssharedimage_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labswavefrontmesh.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labswavefrontmesh_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_linguist.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_linguist_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_network.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_network_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_opengl.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_opengl_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_openglwidgets.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_openglwidgets_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_packetprotocol_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_printsupport.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_printsupport_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qml.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qml_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlcompiler_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmldebug_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmldevtools_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmldom_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmllocalstorage.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmllocalstorage_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlmodels.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlmodels_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmltest.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmltest_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quick.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quick_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2impl.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2impl_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quicklayouts.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quicklayouts_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickparticles_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickshapes_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickwidgets.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickwidgets_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_sql.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_sql_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_svg.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_svg_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_svgwidgets.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_svgwidgets_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_testlib.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_testlib_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_tools_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_uiplugin.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_uitools.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_uitools_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_widgets.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_widgets_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_xml.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_xml_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_zlib_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\features\qt_functions.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\qt_config.prf C:\Qt\6.1.3\mingw81_64\mkspecs\win32-g++\qmake.conf C:\Qt\6.1.3\mingw81_64\mkspecs\features\spec_post.prf .qmake.stash C:\Qt\6.1.3\mingw81_64\mkspecs\features\exclusive_builds.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\toolchain.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\default_pre.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\win32\default_pre.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\resolve_config.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\exclusive_builds_post.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\default_post.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\build_pass.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\qml_debug.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\entrypoint.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\precompile_header.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\warn_on.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\qt.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\resources_functions.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\resources.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\moc.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\win32\opengl.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\uic.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\qmake_use.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\file_copies.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\win32\windows.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\testcase_targets.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\exceptions.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\yacc.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\lex.prf ..\Proyecto2-ED\Proyecto2-ED.pro ..\Proyecto2-ED\ArchivosTexto.qrc C:\Qt\6.1.3\mingw81_64\lib\Qt6Widgets.prl C:\Qt\6.1.3\mingw81_64\lib\Qt6Gui.prl C:\Qt\6.1.3\mingw81_64\lib\Qt6Core.prl C:\Qt\6.1.3\mingw81_64\lib\Qt6EntryPoint.prl   ..\Proyecto2-ED\ArchivosTexto.qrc C:\Qt\6.1.3\mingw81_64\mkspecs\features\data\dummy.cpp ..\Proyecto2-ED\Estructuras.h ..\Proyecto2-ED\arbolmundo.h ..\Proyecto2-ED\archivos.h ..\Proyecto2-ED\listapersonas.h ..\Proyecto2-ED\mainwindow.h ..\Proyecto2-ED\mundo.h ..\Proyecto2-ED\nodo.h ..\Proyecto2-ED\nodoarbol.h ..\Proyecto2-ED\persona.h  ..\Proyecto2-ED\arbolmundo.cpp ..\Proyecto2-ED\archivos.cpp ..\Proyecto2-ED\listapersonas.cpp ..\Proyecto2-ED\main.cpp ..\Proyecto2-ED\mainwindow.cpp ..\Proyecto2-ED\mundo.cpp ..\Proyecto2-ED\nodo.cpp ..\Proyecto2-ED\nodoarbol.cpp ..\Proyecto2-ED\persona.cpp ..\Proyecto2-ED\mainwindow.ui    
+	$(ZIP) Proyecto2-ED.zip $(SOURCES) $(DIST) ..\Proyecto2-ED\Proyecto2-ED.pro C:\Qt\6.1.3\mingw81_64\mkspecs\features\spec_pre.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\device_config.prf C:\Qt\6.1.3\mingw81_64\mkspecs\common\sanitize.conf C:\Qt\6.1.3\mingw81_64\mkspecs\common\gcc-base.conf C:\Qt\6.1.3\mingw81_64\mkspecs\common\g++-base.conf C:\Qt\6.1.3\mingw81_64\mkspecs\features\win32\windows_vulkan_sdk.prf C:\Qt\6.1.3\mingw81_64\mkspecs\common\windows-vulkan.conf C:\Qt\6.1.3\mingw81_64\mkspecs\common\g++-win32.conf C:\Qt\6.1.3\mingw81_64\mkspecs\common\windows-desktop.conf C:\Qt\6.1.3\mingw81_64\mkspecs\qconfig.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_ext_freetype.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_ext_libpng.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_concurrent.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_concurrent_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_core.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_core_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_dbus.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_dbus_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_designer.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_designer_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_designercomponents_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_entrypoint_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_fb_support_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_gui.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_gui_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_help.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_help_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsanimation.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsanimation_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsfolderlistmodel.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsfolderlistmodel_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsqmlmodels.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labsqmlmodels_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labssettings.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labssettings_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labssharedimage.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labssharedimage_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labswavefrontmesh.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_labswavefrontmesh_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_linguist.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_linguist_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_network.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_network_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_opengl.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_opengl_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_openglwidgets.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_openglwidgets_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_packetprotocol_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_printsupport.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_printsupport_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qml.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qml_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlcompiler_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmldebug_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmldevtools_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmldom_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmllocalstorage.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmllocalstorage_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlmodels.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlmodels_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmltest.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmltest_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quick.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quick_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2impl.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2impl_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quicklayouts.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quicklayouts_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickparticles_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickshapes_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickwidgets.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_quickwidgets_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_sql.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_sql_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_svg.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_svg_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_svgwidgets.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_svgwidgets_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_testlib.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_testlib_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_tools_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_uiplugin.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_uitools.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_uitools_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_widgets.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_widgets_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_xml.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_xml_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\modules\qt_lib_zlib_private.pri C:\Qt\6.1.3\mingw81_64\mkspecs\features\qt_functions.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\qt_config.prf C:\Qt\6.1.3\mingw81_64\mkspecs\win32-g++\qmake.conf C:\Qt\6.1.3\mingw81_64\mkspecs\features\spec_post.prf .qmake.stash C:\Qt\6.1.3\mingw81_64\mkspecs\features\exclusive_builds.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\toolchain.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\default_pre.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\win32\default_pre.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\resolve_config.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\exclusive_builds_post.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\default_post.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\build_pass.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\qml_debug.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\entrypoint.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\precompile_header.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\warn_on.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\qt.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\resources_functions.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\resources.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\moc.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\win32\opengl.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\uic.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\qmake_use.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\file_copies.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\win32\windows.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\testcase_targets.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\exceptions.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\yacc.prf C:\Qt\6.1.3\mingw81_64\mkspecs\features\lex.prf ..\Proyecto2-ED\Proyecto2-ED.pro ..\Proyecto2-ED\rsc.qrc C:\Qt\6.1.3\mingw81_64\lib\Qt6Widgets.prl C:\Qt\6.1.3\mingw81_64\lib\Qt6Gui.prl C:\Qt\6.1.3\mingw81_64\lib\Qt6Core.prl C:\Qt\6.1.3\mingw81_64\lib\Qt6EntryPoint.prl   ..\Proyecto2-ED\rsc.qrc C:\Qt\6.1.3\mingw81_64\mkspecs\features\data\dummy.cpp ..\Proyecto2-ED\Estructuras.h ..\Proyecto2-ED\arbolmundo.h ..\Proyecto2-ED\archivos.h ..\Proyecto2-ED\listapersonas.h ..\Proyecto2-ED\mainwindow.h ..\Proyecto2-ED\mundo.h ..\Proyecto2-ED\nodo.h ..\Proyecto2-ED\nodoarbol.h ..\Proyecto2-ED\persona.h  ..\Proyecto2-ED\arbolmundo.cpp ..\Proyecto2-ED\archivos.cpp ..\Proyecto2-ED\listapersonas.cpp ..\Proyecto2-ED\main.cpp ..\Proyecto2-ED\mainwindow.cpp ..\Proyecto2-ED\mundo.cpp ..\Proyecto2-ED\nodo.cpp ..\Proyecto2-ED\nodoarbol.cpp ..\Proyecto2-ED\persona.cpp ..\Proyecto2-ED\mainwindow.ui    
 
 clean: compiler_clean 
-	-$(DEL_FILE) release\arbolmundo.o release\archivos.o release\listapersonas.o release\main.o release\mainwindow.o release\mundo.o release\nodo.o release\nodoarbol.o release\persona.o release\qrc_ArchivosTexto.o release\moc_mainwindow.o
+	-$(DEL_FILE) release\arbolmundo.o release\archivos.o release\listapersonas.o release\main.o release\mainwindow.o release\mundo.o release\nodo.o release\nodoarbol.o release\persona.o release\qrc_rsc.o release\moc_mainwindow.o
 
 distclean: clean 
 	-$(DEL_FILE) .qmake.stash
@@ -128,22 +128,22 @@ benchmark: first
 
 compiler_no_pch_compiler_make_all:
 compiler_no_pch_compiler_clean:
-compiler_rcc_make_all: release/qrc_ArchivosTexto.cpp
+compiler_rcc_make_all: release/qrc_rsc.cpp
 compiler_rcc_clean:
-	-$(DEL_FILE) release\qrc_ArchivosTexto.cpp
-release/qrc_ArchivosTexto.cpp: ../Proyecto2-ED/ArchivosTexto.qrc \
+	-$(DEL_FILE) release\qrc_rsc.cpp
+release/qrc_rsc.cpp: ../Proyecto2-ED/rsc.qrc \
 		C:/Qt/6.1.3/mingw81_64/bin/rcc.exe \
-		../Proyecto2-ED/archivosTexto/nombres1000.txt \
-		../Proyecto2-ED/archivosTexto/paises100.txt \
-		../Proyecto2-ED/archivosTexto/nombres100.txt \
-		../Proyecto2-ED/archivosTexto/apellidos10.txt \
-		../Proyecto2-ED/archivosTexto/creencias.txt \
-		../Proyecto2-ED/archivosTexto/profesiones10.txt \
-		../Proyecto2-ED/archivosTexto/apellidos100.txt \
-		../Proyecto2-ED/archivosTexto/profesiones50.txt \
-		../Proyecto2-ED/archivosTexto/paises10.txt \
-		../Proyecto2-ED/archivosTexto/apellidos1000.txt
-	C:\Qt\6.1.3\mingw81_64\bin\rcc.exe -name ArchivosTexto ..\Proyecto2-ED\ArchivosTexto.qrc -o release\qrc_ArchivosTexto.cpp
+		../Proyecto2-ED/archivosTxt/nombres1000.txt \
+		../Proyecto2-ED/archivosTxt/paises100.txt \
+		../Proyecto2-ED/archivosTxt/nombres100.txt \
+		../Proyecto2-ED/archivosTxt/apellidos10.txt \
+		../Proyecto2-ED/archivosTxt/creencias.txt \
+		../Proyecto2-ED/archivosTxt/profesiones10.txt \
+		../Proyecto2-ED/archivosTxt/apellidos100.txt \
+		../Proyecto2-ED/archivosTxt/profesiones50.txt \
+		../Proyecto2-ED/archivosTxt/paises10.txt \
+		../Proyecto2-ED/archivosTxt/apellidos1000.txt
+	C:\Qt\6.1.3\mingw81_64\bin\rcc.exe -name rsc ..\Proyecto2-ED\rsc.qrc -o release\qrc_rsc.cpp
 
 compiler_moc_predefs_make_all: release/moc_predefs.h
 compiler_moc_predefs_clean:
@@ -292,6 +292,9 @@ release/moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qlocale.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
 		../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
@@ -414,6 +417,10 @@ release/arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -449,7 +456,6 @@ release/arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qevent.h \
-		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qpointer.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qurl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qeventpoint.h \
@@ -561,6 +567,10 @@ release/archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -596,7 +606,6 @@ release/archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qevent.h \
-		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qpointer.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qurl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qeventpoint.h \
@@ -708,6 +717,10 @@ release/listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/lista
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -743,7 +756,6 @@ release/listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/lista
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qevent.h \
-		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qpointer.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qurl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qeventpoint.h \
@@ -906,6 +918,9 @@ release/main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qlocale.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
 		../Proyecto2-ED/mundo.h \
@@ -1059,6 +1074,9 @@ release/mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qlocale.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
 		../Proyecto2-ED/mundo.h \
@@ -1180,6 +1198,10 @@ release/mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1215,7 +1237,6 @@ release/mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qevent.h \
-		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qpointer.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qurl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qeventpoint.h \
@@ -1327,6 +1348,10 @@ release/nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1362,7 +1387,6 @@ release/nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qevent.h \
-		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qpointer.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qurl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qeventpoint.h \
@@ -1474,6 +1498,10 @@ release/nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1509,7 +1537,6 @@ release/nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qevent.h \
-		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qpointer.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qurl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qeventpoint.h \
@@ -1621,6 +1648,10 @@ release/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDateTime \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1656,7 +1687,6 @@ release/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qevent.h \
-		C:/Qt/6.1.3/mingw81_64/include/QtCore/qiodevice.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qpointer.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qurl.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtGui/qeventpoint.h \
@@ -1681,8 +1711,8 @@ release/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/nodoarbol.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\persona.o ..\Proyecto2-ED\persona.cpp
 
-release/qrc_ArchivosTexto.o: release/qrc_ArchivosTexto.cpp 
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\qrc_ArchivosTexto.o release\qrc_ArchivosTexto.cpp
+release/qrc_rsc.o: release/qrc_rsc.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\qrc_rsc.o release\qrc_rsc.cpp
 
 release/moc_mainwindow.o: release/moc_mainwindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\moc_mainwindow.o release\moc_mainwindow.cpp

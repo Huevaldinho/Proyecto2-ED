@@ -7,5 +7,5 @@ release/mundo.o
 release/nodo.o
 release/nodoarbol.o
 release/persona.o
-release/qrc_ArchivosTexto.o
+release/qrc_rsc.o
 release/moc_mainwindow.o

@@ -6,7 +6,7 @@
 class ListaPersonas{
     public:
         //Esta estructura se puede usar para el mundo
-        int largo;
+        int largo;//Cantidad de personas en el mundo
         Nodo * primerNodo;//Primera persona
         Nodo * ultimoNodo;//Ultima persona
 
@@ -23,6 +23,7 @@ class ListaPersonas{
         Nodo * borrarAlInicio();
         Nodo * borrarAlFinal();
         Nodo * buscar(Persona *);
+        Nodo * buscarMitad();
         void insertarEnPosicion(int);
 };
 #endif // LISTAPERSONAS_H
