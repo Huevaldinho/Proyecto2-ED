@@ -8,67 +8,137 @@ Archivos::Archivos(){
     this->contadorCreencias=0;
 }
 void Archivos::lecturaApellidos(QString * apellidos){
-    std::string line;        //Donde se va guardando cada linea del archivo para meterla al arreglo
-    std::ifstream rfile;    //Para cargar el archivo
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//apellidos10.txt");
-    if (rfile.is_open()) {//Si lo pudo abrir hace la vara
-        while (std::getline(rfile, line)) {//mientras tenga lineas para avanzar
-            QString qstr = QString::fromStdString(line);//Convierte la linea en QString
-            apellidos[contadorApellidos]=qstr;
-            this->contadorApellidos++;
-        }
-        rfile.close();
+    QString data="";
+    QString filename(":/txt/archivosTxt/apellidos10.txt");
+    QFile file(filename);
+
+    if(!file.open(QIODevice::ReadOnly)) {
+        qDebug()<<"filenot opened";
     }
+    else
+    {
+        data=file.readAll();
+        QString tmp="";
+        for(int i=0; i<(int)data.size(); i++){
+            if(data[i] != '\n')
+               tmp += data[i];
+            else{
+                apellidos[contadorApellidos]=tmp;
+                this->contadorApellidos++;
+                tmp = "";
+            }
+        }
+    }
+    file.close();
 }
+
 void Archivos::lecturaNombres(QString * nombres){
-    std::string line;
-    std::ifstream rfile;//
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//nombres100.txt");
-    if (rfile.is_open()) {
-        while (std::getline(rfile, line)) {
-            QString qstr = QString::fromStdString(line);//Convierte la linea en QString
-            nombres[contadorNombres]=qstr;
-            this->contadorNombres++;
-        }
-        rfile.close();
+    QString filename(":/txt/archivosTxt/nombres100.txt");
+    QString data="";
+    QFile file(filename);
+
+    if(!file.open(QIODevice::ReadOnly)) {
+        qDebug()<<"filenot opened";
     }
+    else
+    {
+        data=file.readAll();
+        QString tmp="";
+        for(int i=0; i<(int)data.size(); i++){
+            if(data[i] != '\n')
+               tmp += data[i];
+            else{
+                nombres[contadorNombres]=tmp;
+                this->contadorNombres++;
+                tmp = "";
+            }
+        }
+    }
+    file.close();
+
 }
 void Archivos::lecturaPaises(QString * paises){
-    std::string line;
-    std::ifstream rfile;//
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//paises10.txt");//100 y 10
-    if (rfile.is_open()) {
-        while (std::getline(rfile, line)) {
-            QString qstr = QString::fromStdString(line);//Convierte la linea en QString
-            paises[contadorPaises]=qstr;
-            this->contadorPaises++;
-        }
-        rfile.close();
+    QString filename(":/txt/archivosTxt/paises10.txt");
+    QString data="";
+    QFile file(filename);
+
+    if(!file.open(QIODevice::ReadOnly)) {
+        qDebug()<<"filenot opened";
     }
+    else
+    {
+        data=file.readAll();
+        QString tmp="";
+        for(int i=0; i<(int)data.size(); i++){
+            if(data[i] != '\n')
+               tmp += data[i];
+            else{
+                paises[contadorPaises]=tmp;
+                this->contadorPaises++;
+                tmp = "";
+            }
+        }
+    }
+    file.close();
 }
 void Archivos::lecturaProfesiones(QString * profesiones){
-    std::string line;
-    std::ifstream rfile;//
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//profesiones50.txt");
-    if (rfile.is_open()) {
-        while (std::getline(rfile, line)) {
-            QString qstr = QString::fromStdString(line);//Convierte la linea en QString
-            profesiones[contadorProfesiones]=qstr;
-            this->contadorProfesiones++;
-        }
-        rfile.close();
+    QString filename(":/txt/archivosTxt/profesiones50.txt");
+    QString data="";
+    QFile file(filename);
+
+    if(!file.open(QIODevice::ReadOnly)) {
+        qDebug()<<"filenot opened";
     }
+    else
+    {
+        data=file.readAll();
+        QString tmp="";
+        for(int i=0; i<(int)data.size(); i++){
+            if(data[i] != '\n')
+               tmp += data[i];
+            else{
+                profesiones[contadorProfesiones]=tmp;
+                this->contadorProfesiones++;
+                tmp = "";
+            }
+        }
+    }
+    file.close();
 }
 void Archivos::lecturaCreencias(QString * creencias){
-    std::string line;
-    std::ifstream rfile;
-    rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//creencias.txt");
-    if (rfile.is_open()) {
-        while (std::getline(rfile, line)) {
-            QString qstr = QString::fromStdString(line);//Convierte la linea en QString
-            creencias[contadorCreencias]=qstr;
-            this->contadorCreencias++;
-        }
-        rfile.close();
+    QString filename(":/txt/archivosTxt/creencias.txt");
+    QString data="";
+    QFile file(filename);
+
+    if(!file.open(QIODevice::ReadOnly)) {
+        qDebug()<<"filenot opened";
     }
+    else
+    {
+        data=file.readAll();
+        QString tmp="";
+        for(int i=0; i<(int)data.size(); i++){
+            if(data[i] != '\n')
+               tmp += data[i];
+            else{
+                creencias[contadorCreencias]=tmp;
+                this->contadorCreencias++;
+                tmp = "";
+            }
+        }
+    }
+    file.close();
 }
+
+//Por si acaso dejo esto aqui
+//std::string line;
+//std::ifstream rfile;//
+//rfile.open("D:\\OneDrive - Estudiantes ITCR\\Documentos\\GitHub\\ED\\Proyecto2-ED\\Proyecto2-ED\\archivosTexto//nombres100.txt");
+//if (rfile.is_open()) {
+//    while (std::getline(rfile, line)) {
+//        QString qstr = QString::fromStdString(line);//Convierte la linea en QString
+//        nombres[contadorNombres]=qstr;
+//        this->contadorNombres++;
+//    }
+//    rfile.close();
+//}

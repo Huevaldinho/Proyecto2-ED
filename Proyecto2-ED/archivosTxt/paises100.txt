@@ -38,7 +38,7 @@ Chad
 Chile
 China
 Chipre
-Ciudad del Vaticano
+Vietnam
 Colombia
 Comoras
 Corea del Norte
@@ -53,7 +53,7 @@ Ecuador
 Egipto
 El Salvador
 Emiratos Árabes Unidos
-Eritrea
+Tailandia
 Eslovaquia
 Eslovenia
 España
@@ -73,8 +73,8 @@ Grecia
 Guatemala
 Guyana
 Guinea
-Guinea ecuatorial
-Guinea-Bisáu
+Uruguay
+Portugal
 Haití
 Honduras
 Hungría
@@ -94,7 +94,7 @@ Jordania
 Kazajistán
 Kenia
 Kirguistán
-Kiribati
+Suiza
 Kuwait
 Laos
 Lesoto

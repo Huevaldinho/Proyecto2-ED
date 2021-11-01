@@ -10,7 +10,6 @@
 #include <time.h>
 
 
-
 class Persona;
 class Mundo;
 class ListaPersonas;
@@ -24,6 +23,8 @@ class NodoArbol;
 #include <QDate>
 #include <QDateTime>
 #include <QDebug>
+#include <QFile>
+
 #include "mainwindow.h"
 #include "persona.h"
 #include "listapersonas.h"

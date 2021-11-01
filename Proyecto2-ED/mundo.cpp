@@ -3,8 +3,7 @@
 Mundo::Mundo(){
     this->maximoHumanos=99999;
     this->arbolMundo = new ArbolMundo();
-    //Instancia y carga todos los archivos
-    this->archivos = new Archivos();
+    this->archivos = new Archivos();//Instancia y carga todos los archivos
 
     //Mete la info de los archivos a los arrays
     this->archivos->lecturaApellidos(this->apellidos);//Recibe array de apellidos y lo rellena con los datos del .txt
@@ -41,12 +40,13 @@ Mundo::Mundo(){
 //    for (int i=0;i<this->archivos->contadorCreencias;i++){
 //        qDebug()<<this->creencias[i];
 //    }
-    qDebug()<<"\nCantidad de apellidos: "<<this->cantidadApellidos;
-    qDebug()<<"Cantidad de nombres: "<<this->cantidadNombres;
-    qDebug()<<"Cantidad de paises: "<<this->cantidadPaises;
-    qDebug()<<"Cantidad de profesiones: "<<this->cantidadProfesiones;
-    qDebug()<<"Cantidad de creencias: "<<this->cantidadCreencias;
-    qDebug();
+//    qDebug()<<"\nCantidad de apellidos: "<<this->cantidadApellidos;
+//    qDebug()<<"Cantidad de nombres: "<<this->cantidadNombres;
+//    qDebug()<<"Cantidad de paises: "<<this->cantidadPaises;
+//    qDebug()<<"Cantidad de profesiones: "<<this->cantidadProfesiones;
+//    qDebug()<<"Cantidad de creencias: "<<this->cantidadCreencias;
+//    qDebug();
+
     //Lista de personas
     this->listaPersonas= new ListaPersonas();
 }
