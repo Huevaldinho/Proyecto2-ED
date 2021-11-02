@@ -16,7 +16,7 @@ class ArbolMundo{
        int maximo (int a, int b);
        int altura(NodoArbol*);
        int cantHojas(NodoArbol*);
-       void imprimirArbol(NodoArbol *,int);
+       void imprimirArbol(NodoArbol *);
 
 
 };

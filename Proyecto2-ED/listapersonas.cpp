@@ -46,7 +46,7 @@ void ListaPersonas::insertadoEspecialOrdenadoMenorAMayor(Persona * persona){
                 largo--;//es porque abajo se le suma 1
                 break;
             }
-            if (persona->ID>=this->ultimoNodo->persona->ID){
+            if (persona->ID>=this->ultimoNodo->persona->ID){//Si es mayor que el ultimo inserta al final
                 this->ultimoNodo->siguiente = nuevo;
                 this->ultimoNodo->siguiente->anterior = this->ultimoNodo;
                 this->ultimoNodo = this->ultimoNodo->siguiente;
@@ -57,14 +57,22 @@ void ListaPersonas::insertadoEspecialOrdenadoMenorAMayor(Persona * persona){
                 this->primerNodo = this->primerNodo->anterior;
                 break;
             }else{//Buscarlo en medio de la lista
+                //nuevo>tmp and nuevo<tmpSiguiente
+                //Inserta entre tmp y tmp siguiente
                 if (persona->ID>=tmp->persona->ID && persona->ID<=tmp->siguiente->persona->ID){
-                    nuevo->siguiente=tmp->siguiente;
-                    nuevo->anterior=tmp;
-                    tmp->siguiente=nuevo;
+                    //tmp - nuevo - tmpsiguiente
+                    nuevo->siguiente=tmp->siguiente;//Pega nuevo con siguiente
+                    nuevo->anterior=tmp;//pega nuevo con tmp
+                    tmp->siguiente->anterior=nuevo;//pega siguiente con nuevo
+                    tmp->siguiente=nuevo;//tmp con nuevo
+                    //qDebug()<<"tmp: "<<tmp->persona->ID<<" nuevo: "<<nuevo->persona->ID<<" nuevo siguiente: "<<nuevo->siguiente->persona->ID;
                     break;
                 }else if (persona->ID<=tmp->persona->ID && persona->ID>=tmp->anterior->persona->ID){
+                    //tmpAnterior - nuevo - tmp
+                    //qDebug()<<"tmpAnterior: "<<tmp->anterior->persona->ID<<" nuevo: "<<nuevo->persona->ID<<" nuevo siguiente: "<<nuevo->siguiente->persona->ID;
                     nuevo->siguiente=tmp;
                     nuevo->anterior=tmp->anterior;
+                    nuevo->siguiente->anterior=nuevo;
                     tmp->anterior=nuevo;
                     break;
                 }

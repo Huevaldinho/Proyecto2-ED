@@ -12,33 +12,37 @@ void ArbolMundo::insertar(Nodo * persona){
 NodoArbol * ArbolMundo::insertarRecursivo(NodoArbol * raiz, Nodo * nodoPersona){
     //Esta funcion es para crear el primer arbol
     if (raiz==NULL){
+        //qDebug()<<"Inserta"<<nodoPersona->persona->ID;
         return new NodoArbol(nodoPersona);
     }else if((raiz->nodoPersona->persona->ID) < (nodoPersona->persona->ID)){
+        //qDebug()<<"raiz arbol: "<<raiz->nodoPersona->persona->ID<<" persona: "<<nodoPersona->persona->ID<<" derecha";
         //toma el lado derecho
         raiz->hijoderecho=insertarRecursivo(raiz->hijoderecho,nodoPersona);
     }else if((raiz->nodoPersona->persona->ID) >= (nodoPersona->persona->ID)){
+        //qDebug()<<"raiz arbol: "<<" persona: "<<nodoPersona->persona->ID<<" izquierda";
         //toma lado izquierdo
         raiz->hijoizquierdo=insertarRecursivo(raiz->hijoizquierdo,nodoPersona);
     }
     return raiz;
 }
-void imprimirArbol(NodoArbol * raiz,int contador){
-    if (raiz==NULL)
-        return;
-    else{
-        imprimirArbol(raiz->hijoizquierdo,contador+1);
-        for (int i=0;i<contador;i++){
-            qDebug()<<"  ";
-        }
-        qDebug()<<raiz->nodoPersona->persona->ID;
-        imprimirArbol(raiz->hijoderecho,contador+1);
-    }
+void ArbolMundo::imprimirArbol(NodoArbol * raiz){
+       if (raiz != NULL){
+         imprimirArbol(raiz->hijoizquierdo);
+         qDebug()<< raiz->nodoPersona->persona->ID;
+         imprimirArbol(raiz->hijoderecho);
+       }
 }
+
 int ArbolMundo::contadorNodos(NodoArbol* nodoArbol){
     if (nodoArbol == NULL)
         return 0;
      else
-         return 1+ contadorNodos(nodoArbol->hijoderecho)+contadorNodos(nodoArbol->hijoizquierdo);
+        qDebug()<<"Raiz: "<<nodoArbol->nodoPersona->persona->ID;
+        if (nodoArbol->hijoderecho!=NULL)
+            qDebug()<<"Hijo derecho: "<<nodoArbol->hijoderecho->nodoPersona->persona->ID;
+        if (nodoArbol->hijoizquierdo!=NULL)
+            qDebug()<<"Hijo izquierdo: "<<nodoArbol->hijoizquierdo->nodoPersona->persona->ID;
+        return 1+ contadorNodos(nodoArbol->hijoderecho)+contadorNodos(nodoArbol->hijoizquierdo);
 }
 int ArbolMundo::maximo (int a, int b){
     if (a>b)

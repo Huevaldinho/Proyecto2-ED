@@ -16,12 +16,18 @@ int main(int argc, char *argv[]){
 
 
     mundo->GenerarNpersonas(1000);//Genera personas con informacion random y las ordena de menor a mayor en la lista
-    mundo->listaPersonas->imprimir();//Imprime
-    int unoPorciento=mundo->listaPersonas->largo*0.1;
-    qDebug()<<"1% de "<<mundo->listaPersonas->largo<<": "<<(unoPorciento);
-    qDebug()<<"Humanos en mundo: "<<mundo->listaPersonas->largo;
+    //mundo->listaPersonas->imprimir();//Imprime
     qDebug()<<"PuedoGenerarArbol retorna: "<<mundo->PuedoGenerarArbol(mundo->listaPersonas->largo);
-    //Falta crear el arbol con los 100
+
+    qDebug()<<"Altura?: "<<mundo->arbolMundo->altura(mundo->arbolMundo->raiz);
+    qDebug()<<"ContadorNodos: "<<mundo->arbolMundo->contadorNodos(mundo->arbolMundo->raiz);
+    qDebug()<<"CantidadHojas: "<<mundo->arbolMundo->cantHojas(mundo->arbolMundo->raiz);
+
+    //El problema es la manera de insertar porque se va abriendo un pichazo
+    //porque la lista esta en orden entonces siempre va a ser mayor que la raiz o meno que la raiz
+    //nunca hace izquierda derecha o derecha izquierda
+    mundo->arbolMundo->imprimirArbol(mundo->arbolMundo->raiz);
+
 
     //Pruebas arbol
 //    ArbolMundo * arbol= new ArbolMundo();
