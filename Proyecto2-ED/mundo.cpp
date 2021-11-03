@@ -2,9 +2,10 @@
 
 Mundo::Mundo(){
     this->maximoHumanos=99999;
-    this->porcentaje=0.1;
+    this->porcentaje=0.01;
     this->cantidadHumanosParaCrearArbol=1000;//Cada 1000 debe crear un arbol nuevo
     this->arbolMundo = new ArbolMundo();
+
     this->archivos = new Archivos();//Instancia y carga todos los archivos
 
     //Mete la info de los archivos a los arrays
@@ -21,6 +22,9 @@ Mundo::Mundo(){
     this->cantidadProfesiones=this->archivos->contadorProfesiones;
     this->cantidadCreencias=this->archivos->contadorCreencias;
     this->listaPersonas= new ListaPersonas();
+    this->listaCentros = new ListaPersonas();
+    this->arbolMundo->listaPersonas=this->listaPersonas;
+
 }
 int Mundo::GenerarIDRandom(){
     int variable=-1;
@@ -68,105 +72,176 @@ QString Mundo::GenerarCreenciaRandom(){
     return creencias[variable];
 
 }
+//Genera una n cantidad de personas con datos aleatorios de los arreglos
 void Mundo::GenerarNpersonas(int n){
     Persona * tmp = NULL;
     for (int i=0;i<n;i++){
         tmp = new Persona(GenerarIDRandom(),GenerarNombreRandom(),GenerarApellidoRandom(),GenerarPaisRandom(),GenerarCreenciaRandom(),GenerarProfesionRandom(),"felipeobando2001@gmail.com");
-        listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
+        if (PuedoGenerarArbol(this->listaPersonas->largo)){
+            if (this->arbolMundo->raiz!=NULL){
+                this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));
+            }else{
+                listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
+            }
+        }else{
+            if (this->arbolMundo->raiz!=NULL){
+                this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));
+            }else{
+                listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
+            }
+        }
         tmp = NULL;
     }
     qDebug()<<"Personas en mundo: "<<listaPersonas->largo;
 }
+void Mundo::SacarMitades(int bloques,int ciclos){
+    qDebug()<<"Sacar mitades";
+    int contador=0;
+    Nodo * mitad = this->listaPersonas->buscarMitad();
+    //Lista centros es la uqe tiene los 15 nodos uqe se van a meter al arbol
+    this->listaCentros->insertarAlFinal(mitad->persona);
+    ciclos-=1;//14
+    ciclos/=2;//7
+    Nodo * tmpIzquierdo = mitad;
+    Nodo * tmpDerecho = tmpIzquierdo;
+    while (ciclos!=0){
+        //Listacentros ya tiene la mitad de la lista // 8
+        //Ahora es un salto hacia la derecha y hacia la izquierda para meterle sus hijos //4  - 12
+        switch (ciclos) {
+        case 7:{//4 12
+            //Meter hijos de raiz
+            while (contador<bloques){//Hace los saltos
+                if (tmpIzquierdo->anterior!=NULL)
+                    tmpIzquierdo=tmpIzquierdo->anterior;
+                if (tmpDerecho->siguiente!=NULL)
+                    tmpDerecho=tmpDerecho->siguiente;
+            //error aqui, si estos tmps estan null es porque se esta insertando mal
+
+                contador++;
+            }
+            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+            //qDebug()<<"7: "<<tmpIzquierdo->persona->ID;
+            break;
+        }
+        case 6:{//2 14
+            while (contador<bloques+(bloques/2)){//Avanza un bloque y se devuelte o avanza medio
+                if (tmpIzquierdo->anterior!=NULL)
+                    tmpIzquierdo=tmpIzquierdo->anterior;
+                if (tmpDerecho->siguiente!=NULL)
+                    tmpDerecho=tmpDerecho->siguiente;
+                contador++;
+            }
+            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+            //qDebug()<<"6: "<<tmpIzquierdo->persona->ID;
+            break;
+        }
+        case 5:{//6 10
+            while (contador<bloques/2){//Avanza un bloque y se devuelte o avanza medio
+                if (tmpIzquierdo->anterior!=NULL)
+                    tmpIzquierdo=tmpIzquierdo->anterior;
+                if (tmpDerecho->siguiente!=NULL)
+                    tmpDerecho=tmpDerecho->siguiente;
+                contador++;
+            }
+            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+            //qDebug()<<"5: "<<tmpIzquierdo->persona->ID;
+            break;
+        }
+        case 4:{//7 9
+            while (contador<bloques/4){//Avanza un bloque y se devuelte o avanza medio
+                if (tmpIzquierdo->anterior!=NULL)
+                    tmpIzquierdo=tmpIzquierdo->anterior;
+                if (tmpDerecho->siguiente!=NULL)
+                    tmpDerecho=tmpDerecho->siguiente;
+                contador++;
+            }
+            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+            //qDebug()<<"4: "<<tmpIzquierdo->persona->ID;
+            break;
+        }
+        case 3:{//1 15
+            this->listaCentros->insertarAlFinal(this->listaPersonas->primerNodo->persona);
+            this->listaCentros->insertarAlFinal(this->listaPersonas->ultimoNodo->persona);
+            //qDebug()<<"3: "<<tmpIzquierdo->persona->ID;
+            break;
+        }
+        case 2:{
+            while (contador<bloques+(bloques/4)){
+                if (tmpIzquierdo->anterior!=NULL)
+                    tmpIzquierdo=tmpIzquierdo->anterior;
+                if (tmpDerecho->siguiente!=NULL)
+                    tmpDerecho=tmpDerecho->siguiente;
+                contador++;
+            }
+            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+            //qDebug()<<"2: "<<tmpIzquierdo->persona->ID;
+            break;
+        }
+        case 1:{
+            //Este es un salto mas un tercio o algo asi
+            while (contador<bloques-(bloques/3)){
+                if (tmpIzquierdo->anterior!=NULL)
+                    tmpIzquierdo=tmpIzquierdo->anterior;
+                if (tmpDerecho->siguiente!=NULL)
+                    tmpDerecho=tmpDerecho->siguiente;
+                contador++;
+            }
+            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+            //qDebug()<<"1: "<<tmpIzquierdo->persona->ID;
+            break;
+        }
+        }
+        tmpIzquierdo=mitad;
+        tmpDerecho=mitad;
+        contador=0;
+        ciclos--;
+    }
+}
+//Si tiene un modulo 1000 en el mundo puede generar otro arbol
 bool Mundo::PuedoGenerarArbol(int n){
     //Recibe una cantidad para determinar si es hora de volver a crear el arbol
     //Retorna true si n%this->cantidadHumanosParaCrearArbol==0
-    if ((n%this->cantidadHumanosParaCrearArbol)==0){
-        //Aqui crear el nuevo arbol
-        int cantidadNodos=this->listaPersonas->largo;//Cuanta gente hay
-        qDebug()<<"CantidadNodo: "<<cantidadNodos;
-        int nodoAinsertarEnArbol = cantidadNodos*porcentaje;//100*0.1 = 10
-
-        //Buscar potencia de 2 mayor a la cantidadNodos
-        int i=0;//Potencia del 2 y tambien sirve para saber cuantas personas faltan para completar el balanceo
-        int potenciaDos =0;
-        while (potenciaDos<nodoAinsertarEnArbol){//Cuenta cuantos nodos faltan para hacer un arbol balanceado
-            potenciaDos =pow(2,i);
-            if (potenciaDos>=cantidadNodos)
-                break;
-            i++;
-        }
-        i--;
-        nodoAinsertarEnArbol+=(pow(2,i)-nodoAinsertarEnArbol-1);//Se le suma lo que faltaba para llegar a la potencia del 2,
-        //NO ESTA SIRVIENDO, deberia ser 78
-        double bloques=trunc(this->listaPersonas->largo/nodoAinsertarEnArbol);
-        //nodoAInsertar es la cantidad de inserts que voy a hacerle al arbol
-
-        this->listaPersonas->imprimir();
-        //Nodo * tmp = this->listaPersonas->primerNodo;
-        qDebug()<<"nodoAInsertarEnArbol: "<<nodoAinsertarEnArbol;//Cuantos se van a poner en el arbol
-        qDebug()<<"PARA BALANCEO HAY : "<<this->listaPersonas->largo<<" personas.";
-        qDebug()<<"BLOQUES: "<<bloques;//6, hay que ir restando-1 para que no se pase
-        Nodo * tmpIzquierdo = this->listaPersonas->buscarMitad();
-        Nodo * tmpDerecho = tmpIzquierdo;
-        int contadorIzquierdo=0;
-        int contadorDerecho=0;
-        this->arbolMundo->insertar(tmpIzquierdo);//Pone la mitad de la lista como raiz
-        qDebug()<<"MITAD: "<<this->listaPersonas->buscarMitad()->persona->ID;
-        int nodosIngresados=1;
-        for (int i=0;i<(nodoAinsertarEnArbol/2);i++){//Ciclo para meter los 127 nodos al arbol
-
-            //qDebug()<<"iteracion: "<<i;
-
-            //Empezar a insertar utilizando los bloques,
-            //Empieza con hijo izquierdo (7 saltos hacia la izquierda de mitad) y luego derecho
-
-            //Ciclo para hacer los saltos de 7 en 7
-
-            while (contadorIzquierdo<=bloques){//Se mueve desde el centro, haciendo saltos cada vez mas grandes
-                if (tmpIzquierdo->persona->ID==this->listaPersonas->primerNodo->persona->ID)
+    if (this->listaPersonas->primerNodo!=NULL)
+        if ((n%this->cantidadHumanosParaCrearArbol)==0){
+            //Aqui crear el nuevo arbol
+            int cantidadNodos=this->listaPersonas->largo;//Cuanta gente hay
+            //qDebug()<<"CantidadNodo: "<<cantidadNodos;
+            int nodoAinsertarEnArbol = cantidadNodos*porcentaje;//100*0.1 = 10
+            //Buscar potencia de 2 mayor a la cantidadNodos
+            int i=0;//Potencia del 2 y tambien sirve para saber cuantas personas faltan para completar el balanceo
+            int potenciaDos =0;
+            while (potenciaDos<nodoAinsertarEnArbol){//Cuenta cuantos nodos faltan para hacer un arbol balanceado
+                potenciaDos =pow(2,i);
+                if (potenciaDos>=cantidadNodos)
                     break;
-                //qDebug()<<"tmpIzquierdo: "<<tmpIzquierdo->persona->ID;
-                //qDebug()<<"tmpizquierdo=tmpIzquierdo->anterior: "<<tmpIzquierdo->anterior->persona->ID;
-                tmpIzquierdo=tmpIzquierdo->anterior;//Se mueve 7 hacia la izquierda
-                contadorIzquierdo++;
-                //qDebug()<<"contadorIzquierdo: "<<contadorIzquierdo;
+                i++;
             }
-            while (contadorDerecho<=bloques){
-                if (tmpDerecho->persona->ID==this->listaPersonas->ultimoNodo->persona->ID)
-                    break;
-                //qDebug()<<"tmpDerecho: "<<tmpDerecho->persona->ID;
-                //qDebug()<<"tmpDerecho=tmpDerecho->siguiente: "<<tmpDerecho->siguiente->persona->ID;
-                tmpDerecho=tmpDerecho->siguiente;//se mueve 7 hacia la derecha
-                contadorDerecho++;
-                //qDebug()<<"contadorDerecho: "<<contadorDerecho;
+            i--;
+            nodoAinsertarEnArbol+=(pow(2,i)-nodoAinsertarEnArbol-1);//Se le suma lo que faltaba para llegar a la potencia del 2,
+            double bloques=trunc(this->listaPersonas->largo/nodoAinsertarEnArbol);
+            //qDebug()<<"nodoAInsertarEnArbol: "<<nodoAinsertarEnArbol;//Cuantos se van a poner en el arbol
+            //qDebug()<<"BLOQUES: "<<bloques;
+            SacarMitades(bloques,nodoAinsertarEnArbol);
+            Nodo * tmp = this->listaCentros->primerNodo;
+            while (tmp!=NULL){
+                this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmp,NULL);
+                tmp=tmp->siguiente;
             }
-            if (tmpDerecho->persona->ID==this->listaPersonas->ultimoNodo->persona->ID){
-                this->arbolMundo->insertar(this->listaPersonas->primerNodo);
-                //qDebug()<<"Inserta primero: "<<this->listaPersonas->primerNodo->persona->ID;
-                nodosIngresados++;
-            }else{
-                this->arbolMundo->insertar(tmpIzquierdo);
-                //qDebug()<<"Inserta izquierdo: "<<tmpIzquierdo->persona->ID;
-                nodosIngresados++;
+            tmp = this->listaCentros->primerNodo;
+            while (tmp!=NULL){
+                tmp->anterior=NULL;//borra el anterior
+                tmp=tmp->siguiente;
             }
-            if (tmpDerecho->persona->ID==this->listaPersonas->ultimoNodo->persona->ID){
-                this->arbolMundo->insertar(this->listaPersonas->ultimoNodo);
-                //qDebug()<<"Inserta ultimo: "<<this->listaPersonas->ultimoNodo->persona->ID;
-                nodosIngresados++;
-                break;
-            }else{
-                this->arbolMundo->insertar(tmpDerecho);
-                //qDebug()<<"Inserta derecha: "<<tmpDerecho->persona->ID;
-                nodosIngresados++;
-            }
-            contadorIzquierdo=0;
-            contadorDerecho=0;
-            tmpIzquierdo=this->listaPersonas->buscarMitad();
-            tmpDerecho=tmpIzquierdo;
-            bloques += 7;//Se va sumando los saltos, 0,7,14,21,28
-            //qDebug()<<"Bloques: "<<bloques;
-        }
-        return true;
+            this->listaCentros->primerNodo=NULL;
+            qDebug()<<"Generar arbol retorna true";
+            //this->arbolMundo->mostrarArbol(this->arbolMundo->raiz,0);
+            return true;
     }
     return false;
 }

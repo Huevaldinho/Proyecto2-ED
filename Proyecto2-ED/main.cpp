@@ -8,6 +8,7 @@ int main(int argc, char *argv[]){
     QApplication a(argc, argv);
 
     Mundo * mundo = new Mundo();
+    mundo->arbolMundo->listaPersonas=mundo->listaPersonas;
 
 //    MainWindow w;
 //    //Crea el mundo y lo pasa a la ventana
@@ -15,19 +16,13 @@ int main(int argc, char *argv[]){
 //    w.show();
 
 
-    mundo->GenerarNpersonas(1000);//Genera personas con informacion random y las ordena de menor a mayor en la lista
-    //mundo->listaPersonas->imprimir();//Imprime
-    qDebug()<<"PuedoGenerarArbol retorna: "<<mundo->PuedoGenerarArbol(mundo->listaPersonas->largo);
-
-    qDebug()<<"Altura?: "<<mundo->arbolMundo->altura(mundo->arbolMundo->raiz);
-    qDebug()<<"ContadorNodos: "<<mundo->arbolMundo->contadorNodos(mundo->arbolMundo->raiz);
-    qDebug()<<"CantidadHojas: "<<mundo->arbolMundo->cantHojas(mundo->arbolMundo->raiz);
-
-    //El problema es la manera de insertar porque se va abriendo un pichazo
-    //porque la lista esta en orden entonces siempre va a ser mayor que la raiz o meno que la raiz
-    //nunca hace izquierda derecha o derecha izquierda
-    mundo->arbolMundo->imprimirArbol(mundo->arbolMundo->raiz);
-
+    mundo->GenerarNpersonas(3000);//Genera personas con informacion random y las ordena de menor a mayor en la lista
+    //no siempre funciona
+    //se cae con 3000
+    //mundo->PuedoGenerarArbol(mundo->listaPersonas->largo);
+    qDebug()<<"Debe ir a mostrar arbol";
+    mundo->arbolMundo->mostrarArbol(mundo->arbolMundo->raiz,0);
+    qDebug()<<"Sale al main";
 
     //Pruebas arbol
 //    ArbolMundo * arbol= new ArbolMundo();

@@ -20,7 +20,6 @@ class Archivos;
 class ArbolMundo;
 class NodoArbol;
 
-
 #include <QString>
 #include <QDate>
 #include <QDateTime>
@@ -37,6 +36,8 @@ class NodoArbol;
 #include "nodoarbol.h"
 
 using namespace std;
+
+
 
 
 #endif // ESTRUCTURAS_H

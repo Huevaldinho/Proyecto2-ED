@@ -82,62 +82,42 @@ void ListaPersonas::insertadoEspecialOrdenadoMenorAMayor(Persona * persona){
     }
     largo++;
 }
-void ListaPersonas::insertarDesdeArbol(Nodo * _tmp,Persona * persona){
+void ListaPersonas::insertarDesdeArbol(Nodo * tmp,Persona * persona){
     //tmp es un nodo de la lista de personas del mundo (se toma el nodo del arbol para caer a la lista)
     //tmp es el que me permite determinar si tengo que insertar hacia delante de la lista
     //o hacia atras.
-    if (estaVacia())
-        this->primerNodo = this->ultimoNodo = new Nodo(persona);
-    else{
-        Nodo * nuevo = new Nodo(persona);
-        Nodo * tmp = _tmp;
-        while (tmp!=NULL){
-            //qDebug()<<"persona: "<<persona->ID<<" - tmp: "<<tmp->persona->ID;
-            if (persona->ID==tmp->persona->ID){
-                //qDebug()<<"REPETIDOO";
-                largo--;//es porque abajo se le suma 1
+    //qDebug()<<"INSERTAR DESDE ARBOL";
+    Nodo * nuevo = new Nodo(persona);
+    while (tmp!=NULL){
+        if (tmp->siguiente!=NULL){
+            if (tmp->persona->ID<persona->ID && persona->ID<tmp->siguiente->persona->ID){
+                //tmp - nuevo - tmpsiguiente
+                nuevo->siguiente=tmp->siguiente;//Pega nuevo con siguiente
+                nuevo->anterior=tmp;//pega nuevo con tmp
+                tmp->siguiente->anterior=nuevo;//pega siguiente con nuevo
+                tmp->siguiente=nuevo;//tmp con nuevo
+                //qDebug()<<"tmp: "<<tmp->persona->ID<<" nuevo: "<<nuevo->persona->ID<<" nuevo siguiente: "<<nuevo->siguiente->persona->ID;
                 break;
             }
-            if (persona->ID>this->ultimoNodo->persona->ID){
-                //qDebug()<<"Inserta en mayor que ultimo nodo"<<"- ultimo: "<<this->ultimoNodo->persona->ID<<" -nuevo: "<<nuevo->persona->ID;
-
-                this->ultimoNodo->siguiente = nuevo;
-                this->ultimoNodo->siguiente->anterior = this->ultimoNodo;
-                this->ultimoNodo = this->ultimoNodo->siguiente;
-                break;
-            }else if(persona->ID<this->primerNodo->persona->ID){
-                //qDebug()<<"Inserta en menor que ultimo nodo"<<" -nuevo: "<<nuevo->persona->ID<<" - primero: "<<this->primerNodo->persona->ID;
-                this->primerNodo->anterior = nuevo;
-                this->primerNodo->anterior->siguiente = this->primerNodo;
-                this->primerNodo = this->primerNodo->anterior;
-                break;
-            }else{//Buscarlo en medio de la lista
-                if ((persona->ID>tmp->persona->ID) &&(persona->ID<tmp->siguiente->persona->ID)){
-                    //qDebug()<<"Inserta en tmp siguiente - tmp: "<<tmp->persona->ID<<"-nuevo:"<<nuevo->persona->ID<<"-tmp siguiente: "<<tmp->siguiente->persona->ID;
-                    nuevo->siguiente=tmp->siguiente;
-                    nuevo->anterior=tmp;
-                    tmp->siguiente->anterior=nuevo;
-                    tmp->siguiente=nuevo;
-                    break;
-                }else if ((persona->ID<tmp->persona->ID) &&( persona->ID>tmp->anterior->persona->ID)){
-                    //tmp anterior < nuevo < tmp y nuevo
-                    //qDebug()<<"Inserta en tmp anterior"<<" -anterior: "<<tmp->anterior->persona->ID<<" -nuevo: "<<nuevo->persona->ID<<" -tmp: "<<tmp->persona->ID;
-
-                    nuevo->siguiente=tmp;//Pega nuevo con tmp nuevo->tmp
-                    nuevo->anterior=tmp->anterior;//Pega nuevo con tmpAnterior tmpAnterior->nuevo
-                    tmp->anterior->siguiente=nuevo;//Pega tmpAnteriorSiguiente con nuevo tmpAnteriorSiguiente->nuevo
-                    tmp->anterior=nuevo;//Pega tmpAnterior con nuevo tmpAnterior con nuevo nuevo->tmp
-
-                    break;
-                }
-            }
-            if (tmp->persona->ID>persona->ID)
-                tmp=tmp->anterior;
-            else
-                tmp=tmp->siguiente;
         }
+        if (tmp->anterior!=NULL){
+            if (tmp->persona->ID>persona->ID && persona->ID>tmp->anterior->persona->ID){
+                //tmpAnterior - nuevo - tmp
+                //qDebug()<<"tmpAnterior: "<<tmp->anterior->persona->ID<<" nuevo: "<<nuevo->persona->ID<<" nuevo siguiente: "<<nuevo->siguiente->persona->ID;
+                nuevo->siguiente=tmp;
+                nuevo->anterior=tmp->anterior;
+                nuevo->siguiente->anterior=nuevo;
+                tmp->anterior=nuevo;
+                break;
+            }
+        }
+
+        if (persona->ID>tmp->persona->ID)
+            tmp=tmp->anterior;
+        else
+            tmp=tmp->siguiente;
     }
-    largo++;
+    this->largo++;
 }
 void ListaPersonas::imprimir(){
     Nodo * tmp = this->primerNodo;
@@ -202,7 +182,7 @@ Nodo * ListaPersonas::buscarMitad(){
     int contadorAvanzaLista=0;//Para saber cuando llego a la mitad
     while (tmp!=NULL){
         if (mitad==contadorAvanzaLista)
-            return tmp;
+            return tmp->anterior;
         contadorAvanzaLista++;
         tmp=tmp->siguiente;
     }

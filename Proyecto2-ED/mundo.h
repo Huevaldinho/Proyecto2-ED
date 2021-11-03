@@ -7,6 +7,8 @@ class Mundo{
     public:
         //Lista doble personas
         ListaPersonas * listaPersonas;
+        ListaPersonas * listaCentros;
+
         ArbolMundo * arbolMundo;
         Archivos * archivos;
         int maximoHumanos;//99999
@@ -33,6 +35,7 @@ class Mundo{
         QString GenerarProfesionRandom();
         QString GenerarCreenciaRandom();
         void GenerarNpersonas(int);
+        void  SacarMitades(int a,int b);
         bool PuedoGenerarArbol(int n);//utiliza n%cantidadHumanosParaCrearArbol
 };
 

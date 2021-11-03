@@ -303,6 +303,8 @@ debug/moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.1.3/mingw81_64/bin/moc.exe
 	C:\Qt\6.1.3\mingw81_64\bin\moc.exe $(DEFINES) --include "D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/build-Proyecto2-ED-Desktop_Qt_6_1_3_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.1.3/mingw81_64/mkspecs/win32-g++ -I"D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED" -IC:/Qt/6.1.3/mingw81_64/include -IC:/Qt/6.1.3/mingw81_64/include/QtWidgets -IC:/Qt/6.1.3/mingw81_64/include/QtGui -IC:/Qt/6.1.3/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\Proyecto2-ED\mainwindow.h -o debug\moc_mainwindow.cpp
@@ -477,7 +479,9 @@ debug/arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h 
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\arbolmundo.o ..\Proyecto2-ED\arbolmundo.cpp
 
 debug/archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
@@ -627,7 +631,9 @@ debug/archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\archivos.o ..\Proyecto2-ED\archivos.cpp
 
 debug/listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas.h \
@@ -777,7 +783,9 @@ debug/listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listape
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\listapersonas.o ..\Proyecto2-ED\listapersonas.cpp
 
 debug/main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
@@ -928,6 +936,8 @@ debug/main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QApplication \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/qcoreapplication.h \
@@ -1084,6 +1094,8 @@ debug/mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h 
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h \
 		ui_mainwindow.h \
 		C:/Qt/6.1.3/mingw81_64/include/QtCore/QVariant \
 		C:/Qt/6.1.3/mingw81_64/include/QtWidgets/QApplication \
@@ -1258,7 +1270,9 @@ debug/mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mundo.o ..\Proyecto2-ED\mundo.cpp
 
 debug/nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
@@ -1408,7 +1422,9 @@ debug/nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\nodo.o ..\Proyecto2-ED\nodo.cpp
 
 debug/nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
@@ -1558,7 +1574,9 @@ debug/nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
-		../Proyecto2-ED/arbolmundo.h
+		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\nodoarbol.o ..\Proyecto2-ED\nodoarbol.cpp
 
 debug/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
@@ -1708,7 +1726,9 @@ debug/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/avltree.h \
+		../Proyecto2-ED/bstnode.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\persona.o ..\Proyecto2-ED\persona.cpp
 
 debug/qrc_rsc.o: debug/qrc_rsc.cpp 
