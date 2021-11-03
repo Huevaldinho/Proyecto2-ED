@@ -27,10 +27,9 @@ Mundo::Mundo(){
 
 }
 int Mundo::GenerarIDRandom(){
-    int variable=-1;
     int limite_inferior = 0;
     int limite_superior=this->maximoHumanos;
-    variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
     return variable;
 }
 //Retorna apellido random de la lista
@@ -72,19 +71,72 @@ QString Mundo::GenerarCreenciaRandom(){
     return creencias[variable];
 
 }
+QString Mundo::GenerarCorreo(QString nombre, QString apellido){
+    int variable = 0 + rand() % (0 +1 - 3);
+
+    for (int i=0;i<apellido.size();i++){
+        if (apellido[i].isUpper()){
+            apellido[i]=apellido[i].toLower();
+        }
+    }
+    for (int i=0;i<nombre.size();i++){
+        if (nombre[i].isUpper()){
+            nombre[i]=nombre[i].toLower();
+        }
+    }
+
+    QString correo = apellido+nombre+"@";
+    if (variable==1)
+        correo+="hotmail.com";
+    else if (variable==2)
+        correo+="outlook.com";
+    else
+        correo+="gmail.com";
+    return correo;
+}
+Persona * Mundo::generarPersona(){
+    int variable = 0 + rand() % (0 +1 - 4);//cantidad de hijos
+
+    int id = GenerarIDRandom();
+    QString apellido = GenerarApellidoRandom();
+    QString nombre = GenerarNombreRandom();
+    QString pais = GenerarPaisRandom();
+    QString profesion = GenerarProfesionRandom();
+    QString creencia = GenerarCreenciaRandom();
+    QString correo = GenerarCorreo(nombre,apellido);
+    Persona * persona = new Persona(id,nombre,apellido,pais,creencia,profesion,correo);
+
+    if (variable != 0){
+        while (variable>0){
+            QString nombreHijo = GenerarNombreRandom();
+
+            persona->hijos->insertarAlFinal(new Persona(GenerarIDRandom(),nombreHijo,apellido,pais,GenerarCreenciaRandom(),GenerarProfesionRandom(),GenerarCorreo(nombreHijo,apellido)));
+            variable--;
+        }
+    }
+    return persona;
+
+}
 //Genera una n cantidad de personas con datos aleatorios de los arreglos
 void Mundo::GenerarNpersonas(int n){
     Persona * tmp = NULL;
     for (int i=0;i<n;i++){
-        tmp = new Persona(GenerarIDRandom(),GenerarNombreRandom(),GenerarApellidoRandom(),GenerarPaisRandom(),GenerarCreenciaRandom(),GenerarProfesionRandom(),"felipeobando2001@gmail.com");
+        qDebug()<< "I: "<<i;
+        if (i==999){
+            this->listaPersonas->imprimir();
+        }
+        tmp = generarPersona();
         if (PuedoGenerarArbol(this->listaPersonas->largo)){
+            qDebug()<<"\n\n\n-------------SE SUPONE QUE M´AS DE MIL---------     "<<listaPersonas->largo;
             if (this->arbolMundo->raiz!=NULL){
+                qDebug()<<"RAIZ DEL ARBOL: "<<this->arbolMundo->raiz->nodoPersona->persona->ID;
                 this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));
             }else{
                 listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
             }
         }else{
             if (this->arbolMundo->raiz!=NULL){
+                qDebug()<<"RAIZ DEL ARBOL: "<<this->arbolMundo->raiz->nodoPersona->persona->ID;
                 this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));
             }else{
                 listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
@@ -95,7 +147,6 @@ void Mundo::GenerarNpersonas(int n){
     qDebug()<<"Personas en mundo: "<<listaPersonas->largo;
 }
 void Mundo::SacarMitades(int bloques,int ciclos){
-    qDebug()<<"Sacar mitades";
     int contador=0;
     Nodo * mitad = this->listaPersonas->buscarMitad();
     //Lista centros es la uqe tiene los 15 nodos uqe se van a meter al arbol
@@ -245,3 +296,22 @@ bool Mundo::PuedoGenerarArbol(int n){
     }
     return false;
 }
+
+
+//void Mundo::generarMundo(int n){
+//    Persona * tmp = NULL;
+//    for (int i = 0; i<=100 ; i++){
+//        tmp = generarPersona();
+//        tmp->ID=i+1;
+//        this->listaPersonas->insertarAlFinal(tmp);
+//    } // ya hay 100 personas base en la lista
+//    int unoPorciento = n*0.01;
+//    int cntNodosArbol = cantidadNivelesArbol(unoPorciento);
+//    int bloque = n/cntNodosArbol;
+//}
+//int Mundo::cantidadNivelesArbol(int unoPorciento){
+//    int exp = 0;
+//    while (pow(2,exp)<unoPorciento)
+//        exp++;
+//    return pow (2,exp)-1;
+//}

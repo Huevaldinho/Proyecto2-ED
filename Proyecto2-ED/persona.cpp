@@ -35,8 +35,8 @@ Persona::Persona(int _ID,QString _nombre,QString _apellido,QString _pais,QString
 }
 void Persona::imprimir(){//Imprime toda la info de la persona (falta hijos)
           qDebug()<<"<-"<<this->ID<<"->";
-          //qDebug()<<this->apellido<<" "<<this->nombre;
-//        qDebug()<<"\nID: "<<this->ID;
+//          qDebug()<<this->apellido<<" "<<this->nombre;
+//        qDebug()<<"ID: "<<this->ID;
 //        qDebug()<<"Nombre: "<<this->nombre;
 //        qDebug()<<"Apellido: "<<this->apellido;
 //        qDebug()<<"Pais: "<<this->pais;
@@ -50,5 +50,5 @@ void Persona::imprimir(){//Imprime toda la info de la persona (falta hijos)
 //            qDebug()<<"Pecado "<<i<<": "<<this->pecados[i]<<" - Buena accion "<<i<<": "<<this->buenasAcciones[i];
 //        }
 //        qDebug();
-        //Falta imprimir hijos
+          //this->hijos->imprimir();
 }

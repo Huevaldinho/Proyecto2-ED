@@ -11,7 +11,7 @@ class ArbolMundo{
             //MIO
        ArbolMundo();       
        int contadorNodos(NodoArbol*);
-       void insertarAListaDesdeArbol(NodoArbol *& ,Nodo *);
+       void insertarAListaDesdeArbol(NodoArbol * ,Nodo *);
        int maximo (int a, int b);
        int altura(NodoArbol*);
        int cantHojas(NodoArbol*);

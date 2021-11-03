@@ -34,9 +34,16 @@ class Mundo{
         QString GenerarPaisRandom();
         QString GenerarProfesionRandom();
         QString GenerarCreenciaRandom();
+        QString GenerarCorreo(QString, QString);
+
         void GenerarNpersonas(int);
         void  SacarMitades(int a,int b);
         bool PuedoGenerarArbol(int n);//utiliza n%cantidadHumanosParaCrearArbol
+
+        //yop jijijijijijiji
+        Persona * generarPersona();
+        void generarMundo(int);
+        int cantidadNivelesArbol(int);
 };
 
 
