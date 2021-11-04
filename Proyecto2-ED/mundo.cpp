@@ -5,7 +5,6 @@ Mundo::Mundo(){
     this->porcentaje=0.01;
     this->cantidadHumanosParaCrearArbol=1000;//Cada 1000 debe crear un arbol nuevo
     this->arbolMundo = new ArbolMundo();
-
     this->archivos = new Archivos();//Instancia y carga todos los archivos
 
     //Mete la info de los archivos a los arrays
@@ -21,10 +20,10 @@ Mundo::Mundo(){
     this->cantidadPaises=this->archivos->contadorPaises;
     this->cantidadProfesiones=this->archivos->contadorProfesiones;
     this->cantidadCreencias=this->archivos->contadorCreencias;
+    //Crea la lista de personas del mundo
     this->listaPersonas= new ListaPersonas();
-    this->listaCentros = new ListaPersonas();
-    this->arbolMundo->listaPersonas=this->listaPersonas;
-
+    this->arbolMundo->listaPersonas=this->listaPersonas;//Le pasa la misma lista al arbol
+    this->listaFamilias = new ListaFamilias();//Crea la lista (raices arboles) de familias
 }
 int Mundo::GenerarIDRandom(){
     int limite_inferior = 0;
@@ -121,17 +120,15 @@ Persona * Mundo::generarPersona(){
 void Mundo::GenerarNpersonas(int n){
     Persona * tmp = NULL;
     for (int i=0;i<n;i++){
-//        if (this->listaPersonas->largo==999){
-//            this->listaPersonas->imprimir();
-//        }
         tmp = generarPersona();
-        PuedoGenerarArbol(this->listaPersonas->largo);//cuando llega a mil algo raro pasa
+        PuedoGenerarArbol(this->listaPersonas->largo);
         if(this->arbolMundo->raiz!=NULL){
-            //qDebug()<<"Tiene que insertar con el arbol: "<<tmp->ID;
             this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));
         }else{
             this->listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
         }
+        //Despues de insertarlo en la lista lo va a meter a un arbol de familia
+
         tmp = NULL;
     }
     qDebug()<<"Personas en mundo: "<<listaPersonas->largo;
@@ -275,17 +272,6 @@ bool Mundo::PuedoGenerarArbol(int n){
             nodoAinsertarEnArbol+=(pow(2,i)-nodoAinsertarEnArbol-1);//Se le suma lo que faltaba para llegar a la potencia del 2,
             double bloques=trunc(this->listaPersonas->largo/nodoAinsertarEnArbol);
             SacarMitades(bloques,nodoAinsertarEnArbol);//aqui mismo se inserta al arbol
-            Nodo * tmp = this->listaCentros->primerNodo;
-//            while (tmp!=NULL){
-//                this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmp,NULL);
-//                tmp=tmp->siguiente;
-//            }
-            //tmp = this->listaCentros->primerNodo;
-            while (tmp!=NULL){
-                tmp->anterior=NULL;//borra el anterior
-                tmp=tmp->siguiente;
-            }
-            this->listaCentros->primerNodo=NULL;
             this->arbolMundo->mostrarArbol(this->arbolMundo->raiz,0);
             return true;
     }

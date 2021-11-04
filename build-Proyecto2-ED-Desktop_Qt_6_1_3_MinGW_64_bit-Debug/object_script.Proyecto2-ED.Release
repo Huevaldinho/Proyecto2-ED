@@ -1,11 +1,14 @@
+release/arbolfamilia.o
 release/arbolmundo.o
 release/archivos.o
+release/listafamilias.o
 release/listapersonas.o
 release/main.o
 release/mainwindow.o
 release/mundo.o
 release/nodo.o
 release/nodoarbol.o
+release/nodolistafalimias.o
 release/persona.o
 release/qrc_rsc.o
 release/moc_mainwindow.o

@@ -10,6 +10,9 @@
 #include <time.h>
 #include <math.h>
 #include <cmath>
+#include <sstream>
+#include <algorithm>
+#define pow2(n) (1 << (n))
 
 
 class Persona;
@@ -19,6 +22,9 @@ class Nodo;
 class Archivos;
 class ArbolMundo;
 class NodoArbol;
+class ArbolFamilia;
+class ListaFamilias;
+class NodoListaFalimias;
 
 #include <QString>
 #include <QDate>
@@ -34,7 +40,9 @@ class NodoArbol;
 #include "archivos.h"
 #include "arbolmundo.h"
 #include "nodoarbol.h"
-
+#include "arbolfamilia.h"
+#include "listafamilias.h"
+#include "nodolistafalimias.h"
 using namespace std;
 
 

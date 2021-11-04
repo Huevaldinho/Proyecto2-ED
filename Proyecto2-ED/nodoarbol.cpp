@@ -8,5 +8,5 @@ NodoArbol::NodoArbol(){
 }
 NodoArbol::NodoArbol(Nodo * _persona){
         this->nodoPersona = _persona;
-        hijoizquierdo = hijoderecho = NULL;
+        this->hijoizquierdo = this->hijoderecho = NULL;
 }

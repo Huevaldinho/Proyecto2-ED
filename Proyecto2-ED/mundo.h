@@ -6,11 +6,10 @@
 class Mundo{
     public:
         //Lista doble personas
-        ListaPersonas * listaPersonas;
-        ListaPersonas * listaCentros;
-
-        ArbolMundo * arbolMundo;
-        Archivos * archivos;
+        ListaPersonas * listaPersonas;//Todas las personas
+        ListaFamilias * listaFamilias;//Contiene la raiz de cada arbol de familia
+        ArbolMundo * arbolMundo;//Para insertar personas mas rapido
+        Archivos * archivos;//Carga informacion de .txt
         int maximoHumanos;//99999
         double porcentaje;//1%
         int cantidadHumanosParaCrearArbol;//100 o 1000, hay que ver

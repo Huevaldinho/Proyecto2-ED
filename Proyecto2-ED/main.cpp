@@ -8,7 +8,6 @@ int main(int argc, char *argv[]){
     QApplication a(argc, argv);
 
     Mundo * mundo = new Mundo();
-    mundo->arbolMundo->listaPersonas=mundo->listaPersonas;
 
 //    MainWindow w;
 //    //Crea el mundo y lo pasa a la ventana
@@ -17,11 +16,18 @@ int main(int argc, char *argv[]){
 
 
       //mundo->generarMundo(10000);
+//     mundo->GenerarNpersonas(2000);//Genera personas con informacion random y las ordena de menor a mayor en la lista
+//     mundo->listaPersonas->imprimir();
 
-    //EL ERROR ESTA EN LA LISTA CENTRALES, ELLA CUANDO INSERTA LOS NODOS QUE VAN PARA LA LISTA
-    //CAMBIA LOS PUNTEROS ORIGINALES
-     mundo->GenerarNpersonas(2000);//Genera personas con informacion random y las ordena de menor a mayor en la lista
-     mundo->listaPersonas->imprimir();
+    //El mundo tiene una lista de familias,
+    //en la lista de familias esta un nodo que tiene la raiz de cada familia
+
+    //HACER logica para ver quien es papa de quien y si puedo insertarle hijos y toda esa vara
+
+
+    qDebug()<<"COMPILA BIEN";
+
+
 
 
     return a.exec();

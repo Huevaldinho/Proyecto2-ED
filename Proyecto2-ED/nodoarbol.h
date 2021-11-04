@@ -5,8 +5,7 @@
 
 class NodoArbol{
     public:
-        //DATO
-       Nodo * nodoPersona;//Para poder avanzar una vez se encuentre a la persona.
+       Nodo * nodoPersona;//Persona
        NodoArbol* padre;
        NodoArbol* hijoizquierdo;
        NodoArbol* hijoderecho;
