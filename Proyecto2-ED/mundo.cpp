@@ -106,14 +106,14 @@ Persona * Mundo::generarPersona(){
     QString correo = GenerarCorreo(nombre,apellido);
     Persona * persona = new Persona(id,nombre,apellido,pais,creencia,profesion,correo);
 
-    if (variable != 0){
-        while (variable>0){
-            QString nombreHijo = GenerarNombreRandom();
+//    if (variable != 0){
+//        while (variable>0){
+//            QString nombreHijo = GenerarNombreRandom();
 
-            persona->hijos->insertarAlFinal(new Persona(GenerarIDRandom(),nombreHijo,apellido,pais,GenerarCreenciaRandom(),GenerarProfesionRandom(),GenerarCorreo(nombreHijo,apellido)));
-            variable--;
-        }
-    }
+//            persona->hijos->insertarAlFinal(new Persona(GenerarIDRandom(),nombreHijo,apellido,pais,GenerarCreenciaRandom(),GenerarProfesionRandom(),GenerarCorreo(nombreHijo,apellido)));
+//            variable--;
+//        }
+//    }
     return persona;
 
 }
@@ -121,26 +121,16 @@ Persona * Mundo::generarPersona(){
 void Mundo::GenerarNpersonas(int n){
     Persona * tmp = NULL;
     for (int i=0;i<n;i++){
-        qDebug()<< "I: "<<i;
-        if (i==999){
-            this->listaPersonas->imprimir();
-        }
+//        if (this->listaPersonas->largo==999){
+//            this->listaPersonas->imprimir();
+//        }
         tmp = generarPersona();
-        if (PuedoGenerarArbol(this->listaPersonas->largo)){
-            qDebug()<<"\n\n\n-------------SE SUPONE QUE M´AS DE MIL---------     "<<listaPersonas->largo;
-            if (this->arbolMundo->raiz!=NULL){
-                qDebug()<<"RAIZ DEL ARBOL: "<<this->arbolMundo->raiz->nodoPersona->persona->ID;
-                this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));
-            }else{
-                listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
-            }
+        PuedoGenerarArbol(this->listaPersonas->largo);//cuando llega a mil algo raro pasa
+        if(this->arbolMundo->raiz!=NULL){
+            //qDebug()<<"Tiene que insertar con el arbol: "<<tmp->ID;
+            this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));
         }else{
-            if (this->arbolMundo->raiz!=NULL){
-                qDebug()<<"RAIZ DEL ARBOL: "<<this->arbolMundo->raiz->nodoPersona->persona->ID;
-                this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));
-            }else{
-                listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
-            }
+            this->listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
         }
         tmp = NULL;
     }
@@ -150,7 +140,8 @@ void Mundo::SacarMitades(int bloques,int ciclos){
     int contador=0;
     Nodo * mitad = this->listaPersonas->buscarMitad();
     //Lista centros es la uqe tiene los 15 nodos uqe se van a meter al arbol
-    this->listaCentros->insertarAlFinal(mitad->persona);
+    //this->listaCentros->insertarAlFinal(mitad->persona);
+    this->arbolMundo->insertarNodo(this->arbolMundo->raiz,mitad,NULL);
     ciclos-=1;//14
     ciclos/=2;//7
     Nodo * tmpIzquierdo = mitad;
@@ -166,13 +157,12 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpIzquierdo=tmpIzquierdo->anterior;
                 if (tmpDerecho->siguiente!=NULL)
                     tmpDerecho=tmpDerecho->siguiente;
-            //error aqui, si estos tmps estan null es porque se esta insertando mal
-
                 contador++;
             }
-            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
-            //qDebug()<<"7: "<<tmpIzquierdo->persona->ID;
+            //this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+            //this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+            this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
+            this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
         }
         case 6:{//2 14
@@ -183,9 +173,10 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
-            //qDebug()<<"6: "<<tmpIzquierdo->persona->ID;
+//            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+//            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
         }
         case 5:{//6 10
@@ -196,9 +187,10 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
-            //qDebug()<<"5: "<<tmpIzquierdo->persona->ID;
+//          this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+//          this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+            this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
+            this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
         }
         case 4:{//7 9
@@ -209,15 +201,17 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
-            //qDebug()<<"4: "<<tmpIzquierdo->persona->ID;
+//            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+//            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
         }
         case 3:{//1 15
-            this->listaCentros->insertarAlFinal(this->listaPersonas->primerNodo->persona);
-            this->listaCentros->insertarAlFinal(this->listaPersonas->ultimoNodo->persona);
-            //qDebug()<<"3: "<<tmpIzquierdo->persona->ID;
+//            this->listaCentros->insertarAlFinal(this->listaPersonas->primerNodo->persona);
+//            this->listaCentros->insertarAlFinal(this->listaPersonas->ultimoNodo->persona);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,this->listaPersonas->primerNodo,NULL);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,this->listaPersonas->ultimoNodo,NULL);
             break;
         }
         case 2:{
@@ -228,9 +222,10 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
-            //qDebug()<<"2: "<<tmpIzquierdo->persona->ID;
+//            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+//            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
         }
         case 1:{
@@ -242,9 +237,10 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
-            //qDebug()<<"1: "<<tmpIzquierdo->persona->ID;
+//            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
+//            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
+              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
         }
         }
@@ -253,6 +249,8 @@ void Mundo::SacarMitades(int bloques,int ciclos){
         contador=0;
         ciclos--;
     }
+//    qDebug()<<"LISTA CENTROS:";
+//    this->listaCentros->imprimir();
 }
 //Si tiene un modulo 1000 en el mundo puede generar otro arbol
 bool Mundo::PuedoGenerarArbol(int n){
@@ -276,22 +274,19 @@ bool Mundo::PuedoGenerarArbol(int n){
             i--;
             nodoAinsertarEnArbol+=(pow(2,i)-nodoAinsertarEnArbol-1);//Se le suma lo que faltaba para llegar a la potencia del 2,
             double bloques=trunc(this->listaPersonas->largo/nodoAinsertarEnArbol);
-            //qDebug()<<"nodoAInsertarEnArbol: "<<nodoAinsertarEnArbol;//Cuantos se van a poner en el arbol
-            //qDebug()<<"BLOQUES: "<<bloques;
-            SacarMitades(bloques,nodoAinsertarEnArbol);
+            SacarMitades(bloques,nodoAinsertarEnArbol);//aqui mismo se inserta al arbol
             Nodo * tmp = this->listaCentros->primerNodo;
-            while (tmp!=NULL){
-                this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmp,NULL);
-                tmp=tmp->siguiente;
-            }
-            tmp = this->listaCentros->primerNodo;
+//            while (tmp!=NULL){
+//                this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmp,NULL);
+//                tmp=tmp->siguiente;
+//            }
+            //tmp = this->listaCentros->primerNodo;
             while (tmp!=NULL){
                 tmp->anterior=NULL;//borra el anterior
                 tmp=tmp->siguiente;
             }
             this->listaCentros->primerNodo=NULL;
-            qDebug()<<"Generar arbol retorna true";
-            //this->arbolMundo->mostrarArbol(this->arbolMundo->raiz,0);
+            this->arbolMundo->mostrarArbol(this->arbolMundo->raiz,0);
             return true;
     }
     return false;

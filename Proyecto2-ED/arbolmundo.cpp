@@ -31,27 +31,35 @@ bool ArbolMundo::esHoja(NodoArbol * arbol){
     return false;
 }
 void ArbolMundo::insertarAListaDesdeArbol(NodoArbol *arbol,Nodo * nodoPersona){
-    if (arbol->nodoPersona->persona->ID!=nodoPersona->persona->ID){
-        //persona va hacia la derecha
-        if (esHoja(arbol)){
-            if (nodoPersona->persona->ID<this->listaPersonas->primerNodo->persona->ID)//Si el nodo es menor que el primero lo inserta de una vez
-                this->listaPersonas->insertarAlInicio(nodoPersona->persona);
-            else if (nodoPersona->persona->ID>this->listaPersonas->ultimoNodo->persona->ID)
-                this->listaPersonas->insertarAlFinal(nodoPersona->persona);//si el nodo es mayor que el ultimo lo inserta de una vez
-            else{
-                qDebug()<<"EL ELSE DE insertarAListaDesdeArbol (DESDE EL ARBOL): "<<arbol->nodoPersona->persona->ID;
-                qDebug()<<"EL ELSE DE insertarAListaDesdeArbol(SIN EL ARBOL): "<<nodoPersona->persona->ID;
-                this->listaPersonas->insertarDesdeArbol(arbol->nodoPersona,nodoPersona->persona);//Tiene que buscar donde
-            }
-        }
-        else if (arbol->nodoPersona->persona->ID<nodoPersona->persona->ID)
-                insertarAListaDesdeArbol(arbol->hijoderecho,nodoPersona);
-        else
-            insertarAListaDesdeArbol(arbol->hijoizquierdo,nodoPersona);
-    }else{
-        qDebug()<<"REPETIDO";
+    //Podria hacerse antes
+    if (nodoPersona->persona->ID > this->listaPersonas->ultimoNodo->persona->ID){
+        //Es mayor que el ultimo nodo
+        this->listaPersonas->insertarAlFinal(nodoPersona->persona);
+        return ;
+    }if(nodoPersona->persona->ID < this->listaPersonas->primerNodo->persona->ID){
+        //Es menor que el primer nodo
+        this->listaPersonas->insertarAlInicio(nodoPersona->persona);
+        return ;
     }
-
+    while (!esHoja(arbol)){//Mientras no sea hoja baja
+        if (arbol->nodoPersona->persona->ID==nodoPersona->persona->ID){
+            return;//se sale de la funcion
+        }else if(arbol->nodoPersona->persona->ID < nodoPersona->persona->ID){
+            arbol=arbol->hijoderecho;//baja hacia la derecha
+        }else if (arbol->nodoPersona->persona->ID > nodoPersona->persona->ID){
+            arbol=arbol->hijoizquierdo;//baja hacia la izquierda
+        }else{
+            qDebug()<<"NUNCA DEBERIA ENTRAR AQUI";
+        }
+    }
+     //Usa hojas
+    if (nodoPersona->persona->ID > arbol->nodoPersona->persona->ID){//usa las hojas para buscar donde insertar
+        //Es mayor que la hoja
+        this->listaPersonas->insertarMayor(arbol->nodoPersona,nodoPersona->persona);
+    }else{
+        //Es menor que la hoja
+        this->listaPersonas->insertarMenor(arbol->nodoPersona,nodoPersona->persona);
+    }
 }
 void ArbolMundo::mostrarArbol(NodoArbol*arbol , int cont){
     //qDebug()<<"MOSTRAR ARBOL";//si entra aqui
