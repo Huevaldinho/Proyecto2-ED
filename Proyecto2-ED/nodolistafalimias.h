@@ -11,6 +11,7 @@ class NodoListaFalimias{
         NodoListaFalimias * anterior;//Familia anterior
         NodoListaFalimias();
         NodoListaFalimias(NodoArbol *);
+        void imprimir();
 };
 
 #endif // NODOLISTAFALIMIAS_H

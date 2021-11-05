@@ -26,7 +26,7 @@ void ArbolMundo::insertarNodo(NodoArbol*&arbol, Nodo * _nodoPersona,NodoArbol* _
     }
 }
 bool ArbolMundo::esHoja(NodoArbol * arbol){
-    if (arbol->hijoderecho==NULL && arbol->hijoizquierdo==NULL)
+    if ((arbol->hijoderecho==NULL) && (arbol->hijoizquierdo==NULL))
         return true;
     return false;
 }
@@ -45,12 +45,19 @@ void ArbolMundo::insertarAListaDesdeArbol(NodoArbol *arbol,Nodo * nodoPersona){
         if (arbol->nodoPersona->persona->ID==nodoPersona->persona->ID){
             return;//se sale de la funcion
         }else if(arbol->nodoPersona->persona->ID < nodoPersona->persona->ID){
+            if(arbol->hijoderecho==NULL){
+                qDebug()<<"El arbol se hizo null y para que no se caiga se sale del ciclo";
+                break;
+            }
             arbol=arbol->hijoderecho;//baja hacia la derecha
         }else if (arbol->nodoPersona->persona->ID > nodoPersona->persona->ID){
+            if(arbol->hijoizquierdo==NULL){
+                qDebug()<<"El arbol se hizo null y para que no se caiga se sale del ciclo";
+                break;
+            }
             arbol=arbol->hijoizquierdo;//baja hacia la izquierda
-        }else{
-            qDebug()<<"NUNCA DEBERIA ENTRAR AQUI";
         }
+
     }
      //Usa hojas
     if (nodoPersona->persona->ID > arbol->nodoPersona->persona->ID){//usa las hojas para buscar donde insertar

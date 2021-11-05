@@ -64,34 +64,36 @@ NodoArbol * ArbolFamilia::balance(NodoArbol * t){
     }
     return t;
 }
-NodoArbol * ArbolFamilia::insert(NodoArbol* r, Nodo * persona){
+NodoArbol * ArbolFamilia::insert(NodoArbol * r, Nodo * persona){
     if (r == NULL) {
        r = new NodoArbol;
        r->nodoPersona=persona;
        r->hijoizquierdo = NULL;
        r->hijoderecho = NULL;
+       //qDebug()<<"ArbolFamilia insert: "<<r->nodoPersona->persona->apellido<<" arbol familia: "<<this->apellidoFamilia;
        return r;
-    } else if (persona->persona->ID < r->hijoderecho->nodoPersona->persona->ID) {
+    }else if(persona->persona->ID < r->nodoPersona->persona->ID) {
        r->hijoizquierdo = insert(r->hijoizquierdo, persona);
        r = balance(r);
-    } else if (persona->persona->ID >= r->hijoderecho->nodoPersona->persona->ID) {
+    } else if (persona->persona->ID >= r->nodoPersona->persona->ID) {
        r->hijoderecho = insert(r->hijoderecho, persona);
        r = balance(r);
     } return r;
 }
 void ArbolFamilia::show(NodoArbol* arbol, int cont){
+    //qDebug()<<"Show arbol";//si entra aqui
 //    int i;
-//    if (p != NULL) {
-//       show(p->hijoderecho, l+ 1);
+//    if (arbol != NULL) {
+//       show(arbol->hijoderecho, cont+ 1);
 //       std::cout<<" ";
-//       if (p->nodoPersona->persona->ID == this->raiz->nodoPersona->persona->ID)
-//          cout << "Root -> ";
-//       for (i = 0; i < l&& p->nodoPersona->persona->ID != this->raiz->nodoPersona->persona->ID; i++)
-//          std::cout << " ";
-//          std::cout << p->hijoderecho->nodoPersona->persona->ID;
-//          show(p->hijoizquierdo, l + 1);
+//       if (arbol->nodoPersona->persona->ID == this->raiz->nodoPersona->persona->ID)
+//          std::cout << "Root -> ";
+//       for (i = 0; i < cont && arbol->nodoPersona->persona->ID != this->raiz->nodoPersona->persona->ID; i++)
+//            std::cout << " ";
+//        std::cout << arbol->hijoderecho->nodoPersona->persona->ID;
+//        show(arbol->hijoizquierdo, cont + 1);
 //    }
-    //qDebug()<<"MOSTRAR ARBOL";//si entra aqui
+
     if (arbol == NULL) {
         return;
     }
@@ -108,7 +110,8 @@ void ArbolFamilia::inorder(NodoArbol * t){
     if (t == NULL)
        return;
    inorder(t->hijoizquierdo);
-   std::cout << t->nodoPersona->persona->ID << " ";
+   //std::cout << t->nodoPersona->persona->ID << " ";
+   qDebug()<<t->nodoPersona->persona->ID<<" ";
    inorder(t->hijoderecho);
 }
 void ArbolFamilia::preorder(NodoArbol * t){

@@ -156,8 +156,6 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-            //this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-            //this->listaCentros->insertarAlFinal(tmpDerecho->persona);
             this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
             this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
@@ -170,8 +168,6 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-//            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-//            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
@@ -184,8 +180,6 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-//          this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-//          this->listaCentros->insertarAlFinal(tmpDerecho->persona);
             this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
             this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
@@ -198,15 +192,11 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-//            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-//            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
         }
         case 3:{//1 15
-//            this->listaCentros->insertarAlFinal(this->listaPersonas->primerNodo->persona);
-//            this->listaCentros->insertarAlFinal(this->listaPersonas->ultimoNodo->persona);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,this->listaPersonas->primerNodo,NULL);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,this->listaPersonas->ultimoNodo,NULL);
             break;
@@ -219,14 +209,11 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-//            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-//            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
         }
         case 1:{
-            //Este es un salto mas un tercio o algo asi
             while (contador<bloques-(bloques/3)){
                 if (tmpIzquierdo->anterior!=NULL)
                     tmpIzquierdo=tmpIzquierdo->anterior;
@@ -234,8 +221,6 @@ void Mundo::SacarMitades(int bloques,int ciclos){
                     tmpDerecho=tmpDerecho->siguiente;
                 contador++;
             }
-//            this->listaCentros->insertarAlFinal(tmpIzquierdo->persona);
-//            this->listaCentros->insertarAlFinal(tmpDerecho->persona);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
               this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
             break;
@@ -246,8 +231,6 @@ void Mundo::SacarMitades(int bloques,int ciclos){
         contador=0;
         ciclos--;
     }
-//    qDebug()<<"LISTA CENTROS:";
-//    this->listaCentros->imprimir();
 }
 //Si tiene un modulo 1000 en el mundo puede generar otro arbol
 bool Mundo::PuedoGenerarArbol(int n){

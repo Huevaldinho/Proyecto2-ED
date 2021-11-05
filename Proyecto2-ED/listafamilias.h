@@ -12,6 +12,8 @@ class ListaFamilias{
         bool estaVacia();
         void insertarFamilia(Nodo *);//recibe un nodoPersona (tiene persona, padre, hijoDerecho y izquierdo)
         NodoListaFalimias * buscarFamilia(QString apellido, QString pais);
+        void imprimir();
+        void verMiembrosFamilia();
 
 
 };
