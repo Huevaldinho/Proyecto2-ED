@@ -122,7 +122,7 @@ void Mundo::GenerarNpersonas(int n){
         }
         //Despues de insertarlo en la lista lo va a meter a un arbol de familia
         this->listaFamilias->insertarFamilia(new Nodo(tmp));//Mete al mae al arbol familia
-        //falta darle los hijos
+        //los hijos se le agregan en insertarFamilia
 
         tmp = NULL;
     }

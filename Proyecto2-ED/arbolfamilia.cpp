@@ -81,23 +81,9 @@ NodoArbol * ArbolFamilia::insert(NodoArbol * r, Nodo * persona){
     } return r;
 }
 void ArbolFamilia::show(NodoArbol* arbol, int cont){
-    //qDebug()<<"Show arbol";//si entra aqui
-//    int i;
-//    if (arbol != NULL) {
-//       show(arbol->hijoderecho, cont+ 1);
-//       std::cout<<" ";
-//       if (arbol->nodoPersona->persona->ID == this->raiz->nodoPersona->persona->ID)
-//          std::cout << "Root -> ";
-//       for (i = 0; i < cont && arbol->nodoPersona->persona->ID != this->raiz->nodoPersona->persona->ID; i++)
-//            std::cout << " ";
-//        std::cout << arbol->hijoderecho->nodoPersona->persona->ID;
-//        show(arbol->hijoizquierdo, cont + 1);
-//    }
-
     if (arbol == NULL) {
         return;
-    }
-    else {
+    }else{
         show(arbol->hijoderecho, cont + 1);
         for (int i = 0; i < cont; i++) {
             std::cout <<"    ";
@@ -109,20 +95,26 @@ void ArbolFamilia::show(NodoArbol* arbol, int cont){
         show(arbol->hijoizquierdo, cont + 1);
     }
 }
-void ArbolFamilia::agregarHijos(NodoArbol * raiz,Persona * padre,int hijos){
+void ArbolFamilia::agregarHijos(NodoArbol * raiz,Persona * padre,int hijosDeseados){
     //recorre todo el arbol buscando personas sin padre para agregarlos a una lista de hijos
     if (raiz == NULL)
        return;
+    if (hijosDeseados==0)
+        return;
    if (raiz->nodoPersona->persona->ID!=padre->ID){//No puede agregarse a si mismo como hijo
-        if (raiz->nodoPersona->persona->padre!=NULL){//Esta disponible para ser hijo
+        if (raiz->nodoPersona->persona->padre==NULL){//Esta disponible para ser hijo
             padre->hijos->insertarAlFinal(raiz->nodoPersona->persona);//Pone al hijo en la lista del papa
             raiz->nodoPersona->persona->padre=padre;//Le pone el papa al hijo
-            hijos--;
+            hijosDeseados--;
+            padre->cantidadHijos=padre->hijos->largo;//Actualiza la cantidad de hijos del mae
+            //qDebug()<<"AGREGA UN HIJO";
         }
    }
-   agregarHijos(raiz->hijoizquierdo,padre,hijos);
-   agregarHijos(raiz->hijoderecho,padre,hijos);
+   agregarHijos(raiz->hijoizquierdo,padre,hijosDeseados);
+   agregarHijos(raiz->hijoderecho,padre,hijosDeseados);
+
    //return hijos y este se le asigna a persona->cantidadHijos
+
 }
 void ArbolFamilia::inorder(NodoArbol * t){
     if (t == NULL)

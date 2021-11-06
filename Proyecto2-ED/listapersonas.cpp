@@ -88,6 +88,10 @@ void ListaPersonas::insertarDesdeArbol(Nodo * tmp,Persona * persona){
     //o hacia atras.
     Nodo * nuevo = new Nodo(persona);
     while (tmp!=NULL){
+        if (tmp->persona->ID==persona->ID){//Repetido
+            this->largo--;
+            break;
+        }
         if (persona->ID<tmp->persona->ID){//si la que quiero meter es menor a la hoja
             if (tmp->anterior==NULL){
                 insertarAlInicio(persona);
@@ -254,16 +258,16 @@ Nodo * ListaPersonas::buscarMitad(){
 }
 void ListaPersonas::imprimirSoloHijos(Nodo * primerHijo){
     qDebug()<<"Hijos: ";
-
     while (primerHijo!=NULL) {
-        qDebug()<<primerHijo->persona->apellido<<primerHijo->persona->nombre<<primerHijo->persona->padre->apellido;
+        qDebug()<<"\t"<<primerHijo->persona->apellido<<primerHijo->persona->nombre<<primerHijo->persona->ID;
         primerHijo=primerHijo->siguiente;
     }
+    qDebug();
 }
 void ListaPersonas::imprimirConHijos(){
     Nodo * tmp=this->primerNodo;
     while (tmp!=NULL){
-        qDebug()<<"Padre: "<<tmp->persona->apellido<<tmp->persona->nombre;
+        qDebug()<<"Padre: "<<tmp->persona->apellido<<tmp->persona->nombre<<tmp->persona->ID<<"Cantidad de hijos: "<<tmp->persona->cantidadHijos;
         imprimirSoloHijos(tmp->persona->hijos->primerNodo);
         tmp=tmp->siguiente;
     }

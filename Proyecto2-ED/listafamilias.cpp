@@ -20,7 +20,6 @@ void ListaFamilias::insertarFamilia(Nodo * nodoPersona){//recibe un nodoPersona 
         buscado->familia->raiz = buscado->familia->insert(buscado->familia->raiz,nodoPersona);//NodoArbol*,  Nodo * persona
         //Le agrega hijos
         buscado->familia->agregarHijos(buscado->familia->raiz,nodoPersona->persona,nodoPersona->persona->cantidadHijos);
-         //qDebug()<<"Inserta en existente \n nodoPersona"<<nodoPersona->persona->apellido<<" - familia: "<<buscado->familia->apellidoFamilia<<" - pais: "<<nodoPersona->persona->pais<<" - "<<buscado->familia->paisFamilia;
         this->largo--;//NO se agrega nodos a la lista porque ya existia
     }else{//No existe esa familia
         //Esta parte crea un arbol familia en new NoroListaFalimias
