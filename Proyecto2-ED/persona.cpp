@@ -2,6 +2,7 @@
 
 Persona::Persona(){
     this->estado=0;
+    this->cantidadHijos=0;
     this->ID = -1;           //ID unico, lo inicio en -1 para que se entienda que este no se le ha asignado ID
     //Los QString siempre se instancian como "", no hay necesidad de limpiarlos
     this->fechaNacimiento = QDate::currentDate();  //Fecha de nacimiento //Se limpia?
@@ -11,6 +12,7 @@ Persona::Persona(){
         this->pecados[i]=0;
         this->buenasAcciones[i]=0;
     }
+    this->padre=NULL;
     this->hijos = new ListaPersonas();
 }
 //ID,Nombre,Apellido,Pais,Creencia,Profesion
@@ -30,6 +32,7 @@ Persona::Persona(int _ID,QString _nombre,QString _apellido,QString _pais,QString
         this->pecados[i]=0;
         this->buenasAcciones[i]=0;
     }
+    this->padre=NULL;
     this->hijos = new ListaPersonas();
 
 }

@@ -252,3 +252,19 @@ Nodo * ListaPersonas::buscarMitad(){
     }
     return NULL;
 }
+void ListaPersonas::imprimirSoloHijos(Nodo * primerHijo){
+    qDebug()<<"Hijos: ";
+
+    while (primerHijo!=NULL) {
+        qDebug()<<primerHijo->persona->apellido<<primerHijo->persona->nombre<<primerHijo->persona->padre->apellido;
+        primerHijo=primerHijo->siguiente;
+    }
+}
+void ListaPersonas::imprimirConHijos(){
+    Nodo * tmp=this->primerNodo;
+    while (tmp!=NULL){
+        qDebug()<<"Padre: "<<tmp->persona->apellido<<tmp->persona->nombre;
+        imprimirSoloHijos(tmp->persona->hijos->primerNodo);
+        tmp=tmp->siguiente;
+    }
+}

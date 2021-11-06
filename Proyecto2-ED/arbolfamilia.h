@@ -22,6 +22,8 @@ class ArbolFamilia{
         void inorder(NodoArbol *);//Listo
         void preorder(NodoArbol *);//Listo
         void postorder(NodoArbol*);//Listo
+        void agregarHijos(NodoArbol *,Persona * padre,int cantidadHijosAinsertar);//Recibe una raiz para empezar a buscar
+        //se le pasa el padre porque el hijo tiene que saber quien es su padre
 
 };
 

@@ -46,13 +46,13 @@ void ArbolMundo::insertarAListaDesdeArbol(NodoArbol *arbol,Nodo * nodoPersona){
             return;//se sale de la funcion
         }else if(arbol->nodoPersona->persona->ID < nodoPersona->persona->ID){
             if(arbol->hijoderecho==NULL){
-                qDebug()<<"El arbol se hizo null y para que no se caiga se sale del ciclo";
+                //qDebug()<<"El arbol se hizo null y para que no se caiga se sale del ciclo";
                 break;
             }
             arbol=arbol->hijoderecho;//baja hacia la derecha
         }else if (arbol->nodoPersona->persona->ID > nodoPersona->persona->ID){
             if(arbol->hijoizquierdo==NULL){
-                qDebug()<<"El arbol se hizo null y para que no se caiga se sale del ciclo";
+                //qDebug()<<"El arbol se hizo null y para que no se caiga se sale del ciclo";
                 break;
             }
             arbol=arbol->hijoizquierdo;//baja hacia la izquierda
@@ -71,6 +71,7 @@ void ArbolMundo::insertarAListaDesdeArbol(NodoArbol *arbol,Nodo * nodoPersona){
 void ArbolMundo::mostrarArbol(NodoArbol*arbol , int cont){
     //qDebug()<<"MOSTRAR ARBOL";//si entra aqui
     if (arbol == NULL) {
+        //qDebug()<<"Raiz null";
         return;
     }
     else {

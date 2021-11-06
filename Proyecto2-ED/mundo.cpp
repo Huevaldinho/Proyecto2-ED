@@ -94,7 +94,7 @@ QString Mundo::GenerarCorreo(QString nombre, QString apellido){
     return correo;
 }
 Persona * Mundo::generarPersona(){
-    int variable = 0 + rand() % (0 +1 - 4);//cantidad de hijos
+    int hijos = 0 + rand() % (0 +1 - 6);//cantidad de hijos 0-4
 
     int id = GenerarIDRandom();
     QString apellido = GenerarApellidoRandom();
@@ -104,15 +104,8 @@ Persona * Mundo::generarPersona(){
     QString creencia = GenerarCreenciaRandom();
     QString correo = GenerarCorreo(nombre,apellido);
     Persona * persona = new Persona(id,nombre,apellido,pais,creencia,profesion,correo);
+    persona->cantidadHijos=hijos;
 
-//    if (variable != 0){
-//        while (variable>0){
-//            QString nombreHijo = GenerarNombreRandom();
-
-//            persona->hijos->insertarAlFinal(new Persona(GenerarIDRandom(),nombreHijo,apellido,pais,GenerarCreenciaRandom(),GenerarProfesionRandom(),GenerarCorreo(nombreHijo,apellido)));
-//            variable--;
-//        }
-//    }
     return persona;
 
 }
@@ -128,6 +121,8 @@ void Mundo::GenerarNpersonas(int n){
             this->listaPersonas->insertadoEspecialOrdenadoMenorAMayor(tmp);
         }
         //Despues de insertarlo en la lista lo va a meter a un arbol de familia
+        this->listaFamilias->insertarFamilia(new Nodo(tmp));//Mete al mae al arbol familia
+        //falta darle los hijos
 
         tmp = NULL;
     }
@@ -255,7 +250,7 @@ bool Mundo::PuedoGenerarArbol(int n){
             nodoAinsertarEnArbol+=(pow(2,i)-nodoAinsertarEnArbol-1);//Se le suma lo que faltaba para llegar a la potencia del 2,
             double bloques=trunc(this->listaPersonas->largo/nodoAinsertarEnArbol);
             SacarMitades(bloques,nodoAinsertarEnArbol);//aqui mismo se inserta al arbol
-            this->arbolMundo->mostrarArbol(this->arbolMundo->raiz,0);
+            //this->arbolMundo->mostrarArbol(this->arbolMundo->raiz,0);
             return true;
     }
     return false;

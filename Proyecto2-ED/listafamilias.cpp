@@ -18,6 +18,8 @@ void ListaFamilias::insertarFamilia(Nodo * nodoPersona){//recibe un nodoPersona 
         //Manda a insertar al mae al arbol de la familia
         //qDebug()<<"Raiz de familia "<<buscado->familia->apellidoFamilia<<" es: "<<buscado->familia->raiz;
         buscado->familia->raiz = buscado->familia->insert(buscado->familia->raiz,nodoPersona);//NodoArbol*,  Nodo * persona
+        //Le agrega hijos
+        buscado->familia->agregarHijos(buscado->familia->raiz,nodoPersona->persona,nodoPersona->persona->cantidadHijos);
          //qDebug()<<"Inserta en existente \n nodoPersona"<<nodoPersona->persona->apellido<<" - familia: "<<buscado->familia->apellidoFamilia<<" - pais: "<<nodoPersona->persona->pais<<" - "<<buscado->familia->paisFamilia;
         this->largo--;//NO se agrega nodos a la lista porque ya existia
     }else{//No existe esa familia
@@ -67,11 +69,11 @@ void ListaFamilias::verMiembrosFamilia(){
     while (tmp!=NULL){
         qDebug()<<"Apellido: "<<tmp->familia->apellidoFamilia<<" - pais: "<<tmp->familia->paisFamilia;
         //qDebug()<<"Raiz: "<<tmp->familia->raiz->nodoPersona->persona->ID;//TODOS TIENEN RAIZ
-        //tmp->familia->show(tmp->familia->raiz,0);//pero por que si todos tienen raiz no siempre imprime el arbol
+        tmp->familia->show(tmp->familia->raiz,0);//pero por que si todos tienen raiz no siempre imprime el arbol
         //creo que el show no funciona por el std::cout
-        tmp->familia->inorder(tmp->familia->raiz);
-
+//        qDebug()<<"Preorder";
+//        tmp->familia->preorder(tmp->familia->raiz);
         tmp=tmp->siguiente;
     }
-    qDebug()<<"Termina de ver miembros familia";
+    qDebug()<<"Termina verMiembrosFamilia";
 }

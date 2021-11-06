@@ -102,9 +102,27 @@ void ArbolFamilia::show(NodoArbol* arbol, int cont){
         for (int i = 0; i < cont; i++) {
             std::cout <<"    ";
         }
-        std::cout << arbol->nodoPersona->persona->ID << endl;
+        //std::cout << arbol->nodoPersona->persona->ID << endl;
+        qDebug()<< arbol->nodoPersona->persona->ID;
+        //Muestra apellido,nombre,pais
+        //qDebug()<<"\t"<<arbol->nodoPersona->persona->apellido<<arbol->nodoPersona->persona->nombre<<arbol->nodoPersona->persona->pais;
         show(arbol->hijoizquierdo, cont + 1);
     }
+}
+void ArbolFamilia::agregarHijos(NodoArbol * raiz,Persona * padre,int hijos){
+    //recorre todo el arbol buscando personas sin padre para agregarlos a una lista de hijos
+    if (raiz == NULL)
+       return;
+   if (raiz->nodoPersona->persona->ID!=padre->ID){//No puede agregarse a si mismo como hijo
+        if (raiz->nodoPersona->persona->padre!=NULL){//Esta disponible para ser hijo
+            padre->hijos->insertarAlFinal(raiz->nodoPersona->persona);//Pone al hijo en la lista del papa
+            raiz->nodoPersona->persona->padre=padre;//Le pone el papa al hijo
+            hijos--;
+        }
+   }
+   agregarHijos(raiz->hijoizquierdo,padre,hijos);
+   agregarHijos(raiz->hijoderecho,padre,hijos);
+   //return hijos y este se le asigna a persona->cantidadHijos
 }
 void ArbolFamilia::inorder(NodoArbol * t){
     if (t == NULL)
@@ -117,7 +135,8 @@ void ArbolFamilia::inorder(NodoArbol * t){
 void ArbolFamilia::preorder(NodoArbol * t){
     if (t == NULL)
        return;
-   std::cout << t->nodoPersona->persona->ID << " ";
+   //std::cout << t->nodoPersona->persona->ID << " ";
+   qDebug()<<t->nodoPersona->persona->ID;
    preorder(t->hijoizquierdo);
    preorder(t->hijoderecho);
 }
@@ -126,5 +145,6 @@ void ArbolFamilia::postorder(NodoArbol* t){
        return;
    postorder(t ->hijoizquierdo);
    postorder(t ->hijoderecho);
-   std::cout << t->nodoPersona->persona->ID << " ";
+   //std::cout << t->nodoPersona->persona->ID << " ";
+   qDebug()<<t->nodoPersona->persona->ID ;
 }

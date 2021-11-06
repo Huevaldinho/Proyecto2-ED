@@ -22,6 +22,8 @@ class ListaPersonas{
         //Falta Insertar en orden
         void imprimir();
         void imprimirDesdeElFinal();
+        void imprimirSoloHijos(Nodo *);
+        void imprimirConHijos();
         Nodo * borrarAlInicio();
         Nodo * borrarAlFinal();
         Nodo * buscar(Persona *);

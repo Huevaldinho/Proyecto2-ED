@@ -19,6 +19,7 @@ class Persona{
         int pecados[7];         //Pecados
         int buenasAcciones[7];  //Buenas acciones
         Persona * padre;
+        int cantidadHijos;
         ListaPersonas * hijos;// o es mejor hacer dos punteros, uno de Padre y otro de Hijo?
 
         Persona();
