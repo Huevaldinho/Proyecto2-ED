@@ -34,6 +34,7 @@ HEADERS += \
     nodo.h \
     nodoarbol.h \
     nodolistafalimias.h \
+    pais.h \
     persona.h
 
 FORMS += \

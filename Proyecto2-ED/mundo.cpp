@@ -28,21 +28,24 @@ Mundo::Mundo(){
 int Mundo::GenerarIDRandom(){
     int limite_inferior = 0;
     int limite_superior=this->maximoHumanos;
-    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    uniform_int_distribution<int> distribution (limite_inferior,limite_superior); //random
+    int variable = distribution(*QRandomGenerator::global());
     return variable;
 }
 //Retorna apellido random de la lista
 QString Mundo::GenerarApellidoRandom(){
     int limite_inferior = 0;
     int limite_superior=this->cantidadApellidos-1;
-    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    uniform_int_distribution<int> distribution (limite_inferior,limite_superior); //random
+    int variable = distribution(*QRandomGenerator::global());
     return apellidos[variable];
 }
 //Retorna nombre random de la lista
 QString Mundo::GenerarNombreRandom(){
     int limite_inferior = 0;
     int limite_superior=this->cantidadNombres-1;
-    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    uniform_int_distribution<int> distribution (limite_inferior,limite_superior); //random
+    int variable = distribution(*QRandomGenerator::global());
     return nombres[variable];
 
 }
@@ -50,7 +53,8 @@ QString Mundo::GenerarNombreRandom(){
 QString Mundo::GenerarPaisRandom(){
     int limite_inferior = 0;
     int limite_superior=this->cantidadPaises-1;
-    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    uniform_int_distribution<int> distribution (limite_inferior,limite_superior); //random
+    int variable = distribution(*QRandomGenerator::global());
     return paises[variable];
 
 }
@@ -58,7 +62,8 @@ QString Mundo::GenerarPaisRandom(){
 QString Mundo::GenerarProfesionRandom(){
     int limite_inferior = 0;
     int limite_superior=this->cantidadProfesiones-1;
-    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    uniform_int_distribution<int> distribution (limite_inferior,limite_superior); //random
+    int variable = distribution(*QRandomGenerator::global());
     return profesiones[variable];
 
 }
@@ -66,12 +71,14 @@ QString Mundo::GenerarProfesionRandom(){
 QString Mundo::GenerarCreenciaRandom(){
     int limite_inferior = 0;
     int limite_superior=this->cantidadCreencias-1;
-    int variable = limite_inferior + rand() % (limite_superior +1 - limite_inferior) ;
+    uniform_int_distribution<int> distribution (limite_inferior,limite_superior); //random
+    int variable = distribution(*QRandomGenerator::global());
     return creencias[variable];
 
 }
 QString Mundo::GenerarCorreo(QString nombre, QString apellido){
-    int variable = 0 + rand() % (0 +1 - 3);
+    uniform_int_distribution<int> distribution (1,3); //random
+    int variable = distribution(*QRandomGenerator::global());
 
     for (int i=0;i<apellido.size();i++){
         if (apellido[i].isUpper()){
@@ -94,7 +101,8 @@ QString Mundo::GenerarCorreo(QString nombre, QString apellido){
     return correo;
 }
 Persona * Mundo::generarPersona(){
-    int hijos = 0 + rand() % (0 +1 - 6);//cantidad de hijos 0-4
+    uniform_int_distribution<int> distribution (0,4); //random
+    int hijos = distribution(*QRandomGenerator::global()); //random hijos 0-4
 
     int id = GenerarIDRandom();
     QString apellido = GenerarApellidoRandom();
@@ -256,21 +264,94 @@ bool Mundo::PuedoGenerarArbol(int n){
     return false;
 }
 
+void Mundo::generarPecados(){
+    uniform_int_distribution<int> distribution (0,100); //random
+    Nodo*tmp = this->listaPersonas->primerNodo;
+    while (tmp!=NULL){
+        tmp->persona->pecados[0]+=distribution(*QRandomGenerator::global());
+        tmp->persona->pecados[1]+=distribution(*QRandomGenerator::global());
+        tmp->persona->pecados[2]+=distribution(*QRandomGenerator::global());
+        tmp->persona->pecados[3]+=distribution(*QRandomGenerator::global());
+        tmp->persona->pecados[4]+=distribution(*QRandomGenerator::global());
+        tmp->persona->pecados[5]+=distribution(*QRandomGenerator::global());
+        tmp->persona->pecados[6]+=distribution(*QRandomGenerator::global());
 
-//void Mundo::generarMundo(int n){
-//    Persona * tmp = NULL;
-//    for (int i = 0; i<=100 ; i++){
-//        tmp = generarPersona();
-//        tmp->ID=i+1;
-//        this->listaPersonas->insertarAlFinal(tmp);
-//    } // ya hay 100 personas base en la lista
-//    int unoPorciento = n*0.01;
-//    int cntNodosArbol = cantidadNivelesArbol(unoPorciento);
-//    int bloque = n/cntNodosArbol;
-//}
-//int Mundo::cantidadNivelesArbol(int unoPorciento){
-//    int exp = 0;
-//    while (pow(2,exp)<unoPorciento)
-//        exp++;
-//    return pow (2,exp)-1;
-//}
+        if (tmp->persona->hijos->primerNodo!=NULL){
+            Nodo*tmpHijo = tmp->persona->hijos->primerNodo;
+            while (tmpHijo!=NULL){
+                tmpHijo->persona->pecados[0]+=(tmp->persona->pecados[0]*0.5);
+                tmpHijo->persona->pecados[1]+=(tmp->persona->pecados[1]*0.5);
+                tmpHijo->persona->pecados[2]+=(tmp->persona->pecados[2]*0.5);
+                tmpHijo->persona->pecados[3]+=(tmp->persona->pecados[3]*0.5);
+                tmpHijo->persona->pecados[4]+=(tmp->persona->pecados[4]*0.5);
+                tmpHijo->persona->pecados[5]+=(tmp->persona->pecados[5]*0.5);
+                tmpHijo->persona->pecados[6]+=(tmp->persona->pecados[6]*0.5);
+
+                if (tmpHijo->persona->hijos->primerNodo!=NULL){
+                    Nodo*tmpNieto = tmpHijo->persona->hijos->primerNodo;
+                    while (tmpNieto!=NULL){
+                        tmpNieto->persona->pecados[0]+=(tmp->persona->pecados[0]*0.25);
+                        tmpNieto->persona->pecados[1]+=(tmp->persona->pecados[1]*0.25);
+                        tmpNieto->persona->pecados[2]+=(tmp->persona->pecados[2]*0.25);
+                        tmpNieto->persona->pecados[3]+=(tmp->persona->pecados[3]*0.25);
+                        tmpNieto->persona->pecados[4]+=(tmp->persona->pecados[4]*0.25);
+                        tmpNieto->persona->pecados[5]+=(tmp->persona->pecados[5]*0.25);
+                        tmpNieto->persona->pecados[6]+=(tmp->persona->pecados[6]*0.25);
+
+                        tmpNieto=tmpNieto->siguiente;
+                    }
+                }
+                tmpHijo=tmpHijo->siguiente;
+            }
+        }
+        tmp=tmp->siguiente;
+    }
+
+}
+void Mundo::generarBuenasAcciones(){
+    uniform_int_distribution<int> distribution (0,100); //random
+    Nodo*tmp = this->listaPersonas->primerNodo;
+    while (tmp!=NULL){
+
+        tmp->persona->buenasAcciones[0]+=distribution(*QRandomGenerator::global());
+        tmp->persona->buenasAcciones[1]+=distribution(*QRandomGenerator::global());
+        tmp->persona->buenasAcciones[2]+=distribution(*QRandomGenerator::global());
+        tmp->persona->buenasAcciones[3]+=distribution(*QRandomGenerator::global());
+        tmp->persona->buenasAcciones[4]+=distribution(*QRandomGenerator::global());
+        tmp->persona->buenasAcciones[5]+=distribution(*QRandomGenerator::global());
+        tmp->persona->buenasAcciones[6]+=distribution(*QRandomGenerator::global());
+
+        if (tmp->persona->hijos->primerNodo!=NULL){
+            Nodo*tmpHijo = tmp->persona->hijos->primerNodo;
+            while (tmpHijo!=NULL){
+
+                tmpHijo->persona->buenasAcciones[0]+=(tmp->persona->buenasAcciones[0]*0.5);
+                tmpHijo->persona->buenasAcciones[1]+=(tmp->persona->buenasAcciones[1]*0.5);
+                tmpHijo->persona->buenasAcciones[2]+=(tmp->persona->buenasAcciones[2]*0.5);
+                tmpHijo->persona->buenasAcciones[3]+=(tmp->persona->buenasAcciones[3]*0.5);
+                tmpHijo->persona->buenasAcciones[4]+=(tmp->persona->buenasAcciones[4]*0.5);
+                tmpHijo->persona->buenasAcciones[5]+=(tmp->persona->buenasAcciones[5]*0.5);
+                tmpHijo->persona->buenasAcciones[6]+=(tmp->persona->buenasAcciones[6]*0.5);
+
+                if (tmpHijo->persona->hijos->primerNodo!=NULL){
+                    Nodo*tmpNieto = tmpHijo->persona->hijos->primerNodo;
+                    while (tmpNieto!=NULL){
+
+                        tmpNieto->persona->buenasAcciones[0]+=(tmp->persona->buenasAcciones[0]*0.25);
+                        tmpNieto->persona->buenasAcciones[1]+=(tmp->persona->buenasAcciones[1]*0.25);
+                        tmpNieto->persona->buenasAcciones[2]+=(tmp->persona->buenasAcciones[2]*0.25);
+                        tmpNieto->persona->buenasAcciones[3]+=(tmp->persona->buenasAcciones[3]*0.25);
+                        tmpNieto->persona->buenasAcciones[4]+=(tmp->persona->buenasAcciones[4]*0.25);
+                        tmpNieto->persona->buenasAcciones[5]+=(tmp->persona->buenasAcciones[5]*0.25);
+                        tmpNieto->persona->buenasAcciones[6]+=(tmp->persona->buenasAcciones[6]*0.25);
+
+                        tmpNieto=tmpNieto->siguiente;
+                    }
+                }
+                tmpHijo=tmpHijo->siguiente;
+            }
+        }
+        tmp=tmp->siguiente;
+    }
+
+}

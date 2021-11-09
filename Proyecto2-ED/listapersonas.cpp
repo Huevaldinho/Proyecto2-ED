@@ -269,6 +269,10 @@ void ListaPersonas::imprimirConHijos(){
     while (tmp!=NULL){
         qDebug()<<"Padre: "<<tmp->persona->apellido<<tmp->persona->nombre<<tmp->persona->ID<<"Cantidad de hijos: "<<tmp->persona->cantidadHijos;
         imprimirSoloHijos(tmp->persona->hijos->primerNodo);
+        for (int i = 0 ; i<7 ; i++){
+            qDebug()<<"Pecado"<< i<<": "<< tmp->persona->pecados[i];
+            qDebug()<<"Buena Acción"<< i<<": "<< tmp->persona->buenasAcciones[i];
+        }
         tmp=tmp->siguiente;
     }
 }

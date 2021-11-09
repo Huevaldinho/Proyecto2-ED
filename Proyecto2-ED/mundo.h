@@ -35,14 +35,25 @@ class Mundo{
         QString GenerarCreenciaRandom();
         QString GenerarCorreo(QString, QString);
 
+        Persona * generarPersona();
         void GenerarNpersonas(int);
         void  SacarMitades(int a,int b);
         bool PuedoGenerarArbol(int n);//utiliza n%cantidadHumanosParaCrearArbol
 
-        //yop jijijijijijiji
-        Persona * generarPersona();
-        void generarMundo(int);
-        int cantidadNivelesArbol(int);
+        void generarPecados();
+        void generarBuenasAcciones();
+
+        //consultaPE = consulta de pecados
+        Persona * consultaPEestadoFamilia(int); //devulve un arreglo con la información
+        Pais * consultaPEtop10mas();
+        Pais * consultaPEtop5menos();
+
+        //consultaBA = consulta de buenas acciones
+        Persona * consultaBAestadoFamilia(int); //devulve un arreglo con la información
+        Pais * consultaBAtop10mas();
+        Pais * consultaBAtop5menos();
+
+
 };
 
 

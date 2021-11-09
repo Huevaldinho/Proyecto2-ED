@@ -25,14 +25,17 @@ class NodoArbol;
 class ArbolFamilia;
 class ListaFamilias;
 class NodoListaFalimias;
+class Pais;
 
 #include <QString>
 #include <QDate>
 #include <QDateTime>
 #include <QDebug>
 #include <QFile>
+#include <QRandomGenerator>
 
 #include "mainwindow.h"
+#include "pais.h"
 #include "persona.h"
 #include "listapersonas.h"
 #include "mundo.h"
@@ -43,6 +46,8 @@ class NodoListaFalimias;
 #include "arbolfamilia.h"
 #include "listafamilias.h"
 #include "nodolistafalimias.h"
+
+
 using namespace std;
 
 

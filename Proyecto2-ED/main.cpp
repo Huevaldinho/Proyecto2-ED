@@ -30,7 +30,13 @@ int main(int argc, char *argv[]){
 //        mundo->listaFamilias->insertarFamilia(new Nodo(tmp));
 //    }
     //mundo->listaFamilias->verMiembrosFamilia();
+
+    mundo->generarPecados();
+    mundo->generarBuenasAcciones();
     mundo->listaPersonas->imprimirConHijos();
+    //mae se hace demasiado rapido, lo que se dura es porque se va imprimiendo, pero si lo comenta se hace en un segundo que leveeeel
+
+
     //Falta revisar que hacer cuando no hay cantiad suficiente para los hijos
     //me parece que una solucion es que la funcion que asigna los hijos retorne el contador que recibe,
     //ese contador cada vez que se inserta un hijo se disminuye y solo seria retornar

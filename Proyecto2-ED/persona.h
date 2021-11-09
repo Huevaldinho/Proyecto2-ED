@@ -25,6 +25,20 @@ class Persona{
         Persona();
         Persona(int,QString,QString,QString,QString,QString,QString);//ID,Nombre,Apellido,Pais,Creencia,Profesion
         void imprimir();
+
+/*                  Posicion en el arreglo
+        Pecados:                            Buenas acciones
+        0 - Lujuria                         0 - Castidad
+        1 - Gula                            1 - Ayuno
+        2 - Avaricia                        2 - Donación
+        3 - Pereza                          3 - Diligencia
+        4 - Ira                             4 - Calma
+        5 - Envidia                         5 - Solidaridad
+        6 - Soberbia                        6 - Humildad
+*/
+
+
+
 };
 
 #endif // PERSONA_H

@@ -52,24 +52,30 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = ../Proyecto2-ED/arbolmundo.cpp \
+SOURCES       = ../Proyecto2-ED/arbolfamilia.cpp \
+		../Proyecto2-ED/arbolmundo.cpp \
 		../Proyecto2-ED/archivos.cpp \
+		../Proyecto2-ED/listafamilias.cpp \
 		../Proyecto2-ED/listapersonas.cpp \
 		../Proyecto2-ED/main.cpp \
 		../Proyecto2-ED/mainwindow.cpp \
 		../Proyecto2-ED/mundo.cpp \
 		../Proyecto2-ED/nodo.cpp \
 		../Proyecto2-ED/nodoarbol.cpp \
+		../Proyecto2-ED/nodolistafalimias.cpp \
 		../Proyecto2-ED/persona.cpp qrc_rsc.cpp \
 		moc_mainwindow.cpp
-OBJECTS       = arbolmundo.o \
+OBJECTS       = arbolfamilia.o \
+		arbolmundo.o \
 		archivos.o \
+		listafamilias.o \
 		listapersonas.o \
 		main.o \
 		mainwindow.o \
 		mundo.o \
 		nodo.o \
 		nodoarbol.o \
+		nodolistafalimias.o \
 		persona.o \
 		qrc_rsc.o \
 		moc_mainwindow.o
@@ -202,21 +208,28 @@ DIST          = /Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/spec_pr
 		/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/yacc.prf \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/lex.prf \
 		../Proyecto2-ED/Proyecto2-ED.pro ../Proyecto2-ED/Estructuras.h \
+		../Proyecto2-ED/arbolfamilia.h \
 		../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/archivos.h \
+		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/listapersonas.h \
 		../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/nodoarbol.h \
-		../Proyecto2-ED/persona.h ../Proyecto2-ED/arbolmundo.cpp \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h \
+		../Proyecto2-ED/persona.h ../Proyecto2-ED/arbolfamilia.cpp \
+		../Proyecto2-ED/arbolmundo.cpp \
 		../Proyecto2-ED/archivos.cpp \
+		../Proyecto2-ED/listafamilias.cpp \
 		../Proyecto2-ED/listapersonas.cpp \
 		../Proyecto2-ED/main.cpp \
 		../Proyecto2-ED/mainwindow.cpp \
 		../Proyecto2-ED/mundo.cpp \
 		../Proyecto2-ED/nodo.cpp \
 		../Proyecto2-ED/nodoarbol.cpp \
+		../Proyecto2-ED/nodolistafalimias.cpp \
 		../Proyecto2-ED/persona.cpp
 QMAKE_TARGET  = Proyecto2-ED
 DESTDIR       = 
@@ -539,8 +552,8 @@ distdir: FORCE
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents ../Proyecto2-ED/rsc.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../Proyecto2-ED/Estructuras.h ../Proyecto2-ED/arbolmundo.h ../Proyecto2-ED/archivos.h ../Proyecto2-ED/listapersonas.h ../Proyecto2-ED/mainwindow.h ../Proyecto2-ED/mundo.h ../Proyecto2-ED/nodo.h ../Proyecto2-ED/nodoarbol.h ../Proyecto2-ED/persona.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/persona.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../Proyecto2-ED/Estructuras.h ../Proyecto2-ED/arbolfamilia.h ../Proyecto2-ED/arbolmundo.h ../Proyecto2-ED/archivos.h ../Proyecto2-ED/listafamilias.h ../Proyecto2-ED/listapersonas.h ../Proyecto2-ED/mainwindow.h ../Proyecto2-ED/mundo.h ../Proyecto2-ED/nodo.h ../Proyecto2-ED/nodoarbol.h ../Proyecto2-ED/nodolistafalimias.h ../Proyecto2-ED/pais.h ../Proyecto2-ED/persona.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/persona.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../Proyecto2-ED/mainwindow.ui $(DISTDIR)/
 
 
@@ -607,6 +620,8 @@ moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
@@ -615,6 +630,10 @@ moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h \
 		moc_predefs.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/libexec/moc
 	/Users/sebastianbermudez/Qt/6.1.3/macos/libexec/moc $(DEFINES) --include /Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/build-Proyecto2-ED-Qt_6_1_3_for_macOS-Debug/moc_predefs.h -I/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/macx-clang -I/Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/Proyecto2-ED -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers -I. -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/usr/include -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib ../Proyecto2-ED/mainwindow.h -o moc_mainwindow.cpp
@@ -642,6 +661,34 @@ compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_heade
 
 ####### Compile
 
+arbolfamilia.o: ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/Estructuras.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QString \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qstring.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDate \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdatetime.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDateTime \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDebug \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
+		../Proyecto2-ED/mainwindow.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+		../Proyecto2-ED/persona.h \
+		../Proyecto2-ED/listapersonas.h \
+		../Proyecto2-ED/mundo.h \
+		../Proyecto2-ED/nodo.h \
+		../Proyecto2-ED/archivos.h \
+		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o arbolfamilia.o ../Proyecto2-ED/arbolfamilia.cpp
+
 arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/Estructuras.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QString \
@@ -653,6 +700,8 @@ arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -661,7 +710,11 @@ arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o arbolmundo.o ../Proyecto2-ED/arbolmundo.cpp
 
 archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
@@ -675,6 +728,8 @@ archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -683,8 +738,40 @@ archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o archivos.o ../Proyecto2-ED/archivos.cpp
+
+listafamilias.o: ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/Estructuras.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QString \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qstring.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDate \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdatetime.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDateTime \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDebug \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
+		../Proyecto2-ED/mainwindow.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+		../Proyecto2-ED/persona.h \
+		../Proyecto2-ED/listapersonas.h \
+		../Proyecto2-ED/mundo.h \
+		../Proyecto2-ED/nodo.h \
+		../Proyecto2-ED/archivos.h \
+		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o listafamilias.o ../Proyecto2-ED/listafamilias.cpp
 
 listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas.h \
 		../Proyecto2-ED/Estructuras.h \
@@ -697,6 +784,8 @@ listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -705,7 +794,11 @@ listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o listapersonas.o ../Proyecto2-ED/listapersonas.cpp
 
 main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
@@ -721,6 +814,8 @@ main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
 		../Proyecto2-ED/mundo.h \
@@ -728,6 +823,10 @@ main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QApplication \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qapplication.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../Proyecto2-ED/main.cpp
@@ -745,6 +844,8 @@ mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
 		../Proyecto2-ED/mundo.h \
@@ -752,6 +853,10 @@ mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../Proyecto2-ED/mainwindow.cpp
 
@@ -766,6 +871,8 @@ mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -774,7 +881,11 @@ mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mundo.o ../Proyecto2-ED/mundo.cpp
 
 nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
@@ -788,6 +899,8 @@ nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -796,7 +909,11 @@ nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o nodo.o ../Proyecto2-ED/nodo.cpp
 
 nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
@@ -810,6 +927,8 @@ nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -818,8 +937,40 @@ nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
-		../Proyecto2-ED/arbolmundo.h
+		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o nodoarbol.o ../Proyecto2-ED/nodoarbol.cpp
+
+nodolistafalimias.o: ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/Estructuras.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QString \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qstring.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDate \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdatetime.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDateTime \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDebug \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
+		../Proyecto2-ED/mainwindow.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+		../Proyecto2-ED/persona.h \
+		../Proyecto2-ED/listapersonas.h \
+		../Proyecto2-ED/mundo.h \
+		../Proyecto2-ED/nodo.h \
+		../Proyecto2-ED/archivos.h \
+		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/pais.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o nodolistafalimias.o ../Proyecto2-ED/nodolistafalimias.cpp
 
 persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/Estructuras.h \
@@ -832,6 +983,8 @@ persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -840,7 +993,11 @@ persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/arbolmundo.h \
-		../Proyecto2-ED/nodoarbol.h
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/pais.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o persona.o ../Proyecto2-ED/persona.cpp
 
 qrc_rsc.o: qrc_rsc.cpp 
