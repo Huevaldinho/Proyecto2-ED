@@ -31,7 +31,6 @@ void Archivos::lecturaApellidos(QString * apellidos){
     }
     file.close();
 }
-
 void Archivos::lecturaNombres(QString * nombres){
     QString filename(":/txt/archivosTxt/nombres100.txt");
     QString data="";

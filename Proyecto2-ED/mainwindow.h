@@ -15,12 +15,19 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     Mundo * mundo;
+    ConsultasPorAcciones * consultas;
     bool corriendo;
     bool pausa;
     ~MainWindow();
 
 private slots:
     void on_btn_GenerarHumanos_clicked();
+
+    void on_btn_Pecar_clicked();
+
+    void on_btn_BuenasAcciones_clicked();
+
+    void on_btn_BuscarHumano_clicked();
 
 private:
     Ui::MainWindow *ui;

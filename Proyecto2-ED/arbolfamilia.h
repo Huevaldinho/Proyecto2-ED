@@ -9,6 +9,8 @@ class ArbolFamilia{
         QString apellidoFamilia;
         QString paisFamilia;
 
+        ListaPersonas * listaPersonas;
+
         ArbolFamilia();
         int height(NodoArbol *);//Listo
         int difference(NodoArbol *);//Listo
@@ -24,6 +26,9 @@ class ArbolFamilia{
         void postorder(NodoArbol*);//Listo
         void agregarHijos(NodoArbol *,Persona * padre,int cantidadHijosAinsertar);//Recibe una raiz para empezar a buscar
         //se le pasa el padre porque el hijo tiene que saber quien es su padre
+        void insertarAListaDesdeArbol(NodoArbol *arbol,Nodo * nodoPersona);
+        bool esHoja(NodoArbol * arbol);
+        void mostrarArbol(NodoArbol*arbol , int cont);
 
 };
 

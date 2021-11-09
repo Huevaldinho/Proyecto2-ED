@@ -83,15 +83,14 @@ NodoArbol * ArbolFamilia::insert(NodoArbol * r, Nodo * persona){
 void ArbolFamilia::show(NodoArbol* arbol, int cont){
     if (arbol == NULL) {
         return;
-    }else{
+    }
+    else {
         show(arbol->hijoderecho, cont + 1);
         for (int i = 0; i < cont; i++) {
             std::cout <<"    ";
         }
-        //std::cout << arbol->nodoPersona->persona->ID << endl;
-        qDebug()<< arbol->nodoPersona->persona->ID;
-        //Muestra apellido,nombre,pais
-        //qDebug()<<"\t"<<arbol->nodoPersona->persona->apellido<<arbol->nodoPersona->persona->nombre<<arbol->nodoPersona->persona->pais;
+
+        std::cout<< arbol->nodoPersona->persona->nombre.toStdString()<<std::endl;
         show(arbol->hijoizquierdo, cont + 1);
     }
 }
@@ -140,3 +139,62 @@ void ArbolFamilia::postorder(NodoArbol* t){
    //std::cout << t->nodoPersona->persona->ID << " ";
    qDebug()<<t->nodoPersona->persona->ID ;
 }
+bool ArbolFamilia::esHoja(NodoArbol * arbol){
+    if ((arbol->hijoderecho==NULL) && (arbol->hijoizquierdo==NULL))
+        return true;
+    return false;
+}
+void ArbolFamilia::insertarAListaDesdeArbol(NodoArbol *arbol,Nodo * nodoPersona){
+    //Podria hacerse antes
+    if (nodoPersona->persona->ID > this->listaPersonas->ultimoNodo->persona->ID){
+        //Es mayor que el ultimo nodo
+        this->listaPersonas->insertarAlFinal(nodoPersona->persona);
+        return ;
+    }if(nodoPersona->persona->ID < this->listaPersonas->primerNodo->persona->ID){
+        //Es menor que el primer nodo
+        this->listaPersonas->insertarAlInicio(nodoPersona->persona);
+        return ;
+    }
+    while (!esHoja(arbol)){//Mientras no sea hoja baja
+        if (arbol->nodoPersona->persona->ID==nodoPersona->persona->ID){
+            return;//se sale de la funcion
+        }else if(arbol->nodoPersona->persona->ID < nodoPersona->persona->ID){
+            if(arbol->hijoderecho==NULL){
+                //qDebug()<<"El arbol se hizo null y para que no se caiga se sale del ciclo";
+                break;
+            }
+            arbol=arbol->hijoderecho;//baja hacia la derecha
+        }else if (arbol->nodoPersona->persona->ID > nodoPersona->persona->ID){
+            if(arbol->hijoizquierdo==NULL){
+                //qDebug()<<"El arbol se hizo null y para que no se caiga se sale del ciclo";
+                break;
+            }
+            arbol=arbol->hijoizquierdo;//baja hacia la izquierda
+        }
+
+    }
+     //Usa hojas
+    if (nodoPersona->persona->ID > arbol->nodoPersona->persona->ID){//usa las hojas para buscar donde insertar
+        //Es mayor que la hoja
+        this->listaPersonas->insertarMayor(arbol->nodoPersona,nodoPersona->persona);
+    }else{
+        //Es menor que la hoja
+        this->listaPersonas->insertarMenor(arbol->nodoPersona,nodoPersona->persona);
+    }
+}
+void ArbolFamilia::mostrarArbol(NodoArbol*arbol , int cont){
+    //qDebug()<<"MOSTRAR ARBOL";//si entra aqui
+    if (arbol == NULL) {
+        //qDebug()<<"Raiz null";
+        return;
+    }
+    else {
+        mostrarArbol(arbol->hijoderecho, cont + 1);
+        for (int i = 0; i < cont; i++) {
+            std::cout <<"    ";
+        }
+        std::cout << arbol->nodoPersona->persona->ID << endl;
+        mostrarArbol(arbol->hijoizquierdo, cont + 1);
+    }
+}
+

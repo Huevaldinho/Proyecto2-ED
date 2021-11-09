@@ -1,6 +1,7 @@
 release/arbolfamilia.o
 release/arbolmundo.o
 release/archivos.o
+release/consultasporacciones.o
 release/listafamilias.o
 release/listapersonas.o
 release/main.o

@@ -4,7 +4,10 @@ Mundo::Mundo(){
     this->maximoHumanos=99999;
     this->porcentaje=0.01;
     this->cantidadHumanosParaCrearArbol=1000;//Cada 1000 debe crear un arbol nuevo
-    this->arbolMundo = new ArbolMundo();
+    //this->arbolMundo = new ArbolMundo();
+    this->arbolMundo= new ArbolFamilia();//prueba arbol familia
+    this->arbolMundo->apellidoFamilia="Arbol";
+    this->arbolMundo->paisFamilia="Mundo";
     this->archivos = new Archivos();//Instancia y carga todos los archivos
 
     //Mete la info de los archivos a los arrays
@@ -134,140 +137,60 @@ void Mundo::GenerarNpersonas(int n){
 
         tmp = NULL;
     }
-    qDebug()<<"Personas en mundo: "<<listaPersonas->largo;
+    qDebug()<<"TERMINA GENERAR PERSONAS - Personas en mundo: "<<this->listaPersonas->largo;
 }
-void Mundo::SacarMitades(int bloques,int ciclos){
-    int contador=0;
+void Mundo::CrearArbolMundo(int bloques,int ciclos){
     Nodo * mitad = this->listaPersonas->buscarMitad();
-    //Lista centros es la uqe tiene los 15 nodos uqe se van a meter al arbol
-    //this->listaCentros->insertarAlFinal(mitad->persona);
-    this->arbolMundo->insertarNodo(this->arbolMundo->raiz,mitad,NULL);
-    ciclos-=1;//14
-    ciclos/=2;//7
-    Nodo * tmpIzquierdo = mitad;
-    Nodo * tmpDerecho = tmpIzquierdo;
-    while (ciclos!=0){
-        //Listacentros ya tiene la mitad de la lista // 8
-        //Ahora es un salto hacia la derecha y hacia la izquierda para meterle sus hijos //4  - 12
-        switch (ciclos) {
-        case 7:{//4 12
-            //Meter hijos de raiz
-            while (contador<bloques){//Hace los saltos
-                if (tmpIzquierdo->anterior!=NULL)
-                    tmpIzquierdo=tmpIzquierdo->anterior;
-                if (tmpDerecho->siguiente!=NULL)
-                    tmpDerecho=tmpDerecho->siguiente;
-                contador++;
-            }
-            this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
-            this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
-            break;
-        }
-        case 6:{//2 14
-            while (contador<bloques+(bloques/2)){//Avanza un bloque y se devuelte o avanza medio
-                if (tmpIzquierdo->anterior!=NULL)
-                    tmpIzquierdo=tmpIzquierdo->anterior;
-                if (tmpDerecho->siguiente!=NULL)
-                    tmpDerecho=tmpDerecho->siguiente;
-                contador++;
-            }
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
-            break;
-        }
-        case 5:{//6 10
-            while (contador<bloques/2){//Avanza un bloque y se devuelte o avanza medio
-                if (tmpIzquierdo->anterior!=NULL)
-                    tmpIzquierdo=tmpIzquierdo->anterior;
-                if (tmpDerecho->siguiente!=NULL)
-                    tmpDerecho=tmpDerecho->siguiente;
-                contador++;
-            }
-            this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
-            this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
-            break;
-        }
-        case 4:{//7 9
-            while (contador<bloques/4){//Avanza un bloque y se devuelte o avanza medio
-                if (tmpIzquierdo->anterior!=NULL)
-                    tmpIzquierdo=tmpIzquierdo->anterior;
-                if (tmpDerecho->siguiente!=NULL)
-                    tmpDerecho=tmpDerecho->siguiente;
-                contador++;
-            }
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
-            break;
-        }
-        case 3:{//1 15
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,this->listaPersonas->primerNodo,NULL);
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,this->listaPersonas->ultimoNodo,NULL);
-            break;
-        }
-        case 2:{
-            while (contador<bloques+(bloques/4)){
-                if (tmpIzquierdo->anterior!=NULL)
-                    tmpIzquierdo=tmpIzquierdo->anterior;
-                if (tmpDerecho->siguiente!=NULL)
-                    tmpDerecho=tmpDerecho->siguiente;
-                contador++;
-            }
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
-            break;
-        }
-        case 1:{
-            while (contador<bloques-(bloques/3)){
-                if (tmpIzquierdo->anterior!=NULL)
-                    tmpIzquierdo=tmpIzquierdo->anterior;
-                if (tmpDerecho->siguiente!=NULL)
-                    tmpDerecho=tmpDerecho->siguiente;
-                contador++;
-            }
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpIzquierdo,NULL);
-              this->arbolMundo->insertarNodo(this->arbolMundo->raiz,tmpDerecho,NULL);
-            break;
-        }
-        }
-        tmpIzquierdo=mitad;
-        tmpDerecho=mitad;
-        contador=0;
-        ciclos--;
+    this->arbolMundo->raiz=NULL;//SE VUELA EL ARBOL VIEJO
+    this->arbolMundo->raiz=this->arbolMundo->insert(this->arbolMundo->raiz,mitad);//prueba arbol familia como arbol mundo
+    Nodo * tmp;
+    int saltos=bloques;
+    ciclos-=1;
+    for(int i=0;i<ciclos;i++){
+        tmp=this->listaPersonas->buscarEnPosicion(saltos);
+        this->arbolMundo->raiz=this->arbolMundo->insert(this->arbolMundo->raiz,tmp);
+        saltos+=bloques;
     }
+    //NO se le inserta el primer nodo ni el ultimo porque asi queda mejor distribuito y
+    // de todas formas cuando se inserta desde el arbol se puede insertar si es menor al primero
+    // o mayor al primero sin tener que bajar el arbol, asi que no afecta en nada.
 }
 //Si tiene un modulo 1000 en el mundo puede generar otro arbol
 bool Mundo::PuedoGenerarArbol(int n){
     //Recibe una cantidad para determinar si es hora de volver a crear el arbol
     //Retorna true si n%this->cantidadHumanosParaCrearArbol==0
     if (this->listaPersonas->primerNodo!=NULL)
-        if ((n%this->cantidadHumanosParaCrearArbol)==0){
-            //Aqui crear el nuevo arbol
-            int cantidadNodos=this->listaPersonas->largo;//Cuanta gente hay
-            //qDebug()<<"CantidadNodo: "<<cantidadNodos;
-            int nodoAinsertarEnArbol = cantidadNodos*porcentaje;//100*0.1 = 10
-            //Buscar potencia de 2 mayor a la cantidadNodos
-            int i=0;//Potencia del 2 y tambien sirve para saber cuantas personas faltan para completar el balanceo
-            int potenciaDos =0;
-            while (potenciaDos<nodoAinsertarEnArbol){//Cuenta cuantos nodos faltan para hacer un arbol balanceado
-                potenciaDos =pow(2,i);
-                if (potenciaDos>=cantidadNodos)
-                    break;
-                i++;
-            }
-            i--;
-            nodoAinsertarEnArbol+=(pow(2,i)-nodoAinsertarEnArbol-1);//Se le suma lo que faltaba para llegar a la potencia del 2,
-            double bloques=trunc(this->listaPersonas->largo/nodoAinsertarEnArbol);
-            SacarMitades(bloques,nodoAinsertarEnArbol);//aqui mismo se inserta al arbol
-            //this->arbolMundo->mostrarArbol(this->arbolMundo->raiz,0);
-            return true;
+    if ((n%this->cantidadHumanosParaCrearArbol)==0){
+        //Aqui crear el nuevo arbol
+        int cantidadNodos=this->listaPersonas->largo;//Cuanta gente hay
+        //qDebug()<<"CantidadNodo: "<<cantidadNodos;
+        int nodoAinsertarEnArbol = cantidadNodos*porcentaje;//100*0.1 = 10
+        //Buscar potencia de 2 mayor a la cantidadNodos
+        int i=0;//Potencia del 2 y tambien sirve para saber cuantas personas faltan para completar el balanceo
+        int potenciaDos =0;
+        while (potenciaDos<nodoAinsertarEnArbol){//Cuenta cuantos nodos faltan para hacer un arbol balanceado
+            potenciaDos =pow(2,i);
+            if (potenciaDos>=cantidadNodos)
+                break;
+            i++;
+        }
+        i--;
+        nodoAinsertarEnArbol+=(pow(2,i)-nodoAinsertarEnArbol-1);//Se le suma lo que faltaba para llegar a la potencia del 2,
+        double bloques=trunc(this->listaPersonas->largo/nodoAinsertarEnArbol);
+        CrearArbolMundo(bloques,nodoAinsertarEnArbol);//aqui mismo se inserta al arbol
+        return true;
     }
     return false;
 }
 
+
 void Mundo::generarPecados(){
     uniform_int_distribution<int> distribution (0,100); //random
-    Nodo*tmp = this->listaPersonas->primerNodo;
+    Nodo * tmp = this->listaPersonas->primerNodo;
+    Nodo * tmpHijo=NULL;
+    Nodo * tmpNieto = NULL;
     while (tmp!=NULL){
+
         tmp->persona->pecados[0]+=distribution(*QRandomGenerator::global());
         tmp->persona->pecados[1]+=distribution(*QRandomGenerator::global());
         tmp->persona->pecados[2]+=distribution(*QRandomGenerator::global());
@@ -277,7 +200,7 @@ void Mundo::generarPecados(){
         tmp->persona->pecados[6]+=distribution(*QRandomGenerator::global());
 
         if (tmp->persona->hijos->primerNodo!=NULL){
-            Nodo*tmpHijo = tmp->persona->hijos->primerNodo;
+             tmpHijo = tmp->persona->hijos->primerNodo;
             while (tmpHijo!=NULL){
                 tmpHijo->persona->pecados[0]+=(tmp->persona->pecados[0]*0.5);
                 tmpHijo->persona->pecados[1]+=(tmp->persona->pecados[1]*0.5);
@@ -288,7 +211,7 @@ void Mundo::generarPecados(){
                 tmpHijo->persona->pecados[6]+=(tmp->persona->pecados[6]*0.5);
 
                 if (tmpHijo->persona->hijos->primerNodo!=NULL){
-                    Nodo*tmpNieto = tmpHijo->persona->hijos->primerNodo;
+                    tmpNieto= tmpHijo->persona->hijos->primerNodo;
                     while (tmpNieto!=NULL){
                         tmpNieto->persona->pecados[0]+=(tmp->persona->pecados[0]*0.25);
                         tmpNieto->persona->pecados[1]+=(tmp->persona->pecados[1]*0.25);
@@ -306,11 +229,13 @@ void Mundo::generarPecados(){
         }
         tmp=tmp->siguiente;
     }
-
+    qDebug()<<"TERMINA PECAR";
 }
 void Mundo::generarBuenasAcciones(){
     uniform_int_distribution<int> distribution (0,100); //random
-    Nodo*tmp = this->listaPersonas->primerNodo;
+    Nodo * tmp = this->listaPersonas->primerNodo;
+    Nodo * tmpHijo =NULL;
+    Nodo * tmpNieto = NULL;
     while (tmp!=NULL){
 
         tmp->persona->buenasAcciones[0]+=distribution(*QRandomGenerator::global());
@@ -322,9 +247,8 @@ void Mundo::generarBuenasAcciones(){
         tmp->persona->buenasAcciones[6]+=distribution(*QRandomGenerator::global());
 
         if (tmp->persona->hijos->primerNodo!=NULL){
-            Nodo*tmpHijo = tmp->persona->hijos->primerNodo;
+            tmpHijo= tmp->persona->hijos->primerNodo;
             while (tmpHijo!=NULL){
-
                 tmpHijo->persona->buenasAcciones[0]+=(tmp->persona->buenasAcciones[0]*0.5);
                 tmpHijo->persona->buenasAcciones[1]+=(tmp->persona->buenasAcciones[1]*0.5);
                 tmpHijo->persona->buenasAcciones[2]+=(tmp->persona->buenasAcciones[2]*0.5);
@@ -334,9 +258,8 @@ void Mundo::generarBuenasAcciones(){
                 tmpHijo->persona->buenasAcciones[6]+=(tmp->persona->buenasAcciones[6]*0.5);
 
                 if (tmpHijo->persona->hijos->primerNodo!=NULL){
-                    Nodo*tmpNieto = tmpHijo->persona->hijos->primerNodo;
+                    tmpNieto= tmpHijo->persona->hijos->primerNodo;
                     while (tmpNieto!=NULL){
-
                         tmpNieto->persona->buenasAcciones[0]+=(tmp->persona->buenasAcciones[0]*0.25);
                         tmpNieto->persona->buenasAcciones[1]+=(tmp->persona->buenasAcciones[1]*0.25);
                         tmpNieto->persona->buenasAcciones[2]+=(tmp->persona->buenasAcciones[2]*0.25);
@@ -353,5 +276,5 @@ void Mundo::generarBuenasAcciones(){
         }
         tmp=tmp->siguiente;
     }
-
+    qDebug()<<"TERMINA BUENAS ACCIONES";
 }

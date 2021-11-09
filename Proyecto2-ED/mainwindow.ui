@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1278</width>
+    <height>637</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,23 +17,175 @@
    <widget class="QPushButton" name="btn_GenerarHumanos">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>410</y>
-      <width>111</width>
-      <height>31</height>
+      <x>500</x>
+      <y>120</y>
+      <width>161</width>
+      <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <italic>false</italic>
+      <underline>false</underline>
+     </font>
+    </property>
     <property name="text">
-     <string>Generar</string>
+     <string>Generar Humanos</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="txt_CantidadHumanosGenerar">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>350</y>
+      <x>520</x>
+      <y>70</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_IngreseCantidadHumanos">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>40</y>
+      <width>271</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ingrese Cantidad de Humanos:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Pecar">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>70</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pecar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_BuenasAcciones">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>130</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buenas Acciones</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_IDHumanosBuscado">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>230</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ingrese ID del Humano a buscar:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_BuscarHumano">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>310</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_HumanoBuscado">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>270</y>
       <width>113</width>
       <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="txt_PecadosFamiliaHumanoBuscado">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>390</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_PecadosFamilia">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>360</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Pecados de Familia</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_BuenasAcciones">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>360</y>
+      <width>181</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Buenas Acciones de Familia</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="txt_BuenasAccionesFamiliaHumanoBuscado">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>390</y>
+      <width>256</width>
+      <height>192</height>
      </rect>
     </property>
    </widget>
@@ -43,7 +195,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>1278</width>
      <height>25</height>
     </rect>
    </property>

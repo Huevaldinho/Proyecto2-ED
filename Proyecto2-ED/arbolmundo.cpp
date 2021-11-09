@@ -179,7 +179,6 @@ void ArbolMundo::destruirNodo(NodoArbol* nodo){
     nodo->hijoderecho = NULL;
     delete nodo;
 }
-
 int ArbolMundo::contadorNodos(NodoArbol* nodoArbol){
     if (nodoArbol == NULL)
         return 0;

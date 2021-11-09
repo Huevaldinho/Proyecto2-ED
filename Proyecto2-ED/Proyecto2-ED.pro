@@ -12,6 +12,7 @@ SOURCES += \
     arbolfamilia.cpp \
     arbolmundo.cpp \
     archivos.cpp \
+    consultasporacciones.cpp \
     listafamilias.cpp \
     listapersonas.cpp \
     main.cpp \
@@ -27,6 +28,7 @@ HEADERS += \
     arbolfamilia.h \
     arbolmundo.h \
     archivos.h \
+    consultasporacciones.h \
     listafamilias.h \
     listapersonas.h \
     mainwindow.h \

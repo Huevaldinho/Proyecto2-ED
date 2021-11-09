@@ -5,7 +5,6 @@ ListaPersonas::ListaPersonas(){
     this->ultimoNodo=NULL;
     this->largo=0;//Cantidad de personas en el mundo
 }
-
 bool ListaPersonas::estaVacia(){
     return this->primerNodo == NULL;
 }
@@ -275,4 +274,24 @@ void ListaPersonas::imprimirConHijos(){
         }
         tmp=tmp->siguiente;
     }
+}
+Nodo * ListaPersonas::buscarEnPosicion(int pos){
+    Nodo * tmp = this->primerNodo;
+    int i=0;
+    while (tmp!=NULL){
+        if (i==pos)
+            return tmp;
+        i++;
+        tmp=tmp->siguiente;
+    }
+    return tmp;//NULL
+}
+Nodo * ListaPersonas::buscarPorID(int buscado){
+    Nodo * tmp = this->primerNodo;
+    while (tmp!=NULL){
+        if (tmp->persona->ID==buscado)
+            return tmp;
+        tmp=tmp->siguiente;
+    }
+    return tmp;//NULL
 }

@@ -27,7 +27,9 @@ class ListaPersonas{
         Nodo * borrarAlInicio();
         Nodo * borrarAlFinal();
         Nodo * buscar(Persona *);
+        Nodo * buscarPorID(int);
         Nodo * buscarMitad();
         void insertarEnPosicion(int);
+        Nodo * buscarEnPosicion(int);
 };
 #endif // LISTAPERSONAS_H

@@ -1,6 +1,7 @@
 debug/arbolfamilia.o
 debug/arbolmundo.o
 debug/archivos.o
+debug/consultasporacciones.o
 debug/listafamilias.o
 debug/listapersonas.o
 debug/main.o

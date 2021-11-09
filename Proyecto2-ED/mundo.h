@@ -8,7 +8,8 @@ class Mundo{
         //Lista doble personas
         ListaPersonas * listaPersonas;//Todas las personas
         ListaFamilias * listaFamilias;//Contiene la raiz de cada arbol de familia
-        ArbolMundo * arbolMundo;//Para insertar personas mas rapido
+        //ArbolMundo * arbolMundo;//Para insertar personas mas rapido
+        ArbolFamilia * arbolMundo;
         Archivos * archivos;//Carga informacion de .txt
         int maximoHumanos;//99999
         double porcentaje;//1%
@@ -52,6 +53,8 @@ class Mundo{
         Persona * consultaBAestadoFamilia(int); //devulve un arreglo con la información
         Pais * consultaBAtop10mas();
         Pais * consultaBAtop5menos();
+
+        void  CrearArbolMundo(int a,int b);
 
 
 };
