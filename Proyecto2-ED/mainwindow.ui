@@ -136,7 +136,7 @@
      <rect>
       <x>30</x>
       <y>390</y>
-      <width>256</width>
+      <width>261</width>
       <height>192</height>
      </rect>
     </property>
@@ -164,7 +164,7 @@
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>360</y>
+      <y>370</y>
       <width>181</width>
       <height>16</height>
      </rect>
@@ -182,12 +182,87 @@
    <widget class="QTextBrowser" name="txt_BuenasAccionesFamiliaHumanoBuscado">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>320</x>
       <y>390</y>
-      <width>256</width>
-      <height>192</height>
+      <width>261</width>
+      <height>191</height>
      </rect>
     </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>230</y>
+      <width>491</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Consultas Por Paises</string>
+    </property>
+    <widget class="QPushButton" name="btn_Top10PaisesMasPecadores">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>191</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Top 10 Paises Más Pecadores</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Top5PaisesMenosPecadores">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>20</y>
+       <width>191</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Top 5 Paises Menos Pecadores</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Top10PaisesConMasBuenasAcciones">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>251</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Top 10 Paises Con Más Buenas Acciones</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_Top5PaisesMenosBuenos">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>50</y>
+       <width>191</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Top 5 Paises Menos Buenos</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="txt_ConsultasPorPaises">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>451</width>
+       <height>231</height>
+      </rect>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

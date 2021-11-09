@@ -27,6 +27,7 @@ class ListaFamilias;
 class NodoListaFalimias;
 class Pais;
 class ConsultasPorAcciones;
+class ListaPaises;
 
 #include <QString>
 #include <QDate>
@@ -48,6 +49,7 @@ class ConsultasPorAcciones;
 #include "listafamilias.h"
 #include "nodolistafalimias.h"
 #include "consultasporacciones.h"
+#include "listapaises.h"
 
 
 using namespace std;

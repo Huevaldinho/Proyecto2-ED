@@ -13,15 +13,17 @@ class ConsultasPorAcciones{
         */
         int IDBuscado;//A quien buscamos en el mundo para hacer el calculo de pecados por familia
         ListaPersonas * listaPersonas;
-        //Usar dos listas para mas facilidad, una para pecados paises y otra buenas acciones paises
-        //si se ordena una lista por paises con mas pecados y la otra con buenas acciones
-        //se hace muy facil lo que dice los comentarios de abajo
+        ListaPaises * listaPaises;
 
         ConsultasPorAcciones();
         ConsultasPorAcciones(ListaPersonas *);
         void AccionesFamilia(int ID,QTextBrowser *,QTextBrowser *);//Recibe a la persona que buscamos por ID
-        void TopTenAccionesPaises();//Paises mas pecadores/buenas acciones
-        void TopFiveAccionesPaises();//Paises menos pecadores/buenas acciones
+        void AccionesHijos(Persona *,QTextBrowser *,QTextBrowser *);
+        //Opcion 1: Top paises pecadores, Opcion 2: Top paises con mas buenas acciones
+        void TopTenAccionesPaises(int opcion, QTextBrowser *);//Paises mas pecadores/buenas acciones
+        //Opcion 2: Top paises menos pecadores, Opcion 2: Top paises con menos acciones buenas
+        void TopFiveAccionesPaises(int,QTextBrowser *);//Paises menos pecadores/buenas acciones
+
 
         /*
         Top 10 de países más pecadores = los primeros 5 son los "menos buenos"

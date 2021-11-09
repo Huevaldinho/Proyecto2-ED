@@ -36,3 +36,17 @@ void MainWindow::on_btn_BuscarHumano_clicked(){
     this->consultas->AccionesFamilia(buscadoInt,this->ui->txt_PecadosFamiliaHumanoBuscado,this->ui->txt_BuenasAccionesFamiliaHumanoBuscado);
 }
 
+
+void MainWindow::on_btn_Top10PaisesMasPecadores_clicked(){
+    this->consultas->TopTenAccionesPaises(1,this->ui->txt_ConsultasPorPaises);
+}
+void MainWindow::on_btn_Top10PaisesConMasBuenasAcciones_clicked(){
+    this->consultas->TopTenAccionesPaises(2,this->ui->txt_ConsultasPorPaises);
+}
+void MainWindow::on_btn_Top5PaisesMenosPecadores_clicked(){
+    this->consultas->TopFiveAccionesPaises(1,this->ui->txt_ConsultasPorPaises);
+}
+void MainWindow::on_btn_Top5PaisesMenosBuenos_clicked(){
+     this->consultas->TopFiveAccionesPaises(2,this->ui->txt_ConsultasPorPaises);
+}
+

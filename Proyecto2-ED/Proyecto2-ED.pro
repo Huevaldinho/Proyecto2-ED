@@ -14,6 +14,7 @@ SOURCES += \
     archivos.cpp \
     consultasporacciones.cpp \
     listafamilias.cpp \
+    listapaises.cpp \
     listapersonas.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -30,6 +31,7 @@ HEADERS += \
     archivos.h \
     consultasporacciones.h \
     listafamilias.h \
+    listapaises.h \
     listapersonas.h \
     mainwindow.h \
     mundo.h \

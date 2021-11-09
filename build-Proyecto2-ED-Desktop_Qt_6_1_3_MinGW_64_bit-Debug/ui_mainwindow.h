@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
@@ -38,6 +39,12 @@ public:
     QLabel *lbl_PecadosFamilia;
     QLabel *lbl_BuenasAcciones;
     QTextBrowser *txt_BuenasAccionesFamiliaHumanoBuscado;
+    QGroupBox *groupBox;
+    QPushButton *btn_Top10PaisesMasPecadores;
+    QPushButton *btn_Top5PaisesMenosPecadores;
+    QPushButton *btn_Top10PaisesConMasBuenasAcciones;
+    QPushButton *btn_Top5PaisesMenosBuenos;
+    QTextBrowser *txt_ConsultasPorPaises;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -85,18 +92,36 @@ public:
         txt_HumanoBuscado->setGeometry(QRect(90, 270, 113, 24));
         txt_PecadosFamiliaHumanoBuscado = new QTextBrowser(centralwidget);
         txt_PecadosFamiliaHumanoBuscado->setObjectName(QString::fromUtf8("txt_PecadosFamiliaHumanoBuscado"));
-        txt_PecadosFamiliaHumanoBuscado->setGeometry(QRect(30, 390, 256, 192));
+        txt_PecadosFamiliaHumanoBuscado->setGeometry(QRect(30, 390, 261, 192));
         lbl_PecadosFamilia = new QLabel(centralwidget);
         lbl_PecadosFamilia->setObjectName(QString::fromUtf8("lbl_PecadosFamilia"));
         lbl_PecadosFamilia->setGeometry(QRect(40, 360, 121, 16));
         lbl_PecadosFamilia->setFont(font2);
         lbl_BuenasAcciones = new QLabel(centralwidget);
         lbl_BuenasAcciones->setObjectName(QString::fromUtf8("lbl_BuenasAcciones"));
-        lbl_BuenasAcciones->setGeometry(QRect(320, 360, 181, 16));
+        lbl_BuenasAcciones->setGeometry(QRect(320, 370, 181, 16));
         lbl_BuenasAcciones->setFont(font2);
         txt_BuenasAccionesFamiliaHumanoBuscado = new QTextBrowser(centralwidget);
         txt_BuenasAccionesFamiliaHumanoBuscado->setObjectName(QString::fromUtf8("txt_BuenasAccionesFamiliaHumanoBuscado"));
-        txt_BuenasAccionesFamiliaHumanoBuscado->setGeometry(QRect(310, 390, 256, 192));
+        txt_BuenasAccionesFamiliaHumanoBuscado->setGeometry(QRect(320, 390, 261, 191));
+        groupBox = new QGroupBox(centralwidget);
+        groupBox->setObjectName(QString::fromUtf8("groupBox"));
+        groupBox->setGeometry(QRect(590, 230, 491, 351));
+        btn_Top10PaisesMasPecadores = new QPushButton(groupBox);
+        btn_Top10PaisesMasPecadores->setObjectName(QString::fromUtf8("btn_Top10PaisesMasPecadores"));
+        btn_Top10PaisesMasPecadores->setGeometry(QRect(0, 20, 191, 25));
+        btn_Top5PaisesMenosPecadores = new QPushButton(groupBox);
+        btn_Top5PaisesMenosPecadores->setObjectName(QString::fromUtf8("btn_Top5PaisesMenosPecadores"));
+        btn_Top5PaisesMenosPecadores->setGeometry(QRect(210, 20, 191, 25));
+        btn_Top10PaisesConMasBuenasAcciones = new QPushButton(groupBox);
+        btn_Top10PaisesConMasBuenasAcciones->setObjectName(QString::fromUtf8("btn_Top10PaisesConMasBuenasAcciones"));
+        btn_Top10PaisesConMasBuenasAcciones->setGeometry(QRect(0, 50, 251, 25));
+        btn_Top5PaisesMenosBuenos = new QPushButton(groupBox);
+        btn_Top5PaisesMenosBuenos->setObjectName(QString::fromUtf8("btn_Top5PaisesMenosBuenos"));
+        btn_Top5PaisesMenosBuenos->setGeometry(QRect(270, 50, 191, 25));
+        txt_ConsultasPorPaises = new QTextBrowser(groupBox);
+        txt_ConsultasPorPaises->setObjectName(QString::fromUtf8("txt_ConsultasPorPaises"));
+        txt_ConsultasPorPaises->setGeometry(QRect(20, 90, 451, 231));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -122,6 +147,11 @@ public:
         btn_BuscarHumano->setText(QCoreApplication::translate("MainWindow", "Buscar", nullptr));
         lbl_PecadosFamilia->setText(QCoreApplication::translate("MainWindow", "Pecados de Familia", nullptr));
         lbl_BuenasAcciones->setText(QCoreApplication::translate("MainWindow", "Buenas Acciones de Familia", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("MainWindow", "Consultas Por Paises", nullptr));
+        btn_Top10PaisesMasPecadores->setText(QCoreApplication::translate("MainWindow", "Top 10 Paises M\303\241s Pecadores", nullptr));
+        btn_Top5PaisesMenosPecadores->setText(QCoreApplication::translate("MainWindow", "Top 5 Paises Menos Pecadores", nullptr));
+        btn_Top10PaisesConMasBuenasAcciones->setText(QCoreApplication::translate("MainWindow", "Top 10 Paises Con M\303\241s Buenas Acciones", nullptr));
+        btn_Top5PaisesMenosBuenos->setText(QCoreApplication::translate("MainWindow", "Top 5 Paises Menos Buenos", nullptr));
     } // retranslateUi
 
 };

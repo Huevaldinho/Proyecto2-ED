@@ -29,6 +29,14 @@ private slots:
 
     void on_btn_BuscarHumano_clicked();
 
+    void on_btn_Top10PaisesMasPecadores_clicked();
+
+    void on_btn_Top10PaisesConMasBuenasAcciones_clicked();
+
+    void on_btn_Top5PaisesMenosPecadores_clicked();
+
+    void on_btn_Top5PaisesMenosBuenos_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
