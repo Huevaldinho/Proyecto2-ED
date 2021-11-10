@@ -3,6 +3,7 @@
 ConsultasPorAcciones::ConsultasPorAcciones(){
     this->listaPersonas=NULL;
     this->IDBuscado=-1;
+    this->consulta=false;
     this->listaPaises=new ListaPaises;
 }
 ConsultasPorAcciones::ConsultasPorAcciones(ListaPersonas * lista){
@@ -39,7 +40,10 @@ void ConsultasPorAcciones::AccionesHijos(Persona * hijo,QTextBrowser * cuadroTex
 void ConsultasPorAcciones::AccionesFamilia(int IDaBuscar, QTextBrowser * cuadroTextoPecados,QTextBrowser * cuadroTextoBuenasAcciones){//Recibe a la persona que buscamos por ID
     cuadroTextoPecados->clear();
     cuadroTextoBuenasAcciones->clear();
-    Persona * buscado = this->listaPersonas->buscarPorID(IDaBuscar)->persona;
+    Persona * buscado=NULL;
+    Nodo * buscadoNodo=this->listaPersonas->buscarPorID(IDaBuscar);
+    if (buscadoNodo!=NULL)
+        buscado = buscadoNodo->persona;
     Nodo * tmp;
     if (buscado!=NULL){
         cuadroTextoPecados->setText(cuadroTextoPecados->toPlainText() + QString::number(buscado->ID)+" - " + buscado->nombre +" "+ buscado->apellido);
@@ -80,26 +84,28 @@ void ConsultasPorAcciones::TopTenAccionesPaises(int opcion,QTextBrowser * cuadro
     Nodo * tmp = this->listaPersonas->primerNodo;
     int pecados=0;
     int ba=0;
-    while (tmp!=NULL){
-        pecados+=tmp->persona->pecados[0];
-        pecados+=tmp->persona->pecados[1];
-        pecados+=tmp->persona->pecados[2];
-        pecados+=tmp->persona->pecados[3];
-        pecados+=tmp->persona->pecados[4];
-        pecados+=tmp->persona->pecados[5];
-        pecados+=tmp->persona->pecados[6];
-        ba+=tmp->persona->buenasAcciones[0];
-        ba+=tmp->persona->buenasAcciones[1];
-        ba+=tmp->persona->buenasAcciones[2];
-        ba+=tmp->persona->buenasAcciones[3];
-        ba+=tmp->persona->buenasAcciones[4];
-        ba+=tmp->persona->buenasAcciones[5];
-        ba+=tmp->persona->buenasAcciones[6];
-        this->listaPaises->insertarAPais(tmp->persona->pais,pecados,ba,this->listaPaises->totalPecados,this->listaPaises->totalBA);
-        tmp=tmp->siguiente;
+    if (this->consulta){
+        while (tmp!=NULL){
+            pecados+=tmp->persona->pecados[0];
+            pecados+=tmp->persona->pecados[1];
+            pecados+=tmp->persona->pecados[2];
+            pecados+=tmp->persona->pecados[3];
+            pecados+=tmp->persona->pecados[4];
+            pecados+=tmp->persona->pecados[5];
+            pecados+=tmp->persona->pecados[6];
+            ba+=tmp->persona->buenasAcciones[0];
+            ba+=tmp->persona->buenasAcciones[1];
+            ba+=tmp->persona->buenasAcciones[2];
+            ba+=tmp->persona->buenasAcciones[3];
+            ba+=tmp->persona->buenasAcciones[4];
+            ba+=tmp->persona->buenasAcciones[5];
+            ba+=tmp->persona->buenasAcciones[6];
+            this->listaPaises->insertarAPais(tmp->persona->pais,pecados,ba);
+            tmp=tmp->siguiente;
+        }
+            this->consulta=false;
     }
     cuadroTexto->clear();
-
     if (opcion==1){ //Opcion 1: Top paises mas pecadores
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Top 10 Paises más pecadores");
         this->listaPaises->OrdenarPaisesPorMasPecados();
@@ -126,23 +132,26 @@ void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadr
     Nodo * tmp = this->listaPersonas->primerNodo;
     int pecados=0;
     int ba=0;
-    while (tmp!=NULL){
-        pecados+=tmp->persona->pecados[0];
-        pecados+=tmp->persona->pecados[1];
-        pecados+=tmp->persona->pecados[2];
-        pecados+=tmp->persona->pecados[3];
-        pecados+=tmp->persona->pecados[4];
-        pecados+=tmp->persona->pecados[5];
-        pecados+=tmp->persona->pecados[6];
-        ba+=tmp->persona->buenasAcciones[0];
-        ba+=tmp->persona->buenasAcciones[1];
-        ba+=tmp->persona->buenasAcciones[2];
-        ba+=tmp->persona->buenasAcciones[3];
-        ba+=tmp->persona->buenasAcciones[4];
-        ba+=tmp->persona->buenasAcciones[5];
-        ba+=tmp->persona->buenasAcciones[6];
-        this->listaPaises->insertarAPais(tmp->persona->pais,pecados,ba,this->listaPaises->totalPecados,this->listaPaises->totalBA);
-        tmp=tmp->siguiente;
+    if (this->consulta){
+        while (tmp!=NULL){
+            pecados+=tmp->persona->pecados[0];
+            pecados+=tmp->persona->pecados[1];
+            pecados+=tmp->persona->pecados[2];
+            pecados+=tmp->persona->pecados[3];
+            pecados+=tmp->persona->pecados[4];
+            pecados+=tmp->persona->pecados[5];
+            pecados+=tmp->persona->pecados[6];
+            ba+=tmp->persona->buenasAcciones[0];
+            ba+=tmp->persona->buenasAcciones[1];
+            ba+=tmp->persona->buenasAcciones[2];
+            ba+=tmp->persona->buenasAcciones[3];
+            ba+=tmp->persona->buenasAcciones[4];
+            ba+=tmp->persona->buenasAcciones[5];
+            ba+=tmp->persona->buenasAcciones[6];
+            this->listaPaises->insertarAPais(tmp->persona->pais,pecados,ba);
+            tmp=tmp->siguiente;
+        }
+        this->consulta=false;
     }
     cuadroTexto->clear();
     if (opcion==1){

@@ -20,23 +20,21 @@ void MainWindow::on_btn_GenerarHumanos_clicked(){
     this->mundo->GenerarNpersonas(nGenerar);
     this->mundo->listaPersonas->imprimir();
     qDebug()<<"Humanos En mundo: "<<this->mundo->listaPersonas->largo;
+    this->consultas->consulta=true;
 }
 void MainWindow::on_btn_Pecar_clicked(){
     this->mundo->generarPecados();
+    this->consultas->consulta=true;
 }
 void MainWindow::on_btn_BuenasAcciones_clicked(){
     this->mundo->generarBuenasAcciones();
+    this->consultas->consulta=true;
 }
-
-
 void MainWindow::on_btn_BuscarHumano_clicked(){
     bool ok = true;
     int buscadoInt=this->ui->txt_HumanoBuscado->text().toInt(&ok);
-
     this->consultas->AccionesFamilia(buscadoInt,this->ui->txt_PecadosFamiliaHumanoBuscado,this->ui->txt_BuenasAccionesFamiliaHumanoBuscado);
 }
-
-
 void MainWindow::on_btn_Top10PaisesMasPecadores_clicked(){
     this->consultas->TopTenAccionesPaises(1,this->ui->txt_ConsultasPorPaises);
 }

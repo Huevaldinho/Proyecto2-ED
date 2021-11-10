@@ -14,6 +14,7 @@ class ConsultasPorAcciones{
         int IDBuscado;//A quien buscamos en el mundo para hacer el calculo de pecados por familia
         ListaPersonas * listaPersonas;
         ListaPaises * listaPaises;
+        bool consulta;
 
         ConsultasPorAcciones();
         ConsultasPorAcciones(ListaPersonas *);

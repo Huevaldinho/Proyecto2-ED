@@ -10,10 +10,8 @@ ListaPaises::ListaPaises(){
 bool ListaPaises::estaVacia(){
     return this->primerPais==NULL;
 }
-void ListaPaises::insertarAPais(QString _nombre,int pecados,int ba,int totalPeca,int totalba){
+void ListaPaises::insertarAPais(QString _nombre,int pecados,int ba){
     Pais * buscado = buscarPorNombre(_nombre);
-    qDebug()<<"Pecados entrantes: "<<pecados;
-    qDebug()<<"Pecados totales: "<<totalPeca;
     if (buscado==NULL){//Pais aun no estaba en lista
         Pais * nuevo = new Pais(_nombre,pecados,ba);
         if (estaVacia())
