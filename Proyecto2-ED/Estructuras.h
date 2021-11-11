@@ -28,6 +28,9 @@ class NodoListaFalimias;
 class Pais;
 class ConsultasPorAcciones;
 class ListaPaises;
+class Demonio;
+class Infierno;
+class FamiliaHeapDemonio;
 
 #include <QString>
 #include <QDate>
@@ -50,11 +53,10 @@ class ListaPaises;
 #include "nodolistafalimias.h"
 #include "consultasporacciones.h"
 #include "listapaises.h"
-
+#include "demonio.h"
+#include "infierno.h"
+#include "familiaheapdemonio.h"
 
 using namespace std;
-
-
-
 
 #endif // ESTRUCTURAS_H

@@ -8,10 +8,10 @@ class ListaPaises{
         Pais * primerPais;
         Pais * ultimoPais;
         int largo;
-        double totalPecados;
-        double totalBA;
+        long long int totalPecados;
+        long long int totalBA;
         ListaPaises();
-        void insertarAPais(QString,int pecados,int ba);
+        void insertarAPais(QString,long long pecados,long long ba);
 
         Pais * buscarPorNombre(QString);
         void imprimir();

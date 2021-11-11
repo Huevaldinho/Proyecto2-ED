@@ -17,5 +17,4 @@ class ListaFamilias{
 
 
 };
-
 #endif // LISTAFAMILIAS_H

@@ -2,6 +2,9 @@ debug/arbolfamilia.o
 debug/arbolmundo.o
 debug/archivos.o
 debug/consultasporacciones.o
+debug/demonio.o
+debug/familiaheapdemonio.o
+debug/infierno.o
 debug/listafamilias.o
 debug/listapaises.o
 debug/listapersonas.o

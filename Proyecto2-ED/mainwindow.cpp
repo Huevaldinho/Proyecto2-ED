@@ -21,6 +21,8 @@ void MainWindow::on_btn_GenerarHumanos_clicked(){
     this->mundo->listaPersonas->imprimir();
     qDebug()<<"Humanos En mundo: "<<this->mundo->listaPersonas->largo;
     this->consultas->consulta=true;
+    this->infierno->MeterFamiliaALosHeap();
+    this->infierno->imprimirFamiliasDeminios();
 }
 void MainWindow::on_btn_Pecar_clicked(){
     this->mundo->generarPecados();

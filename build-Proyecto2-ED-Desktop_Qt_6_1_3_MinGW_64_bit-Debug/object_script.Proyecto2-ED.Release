@@ -2,6 +2,9 @@ release/arbolfamilia.o
 release/arbolmundo.o
 release/archivos.o
 release/consultasporacciones.o
+release/demonio.o
+release/familiaheapdemonio.o
+release/infierno.o
 release/listafamilias.o
 release/listapaises.o
 release/listapersonas.o

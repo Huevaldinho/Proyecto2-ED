@@ -13,6 +13,9 @@ SOURCES += \
     arbolmundo.cpp \
     archivos.cpp \
     consultasporacciones.cpp \
+    demonio.cpp \
+    familiaheapdemonio.cpp \
+    infierno.cpp \
     listafamilias.cpp \
     listapaises.cpp \
     listapersonas.cpp \
@@ -30,6 +33,9 @@ HEADERS += \
     arbolmundo.h \
     archivos.h \
     consultasporacciones.h \
+    demonio.h \
+    familiaheapdemonio.h \
+    infierno.h \
     listafamilias.h \
     listapaises.h \
     listapersonas.h \

@@ -27,6 +27,7 @@ Mundo::Mundo(){
     this->listaPersonas= new ListaPersonas();
     this->arbolMundo->listaPersonas=this->listaPersonas;//Le pasa la misma lista al arbol
     this->listaFamilias = new ListaFamilias();//Crea la lista (raices arboles) de familias
+
 }
 int Mundo::GenerarIDRandom(){
     int limite_inferior = 0;
@@ -185,7 +186,7 @@ bool Mundo::PuedoGenerarArbol(int n){
 
 
 void Mundo::generarPecados(){
-    uniform_int_distribution<int> distribution (0,100); //random
+    uniform_int_distribution<int> distribution (0,50); //random
     Nodo * tmp = this->listaPersonas->primerNodo;
     Nodo * tmpHijo=NULL;
     Nodo * tmpNieto = NULL;
@@ -232,7 +233,7 @@ void Mundo::generarPecados(){
     qDebug()<<"TERMINA PECAR";
 }
 void Mundo::generarBuenasAcciones(){
-    uniform_int_distribution<int> distribution (0,100); //random
+    uniform_int_distribution<int> distribution (0,50); //random
     Nodo * tmp = this->listaPersonas->primerNodo;
     Nodo * tmpHijo =NULL;
     Nodo * tmpNieto = NULL;

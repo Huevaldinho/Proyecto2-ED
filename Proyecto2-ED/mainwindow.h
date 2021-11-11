@@ -15,6 +15,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     Mundo * mundo;
+    Infierno * infierno;
     ConsultasPorAcciones * consultas;
     bool corriendo;
     bool pausa;
