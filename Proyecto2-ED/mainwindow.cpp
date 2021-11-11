@@ -23,6 +23,7 @@ void MainWindow::on_btn_GenerarHumanos_clicked(){
     this->consultas->consulta=true;
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->imprimirFamiliasDeminios();
+    this->infierno->OrdenarHeapsDemonios();
 }
 void MainWindow::on_btn_Pecar_clicked(){
     this->mundo->generarPecados();

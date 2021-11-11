@@ -40,3 +40,11 @@ void Infierno::imprimirFamiliasDeminios(){
     }
     qDebug()<<"Termina imprimir familia deminioos infierno";
 }
+void Infierno::OrdenarHeapsDemonios(){
+    int demonio=0;
+    while(demonio<7){//Avanza en todos los demonios
+        this->demonios[demonio]->OrdenarHeap();
+        demonio++;
+    }
+    qDebug()<<"Termina ordenar heaps demonios infierno";
+}

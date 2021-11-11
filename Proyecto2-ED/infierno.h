@@ -11,6 +11,7 @@ class Infierno{
         void MeterFamiliaALosHeap();
         void Condenar(QString nombreDemonio);
         void imprimirFamiliasDeminios();
+        void OrdenarHeapsDemonios();
 };
 
 #endif // INFIERNO_H
