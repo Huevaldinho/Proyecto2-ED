@@ -18,11 +18,15 @@ void MainWindow::on_btn_GenerarHumanos_clicked(){
     bool ok = true;
     int nGenerar=this->ui->txt_CantidadHumanosGenerar->text().toDouble(&ok);
     this->mundo->GenerarNpersonas(nGenerar);
-    this->mundo->listaPersonas->imprimir();
-    qDebug()<<"Humanos En mundo: "<<this->mundo->listaPersonas->largo;
     this->consultas->consulta=true;
+    this->ui->lbl_CantidaNivelesArbol->setText(QString::number(this->mundo->arbolMundo->height(this->mundo->arbolMundo->raiz)));
+    this->ui->lbl_CantidadDeNodos->setText(QString::number(this->mundo->arbolMundo->contadorNodos(this->mundo->arbolMundo->raiz)));
+    this->ui->lbl_CantidadTotalHumanos->setText(QString::number(this->mundo->listaPersonas->largo));
+    this->ui->txt_InformacionUltimoNivelArbol->clear();
+    this->mundo->arbolMundo->InformacionUltimoNivel(this->mundo->arbolMundo->raiz,this->ui->txt_InformacionUltimoNivelArbol);
+    //Infierno
     this->infierno->MeterFamiliaALosHeap();
-    this->infierno->imprimirFamiliasDeminios();
+    //this->infierno->imprimirFamiliasDeminios();
     this->infierno->OrdenarHeapsDemonios();
 }
 void MainWindow::on_btn_Pecar_clicked(){

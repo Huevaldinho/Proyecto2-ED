@@ -13,6 +13,43 @@ int ArbolFamilia::height(NodoArbol * t){
     }
     return h;
 }
+int ArbolFamilia::cantidadNiveles(NodoArbol * aux){
+    if (aux!=NULL){
+        int izq=cantidadNiveles(aux->hijoizquierdo)+1;
+        int der=cantidadNiveles(aux->hijoderecho)+1;
+        if (izq>der)
+            return izq;
+        return der;
+    }
+    return -1;
+}
+int ArbolFamilia::contadorNodos(NodoArbol * aux){
+    if (aux!=NULL){
+        return contadorNodos(aux->hijoizquierdo)+contadorNodos(aux->hijoderecho)+1;
+    }
+    return 0;
+}
+void ArbolFamilia::InformacionUltimoNivel(NodoArbol * raiz,QTextBrowser * cuadroTexto){
+//    if (raiz!=NULL){
+//        if (esHoja(raiz)){
+//            cuadroTexto->setText(cuadroTexto->toPlainText()+"\n ID: "+QString::number(raiz->nodoPersona->persona->ID));
+//        }else{
+//            InformacionUltimoNivel(raiz->hijoizquierdo,cuadroTexto);
+//            InformacionUltimoNivel(raiz->hijoderecho,cuadroTexto);
+//        }
+//    }
+    if (raiz==NULL)
+        return;
+    if (esHoja(raiz)){
+        cuadroTexto->setText(cuadroTexto->toPlainText()+"\n ID: "+QString::number(raiz->nodoPersona->persona->ID));
+        return;
+    }
+    if (raiz->hijoizquierdo!=NULL)
+        InformacionUltimoNivel(raiz->hijoizquierdo,cuadroTexto);
+    if (raiz->hijoderecho!=NULL)
+        InformacionUltimoNivel(raiz->hijoderecho,cuadroTexto);
+
+}
 int ArbolFamilia::difference(NodoArbol * t){
     int l_height = height(t->hijoizquierdo);
     int r_height = height(t->hijoderecho);

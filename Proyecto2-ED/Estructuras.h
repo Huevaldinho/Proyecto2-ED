@@ -38,6 +38,7 @@ class FamiliaHeapDemonio;
 #include <QDebug>
 #include <QFile>
 #include <QRandomGenerator>
+#include  <QTextBrowser>
 
 #include "mainwindow.h"
 #include "pais.h"

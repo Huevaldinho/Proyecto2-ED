@@ -45,6 +45,14 @@ public:
     QPushButton *btn_Top10PaisesConMasBuenasAcciones;
     QPushButton *btn_Top5PaisesMenosBuenos;
     QTextBrowser *txt_ConsultasPorPaises;
+    QLabel *lbl_textCantidadNivelesArbol;
+    QLabel *lbl_CantidaNivelesArbol;
+    QLabel *lbl_txtCantidadDeNodos;
+    QLabel *lbl_CantidadDeNodos;
+    QLabel *lbl_txtCantidadTotalHumanos;
+    QLabel *lbl_CantidadTotalHumanos;
+    QTextBrowser *txt_InformacionUltimoNivelArbol;
+    QLabel *label;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -64,10 +72,10 @@ public:
         btn_GenerarHumanos->setFont(font);
         txt_CantidadHumanosGenerar = new QLineEdit(centralwidget);
         txt_CantidadHumanosGenerar->setObjectName(QString::fromUtf8("txt_CantidadHumanosGenerar"));
-        txt_CantidadHumanosGenerar->setGeometry(QRect(520, 70, 131, 31));
+        txt_CantidadHumanosGenerar->setGeometry(QRect(510, 70, 131, 31));
         lbl_IngreseCantidadHumanos = new QLabel(centralwidget);
         lbl_IngreseCantidadHumanos->setObjectName(QString::fromUtf8("lbl_IngreseCantidadHumanos"));
-        lbl_IngreseCantidadHumanos->setGeometry(QRect(450, 40, 271, 16));
+        lbl_IngreseCantidadHumanos->setGeometry(QRect(460, 40, 271, 21));
         QFont font1;
         font1.setPointSize(10);
         font1.setBold(true);
@@ -122,6 +130,34 @@ public:
         txt_ConsultasPorPaises = new QTextBrowser(groupBox);
         txt_ConsultasPorPaises->setObjectName(QString::fromUtf8("txt_ConsultasPorPaises"));
         txt_ConsultasPorPaises->setGeometry(QRect(20, 90, 451, 231));
+        lbl_textCantidadNivelesArbol = new QLabel(centralwidget);
+        lbl_textCantidadNivelesArbol->setObjectName(QString::fromUtf8("lbl_textCantidadNivelesArbol"));
+        lbl_textCantidadNivelesArbol->setGeometry(QRect(810, 40, 191, 16));
+        lbl_textCantidadNivelesArbol->setFont(font2);
+        lbl_CantidaNivelesArbol = new QLabel(centralwidget);
+        lbl_CantidaNivelesArbol->setObjectName(QString::fromUtf8("lbl_CantidaNivelesArbol"));
+        lbl_CantidaNivelesArbol->setGeometry(QRect(890, 60, 55, 16));
+        lbl_txtCantidadDeNodos = new QLabel(centralwidget);
+        lbl_txtCantidadDeNodos->setObjectName(QString::fromUtf8("lbl_txtCantidadDeNodos"));
+        lbl_txtCantidadDeNodos->setGeometry(QRect(1060, 40, 131, 16));
+        lbl_txtCantidadDeNodos->setFont(font2);
+        lbl_CantidadDeNodos = new QLabel(centralwidget);
+        lbl_CantidadDeNodos->setObjectName(QString::fromUtf8("lbl_CantidadDeNodos"));
+        lbl_CantidadDeNodos->setGeometry(QRect(1110, 60, 55, 16));
+        lbl_txtCantidadTotalHumanos = new QLabel(centralwidget);
+        lbl_txtCantidadTotalHumanos->setObjectName(QString::fromUtf8("lbl_txtCantidadTotalHumanos"));
+        lbl_txtCantidadTotalHumanos->setGeometry(QRect(940, 80, 161, 16));
+        lbl_txtCantidadTotalHumanos->setFont(font2);
+        lbl_CantidadTotalHumanos = new QLabel(centralwidget);
+        lbl_CantidadTotalHumanos->setObjectName(QString::fromUtf8("lbl_CantidadTotalHumanos"));
+        lbl_CantidadTotalHumanos->setGeometry(QRect(1000, 110, 55, 16));
+        txt_InformacionUltimoNivelArbol = new QTextBrowser(centralwidget);
+        txt_InformacionUltimoNivelArbol->setObjectName(QString::fromUtf8("txt_InformacionUltimoNivelArbol"));
+        txt_InformacionUltimoNivelArbol->setGeometry(QRect(870, 150, 321, 91));
+        label = new QLabel(centralwidget);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(970, 130, 101, 16));
+        label->setFont(font2);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -152,6 +188,13 @@ public:
         btn_Top5PaisesMenosPecadores->setText(QCoreApplication::translate("MainWindow", "Top 5 Paises Menos Pecadores", nullptr));
         btn_Top10PaisesConMasBuenasAcciones->setText(QCoreApplication::translate("MainWindow", "Top 10 Paises Con M\303\241s Buenas Acciones", nullptr));
         btn_Top5PaisesMenosBuenos->setText(QCoreApplication::translate("MainWindow", "Top 5 Paises Menos Buenos", nullptr));
+        lbl_textCantidadNivelesArbol->setText(QCoreApplication::translate("MainWindow", "Cantidad de niveles del Arbol", nullptr));
+        lbl_CantidaNivelesArbol->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
+        lbl_txtCantidadDeNodos->setText(QCoreApplication::translate("MainWindow", "Cantidad de nodos", nullptr));
+        lbl_CantidadDeNodos->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
+        lbl_txtCantidadTotalHumanos->setText(QCoreApplication::translate("MainWindow", "Cantidad total humanos", nullptr));
+        lbl_CantidadTotalHumanos->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "Ultimo nivel", nullptr));
     } // retranslateUi
 
 };

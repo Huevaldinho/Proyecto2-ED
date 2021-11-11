@@ -182,13 +182,15 @@ void ArbolMundo::destruirNodo(NodoArbol* nodo){
 int ArbolMundo::contadorNodos(NodoArbol* nodoArbol){
     if (nodoArbol == NULL)
         return 0;
-     else
+     else{
         //qDebug()<<"Raiz: "<<nodoArbol->nodoPersona->persona->ID;
         if (nodoArbol->hijoderecho!=NULL)
             //qDebug()<<"Hijo derecho: "<<nodoArbol->hijoderecho->nodoPersona->persona->ID;
         if (nodoArbol->hijoizquierdo!=NULL)
             //qDebug()<<"Hijo izquierdo: "<<nodoArbol->hijoizquierdo->nodoPersona->persona->ID;
         return 1+ contadorNodos(nodoArbol->hijoderecho)+contadorNodos(nodoArbol->hijoizquierdo);
+    }
+    return 0;
 }
 int ArbolMundo::maximo (int a, int b){
     if (a>b)

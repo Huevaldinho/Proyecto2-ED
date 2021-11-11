@@ -14,6 +14,9 @@ class ArbolFamilia{
         ArbolFamilia();
         int height(NodoArbol *);//Listo
         int difference(NodoArbol *);//Listo
+        int cantidadNiveles(NodoArbol *);
+        int contadorNodos(NodoArbol *);
+        void InformacionUltimoNivel(NodoArbol *,QTextBrowser *);
         NodoArbol *rr_rotat(NodoArbol *);//Listo
         NodoArbol *ll_rotat(NodoArbol *);//Listo
         NodoArbol *lr_rotat(NodoArbol*);//Listo

@@ -109,14 +109,14 @@ void Demonio::OrdenarHeap(){
         /*
         Para probar que funciona le meto random a los arreglos
         */
-        qDebug()<<"SUPUESTO DATO DEL TIPO DE PECADO DE: "<<this->nombre;
+        //qDebug()<<"SUPUESTO DATO DEL TIPO DE PECADO DE: "<<this->nombre;
         uniform_int_distribution<int> distribution (0,100); //random
         int k=0;
         while (k<this->cantidadFamilias){
             if (this->heapFamilias[k]->apellido!=""){
                 this->heapFamilias[k]->contadorPecadosFamilia=distribution(*QRandomGenerator::global());;
                 //this->heapFamilias[k]->contadorPecadosFamilia=100-k;
-                qDebug()<<"Inserta random a familia:"<<this->heapFamilias[k]->contadorPecadosFamilia;
+                //qDebug()<<"Inserta random a familia:"<<this->heapFamilias[k]->contadorPecadosFamilia;
                 k++;
             }else
                 break;
@@ -126,7 +126,7 @@ void Demonio::OrdenarHeap(){
 
 
         //Esta es la parte que ordena, apartir de aqui es donde esta el error de orden
-        qDebug()<<"Size:"<<this->size;
+        //qDebug()<<"Size:"<<this->size;
         for(int k=1; k<this->size; k++){
               //int temp = this->heapFamilias[k];
               FamiliaHeapDemonio * temp = this->heapFamilias[k];
@@ -137,7 +137,7 @@ void Demonio::OrdenarHeap(){
               }
            this->heapFamilias[j+1] = temp;
         }
-        qDebug()<<"Lista ordenada por pecado: ";
-        for (int k=0;k<this->size;k++)
-            qDebug()<<this->heapFamilias[k]->contadorPecadosFamilia;
+//        qDebug()<<"Lista ordenada por pecado: ";
+//        for (int k=0;k<this->size;k++)
+//            qDebug()<<this->heapFamilias[k]->contadorPecadosFamilia;
 }
