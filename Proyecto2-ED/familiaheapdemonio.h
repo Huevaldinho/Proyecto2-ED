@@ -6,7 +6,7 @@ class FamiliaHeapDemonio{
     public:
         QString apellido;
         QString pais;
-        int contadorPecadosFamilia;
+        long long contadorPecadosFamilia;
         ListaPersonas * listaPersonas;
         FamiliaHeapDemonio();
 

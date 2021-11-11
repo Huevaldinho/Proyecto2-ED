@@ -47,64 +47,6 @@ void Demonio::imprimirFamilia(){
         i++;
     }
 }
-
-//Original
-//void Demonio::swap (int & a, int & b){ // Función de intercambio de posición
-//    int temp = a;
-//    a = b;
-//    b = temp;
-
-//}
-//ESTA PICHA NO ESTA ORDENANDO, ES OTRO CODIGO JAJA
-void Demonio::swap (FamiliaHeapDemonio * a , FamiliaHeapDemonio * b){ // Función de intercambio de posición
-    //qDebug()<<"Swap entra - a: "<<a->contadorPecadosFamilia<<" b: "<<b->contadorPecadosFamilia;
-    FamiliaHeapDemonio * temp = a;
-    a = b;
-    b = temp;
-    //qDebug()<<"Swap cambio - a: "<<a->contadorPecadosFamilia<<" b: "<<b->contadorPecadosFamilia;
-    //si los intercambia
-
-}
-void Demonio::Heap(QVector <FamiliaHeapDemonio *> array, int length, int index){// Algoritmo de clasificación de montón (big top heap)
-     int left = 2 * index + 1; // left array index
-     int right = 2 * index + 2; // El índice de la matriz de nodos derecha
-     int max = index; // index es el nodo padre
-     if (left <length &&((array [left]->contadorPecadosFamilia)> (array [max]->contadorPecadosFamilia))){ // El nodo izquierdo se compara con el nodo padre
-        max = left;
-    }
-     if (right <length && array [right]->contadorPecadosFamilia> array [max]->contadorPecadosFamilia){ // El nodo derecho se compara con el nodo padre
-        max = right;
-    }
-    if (array[index]->contadorPecadosFamilia != array[max]->contadorPecadosFamilia){
-        swap(array[index], array[max]);
-        Heap (array, length, max); // Llamada recursiva
-    }
-}
-void Demonio::HeapSort (QVector <FamiliaHeapDemonio *>  array, int size){// Función de ordenación del montón
-   for (int i = size / 2-1; i>= 0; i--){// crea un montón
-       Heap(array, size, i);
-   }
-   for (int i = size - 1; i >= 1; i--){
-       //Toma el primer elemento y lo empieza a comparar con el ultimo
-       qDebug()<<"Array[0]"<<array[0]->contadorPecadosFamilia<<" array["<<i<<"]"<<array[i]->contadorPecadosFamilia;
-        swap (array [0], array [i]); // Coloque el valor máximo de array [0] en la posición de array [i], el valor máximo se inclina hacia atrás
-        Heap (array, i, 0); // Llame al algoritmo de ordenación del montón para comparar
-   }
-}
-
-int Demonio::findSmallest(QVector <FamiliaHeapDemonio *>  myarray,int i){
-    int position,j;
-    FamiliaHeapDemonio * ele_small;
-    ele_small = myarray[i];
-    position = i;
-    for(j=i+1;j<5;j++){
-       if(myarray[j]->contadorPecadosFamilia>ele_small->contadorPecadosFamilia){
-       ele_small = myarray[j];
-       position=j;
-       }
-    }
-    return position;
-}
 void Demonio::OrdenarHeap(){
         /*
         Para probar que funciona le meto random a los arreglos
@@ -116,17 +58,15 @@ void Demonio::OrdenarHeap(){
             if (this->heapFamilias[k]->apellido!=""){
                 this->heapFamilias[k]->contadorPecadosFamilia=distribution(*QRandomGenerator::global());;
                 //this->heapFamilias[k]->contadorPecadosFamilia=100-k;
-                //qDebug()<<"Inserta random a familia:"<<this->heapFamilias[k]->contadorPecadosFamilia;
+                qDebug()<<"Inserta random a familia:"<<this->heapFamilias[k]->contadorPecadosFamilia;
                 k++;
             }else
                 break;
         }
         //Estas lineas de arriba son solo para probar, estos datos son los uqe se toman en la
         //condenacion
-
-
-        //Esta es la parte que ordena, apartir de aqui es donde esta el error de orden
-        //qDebug()<<"Size:"<<this->size;
+        qDebug()<<"Size:"<<this->size;
+        //Esta es la parte que ordena
         for(int k=1; k<this->size; k++){
               //int temp = this->heapFamilias[k];
               FamiliaHeapDemonio * temp = this->heapFamilias[k];
@@ -137,7 +77,7 @@ void Demonio::OrdenarHeap(){
               }
            this->heapFamilias[j+1] = temp;
         }
-//        qDebug()<<"Lista ordenada por pecado: ";
-//        for (int k=0;k<this->size;k++)
-//            qDebug()<<this->heapFamilias[k]->contadorPecadosFamilia;
+        qDebug()<<"Lista ordenada por pecado: ";
+        for (int k=0;k<this->size;k++)
+            qDebug()<<this->heapFamilias[k]->contadorPecadosFamilia;
 }
