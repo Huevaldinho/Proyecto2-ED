@@ -41,6 +41,7 @@ void Archivos::lecturaNombres(QString * nombres){
     }
     else
     {
+        file.write("Hola grupo soy Vanesa");
         data=file.readAll();
         QString tmp="";
         for(int i=0; i<(int)data.size(); i++){

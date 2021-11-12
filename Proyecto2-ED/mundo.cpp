@@ -186,7 +186,7 @@ bool Mundo::PuedoGenerarArbol(int n){
 
 
 void Mundo::generarPecados(){
-    uniform_int_distribution<int> distribution (0,50); //random
+    uniform_int_distribution<int> distribution (0,75); //random
     Nodo * tmp = this->listaPersonas->primerNodo;
     Nodo * tmpHijo=NULL;
     Nodo * tmpNieto = NULL;
@@ -230,10 +230,9 @@ void Mundo::generarPecados(){
         }
         tmp=tmp->siguiente;
     }
-    qDebug()<<"TERMINA PECAR";
 }
 void Mundo::generarBuenasAcciones(){
-    uniform_int_distribution<int> distribution (0,50); //random
+    uniform_int_distribution<int> distribution (0,75); //random
     Nodo * tmp = this->listaPersonas->primerNodo;
     Nodo * tmpHijo =NULL;
     Nodo * tmpNieto = NULL;
@@ -277,5 +276,4 @@ void Mundo::generarBuenasAcciones(){
         }
         tmp=tmp->siguiente;
     }
-    qDebug()<<"TERMINA BUENAS ACCIONES";
 }

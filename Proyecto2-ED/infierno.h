@@ -8,9 +8,16 @@ class Infierno{
         Demonio * demonios[7];
         ListaPersonas * humanosMundo;
         Infierno(int,ListaPersonas *);
-        void MeterFamiliaALosHeap();
-        void Condenar(QString nombreDemonio);
+        QString archivoCondenacion;
+        QString archivoConsulta;
         void imprimirFamiliasDeminios();
+
+        void MeterFamiliaALosHeap();
+        void escribirArchivo(Persona*,Demonio*);
+        void Condenar(Demonio* );
+        void consulta();
+
+        Demonio * buscarDemonio(QString);
         void OrdenarHeapsDemonios();
 };
 

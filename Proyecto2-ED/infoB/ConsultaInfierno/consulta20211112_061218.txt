@@ -1,0 +1,97 @@
+Asmodeo	Pecado: lujuria
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Belfegor	Pecado: gula
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Mammón	Pecado: avaricia
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Abadón	Pecado: pereza
+Cantidad de Humanos: 48	Promedio de pecados: 1
+Máximo de pecados: 108	 Mínimo de pecados: 58
+	Valentín Rodríguez, cantidad de pecados de pereza: 64
+	Iker González, cantidad de pecados de pereza: 59
+	Miguel Ángel Pérez, cantidad de pecados de pereza: 63
+	Paula Pérez, cantidad de pecados de pereza: 63
+	Ricardo Martínez, cantidad de pecados de pereza: 71
+	Paulin González, cantidad de pecados de pereza: 59
+	Rafael González, cantidad de pecados de pereza: 58
+	Oscar González, cantidad de pecados de pereza: 82
+	Sofía González, cantidad de pecados de pereza: 60
+	Luciana Pérez, cantidad de pecados de pereza: 88
+	Mauricio Sánchez, cantidad de pecados de pereza: 63
+	Hugo Sánchez, cantidad de pecados de pereza: 64
+	Laura Sánchez, cantidad de pecados de pereza: 60
+	Ian García, cantidad de pecados de pereza: 64
+	Juan Manuel Gómez, cantidad de pecados de pereza: 71
+	Camila Gómez, cantidad de pecados de pereza: 58
+	Laura Rodríguez, cantidad de pecados de pereza: 74
+	Antonella Rodríguez, cantidad de pecados de pereza: 59
+	Monserrat López, cantidad de pecados de pereza: 62
+	Ian Gómez, cantidad de pecados de pereza: 58
+	Briana Martínez, cantidad de pecados de pereza: 58
+	Abril Martin, cantidad de pecados de pereza: 60
+	Diego Alejandro González, cantidad de pecados de pereza: 75
+	Axel González, cantidad de pecados de pereza: 58
+	Santino García, cantidad de pecados de pereza: 86
+	Carla García, cantidad de pecados de pereza: 67
+	Ricardo García, cantidad de pecados de pereza: 67
+	Allison Rodríguez, cantidad de pecados de pereza: 65
+	Axel González, cantidad de pecados de pereza: 72
+	Álvaro González, cantidad de pecados de pereza: 70
+	Valeria González, cantidad de pecados de pereza: 69
+	Nicole Rodríguez, cantidad de pecados de pereza: 58
+	Roberto García, cantidad de pecados de pereza: 71
+	Daniela Fernández, cantidad de pecados de pereza: 91
+	Valentín Fernández, cantidad de pecados de pereza: 84
+	Valentín Fernández, cantidad de pecados de pereza: 67
+	Juliana Fernández, cantidad de pecados de pereza: 69
+	Gabriela López, cantidad de pecados de pereza: 66
+	Bautista González, cantidad de pecados de pereza: 108
+	Mario González, cantidad de pecados de pereza: 75
+	Catalina López, cantidad de pecados de pereza: 65
+	Iker Gómez, cantidad de pecados de pereza: 60
+	Mario Martínez, cantidad de pecados de pereza: 96
+	Juliana Martínez, cantidad de pecados de pereza: 73
+	Emma Pérez, cantidad de pecados de pereza: 82
+	Melanie Pérez, cantidad de pecados de pereza: 59
+	Mauricio Fernández, cantidad de pecados de pereza: 69
+	Isabel Fernández, cantidad de pecados de pereza: 60
+
+
+
+
+Satán	Pecado: ira
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Belcebú	Pecado: envidia
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Lucifer	Pecado: soberbia
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
