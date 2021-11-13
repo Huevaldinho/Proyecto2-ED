@@ -36,9 +36,6 @@ class Persona{
         5 - Envidia                         5 - Solidaridad
         6 - Soberbia                        6 - Humildad
 */
-
-
-
 };
 
 #endif // PERSONA_H

@@ -38,6 +38,20 @@ private slots:
 
     void on_btn_Top5PaisesMenosBuenos_clicked();
 
+    void on_btnCondenacionLucifer_clicked();
+
+    void on_btnCondenacionBelcebu_clicked();
+
+    void on_btnCondenacionSatan_clicked();
+
+    void on_btnCondenacionAbadon_clicked();
+
+    void on_btnCondenacionMammon_clicked();
+
+    void on_btnCondenacionBelfegor_clicked();
+
+    void on_btnCondenacionAsmodeo_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

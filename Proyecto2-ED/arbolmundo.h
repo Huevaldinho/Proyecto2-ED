@@ -17,8 +17,6 @@ class ArbolMundo{
        int cantHojas(NodoArbol*);
        void mostrarArbol(NodoArbol*, int);//Listo
 
-       //Codigo youtube, es la misma vara pero el problema sigue en como insertar usando la lista
-       //siempre se abre hacia los costados poruqe esta ordenada
        bool esHoja(NodoArbol * );
        NodoArbol * crearNodo(Nodo *,NodoArbol*);//Listo
        void insertarNodo(NodoArbol*&, Nodo *,NodoArbol*);//Listo

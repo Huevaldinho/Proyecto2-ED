@@ -9,9 +9,11 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    arbolcielo.cpp \
     arbolfamilia.cpp \
     arbolmundo.cpp \
     archivos.cpp \
+    cielo.cpp \
     consultasporacciones.cpp \
     demonio.cpp \
     familiaheapdemonio.cpp \
@@ -29,9 +31,11 @@ SOURCES += \
 
 HEADERS += \
     Estructuras.h \
+    arbolcielo.h \
     arbolfamilia.h \
     arbolmundo.h \
     archivos.h \
+    cielo.h \
     consultasporacciones.h \
     demonio.h \
     familiaheapdemonio.h \

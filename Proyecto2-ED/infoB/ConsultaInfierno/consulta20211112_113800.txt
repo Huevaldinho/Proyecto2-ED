@@ -1,0 +1,97 @@
+Asmodeo	Pecado: lujuria
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Belfegor	Pecado: gula
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Mammón	Pecado: avaricia
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Abadón	Pecado: pereza
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Satán	Pecado: ira
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Belcebú	Pecado: envidia
+Cantidad de Humanos: 0	Promedio de pecados: 1
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Lucifer	Pecado: soberbia
+Cantidad de Humanos: 48	Promedio de pecados: 1
+Máximo de pecados: 105	 Mínimo de pecados: 63
+	Miguel Martin, cantidad de pecados de soberbia: 99
+	Juan Andrés Martin, cantidad de pecados de soberbia: 81
+	Renata Martin, cantidad de pecados de soberbia: 69
+	Simón Martin, cantidad de pecados de soberbia: 63
+	Isabel Fernández, cantidad de pecados de soberbia: 85
+	Cristóbal García, cantidad de pecados de soberbia: 63
+	Thiago García, cantidad de pecados de soberbia: 63
+	Luna Martínez, cantidad de pecados de soberbia: 95
+	Juan Andrés Martínez, cantidad de pecados de soberbia: 87
+	Emma Fernández, cantidad de pecados de soberbia: 70
+	Antonella Martínez, cantidad de pecados de soberbia: 67
+	Juan Manuel Rodríguez, cantidad de pecados de soberbia: 64
+	Jazmín García, cantidad de pecados de soberbia: 65
+	María José Pérez, cantidad de pecados de soberbia: 98
+	Valentín Pérez, cantidad de pecados de soberbia: 92
+	Catalina Pérez, cantidad de pecados de soberbia: 85
+	Maximiliano Pérez, cantidad de pecados de soberbia: 81
+	Ashley Pérez, cantidad de pecados de soberbia: 63
+	Nicole Gómez, cantidad de pecados de soberbia: 72
+	Briana Martin, cantidad de pecados de soberbia: 82
+	Gael Martin, cantidad de pecados de soberbia: 76
+	Miguel Martin, cantidad de pecados de soberbia: 71
+	Camila Martin, cantidad de pecados de soberbia: 64
+	Monserrat Martin, cantidad de pecados de soberbia: 64
+	Monserrat González, cantidad de pecados de soberbia: 72
+	Valentín García, cantidad de pecados de soberbia: 74
+	Ana Sofía García, cantidad de pecados de soberbia: 69
+	Paulin Gómez, cantidad de pecados de soberbia: 63
+	Lucía López, cantidad de pecados de soberbia: 66
+	Jazmín González, cantidad de pecados de soberbia: 63
+	Valeria González, cantidad de pecados de soberbia: 105
+	Alejandra González, cantidad de pecados de soberbia: 66
+	Victoria González, cantidad de pecados de soberbia: 64
+	Dylan López, cantidad de pecados de soberbia: 94
+	Carla López, cantidad de pecados de soberbia: 72
+	Alejandra López, cantidad de pecados de soberbia: 92
+	Valentino García, cantidad de pecados de soberbia: 78
+	Ashley García, cantidad de pecados de soberbia: 71
+	Isabella García, cantidad de pecados de soberbia: 63
+	Hugo Sánchez, cantidad de pecados de soberbia: 86
+	Santino Sánchez, cantidad de pecados de soberbia: 68
+	Luna Sánchez, cantidad de pecados de soberbia: 68
+	Guillermo Fernández, cantidad de pecados de soberbia: 85
+	María Fernández, cantidad de pecados de soberbia: 78
+	Luciano Fernández, cantidad de pecados de soberbia: 64
+	Anthony Pérez, cantidad de pecados de soberbia: 67
+	Gabriela Pérez, cantidad de pecados de soberbia: 86
+	Regina Pérez, cantidad de pecados de soberbia: 67
+
+
+
+
