@@ -33,6 +33,7 @@ class Infierno;
 class FamiliaHeapDemonio;
 class Cielo;
 class ArbolCielo;
+class NodoArbolHashCielo;
 
 #include <QString>
 #include <QDate>
@@ -61,6 +62,7 @@ class ArbolCielo;
 #include "familiaheapdemonio.h"
 #include "cielo.h"
 #include "arbolcielo.h"
+#include "nodoarbolhashcielo.h"
 
 using namespace std;
 

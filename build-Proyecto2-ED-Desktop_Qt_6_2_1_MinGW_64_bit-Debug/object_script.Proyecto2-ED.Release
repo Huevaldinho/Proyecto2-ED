@@ -1,6 +1,8 @@
+release/arbolcielo.o
 release/arbolfamilia.o
 release/arbolmundo.o
 release/archivos.o
+release/cielo.o
 release/consultasporacciones.o
 release/demonio.o
 release/familiaheapdemonio.o
@@ -13,6 +15,7 @@ release/mainwindow.o
 release/mundo.o
 release/nodo.o
 release/nodoarbol.o
+release/nodoarbolhashcielo.o
 release/nodolistafalimias.o
 release/persona.o
 release/qrc_rsc.o

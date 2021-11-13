@@ -1,6 +1,8 @@
+debug/arbolcielo.o
 debug/arbolfamilia.o
 debug/arbolmundo.o
 debug/archivos.o
+debug/cielo.o
 debug/consultasporacciones.o
 debug/demonio.o
 debug/familiaheapdemonio.o
@@ -13,6 +15,7 @@ debug/mainwindow.o
 debug/mundo.o
 debug/nodo.o
 debug/nodoarbol.o
+debug/nodoarbolhashcielo.o
 debug/nodolistafalimias.o
 debug/persona.o
 debug/qrc_rsc.o

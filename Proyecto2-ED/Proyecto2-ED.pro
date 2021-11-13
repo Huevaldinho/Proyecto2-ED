@@ -26,6 +26,7 @@ SOURCES += \
     mundo.cpp \
     nodo.cpp \
     nodoarbol.cpp \
+    nodoarbolhashcielo.cpp \
     nodolistafalimias.cpp \
     persona.cpp
 
@@ -47,6 +48,7 @@ HEADERS += \
     mundo.h \
     nodo.h \
     nodoarbol.h \
+    nodoarbolhashcielo.h \
     nodolistafalimias.h \
     pais.h \
     persona.h

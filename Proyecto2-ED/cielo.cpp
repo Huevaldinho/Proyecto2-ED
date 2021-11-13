@@ -12,3 +12,12 @@ Cielo::Cielo(Infierno * _infierno){
         //en los arboles del hash se van a meter las personas salvadas
     }
 }
+int Cielo::funcionHash(int ID){
+    int rango=0;
+    //100x1000=100 000 personas en rangos de 100
+    //se le suma 1 porque la primera posicion del hash no se usa
+    rango = (ID/100)+1;//tenemos  99 999 (100 000) personas como maximo
+    //se hace 100 000 entre 100 posiciones del arreglo para determinar el indice
+    //para insertar
+    return rango;
+}
