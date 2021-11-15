@@ -19,6 +19,7 @@ public:
     ConsultasPorAcciones * consultas;
     bool corriendo;
     bool pausa;
+    QStringList files;
     ~MainWindow();
 
 private slots:
@@ -51,6 +52,8 @@ private slots:
     void on_btnCondenacionBelfegor_clicked();
 
     void on_btnCondenacionAsmodeo_clicked();
+
+    void on_btnConsultaInfierno_clicked();
 
 private:
     Ui::MainWindow *ui;

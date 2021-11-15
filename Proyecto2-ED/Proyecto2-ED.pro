@@ -28,7 +28,8 @@ SOURCES += \
     nodoarbol.cpp \
     nodoarbolhashcielo.cpp \
     nodolistafalimias.cpp \
-    persona.cpp
+    persona.cpp \
+    smtp.cpp
 
 HEADERS += \
     Estructuras.h \
@@ -51,7 +52,8 @@ HEADERS += \
     nodoarbolhashcielo.h \
     nodolistafalimias.h \
     pais.h \
-    persona.h
+    persona.h \
+    smtp.h
 
 FORMS += \
     mainwindow.ui

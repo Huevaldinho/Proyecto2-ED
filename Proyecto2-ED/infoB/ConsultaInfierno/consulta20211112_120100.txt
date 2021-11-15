@@ -1,97 +1,0 @@
-Asmodeo	Pecado: lujuria
-Cantidad de Humanos: 0	Promedio de pecados: 1
-Máximo de pecados: 0	 Mínimo de pecados: 0
-
-
-
-
-Belfegor	Pecado: gula
-Cantidad de Humanos: 0	Promedio de pecados: 1
-Máximo de pecados: 0	 Mínimo de pecados: 0
-
-
-
-
-Mammón	Pecado: avaricia
-Cantidad de Humanos: 0	Promedio de pecados: 1
-Máximo de pecados: 0	 Mínimo de pecados: 0
-
-
-
-
-Abadón	Pecado: pereza
-Cantidad de Humanos: 0	Promedio de pecados: 1
-Máximo de pecados: 0	 Mínimo de pecados: 0
-
-
-
-
-Satán	Pecado: ira
-Cantidad de Humanos: 0	Promedio de pecados: 1
-Máximo de pecados: 0	 Mínimo de pecados: 0
-
-
-
-
-Belcebú	Pecado: envidia
-Cantidad de Humanos: 0	Promedio de pecados: 1
-Máximo de pecados: 0	 Mínimo de pecados: 0
-
-
-
-
-Lucifer	Pecado: soberbia
-Cantidad de Humanos: 48	Promedio de pecados: 1
-Máximo de pecados: 114	 Mínimo de pecados: 58
-	Mía Pérez, cantidad de pecados de soberbia: 77
-	Kimberly Sánchez, cantidad de pecados de soberbia: 58
-	Luciano García, cantidad de pecados de soberbia: 75
-	Antonella Rodríguez, cantidad de pecados de soberbia: 70
-	Iker Gómez, cantidad de pecados de soberbia: 67
-	Juan Manuel Gómez, cantidad de pecados de soberbia: 63
-	Ximena Martin, cantidad de pecados de soberbia: 58
-	Roberto Fernández, cantidad de pecados de soberbia: 85
-	Marcos Fernández, cantidad de pecados de soberbia: 61
-	Joshua Fernández, cantidad de pecados de soberbia: 58
-	Marcos Fernández, cantidad de pecados de soberbia: 58
-	Lucía Fernández, cantidad de pecados de soberbia: 64
-	Abril Fernández, cantidad de pecados de soberbia: 58
-	Valentín Gómez, cantidad de pecados de soberbia: 79
-	Paulin Gómez, cantidad de pecados de soberbia: 65
-	Valentina Martin, cantidad de pecados de soberbia: 58
-	Matthew Fernández, cantidad de pecados de soberbia: 70
-	Bruno Fernández, cantidad de pecados de soberbia: 59
-	Mariana Martin, cantidad de pecados de soberbia: 74
-	Antonio Martin, cantidad de pecados de soberbia: 64
-	Ashley Pérez, cantidad de pecados de soberbia: 63
-	Mariana Pérez, cantidad de pecados de soberbia: 61
-	Juliana González, cantidad de pecados de soberbia: 99
-	Renata González, cantidad de pecados de soberbia: 63
-	Sergio González, cantidad de pecados de soberbia: 60
-	Luca González, cantidad de pecados de soberbia: 59
-	Valeria López, cantidad de pecados de soberbia: 64
-	Monserrat Sánchez, cantidad de pecados de soberbia: 92
-	Franco González, cantidad de pecados de soberbia: 62
-	Thiago González, cantidad de pecados de soberbia: 60
-	Cristóbal García, cantidad de pecados de soberbia: 58
-	Juan Sebastián Gómez, cantidad de pecados de soberbia: 64
-	Camila Rodríguez, cantidad de pecados de soberbia: 70
-	Kimberly Rodríguez, cantidad de pecados de soberbia: 61
-	Samantha López, cantidad de pecados de soberbia: 69
-	Gabriela Rodríguez, cantidad de pecados de soberbia: 71
-	César Rodríguez, cantidad de pecados de soberbia: 65
-	Maximiliano Rodríguez, cantidad de pecados de soberbia: 65
-	Isabel Fernández, cantidad de pecados de soberbia: 87
-	Facundo Sánchez, cantidad de pecados de soberbia: 114
-	Juanita Sánchez, cantidad de pecados de soberbia: 80
-	Isabel González, cantidad de pecados de soberbia: 71
-	Mariana González, cantidad de pecados de soberbia: 68
-	Valeria Rodríguez, cantidad de pecados de soberbia: 65
-	Jerónimo Fernández, cantidad de pecados de soberbia: 63
-	Matthew Sánchez, cantidad de pecados de soberbia: 66
-	Juan Andrés Martin, cantidad de pecados de soberbia: 59
-	Mario Pérez, cantidad de pecados de soberbia: 60
-
-
-
-

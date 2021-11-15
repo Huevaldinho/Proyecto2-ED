@@ -34,6 +34,7 @@ class FamiliaHeapDemonio;
 class Cielo;
 class ArbolCielo;
 class NodoArbolHashCielo;
+class Smtp;
 
 #include <QString>
 #include <QDate>
@@ -42,6 +43,15 @@ class NodoArbolHashCielo;
 #include <QFile>
 #include <QRandomGenerator>
 #include <QTextBrowser>
+#include <QtNetwork/QAbstractSocket>
+#include <QtNetwork/QSslSocket>
+#include <QString>
+#include <QTextStream>
+#include <QDebug>
+#include <QtWidgets/QMessageBox>
+#include <QByteArray>
+#include <QFile>
+#include <QFileInfo>
 
 #include "mainwindow.h"
 #include "pais.h"
@@ -63,6 +73,8 @@ class NodoArbolHashCielo;
 #include "cielo.h"
 #include "arbolcielo.h"
 #include "nodoarbolhashcielo.h"
+#include "smtp.h"
+
 
 using namespace std;
 
