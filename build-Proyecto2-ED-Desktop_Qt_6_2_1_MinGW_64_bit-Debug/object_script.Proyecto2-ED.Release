@@ -18,5 +18,7 @@ release/nodoarbol.o
 release/nodoarbolhashcielo.o
 release/nodolistafalimias.o
 release/persona.o
+release/smtp.o
 release/qrc_rsc.o
 release/moc_mainwindow.o
+release/moc_smtp.o

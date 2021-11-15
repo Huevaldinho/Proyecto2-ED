@@ -62,8 +62,8 @@ void MainWindow::on_btnCondenacionLucifer_clicked(){//LUCIFER
     QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
 
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaB+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -81,8 +81,8 @@ void MainWindow::on_btnCondenacionBelcebu_clicked(){//BELCEBU
 
 
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaB+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -99,8 +99,8 @@ void MainWindow::on_btnCondenacionSatan_clicked(){//SATAN
     QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
 
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaB+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -116,8 +116,8 @@ void MainWindow::on_btnCondenacionAbadon_clicked(){//ABADON
     QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
 
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaB+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -134,8 +134,8 @@ void MainWindow::on_btnCondenacionMammon_clicked(){//MAMMON
     QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
 
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaB+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -152,8 +152,8 @@ void MainWindow::on_btnCondenacionBelfegor_clicked(){//BELFEGOR
     QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
 
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaB+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -189,8 +189,7 @@ void MainWindow::on_btnCondenacionAsmodeo_clicked(){//ASMODEO
 
     QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Asmodeo creado");
 }
-void MainWindow::on_btnConsultaInfierno_clicked()
-{
+void MainWindow::on_btnConsultaInfierno_clicked(){
     this->infierno->consulta();
     QMessageBox::information(this,"Archivo Generado","\nSe ha creado el archivo de consulta del infierno");
 }

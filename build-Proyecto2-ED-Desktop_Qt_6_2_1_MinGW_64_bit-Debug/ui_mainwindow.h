@@ -61,6 +61,8 @@ public:
     QPushButton *btnCondenacionMammon;
     QPushButton *btnCondenacionBelfegor;
     QPushButton *btnCondenacionAsmodeo;
+    QLabel *lblCondenar_2;
+    QPushButton *btnConsultaInfierno;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -191,10 +193,17 @@ public:
         btnCondenacionAsmodeo = new QPushButton(centralwidget);
         btnCondenacionAsmodeo->setObjectName(QString::fromUtf8("btnCondenacionAsmodeo"));
         btnCondenacionAsmodeo->setGeometry(QRect(1040, 190, 80, 25));
+        lblCondenar_2 = new QLabel(centralwidget);
+        lblCondenar_2->setObjectName(QString::fromUtf8("lblCondenar_2"));
+        lblCondenar_2->setGeometry(QRect(1210, 30, 61, 31));
+        lblCondenar_2->setFont(font2);
+        btnConsultaInfierno = new QPushButton(centralwidget);
+        btnConsultaInfierno->setObjectName(QString::fromUtf8("btnConsultaInfierno"));
+        btnConsultaInfierno->setGeometry(QRect(1200, 70, 80, 24));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1317, 25));
+        menubar->setGeometry(QRect(0, 0, 1317, 21));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -236,6 +245,8 @@ public:
         btnCondenacionMammon->setText(QCoreApplication::translate("MainWindow", "Mamm\303\263n", nullptr));
         btnCondenacionBelfegor->setText(QCoreApplication::translate("MainWindow", "Belfegor", nullptr));
         btnCondenacionAsmodeo->setText(QCoreApplication::translate("MainWindow", "Asmodeo", nullptr));
+        lblCondenar_2->setText(QCoreApplication::translate("MainWindow", "Consulta", nullptr));
+        btnConsultaInfierno->setText(QCoreApplication::translate("MainWindow", "Infierno", nullptr));
     } // retranslateUi
 
 };

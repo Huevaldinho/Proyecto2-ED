@@ -13,13 +13,13 @@ EQ            = =
 
 CC            = gcc
 CXX           = g++
-DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN
+DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN
 CFLAGS        = -fno-keep-inline-dllexport -g -Wall -Wextra -Wextra $(DEFINES)
 CXXFLAGS      = -fno-keep-inline-dllexport -g -std=gnu++1z -Wall -Wextra -Wextra -fexceptions -mthreads $(DEFINES)
-INCPATH       = -I../Proyecto2-ED -I. -IC:/Qt/6.2.1/mingw81_64/include -IC:/Qt/6.2.1/mingw81_64/include/QtWidgets -IC:/Qt/6.2.1/mingw81_64/include/QtGui -IC:/Qt/6.2.1/mingw81_64/include/QtCore -Idebug -I. -I/include -IC:/Qt/6.2.1/mingw81_64/mkspecs/win32-g++ 
+INCPATH       = -I../Proyecto2-ED -I. -IC:/Qt/6.2.1/mingw81_64/include -IC:/Qt/6.2.1/mingw81_64/include/QtWidgets -IC:/Qt/6.2.1/mingw81_64/include/QtGui -IC:/Qt/6.2.1/mingw81_64/include/QtNetwork -IC:/Qt/6.2.1/mingw81_64/include/QtCore -Idebug -I. -I/include -IC:/Qt/6.2.1/mingw81_64/mkspecs/win32-g++ 
 LINKER      =        g++
 LFLAGS        =        -Wl,-subsystem,windows -mthreads
-LIBS        =        C:\Qt\6.2.1\mingw81_64\lib\libQt6Widgets.a C:\Qt\6.2.1\mingw81_64\lib\libQt6Gui.a C:\Qt\6.2.1\mingw81_64\lib\libQt6Core.a -lmingw32 C:\Qt\6.2.1\mingw81_64\lib\libQt6EntryPoint.a -lshell32  
+LIBS        =        C:\Qt\6.2.1\mingw81_64\lib\libQt6Widgets.a C:\Qt\6.2.1\mingw81_64\lib\libQt6Gui.a C:\Qt\6.2.1\mingw81_64\lib\libQt6Network.a C:\Qt\6.2.1\mingw81_64\lib\libQt6Core.a -lmingw32 C:\Qt\6.2.1\mingw81_64\lib\libQt6EntryPoint.a -lshell32  
 QMAKE         = C:\Qt\6.2.1\mingw81_64\bin\qmake.exe
 DEL_FILE      = del
 CHK_DIR_EXISTS= if not exist
@@ -69,8 +69,10 @@ SOURCES       = ..\Proyecto2-ED\arbolcielo.cpp \
 		..\Proyecto2-ED\nodoarbol.cpp \
 		..\Proyecto2-ED\nodoarbolhashcielo.cpp \
 		..\Proyecto2-ED\nodolistafalimias.cpp \
-		..\Proyecto2-ED\persona.cpp debug\qrc_rsc.cpp \
-		debug\moc_mainwindow.cpp
+		..\Proyecto2-ED\persona.cpp \
+		..\Proyecto2-ED\smtp.cpp debug\qrc_rsc.cpp \
+		debug\moc_mainwindow.cpp \
+		debug\moc_smtp.cpp
 OBJECTS       = debug/arbolcielo.o \
 		debug/arbolfamilia.o \
 		debug/arbolmundo.o \
@@ -91,8 +93,10 @@ OBJECTS       = debug/arbolcielo.o \
 		debug/nodoarbolhashcielo.o \
 		debug/nodolistafalimias.o \
 		debug/persona.o \
+		debug/smtp.o \
 		debug/qrc_rsc.o \
-		debug/moc_mainwindow.o
+		debug/moc_mainwindow.o \
+		debug/moc_smtp.o
 
 DIST          =  ..\Proyecto2-ED\Estructuras.h \
 		..\Proyecto2-ED\arbolcielo.h \
@@ -114,7 +118,8 @@ DIST          =  ..\Proyecto2-ED\Estructuras.h \
 		..\Proyecto2-ED\nodoarbolhashcielo.h \
 		..\Proyecto2-ED\nodolistafalimias.h \
 		..\Proyecto2-ED\pais.h \
-		..\Proyecto2-ED\persona.h ..\Proyecto2-ED\arbolcielo.cpp \
+		..\Proyecto2-ED\persona.h \
+		..\Proyecto2-ED\smtp.h ..\Proyecto2-ED\arbolcielo.cpp \
 		..\Proyecto2-ED\arbolfamilia.cpp \
 		..\Proyecto2-ED\arbolmundo.cpp \
 		..\Proyecto2-ED\archivos.cpp \
@@ -133,7 +138,8 @@ DIST          =  ..\Proyecto2-ED\Estructuras.h \
 		..\Proyecto2-ED\nodoarbol.cpp \
 		..\Proyecto2-ED\nodoarbolhashcielo.cpp \
 		..\Proyecto2-ED\nodolistafalimias.cpp \
-		..\Proyecto2-ED\persona.cpp
+		..\Proyecto2-ED\persona.cpp \
+		..\Proyecto2-ED\smtp.cpp
 QMAKE_TARGET  = Proyecto2-ED
 DESTDIR        = debug\ #avoid trailing-slash linebreak
 TARGET         = Proyecto2-ED.exe
@@ -144,7 +150,7 @@ DESTDIR_TARGET = debug\Proyecto2-ED.exe
 first: all
 all: Makefile.Debug  debug/Proyecto2-ED.exe
 
-debug/Proyecto2-ED.exe: C:/Qt/6.2.1/mingw81_64/lib/libQt6Widgets.a C:/Qt/6.2.1/mingw81_64/lib/libQt6Gui.a C:/Qt/6.2.1/mingw81_64/lib/libQt6Core.a C:/Qt/6.2.1/mingw81_64/lib/libQt6EntryPoint.a ui_mainwindow.h $(OBJECTS) 
+debug/Proyecto2-ED.exe: C:/Qt/6.2.1/mingw81_64/lib/libQt6Widgets.a C:/Qt/6.2.1/mingw81_64/lib/libQt6Gui.a C:/Qt/6.2.1/mingw81_64/lib/libQt6Network.a C:/Qt/6.2.1/mingw81_64/lib/libQt6Core.a C:/Qt/6.2.1/mingw81_64/lib/libQt6EntryPoint.a ui_mainwindow.h $(OBJECTS) 
 	$(LINKER) $(LFLAGS) -o $(DESTDIR_TARGET) @object_script.Proyecto2-ED.Debug  $(LIBS)
 
 qmake: FORCE
@@ -153,10 +159,10 @@ qmake: FORCE
 qmake_all: FORCE
 
 dist:
-	$(ZIP) Proyecto2-ED.zip $(SOURCES) $(DIST) ..\Proyecto2-ED\Proyecto2-ED.pro C:\Qt\6.2.1\mingw81_64\mkspecs\features\spec_pre.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\device_config.prf C:\Qt\6.2.1\mingw81_64\mkspecs\common\sanitize.conf C:\Qt\6.2.1\mingw81_64\mkspecs\common\gcc-base.conf C:\Qt\6.2.1\mingw81_64\mkspecs\common\g++-base.conf C:\Qt\6.2.1\mingw81_64\mkspecs\features\win32\windows_vulkan_sdk.prf C:\Qt\6.2.1\mingw81_64\mkspecs\common\windows-vulkan.conf C:\Qt\6.2.1\mingw81_64\mkspecs\common\g++-win32.conf C:\Qt\6.2.1\mingw81_64\mkspecs\common\windows-desktop.conf C:\Qt\6.2.1\mingw81_64\mkspecs\qconfig.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_ext_freetype.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_ext_libpng.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_concurrent.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_concurrent_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_core.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_core_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_dbus.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_dbus_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_designer.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_designer_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_designercomponents_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_entrypoint_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_fb_support_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_gui.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_gui_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_help.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_help_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsanimation.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsanimation_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsfolderlistmodel.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsfolderlistmodel_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsqmlmodels.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsqmlmodels_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labssettings.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labssettings_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labssharedimage.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labssharedimage_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labswavefrontmesh.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labswavefrontmesh_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_linguist.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_linguist_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_network.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_network_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_opengl.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_opengl_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_openglwidgets.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_openglwidgets_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_packetprotocol_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_printsupport.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_printsupport_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qml.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qml_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlcompiler_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlcore.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlcore_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmldebug_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmldevtools_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmldom_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmllocalstorage.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmllocalstorage_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlmodels.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlmodels_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmltest.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmltest_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlxmllistmodel.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlxmllistmodel_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quick.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quick_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2impl.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2impl_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrolstestutilsprivate_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2utils.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2utils_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicklayouts.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicklayouts_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickparticles_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickshapes_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicktestutilsprivate_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickwidgets.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickwidgets_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_sql.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_sql_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_svg.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_svg_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_svgwidgets.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_svgwidgets_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_testlib.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_testlib_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_tools_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_uiplugin.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_uitools.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_uitools_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_widgets.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_widgets_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_xml.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_xml_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_zlib_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\features\qt_functions.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\qt_config.prf C:\Qt\6.2.1\mingw81_64\mkspecs\win32-g++\qmake.conf C:\Qt\6.2.1\mingw81_64\mkspecs\features\spec_post.prf .qmake.stash C:\Qt\6.2.1\mingw81_64\mkspecs\features\exclusive_builds.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\toolchain.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\default_pre.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\win32\default_pre.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\resolve_config.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\exclusive_builds_post.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\default_post.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\build_pass.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\qml_debug.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\entrypoint.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\precompile_header.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\warn_on.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\qt.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\resources_functions.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\resources.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\moc.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\win32\opengl.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\uic.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\qmake_use.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\file_copies.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\win32\windows.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\testcase_targets.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\exceptions.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\yacc.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\lex.prf ..\Proyecto2-ED\Proyecto2-ED.pro ..\Proyecto2-ED\rsc.qrc C:\Qt\6.2.1\mingw81_64\lib\Qt6Widgets.prl C:\Qt\6.2.1\mingw81_64\lib\Qt6Gui.prl C:\Qt\6.2.1\mingw81_64\lib\Qt6Core.prl C:\Qt\6.2.1\mingw81_64\lib\Qt6EntryPoint.prl   ..\Proyecto2-ED\rsc.qrc C:\Qt\6.2.1\mingw81_64\mkspecs\features\data\dummy.cpp ..\Proyecto2-ED\Estructuras.h ..\Proyecto2-ED\arbolcielo.h ..\Proyecto2-ED\arbolfamilia.h ..\Proyecto2-ED\arbolmundo.h ..\Proyecto2-ED\archivos.h ..\Proyecto2-ED\cielo.h ..\Proyecto2-ED\consultasporacciones.h ..\Proyecto2-ED\demonio.h ..\Proyecto2-ED\familiaheapdemonio.h ..\Proyecto2-ED\infierno.h ..\Proyecto2-ED\listafamilias.h ..\Proyecto2-ED\listapaises.h ..\Proyecto2-ED\listapersonas.h ..\Proyecto2-ED\mainwindow.h ..\Proyecto2-ED\mundo.h ..\Proyecto2-ED\nodo.h ..\Proyecto2-ED\nodoarbol.h ..\Proyecto2-ED\nodoarbolhashcielo.h ..\Proyecto2-ED\nodolistafalimias.h ..\Proyecto2-ED\pais.h ..\Proyecto2-ED\persona.h  ..\Proyecto2-ED\arbolcielo.cpp ..\Proyecto2-ED\arbolfamilia.cpp ..\Proyecto2-ED\arbolmundo.cpp ..\Proyecto2-ED\archivos.cpp ..\Proyecto2-ED\cielo.cpp ..\Proyecto2-ED\consultasporacciones.cpp ..\Proyecto2-ED\demonio.cpp ..\Proyecto2-ED\familiaheapdemonio.cpp ..\Proyecto2-ED\infierno.cpp ..\Proyecto2-ED\listafamilias.cpp ..\Proyecto2-ED\listapaises.cpp ..\Proyecto2-ED\listapersonas.cpp ..\Proyecto2-ED\main.cpp ..\Proyecto2-ED\mainwindow.cpp ..\Proyecto2-ED\mundo.cpp ..\Proyecto2-ED\nodo.cpp ..\Proyecto2-ED\nodoarbol.cpp ..\Proyecto2-ED\nodoarbolhashcielo.cpp ..\Proyecto2-ED\nodolistafalimias.cpp ..\Proyecto2-ED\persona.cpp ..\Proyecto2-ED\mainwindow.ui    
+	$(ZIP) Proyecto2-ED.zip $(SOURCES) $(DIST) ..\Proyecto2-ED\Proyecto2-ED.pro C:\Qt\6.2.1\mingw81_64\mkspecs\features\spec_pre.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\device_config.prf C:\Qt\6.2.1\mingw81_64\mkspecs\common\sanitize.conf C:\Qt\6.2.1\mingw81_64\mkspecs\common\gcc-base.conf C:\Qt\6.2.1\mingw81_64\mkspecs\common\g++-base.conf C:\Qt\6.2.1\mingw81_64\mkspecs\features\win32\windows_vulkan_sdk.prf C:\Qt\6.2.1\mingw81_64\mkspecs\common\windows-vulkan.conf C:\Qt\6.2.1\mingw81_64\mkspecs\common\g++-win32.conf C:\Qt\6.2.1\mingw81_64\mkspecs\common\windows-desktop.conf C:\Qt\6.2.1\mingw81_64\mkspecs\qconfig.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_ext_freetype.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_ext_libpng.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_concurrent.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_concurrent_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_core.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_core_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_dbus.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_dbus_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_designer.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_designer_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_designercomponents_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_devicediscovery_support_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_entrypoint_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_fb_support_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_gui.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_gui_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_help.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_help_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsanimation.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsanimation_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsfolderlistmodel.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsfolderlistmodel_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsqmlmodels.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labsqmlmodels_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labssettings.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labssettings_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labssharedimage.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labssharedimage_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labswavefrontmesh.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_labswavefrontmesh_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_linguist.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_linguist_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_network.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_network_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_opengl.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_opengl_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_openglwidgets.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_openglwidgets_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_packetprotocol_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_printsupport.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_printsupport_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qml.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qml_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlcompiler_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlcore.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlcore_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmldebug_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmldevtools_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmldom_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmllocalstorage.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmllocalstorage_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlmodels.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlmodels_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmltest.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmltest_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlworkerscript_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlxmllistmodel.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_qmlxmllistmodel_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quick.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quick_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2impl.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrols2impl_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickcontrolstestutilsprivate_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2quickimpl_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2utils.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickdialogs2utils_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicklayouts.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicklayouts_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickparticles_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickshapes_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicktemplates2_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quicktestutilsprivate_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickwidgets.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_quickwidgets_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_sql.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_sql_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_svg.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_svg_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_svgwidgets.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_svgwidgets_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_testlib.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_testlib_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_tools_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_uiplugin.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_uitools.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_uitools_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_widgets.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_widgets_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_xml.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_xml_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\modules\qt_lib_zlib_private.pri C:\Qt\6.2.1\mingw81_64\mkspecs\features\qt_functions.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\qt_config.prf C:\Qt\6.2.1\mingw81_64\mkspecs\win32-g++\qmake.conf C:\Qt\6.2.1\mingw81_64\mkspecs\features\spec_post.prf .qmake.stash C:\Qt\6.2.1\mingw81_64\mkspecs\features\exclusive_builds.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\toolchain.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\default_pre.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\win32\default_pre.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\resolve_config.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\exclusive_builds_post.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\default_post.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\build_pass.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\qml_debug.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\entrypoint.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\precompile_header.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\warn_on.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\qt.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\resources_functions.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\resources.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\moc.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\win32\opengl.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\uic.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\qmake_use.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\file_copies.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\win32\windows.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\testcase_targets.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\exceptions.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\yacc.prf C:\Qt\6.2.1\mingw81_64\mkspecs\features\lex.prf ..\Proyecto2-ED\Proyecto2-ED.pro ..\Proyecto2-ED\rsc.qrc C:\Qt\6.2.1\mingw81_64\lib\Qt6Widgets.prl C:\Qt\6.2.1\mingw81_64\lib\Qt6Gui.prl C:\Qt\6.2.1\mingw81_64\lib\Qt6Network.prl C:\Qt\6.2.1\mingw81_64\lib\Qt6Core.prl C:\Qt\6.2.1\mingw81_64\lib\Qt6EntryPoint.prl   ..\Proyecto2-ED\rsc.qrc C:\Qt\6.2.1\mingw81_64\mkspecs\features\data\dummy.cpp ..\Proyecto2-ED\Estructuras.h ..\Proyecto2-ED\arbolcielo.h ..\Proyecto2-ED\arbolfamilia.h ..\Proyecto2-ED\arbolmundo.h ..\Proyecto2-ED\archivos.h ..\Proyecto2-ED\cielo.h ..\Proyecto2-ED\consultasporacciones.h ..\Proyecto2-ED\demonio.h ..\Proyecto2-ED\familiaheapdemonio.h ..\Proyecto2-ED\infierno.h ..\Proyecto2-ED\listafamilias.h ..\Proyecto2-ED\listapaises.h ..\Proyecto2-ED\listapersonas.h ..\Proyecto2-ED\mainwindow.h ..\Proyecto2-ED\mundo.h ..\Proyecto2-ED\nodo.h ..\Proyecto2-ED\nodoarbol.h ..\Proyecto2-ED\nodoarbolhashcielo.h ..\Proyecto2-ED\nodolistafalimias.h ..\Proyecto2-ED\pais.h ..\Proyecto2-ED\persona.h ..\Proyecto2-ED\smtp.h  ..\Proyecto2-ED\arbolcielo.cpp ..\Proyecto2-ED\arbolfamilia.cpp ..\Proyecto2-ED\arbolmundo.cpp ..\Proyecto2-ED\archivos.cpp ..\Proyecto2-ED\cielo.cpp ..\Proyecto2-ED\consultasporacciones.cpp ..\Proyecto2-ED\demonio.cpp ..\Proyecto2-ED\familiaheapdemonio.cpp ..\Proyecto2-ED\infierno.cpp ..\Proyecto2-ED\listafamilias.cpp ..\Proyecto2-ED\listapaises.cpp ..\Proyecto2-ED\listapersonas.cpp ..\Proyecto2-ED\main.cpp ..\Proyecto2-ED\mainwindow.cpp ..\Proyecto2-ED\mundo.cpp ..\Proyecto2-ED\nodo.cpp ..\Proyecto2-ED\nodoarbol.cpp ..\Proyecto2-ED\nodoarbolhashcielo.cpp ..\Proyecto2-ED\nodolistafalimias.cpp ..\Proyecto2-ED\persona.cpp ..\Proyecto2-ED\smtp.cpp ..\Proyecto2-ED\mainwindow.ui    
 
 clean: compiler_clean 
-	-$(DEL_FILE) debug\arbolcielo.o debug\arbolfamilia.o debug\arbolmundo.o debug\archivos.o debug\cielo.o debug\consultasporacciones.o debug\demonio.o debug\familiaheapdemonio.o debug\infierno.o debug\listafamilias.o debug\listapaises.o debug\listapersonas.o debug\main.o debug\mainwindow.o debug\mundo.o debug\nodo.o debug\nodoarbol.o debug\nodoarbolhashcielo.o debug\nodolistafalimias.o debug\persona.o debug\qrc_rsc.o debug\moc_mainwindow.o
+	-$(DEL_FILE) debug\arbolcielo.o debug\arbolfamilia.o debug\arbolmundo.o debug\archivos.o debug\cielo.o debug\consultasporacciones.o debug\demonio.o debug\familiaheapdemonio.o debug\infierno.o debug\listafamilias.o debug\listapaises.o debug\listapersonas.o debug\main.o debug\mainwindow.o debug\mundo.o debug\nodo.o debug\nodoarbol.o debug\nodoarbolhashcielo.o debug\nodolistafalimias.o debug\persona.o debug\smtp.o debug\qrc_rsc.o debug\moc_mainwindow.o debug\moc_smtp.o
 
 distclean: clean 
 	-$(DEL_FILE) .qmake.stash
@@ -196,9 +202,9 @@ compiler_moc_predefs_clean:
 debug/moc_predefs.h: C:/Qt/6.2.1/mingw81_64/mkspecs/features/data/dummy.cpp
 	g++ -fno-keep-inline-dllexport -g -std=gnu++1z -Wall -Wextra -Wextra -dM -E -o debug\moc_predefs.h C:\Qt\6.2.1\mingw81_64\mkspecs\features\data\dummy.cpp
 
-compiler_moc_header_make_all: debug/moc_mainwindow.cpp
+compiler_moc_header_make_all: debug/moc_mainwindow.cpp debug/moc_smtp.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) debug\moc_mainwindow.cpp
+	-$(DEL_FILE) debug\moc_mainwindow.cpp debug\moc_smtp.cpp
 debug/moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -354,6 +360,26 @@ debug/moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/pais.h \
 		../Proyecto2-ED/persona.h \
@@ -367,9 +393,6 @@ debug/moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -377,9 +400,210 @@ debug/moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.2.1/mingw81_64/bin/moc.exe
-	C:\Qt\6.2.1\mingw81_64\bin\moc.exe $(DEFINES) --include "D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/build-Proyecto2-ED-Desktop_Qt_6_2_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.2.1/mingw81_64/mkspecs/win32-g++ -I"D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED" -IC:/Qt/6.2.1/mingw81_64/include -IC:/Qt/6.2.1/mingw81_64/include/QtWidgets -IC:/Qt/6.2.1/mingw81_64/include/QtGui -IC:/Qt/6.2.1/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\Proyecto2-ED\mainwindow.h -o debug\moc_mainwindow.cpp
+	C:\Qt\6.2.1\mingw81_64\bin\moc.exe $(DEFINES) --include "D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/build-Proyecto2-ED-Desktop_Qt_6_2_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.2.1/mingw81_64/mkspecs/win32-g++ -I"D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED" -IC:/Qt/6.2.1/mingw81_64/include -IC:/Qt/6.2.1/mingw81_64/include/QtWidgets -IC:/Qt/6.2.1/mingw81_64/include/QtGui -IC:/Qt/6.2.1/mingw81_64/include/QtNetwork -IC:/Qt/6.2.1/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\Proyecto2-ED\mainwindow.h -o debug\moc_mainwindow.cpp
+
+debug/moc_smtp.cpp: ../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/Estructuras.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QString \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstring.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qchar.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qconfig-bootstrapped.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qconfig.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtcore-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsystemdetection.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qprocessordetection.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcompilerdetection.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtypeinfo.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcontainerfwd.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsysinfo.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qlogging.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qflags.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qatomic.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbasicatomic.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qatomic_bootstrap.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qgenericatomic.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qatomic_cxx11.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qglobalstatic.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qnumeric.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qversiontagging.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringview.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbytearray.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qrefcount.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qnamespace.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtmetamacros.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qarraydata.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qpair.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qarraydatapointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qarraydataops.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcontainertools_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbytearrayalgorithms.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbytearrayview.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringliteral.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringalgorithms.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qanystringview.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qutf8stringview.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringtokenizer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringbuilder.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QDate \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qshareddata.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qhashfunctions.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qlocale.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qvariant.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qlist.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qiterator.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbytearraylist.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringlist.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qalgorithms.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringmatcher.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmetatype.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcompare.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qvarlengtharray.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qscopeguard.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qdatastream.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qscopedpointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qiodevicebase.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qiterable.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmetacontainer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcontainerinfo.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtaggedpointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmath.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qobjectdefs.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qobjectdefs_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmap.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qshareddata_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qhash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qobject.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcoreevent.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qobject_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qproperty.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qpropertyprivate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qdebug.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtextstream.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringconverter.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qset.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcontiguouscache.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsharedpointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QDateTime \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qiodevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QRandomGenerator \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qrandom.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QTextBrowser \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtextbrowser.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtguiglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qwidget.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmargins.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpaintdevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qrect.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsize.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qpoint.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpalette.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qcolor.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qrgb.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qrgba64.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qbrush.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qimage.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpixelformat.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtransform.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpolygon.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qregion.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qline.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpixmap.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qfont.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qfontmetrics.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qfontinfo.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qsizepolicy.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qcursor.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qbitmap.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qkeysequence.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qevent.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qpointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qurl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qeventpoint.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qvector2d.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qvectornd.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpointingdevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qinputdevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qscreen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QList \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QObject \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QRect \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QSize \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QSizeF \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/QTransform \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qloggingcategory.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
+		../Proyecto2-ED/mainwindow.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qicon.h \
+		../Proyecto2-ED/pais.h \
+		../Proyecto2-ED/persona.h \
+		../Proyecto2-ED/listapersonas.h \
+		../Proyecto2-ED/mundo.h \
+		../Proyecto2-ED/nodo.h \
+		../Proyecto2-ED/archivos.h \
+		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/consultasporacciones.h \
+		../Proyecto2-ED/listapaises.h \
+		../Proyecto2-ED/demonio.h \
+		../Proyecto2-ED/infierno.h \
+		../Proyecto2-ED/familiaheapdemonio.h \
+		../Proyecto2-ED/cielo.h \
+		../Proyecto2-ED/arbolcielo.h \
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h \
+		debug/moc_predefs.h \
+		C:/Qt/6.2.1/mingw81_64/bin/moc.exe
+	C:\Qt\6.2.1\mingw81_64\bin\moc.exe $(DEFINES) --include "D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/build-Proyecto2-ED-Desktop_Qt_6_2_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.2.1/mingw81_64/mkspecs/win32-g++ -I"D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED" -IC:/Qt/6.2.1/mingw81_64/include -IC:/Qt/6.2.1/mingw81_64/include/QtWidgets -IC:/Qt/6.2.1/mingw81_64/include/QtGui -IC:/Qt/6.2.1/mingw81_64/include/QtNetwork -IC:/Qt/6.2.1/mingw81_64/include/QtCore -I. -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IC:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IC:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include ..\Proyecto2-ED\smtp.h -o debug\moc_smtp.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -555,6 +779,26 @@ debug/arbolcielo.o: ../Proyecto2-ED/arbolcielo.cpp ../Proyecto2-ED/arbolcielo.h 
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -572,15 +816,13 @@ debug/arbolcielo.o: ../Proyecto2-ED/arbolcielo.cpp ../Proyecto2-ED/arbolcielo.h 
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\arbolcielo.o ..\Proyecto2-ED\arbolcielo.cpp
 
 debug/arbolfamilia.o: ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolfamilia.h \
@@ -734,6 +976,26 @@ debug/arbolfamilia.o: ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolfami
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -750,16 +1012,14 @@ debug/arbolfamilia.o: ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolfami
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\arbolfamilia.o ..\Proyecto2-ED\arbolfamilia.cpp
 
 debug/arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h \
@@ -913,6 +1173,26 @@ debug/arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h 
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -929,16 +1209,14 @@ debug/arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h 
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\arbolmundo.o ..\Proyecto2-ED\arbolmundo.cpp
 
 debug/archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
@@ -1092,6 +1370,26 @@ debug/archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1108,16 +1406,14 @@ debug/archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\archivos.o ..\Proyecto2-ED\archivos.cpp
 
 debug/cielo.o: ../Proyecto2-ED/cielo.cpp ../Proyecto2-ED/cielo.h \
@@ -1271,6 +1567,26 @@ debug/cielo.o: ../Proyecto2-ED/cielo.cpp ../Proyecto2-ED/cielo.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1288,15 +1604,13 @@ debug/cielo.o: ../Proyecto2-ED/cielo.cpp ../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\cielo.o ..\Proyecto2-ED\cielo.cpp
 
 debug/consultasporacciones.o: ../Proyecto2-ED/consultasporacciones.cpp ../Proyecto2-ED/consultasporacciones.h \
@@ -1450,6 +1764,26 @@ debug/consultasporacciones.o: ../Proyecto2-ED/consultasporacciones.cpp ../Proyec
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1473,9 +1807,7 @@ debug/consultasporacciones.o: ../Proyecto2-ED/consultasporacciones.cpp ../Proyec
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\consultasporacciones.o ..\Proyecto2-ED\consultasporacciones.cpp
 
 debug/demonio.o: ../Proyecto2-ED/demonio.cpp ../Proyecto2-ED/demonio.h \
@@ -1629,6 +1961,26 @@ debug/demonio.o: ../Proyecto2-ED/demonio.cpp ../Proyecto2-ED/demonio.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1646,15 +1998,13 @@ debug/demonio.o: ../Proyecto2-ED/demonio.cpp ../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\demonio.o ..\Proyecto2-ED\demonio.cpp
 
 debug/familiaheapdemonio.o: ../Proyecto2-ED/familiaheapdemonio.cpp ../Proyecto2-ED/familiaheapdemonio.h \
@@ -1808,6 +2158,26 @@ debug/familiaheapdemonio.o: ../Proyecto2-ED/familiaheapdemonio.cpp ../Proyecto2-
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -1825,15 +2195,13 @@ debug/familiaheapdemonio.o: ../Proyecto2-ED/familiaheapdemonio.cpp ../Proyecto2-
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\familiaheapdemonio.o ..\Proyecto2-ED\familiaheapdemonio.cpp
 
 debug/infierno.o: ../Proyecto2-ED/infierno.cpp ../Proyecto2-ED/infierno.h \
@@ -1987,6 +2355,26 @@ debug/infierno.o: ../Proyecto2-ED/infierno.cpp ../Proyecto2-ED/infierno.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -2004,15 +2392,13 @@ debug/infierno.o: ../Proyecto2-ED/infierno.cpp ../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\infierno.o ..\Proyecto2-ED\infierno.cpp
 
 debug/listafamilias.o: ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listafamilias.h \
@@ -2166,6 +2552,26 @@ debug/listafamilias.o: ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listafa
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -2182,16 +2588,14 @@ debug/listafamilias.o: ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listafa
 		../Proyecto2-ED/arbolfamilia.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\listafamilias.o ..\Proyecto2-ED\listafamilias.cpp
 
 debug/listapaises.o: ../Proyecto2-ED/listapaises.cpp ../Proyecto2-ED/listapaises.h \
@@ -2345,6 +2749,26 @@ debug/listapaises.o: ../Proyecto2-ED/listapaises.cpp ../Proyecto2-ED/listapaises
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -2362,15 +2786,13 @@ debug/listapaises.o: ../Proyecto2-ED/listapaises.cpp ../Proyecto2-ED/listapaises
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\listapaises.o ..\Proyecto2-ED\listapaises.cpp
 
 debug/listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas.h \
@@ -2524,6 +2946,26 @@ debug/listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listape
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -2540,16 +2982,14 @@ debug/listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listape
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\listapersonas.o ..\Proyecto2-ED\listapersonas.cpp
 
 debug/main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
@@ -2707,6 +3147,26 @@ debug/main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/pais.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
@@ -2719,9 +3179,6 @@ debug/main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -2729,6 +3186,7 @@ debug/main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QApplication \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcoreapplication.h \
@@ -2906,6 +3364,26 @@ debug/mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h 
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/pais.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
@@ -2918,9 +3396,6 @@ debug/mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h 
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -2928,6 +3403,7 @@ debug/mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h 
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h \
 		ui_mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtCore/QVariant \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QApplication \
@@ -3120,6 +3596,26 @@ debug/mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -3136,16 +3632,14 @@ debug/mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mundo.o ..\Proyecto2-ED\mundo.cpp
 
 debug/nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
@@ -3299,6 +3793,26 @@ debug/nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -3315,16 +3829,14 @@ debug/nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\nodo.o ..\Proyecto2-ED\nodo.cpp
 
 debug/nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
@@ -3478,6 +3990,26 @@ debug/nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -3494,16 +4026,14 @@ debug/nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\nodoarbol.o ..\Proyecto2-ED\nodoarbol.cpp
 
 debug/nodoarbolhashcielo.o: ../Proyecto2-ED/nodoarbolhashcielo.cpp ../Proyecto2-ED/nodoarbolhashcielo.h \
@@ -3657,6 +4187,26 @@ debug/nodoarbolhashcielo.o: ../Proyecto2-ED/nodoarbolhashcielo.cpp ../Proyecto2-
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -3674,15 +4224,13 @@ debug/nodoarbolhashcielo.o: ../Proyecto2-ED/nodoarbolhashcielo.cpp ../Proyecto2-
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
-		../Proyecto2-ED/arbolcielo.h
+		../Proyecto2-ED/arbolcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\nodoarbolhashcielo.o ..\Proyecto2-ED\nodoarbolhashcielo.cpp
 
 debug/nodolistafalimias.o: ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/nodolistafalimias.h \
@@ -3836,6 +4384,26 @@ debug/nodolistafalimias.o: ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -3852,16 +4420,14 @@ debug/nodolistafalimias.o: ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED
 		../Proyecto2-ED/arbolfamilia.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
-		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\nodolistafalimias.o ..\Proyecto2-ED\nodolistafalimias.cpp
 
 debug/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
@@ -4015,6 +4581,26 @@ debug/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
 		../Proyecto2-ED/mainwindow.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -4031,9 +4617,204 @@ debug/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
+		../Proyecto2-ED/listapaises.h \
+		../Proyecto2-ED/demonio.h \
+		../Proyecto2-ED/infierno.h \
+		../Proyecto2-ED/familiaheapdemonio.h \
+		../Proyecto2-ED/cielo.h \
+		../Proyecto2-ED/arbolcielo.h \
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\persona.o ..\Proyecto2-ED\persona.cpp
+
+debug/smtp.o: ../Proyecto2-ED/smtp.cpp ../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/Estructuras.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QString \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstring.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qchar.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qconfig-bootstrapped.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qconfig.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtcore-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsystemdetection.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qprocessordetection.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcompilerdetection.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtypeinfo.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcontainerfwd.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsysinfo.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qlogging.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qflags.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qatomic.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbasicatomic.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qatomic_bootstrap.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qgenericatomic.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qatomic_cxx11.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qglobalstatic.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qnumeric.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qversiontagging.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringview.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbytearray.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qrefcount.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qnamespace.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtmetamacros.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qarraydata.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qpair.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qarraydatapointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qarraydataops.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcontainertools_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbytearrayalgorithms.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbytearrayview.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringliteral.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringalgorithms.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qanystringview.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qutf8stringview.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringtokenizer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringbuilder.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QDate \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qshareddata.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qhashfunctions.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qlocale.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qvariant.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qlist.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qiterator.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qbytearraylist.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringlist.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qalgorithms.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringmatcher.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmetatype.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcompare.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qvarlengtharray.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qscopeguard.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qdatastream.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qscopedpointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qiodevicebase.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qiterable.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmetacontainer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcontainerinfo.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtaggedpointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmath.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qobjectdefs.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qobjectdefs_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmap.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qshareddata_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qhash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qobject.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcoreevent.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qobject_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qproperty.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qpropertyprivate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qdebug.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qtextstream.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qstringconverter.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qset.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcontiguouscache.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsharedpointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QDateTime \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QDebug \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFile \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfile.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qiodevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QRandomGenerator \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qrandom.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QTextBrowser \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtextbrowser.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtguiglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtextedit.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qwidget.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qmargins.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpaintdevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qrect.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qsize.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qpoint.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpalette.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qcolor.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qrgb.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qrgba64.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qbrush.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qimage.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpixelformat.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtransform.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpolygon.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qregion.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qline.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpixmap.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qfont.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qfontmetrics.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qfontinfo.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qsizepolicy.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qcursor.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qbitmap.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qkeysequence.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qevent.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qpointer.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qurl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qeventpoint.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qvector2d.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qvectornd.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpointingdevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qinputdevice.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qscreen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QList \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QObject \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QRect \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QSize \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QSizeF \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/QTransform \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qloggingcategory.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextdocument.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextoption.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextcursor.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qtextformat.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qpen.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QAbstractSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qabstractsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetworkglobal.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtnetwork-config.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qhostaddress.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/QSslSocket \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qtcpsocket.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslerror.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qsslcertificate.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtNetwork/qssl.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFlags \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QTextStream \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMessageBox \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmessagebox.h \
 		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qdialog.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QByteArray \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.1/mingw81_64/include/QtCore/qfileinfo.h \
+		../Proyecto2-ED/mainwindow.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/QMainWindow \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qmainwindow.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.2.1/mingw81_64/include/QtGui/qicon.h \
+		../Proyecto2-ED/pais.h \
+		../Proyecto2-ED/persona.h \
+		../Proyecto2-ED/listapersonas.h \
+		../Proyecto2-ED/mundo.h \
+		../Proyecto2-ED/nodo.h \
+		../Proyecto2-ED/archivos.h \
+		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/consultasporacciones.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -4041,13 +4822,16 @@ debug/persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\persona.o ..\Proyecto2-ED\persona.cpp
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\smtp.o ..\Proyecto2-ED\smtp.cpp
 
 debug/qrc_rsc.o: debug/qrc_rsc.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\qrc_rsc.o debug\qrc_rsc.cpp
 
 debug/moc_mainwindow.o: debug/moc_mainwindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\moc_mainwindow.o debug\moc_mainwindow.cpp
+
+debug/moc_smtp.o: debug/moc_smtp.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\moc_smtp.o debug\moc_smtp.cpp
 
 ####### Install
 

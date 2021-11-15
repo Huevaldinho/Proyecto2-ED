@@ -18,5 +18,7 @@ debug/nodoarbol.o
 debug/nodoarbolhashcielo.o
 debug/nodolistafalimias.o
 debug/persona.o
+debug/smtp.o
 debug/qrc_rsc.o
 debug/moc_mainwindow.o
+debug/moc_smtp.o
