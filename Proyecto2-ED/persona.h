@@ -20,7 +20,9 @@ class Persona{
         int buenasAcciones[7];  //Buenas acciones
         Persona * padre;
         int cantidadHijos;
-        ListaPersonas * hijos;// o es mejor hacer dos punteros, uno de Padre y otro de Hijo?
+        ListaPersonas * hijos;
+        //Para la salvacion
+        //
 
         Persona();
         Persona(int,QString,QString,QString,QString,QString,QString);//ID,Nombre,Apellido,Pais,Creencia,Profesion

@@ -150,3 +150,31 @@ void ArbolCielo::mostrarArbol(NodoArbolHashCielo * arbol , int cont){
         mostrarArbol(arbol->hijoizquierdo, cont + 1);
     }
 }
+void ArbolCielo::escribirEnArchivoInorden(NodoArbolHashCielo * t,QString nombreArchivo,int i){
+    if (t == NULL)
+       return;
+   escribirEnArchivoInorden(t->hijoizquierdo,nombreArchivo,i);
+   QDateTime actual = QDateTime::currentDateTime();
+   QFile file(nombreArchivo);
+   if(file.open(QIODevice::WriteOnly | QIODevice::Append | QIODevice::Text)){
+       QTextStream w(&file);
+       /*
+        La informacion que debemos grabar en el archivo es:
+
+        fecha y hora  Humano #ID Nombre Apellido Pais Salva el fechaActual por # pecados
+        vs # buenas acciones por el angel NombreAngel(#) Generacion #
+        */
+       //Obtiene los pecados y bn
+       int cantidadPecados=t->persona->pecados[0] + t->persona->pecados[1] + t->persona->pecados[2] +
+               t->persona->pecados[3] + t->persona->pecados[4] + t->persona->pecados[5] + t->persona->pecados[6];
+       int cantidadBN=t->persona->buenasAcciones[0] + t->persona->buenasAcciones[1] + t->persona->buenasAcciones[2] +
+               t->persona->buenasAcciones[3] + t->persona->buenasAcciones[4] + t->persona->buenasAcciones[5] + t->persona->buenasAcciones[6];
+
+       w<< actual.toString("yyyy-MM-dd")<<" "<<actual.time().toString("hh:mm:ss")<< " Humano "<<t->persona->ID<<" "<<t->persona->nombre<<
+" "<<t->persona->apellido<<" "<<t->persona->pais<<" Salva el"<<actual.toString("yyy-MM-dd")<<" por "<<
+cantidadPecados<<" pecados vs "<<cantidadBN<<" buenas acciones por el angel "<<"nombreAngel"<<" # "<<
+" Generacion"<<" #\n";
+       file.close();
+   }
+   escribirEnArchivoInorden(t->hijoderecho,nombreArchivo,i);
+}

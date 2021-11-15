@@ -11,19 +11,6 @@ int main(int argc, char *argv[]){
     Infierno * infiernoMain = new Infierno(mundo->cantidadApellidos*mundo->cantidadPaises,mundo->listaPersonas);
     Cielo * cielo = new Cielo(infiernoMain);
 
-
-//    cielo->funcionHash(0);
-//    cielo->funcionHash(500);
-//    cielo->funcionHash(999);
-//    cielo->funcionHash(1000);
-//    cielo->funcionHash(1001);
-//    cielo->funcionHash(2000);
-//    cielo->funcionHash(2001);
-//    cielo->funcionHash(10000);
-//    cielo->funcionHash(10001);
-//    cielo->funcionHash(99999);
-
-
     qDebug()<<"Prueba arbol cielo: ";
     mundo->GenerarNpersonas(10000);
     Nodo * tmp = mundo->listaPersonas->primerNodo;
@@ -33,14 +20,22 @@ int main(int argc, char *argv[]){
         cielo->hash[i]->raiz = cielo->hash[i]->insert(cielo->hash[i]->raiz,tmp->persona);
         tmp=tmp->siguiente;
     }
-    //Ver los arboles del hash
-    for(int i=1;i<1001;i++){
-          qDebug()<<"Rango: " <<i<<'\n';//Esta es la posicion del arreglo donde ser inserta
-          //cielo->hash[i]->inorder(cielo->hash[i]->raiz);//muestra los nodos que estan en ese rango
-          cielo->hash[i]->mostrarArbol(cielo->hash[i]->raiz,0);
-          qDebug();
-      }
+//    //Ver los arboles del hash (en consola)
+//    for(int i=1;i<1001;i++){
+//          qDebug()<<"Rango: " <<i<<'\n';//Esta es la posicion del arreglo donde ser inserta
+//          //cielo->hash[i]->inorder(cielo->hash[i]->raiz);//muestra los nodos que estan en ese rango
+//          cielo->hash[i]->mostrarArbol(cielo->hash[i]->raiz,0);
+//          qDebug();
+//      }
 
+
+    //Esta parte se llama cuando se hace la salvacion
+    //QString pathCieloB;
+    QString pathCieloH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Cielo/";
+    QDateTime actual = QDateTime::currentDateTime();
+    cielo->archivoCielo=pathCieloH+"Salvados_"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    qDebug()<<cielo->archivoCielo;
+    cielo->mostrarCielo();//Hace el .txt
 
 
     MainWindow w;
@@ -48,13 +43,6 @@ int main(int argc, char *argv[]){
     w.infierno=infiernoMain;
     w.consultas = new ConsultasPorAcciones(mundo->listaPersonas);
     w.show();
-
-
-
-
-
-
-
 
     return a.exec();
 }

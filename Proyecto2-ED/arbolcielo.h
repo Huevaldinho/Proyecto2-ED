@@ -24,6 +24,7 @@ class ArbolCielo{//Almacena personas rescatadas del infierno
         void postorder(NodoArbolHashCielo*);//
         bool esHoja(NodoArbolHashCielo * arbol);
         void mostrarArbol(NodoArbolHashCielo * arbol , int cont);
+        void escribirEnArchivoInorden(NodoArbolHashCielo *,QString,int);
 };
 
 #endif // ARBOLCIELO_H
