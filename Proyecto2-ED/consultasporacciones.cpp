@@ -197,15 +197,20 @@ void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadr
     for (int i=0;i<7;i++){
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Cantidad pecado "+QString::number(i)+": "+QString::number(pecado[i])+"\n");
     }
-    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\tBuenas acciones infierno: \n");
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Total pecados: "+QString::number(
+pecado[0]+pecado[1]+pecado[2]+pecado[3]+pecado[4]+pecado[5]+pecado[6]));
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\n\tBuenas acciones infierno: \n");
     for (int i=0;i<7;i++){
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Cantidad pecado "+QString::number(i)+": "+QString::number(ba[i])+"\n");
     }
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Total Buenas Acciones: "+QString::number(
+ba[0]+ba[1]+ba[2]+ba[3]+ba[4]+ba[5]+ba[6]));
     long long neto=0;
     for (int i=0;i<7;i++){
         neto+=(pecado[i]-ba[i]);
     }
-    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Neto: "+QString::number(neto));
+
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\n\t Neto: "+QString::number(neto));
     return  neto;
 }
 long long ConsultasPorAcciones::ElGanadorCielo(QTextBrowser *){
