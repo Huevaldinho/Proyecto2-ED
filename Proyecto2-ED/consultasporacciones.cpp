@@ -5,9 +5,13 @@ ConsultasPorAcciones::ConsultasPorAcciones(){
     this->IDBuscado=-1;
     this->consulta=false;
     this->listaPaises=new ListaPaises;
+    this->cielo=NULL;
+    this->infierno=NULL;
 }
-ConsultasPorAcciones::ConsultasPorAcciones(ListaPersonas * lista){
+ConsultasPorAcciones::ConsultasPorAcciones(ListaPersonas * lista, Cielo * cieloMain, Infierno * infiMain){
     this->listaPersonas=lista;
+    this->cielo=cieloMain;
+    this->infierno=infiMain;
     this->IDBuscado=-1;
     this->listaPaises= new ListaPaises();
 }
@@ -181,5 +185,42 @@ void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadr
                 tmp=tmp->anterior;
             }
         }
+    }
+}
+ long long ConsultasPorAcciones::ElGanadorInfierno(QTextBrowser * cuadroTexto){
+    //Funcion para ver el resumen del infierno
+    //Pecados
+    QVector<int> pecado=this->infierno->CantidadPecadosInfierno();
+    QVector<int> ba=this->infierno->CantidadBAInfierno();
+    cuadroTexto->clear();
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\tPecados infierno: \n");
+    for (int i=0;i<7;i++){
+        cuadroTexto->setText(cuadroTexto->toPlainText()+"Cantidad pecado "+QString::number(i)+": "+QString::number(pecado[i])+"\n");
+    }
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\tBuenas acciones infierno: \n");
+    for (int i=0;i<7;i++){
+        cuadroTexto->setText(cuadroTexto->toPlainText()+"Cantidad pecado "+QString::number(i)+": "+QString::number(ba[i])+"\n");
+    }
+    long long neto=0;
+    for (int i=0;i<7;i++){
+        neto+=(pecado[i]-ba[i]);
+    }
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Neto: "+QString::number(neto));
+    return  neto;
+}
+long long ConsultasPorAcciones::ElGanadorCielo(QTextBrowser *){
+    //Hacer lo mismo que ElGanadorInfierno
+    return 0;
+}
+void ConsultasPorAcciones::DeterminarGanado(QTextBrowser * cuadroTextoInfierno,QTextBrowser *  cuadroCielo ,
+                                            QLabel *  ganador ){
+    long long netoInfierno = ElGanadorInfierno(cuadroTextoInfierno);
+    long long netoCielo = ElGanadorCielo(cuadroCielo);
+    if (netoInfierno>netoCielo){
+        ganador->setText("Gana el Infierno con: "+QString::number(netoInfierno)+" pts.");
+    }else if(netoCielo>netoInfierno){
+        ganador->setText("Gana el Cielo con: "+QString::number(netoCielo)+" pts.");
+    }else{
+        ganador->setText("Empate");
     }
 }

@@ -31,7 +31,7 @@ void Infierno::MeterFamiliaALosHeap(){
         demonio=0;
         tmp=tmp->siguiente;
     }
-    qDebug()<<"Termina meter familia a los heap de demonios";
+    //qDebug()<<"Termina meter familia a los heap de demonios";
 }
 void Infierno::imprimirFamiliasDeminios(){
     int demonio=0;
@@ -39,7 +39,7 @@ void Infierno::imprimirFamiliasDeminios(){
         this->demonios[demonio]->imprimirFamilia();
         demonio++;
     }
-    qDebug()<<"Termina imprimir familia deminioos infierno";
+    //qDebug()<<"Termina imprimir familia deminioos infierno";
 }
 void Infierno::OrdenarHeapsDemonios(){
     int demonio=0;
@@ -47,7 +47,7 @@ void Infierno::OrdenarHeapsDemonios(){
         this->demonios[demonio]->OrdenarHeap();
         demonio++;
     }
-    qDebug()<<"Termina ordenar heaps demonios infierno";
+    //qDebug()<<"Termina ordenar heaps demonios infierno";
 }
 Demonio* Infierno::buscarDemonio(QString nombre){
     for (int i = 0 ; i<7 ; i++){
@@ -107,6 +107,7 @@ void Infierno::Condenar(Demonio*demonio){
         if (personas[i]->estado!=-1){//si no está muerto
             personas[i]->estado = -1; //lo mata
             demonio->pecadosAcumulados+=personas[i]->pecados[pecado];
+            demonio->baAcumuladas+=personas[i]->buenasAcciones[pecado];
             demonio->personasTotales++;
             demonio->heapFamilias[demonio->BuscarFamilia(personas[i]->apellido,personas[i]->pais)]->listaPersonas->insertarAlFinal(personas[i]);//mete al muerto en el heap del demonio de su familia
             demonio->OrdenarHeap();
@@ -140,4 +141,24 @@ void Infierno::consulta(){
         qDebug()<<"ELSEEEEE";
     }
 }
-
+//Para el Ganador Cielo vs Infierno
+QVector <int> Infierno::CantidadPecadosInfierno(){
+    QVector <int> pecados;
+    pecados.resize(7);
+    //Limpia el vector por aquello jjj
+    for (int i=0;i<7;i++)
+        pecados[i]=0;
+    for (int i=0;i<7;i++){
+        pecados[i]=this->demonios[i]->pecadosAcumulados;
+    }
+    return pecados;
+}
+QVector <int> Infierno::CantidadBAInfierno(){
+    QVector <int> ba;
+    ba.resize(7);
+    for (int i=0;i<7;i++)
+        ba[i]=0;
+    for (int i=0;i<7;i++)
+        ba[i]=this->demonios[i]->baAcumuladas;
+    return ba;
+}

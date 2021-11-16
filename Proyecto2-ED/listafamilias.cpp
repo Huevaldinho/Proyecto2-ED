@@ -60,8 +60,8 @@ void ListaFamilias::imprimir(){
         contador++;
         tmp=tmp->siguiente;
     }
-    qDebug()<<"TOTAL DE FAMILIAS: "<<contador;
-    qDebug()<<"Termina de imprimir";
+    //qDebug()<<"TOTAL DE FAMILIAS: "<<contador;
+    //qDebug()<<"Termina de imprimir";
 }
 void ListaFamilias::verMiembrosFamilia(){
     NodoListaFalimias * tmp = this->primerNodo;
@@ -74,5 +74,5 @@ void ListaFamilias::verMiembrosFamilia(){
 //        tmp->familia->preorder(tmp->familia->raiz);
         tmp=tmp->siguiente;
     }
-    qDebug()<<"Termina verMiembrosFamilia";
+    //qDebug()<<"Termina verMiembrosFamilia";
 }

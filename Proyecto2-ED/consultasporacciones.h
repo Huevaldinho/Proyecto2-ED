@@ -15,23 +15,21 @@ class ConsultasPorAcciones{
         ListaPersonas * listaPersonas;
         ListaPaises * listaPaises;
         bool consulta;
+        Cielo * cielo;
+        Infierno * infierno;
 
         ConsultasPorAcciones();
-        ConsultasPorAcciones(ListaPersonas *);
+        ConsultasPorAcciones(ListaPersonas *,Cielo *, Infierno *);
         void AccionesFamilia(int ID,QTextBrowser *,QTextBrowser *);//Recibe a la persona que buscamos por ID
         void AccionesHijos(Persona *,QTextBrowser *,QTextBrowser *);
         //Opcion 1: Top paises pecadores, Opcion 2: Top paises con mas buenas acciones
         void TopTenAccionesPaises(int opcion, QTextBrowser *);//Paises mas pecadores/buenas acciones
         //Opcion 2: Top paises menos pecadores, Opcion 2: Top paises con menos acciones buenas
         void TopFiveAccionesPaises(int,QTextBrowser *);//Paises menos pecadores/buenas acciones
-
-
-        /*
-        Top 10 de países más pecadores = los primeros 5 son los "menos buenos"
-        Top 5 de países menos pecadores
-        Top 10 de países con buenas acciones = los primeros 5 son los menos pecadores
-        Top 5 de países “menos Buenos”
-            */
+        //Consultas Cielo vs Infierno
+        void DeterminarGanado(QTextBrowser * cuadroInfi,QTextBrowser * cuadroCielo,QLabel * ganador);
+        long long ElGanadorInfierno(QTextBrowser *);
+         long long ElGanadorCielo(QTextBrowser *);
 
 
 };

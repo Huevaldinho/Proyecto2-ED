@@ -3,11 +3,15 @@
 Demonio::Demonio(){
     this->pecadosAcumulados=0;
     this->personasTotales=0;
+    this->size=0;
+    this->cantidadFamilias=0;
+    this->baAcumuladas=0;
 }
 Demonio::Demonio(QString _nombre){
     this->nombre=_nombre;
     this->personasTotales=0;
     this->pecadosAcumulados=0;
+    this->baAcumuladas=0;
 }
 Demonio::Demonio(QString nombreDemonio,int _cantidaFamilias){
     this->nombre=nombreDemonio;
@@ -16,6 +20,7 @@ Demonio::Demonio(QString nombreDemonio,int _cantidaFamilias){
     this->size=0;
     this->personasTotales=0;
     this->pecadosAcumulados=0;
+    this->baAcumuladas=0;
     for (int i=0;i<_cantidaFamilias;i++){
         this->heapFamilias[i] = new FamiliaHeapDemonio();
     }

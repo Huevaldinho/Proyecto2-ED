@@ -19,6 +19,8 @@ class Infierno{
 
         Demonio * buscarDemonio(QString);
         void OrdenarHeapsDemonios();
+        QVector <int> CantidadPecadosInfierno();
+        QVector <int> CantidadBAInfierno();
 };
 
 #endif // INFIERNO_H

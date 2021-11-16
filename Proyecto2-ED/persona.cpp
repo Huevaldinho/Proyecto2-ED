@@ -36,22 +36,6 @@ Persona::Persona(int _ID,QString _nombre,QString _apellido,QString _pais,QString
     this->hijos = new ListaPersonas();
 
 }
-void Persona::imprimir(){//Imprime toda la info de la persona (falta hijos)
+void Persona::imprimir(){
           qDebug()<<"<-"<<this->ID<<"->";
-//          qDebug()<<this->apellido<<" "<<this->nombre;
-//        qDebug()<<"ID: "<<this->ID;
-//        qDebug()<<"Nombre: "<<this->nombre;
-//        qDebug()<<"Apellido: "<<this->apellido;
-//        qDebug()<<"Pais: "<<this->pais;
-//        qDebug()<<"Creencia: "<<this->creencia;
-//        qDebug()<<"Profesion: "<<this->profesion;
-//        qDebug()<<"Correo: "<<this->correo;
-//        qDebug()<<"Fecha nacimiento: "<<this->fechaNacimiento;
-//        qDebug()<<"Hora nacimiento: "<<this->horaNacimiento;
-//        qDebug()<<"SizeArray: "<<this->sizeArrays;
-//        for (int i=0;i<sizeArrays;i++){
-//            qDebug()<<"Pecado "<<i<<": "<<this->pecados[i]<<" - Buena accion "<<i<<": "<<this->buenasAcciones[i];
-//        }
-//        qDebug();
-          //this->hijos->imprimir();
 }

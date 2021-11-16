@@ -53,6 +53,7 @@ class Smtp;
 #include <QFile>
 #include <QMessageBox>
 #include <QFileInfo>
+#include <QLabel>
 
 #include "mainwindow.h"
 #include "pais.h"

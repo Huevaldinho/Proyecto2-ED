@@ -30,14 +30,6 @@ int ArbolFamilia::contadorNodos(NodoArbol * aux){
     return 0;
 }
 void ArbolFamilia::InformacionUltimoNivel(NodoArbol * raiz,QTextBrowser * cuadroTexto){
-//    if (raiz!=NULL){
-//        if (esHoja(raiz)){
-//            cuadroTexto->setText(cuadroTexto->toPlainText()+"\n ID: "+QString::number(raiz->nodoPersona->persona->ID));
-//        }else{
-//            InformacionUltimoNivel(raiz->hijoizquierdo,cuadroTexto);
-//            InformacionUltimoNivel(raiz->hijoderecho,cuadroTexto);
-//        }
-//    }
     if (raiz==NULL)
         return;
     if (esHoja(raiz)){

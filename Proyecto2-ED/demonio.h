@@ -9,6 +9,7 @@ class Demonio{
         QVector <FamiliaHeapDemonio *> heapFamilias; // Declaracion del vector. //heap
         int cantidadFamilias=0;//capacidad
         int pecadosAcumulados;
+        int baAcumuladas;
         int personasTotales;
         int size;
 

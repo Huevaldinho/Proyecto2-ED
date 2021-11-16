@@ -79,7 +79,7 @@ void ListaPaises::OrdenarPaisesPorMasPecados(){
         }
         p=p->siguiente;
     }
-    qDebug()<<"Termina de ordenar por Pecados";
+    //qDebug()<<"Termina de ordenar por Pecados";
 }
 void ListaPaises::OrdenarPaisesPorMasBN(){
     Pais * p=this->primerPais;
@@ -107,5 +107,5 @@ void ListaPaises::OrdenarPaisesPorMasBN(){
         }
         p=p->siguiente;
     }
-    qDebug()<<"Termina de ordenar por BN";
+    //qDebug()<<"Termina de ordenar por BN";
 }

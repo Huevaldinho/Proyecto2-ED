@@ -138,7 +138,7 @@ void Mundo::GenerarNpersonas(int n){
 
         tmp = NULL;
     }
-    qDebug()<<"TERMINA GENERAR PERSONAS - Personas en mundo: "<<this->listaPersonas->largo;
+    //qDebug()<<"TERMINA GENERAR PERSONAS - Personas en mundo: "<<this->listaPersonas->largo;
 }
 void Mundo::CrearArbolMundo(int bloques,int ciclos){
     Nodo * mitad = this->listaPersonas->buscarMitad();

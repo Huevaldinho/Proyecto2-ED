@@ -192,7 +192,7 @@ void ListaPersonas::imprimir(){
         tmp->imprimir();
         tmp = tmp->siguiente;
     }
-    qDebug()<<"Termina imprimir";
+    //qDebug()<<"Termina imprimir";
 }
 void ListaPersonas::imprimirDesdeElFinal(){
     Nodo * tmp = this->ultimoNodo;
@@ -200,7 +200,7 @@ void ListaPersonas::imprimirDesdeElFinal(){
         tmp->imprimir();
         tmp = tmp->anterior;
     }
-    qDebug();
+    //qDebug();
 }
 Nodo * ListaPersonas::borrarAlInicio(){
     Nodo * borrado = primerNodo;

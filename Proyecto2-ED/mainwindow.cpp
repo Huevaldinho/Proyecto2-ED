@@ -5,6 +5,8 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWin
     ui->setupUi(this);
     this->mundo=NULL;
     this->consultas=NULL;
+    this->infierno=NULL;
+    this->cielo=NULL;
     this->corriendo=false;
     this->pausa=false;
 }
@@ -70,7 +72,7 @@ void MainWindow::on_btnCondenacionLucifer_clicked(){//LUCIFER
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Lucifer"));
 
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Lucifer creado");
+
 
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
@@ -81,6 +83,7 @@ void MainWindow::on_btnCondenacionLucifer_clicked(){//LUCIFER
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Lucifer","\nAdjunto encuentra la información de la condenación de Lucifer.");
     this->files.clear();
+    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Lucifer creado");
 }
 void MainWindow::on_btnCondenacionBelcebu_clicked(){//BELCEBU
     QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
@@ -99,7 +102,7 @@ void MainWindow::on_btnCondenacionBelcebu_clicked(){//BELCEBU
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Belcebú"));
 
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Belcebú creado");
+
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
 
@@ -109,6 +112,7 @@ void MainWindow::on_btnCondenacionBelcebu_clicked(){//BELCEBU
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Belcebú","\nAdjunto encuentra la información de la condenación de Belcebú.");
     this->files.clear();
+    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Belcebú creado");
 }
 void MainWindow::on_btnCondenacionSatan_clicked(){//SATAN
     QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
@@ -125,7 +129,7 @@ void MainWindow::on_btnCondenacionSatan_clicked(){//SATAN
     this->infierno->OrdenarHeapsDemonios();
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Satán"));
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Satán creado");
+
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
 
@@ -135,6 +139,7 @@ void MainWindow::on_btnCondenacionSatan_clicked(){//SATAN
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Satán","\nAdjunto encuentra la información de la condenación de Satán.");
     this->files.clear();
+    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Satán creado");
 }
 void MainWindow::on_btnCondenacionAbadon_clicked(){//ABADON
     QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
@@ -152,7 +157,7 @@ void MainWindow::on_btnCondenacionAbadon_clicked(){//ABADON
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Abadón"));
 
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Abadón creado");
+
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
 
@@ -162,6 +167,7 @@ void MainWindow::on_btnCondenacionAbadon_clicked(){//ABADON
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Abadón","\nAdjunto encuentra la información de la condenación de Abadón.");
     this->files.clear();
+    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Abadón creado");
 }
 void MainWindow::on_btnCondenacionMammon_clicked(){//MAMMON
     QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
@@ -179,7 +185,7 @@ void MainWindow::on_btnCondenacionMammon_clicked(){//MAMMON
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Mammón"));
 
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Mammón creado");
+
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
 
@@ -189,6 +195,7 @@ void MainWindow::on_btnCondenacionMammon_clicked(){//MAMMON
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Mammón","\nAdjunto encuentra la información de la condenación de Mammón.");
     this->files.clear();
+    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Mammón creado");
 }
 void MainWindow::on_btnCondenacionBelfegor_clicked(){//BELFEGOR
     QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
@@ -206,7 +213,7 @@ void MainWindow::on_btnCondenacionBelfegor_clicked(){//BELFEGOR
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Belfegor"));
 
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Belfegor creado");
+
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
 
@@ -216,6 +223,7 @@ void MainWindow::on_btnCondenacionBelfegor_clicked(){//BELFEGOR
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Belfegor","\nAdjunto encuentra la información de la condenación de Belfegor.");
     this->files.clear();
+    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Belfegor creado");
 }
 void MainWindow::on_btnCondenacionAsmodeo_clicked(){//ASMODEO
     QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
@@ -233,7 +241,7 @@ void MainWindow::on_btnCondenacionAsmodeo_clicked(){//ASMODEO
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Asmodeo"));
 
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Asmodeo creado");
+
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
     files.append(this->infierno->archivoCondenacion);
@@ -242,6 +250,7 @@ void MainWindow::on_btnCondenacionAsmodeo_clicked(){//ASMODEO
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Asmodeo","\nAdjunto encuentra la información de la condenación de Asmodeo.");
     this->files.clear();
+    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Asmodeo creado");
 }
 void MainWindow::on_btnConsultaInfierno_clicked(){
     QDateTime actual = QDateTime::currentDateTime();
@@ -249,6 +258,16 @@ void MainWindow::on_btnConsultaInfierno_clicked(){
     this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
     this->infierno->consulta();
     QMessageBox::information(this,"Archivo Generado","\nSe ha creado el archivo de consulta del infierno");
+
+}
+void MainWindow::on_btnSalvar_clicked(){//Salvacion
+    qDebug()<<"SALVACION";
+
+}
+
+
+void MainWindow::on_btnGanador_clicked(){
+    this->consultas->DeterminarGanado(this->ui->lbl_txtGanadorInfnerno,this->ui->lbl_txtGanadorCielo,this->ui->lbl_GanadorFinal);
 
 }
 

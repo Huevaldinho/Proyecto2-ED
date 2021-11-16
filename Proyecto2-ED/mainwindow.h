@@ -16,6 +16,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     Mundo * mundo;
     Infierno * infierno;
+    Cielo * cielo;
     ConsultasPorAcciones * consultas;
     bool corriendo;
     bool pausa;
@@ -54,6 +55,10 @@ private slots:
     void on_btnCondenacionAsmodeo_clicked();
 
     void on_btnConsultaInfierno_clicked();
+
+    void on_btnSalvar_clicked();
+
+    void on_btnGanador_clicked();
 
 private:
     Ui::MainWindow *ui;

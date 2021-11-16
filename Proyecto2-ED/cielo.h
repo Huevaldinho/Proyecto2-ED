@@ -13,8 +13,9 @@ class Cielo{
         Cielo(Infierno *);
         int funcionHash(int ID);
         void mostrarCielo();
-
         void salvacion();
+        QVector <int> CantidadPecadosCielo();
+        QVector <int> CantidadBACielo();
 };
 
 #endif // CIELO_H

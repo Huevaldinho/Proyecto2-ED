@@ -63,6 +63,13 @@ public:
     QPushButton *btnCondenacionAsmodeo;
     QLabel *lblCondenar_2;
     QPushButton *btnConsultaInfierno;
+    QLabel *lblSalcacion;
+    QPushButton *btnSalvar;
+    QLabel *lblGanador;
+    QPushButton *btnGanador;
+    QTextBrowser *lbl_txtGanadorInfnerno;
+    QTextBrowser *lbl_txtGanadorCielo;
+    QLabel *lbl_GanadorFinal;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -70,7 +77,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1317, 659);
+        MainWindow->resize(1409, 659);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         btn_GenerarHumanos = new QPushButton(centralwidget);
@@ -200,10 +207,34 @@ public:
         btnConsultaInfierno = new QPushButton(centralwidget);
         btnConsultaInfierno->setObjectName(QString::fromUtf8("btnConsultaInfierno"));
         btnConsultaInfierno->setGeometry(QRect(1200, 70, 80, 24));
+        lblSalcacion = new QLabel(centralwidget);
+        lblSalcacion->setObjectName(QString::fromUtf8("lblSalcacion"));
+        lblSalcacion->setGeometry(QRect(1210, 120, 61, 16));
+        lblSalcacion->setFont(font2);
+        btnSalvar = new QPushButton(centralwidget);
+        btnSalvar->setObjectName(QString::fromUtf8("btnSalvar"));
+        btnSalvar->setGeometry(QRect(1200, 150, 80, 25));
+        lblGanador = new QLabel(centralwidget);
+        lblGanador->setObjectName(QString::fromUtf8("lblGanador"));
+        lblGanador->setGeometry(QRect(1160, 230, 101, 16));
+        lblGanador->setFont(font2);
+        btnGanador = new QPushButton(centralwidget);
+        btnGanador->setObjectName(QString::fromUtf8("btnGanador"));
+        btnGanador->setGeometry(QRect(1160, 250, 80, 25));
+        lbl_txtGanadorInfnerno = new QTextBrowser(centralwidget);
+        lbl_txtGanadorInfnerno->setObjectName(QString::fromUtf8("lbl_txtGanadorInfnerno"));
+        lbl_txtGanadorInfnerno->setGeometry(QRect(1110, 330, 256, 121));
+        lbl_txtGanadorCielo = new QTextBrowser(centralwidget);
+        lbl_txtGanadorCielo->setObjectName(QString::fromUtf8("lbl_txtGanadorCielo"));
+        lbl_txtGanadorCielo->setGeometry(QRect(1110, 470, 261, 121));
+        lbl_GanadorFinal = new QLabel(centralwidget);
+        lbl_GanadorFinal->setObjectName(QString::fromUtf8("lbl_GanadorFinal"));
+        lbl_GanadorFinal->setGeometry(QRect(1110, 300, 251, 16));
+        lbl_GanadorFinal->setFont(font2);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1317, 21));
+        menubar->setGeometry(QRect(0, 0, 1409, 25));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -247,6 +278,11 @@ public:
         btnCondenacionAsmodeo->setText(QCoreApplication::translate("MainWindow", "Asmodeo", nullptr));
         lblCondenar_2->setText(QCoreApplication::translate("MainWindow", "Consulta", nullptr));
         btnConsultaInfierno->setText(QCoreApplication::translate("MainWindow", "Infierno", nullptr));
+        lblSalcacion->setText(QCoreApplication::translate("MainWindow", "Salvaci\303\263n", nullptr));
+        btnSalvar->setText(QCoreApplication::translate("MainWindow", "Salvar", nullptr));
+        lblGanador->setText(QCoreApplication::translate("MainWindow", "El Ganador", nullptr));
+        btnGanador->setText(QCoreApplication::translate("MainWindow", "Ganador", nullptr));
+        lbl_GanadorFinal->setText(QString());
     } // retranslateUi
 
 };
