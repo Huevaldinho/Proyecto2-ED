@@ -103,9 +103,10 @@ void ConsultasPorAcciones::TopTenAccionesPaises(int opcion,QTextBrowser * cuadro
                 ba+=tmp->persona->buenasAcciones[5];
                 ba+=tmp->persona->buenasAcciones[6];
             }
-
             this->listaPaises->insertarAPais(tmp->persona->pais,pecados,ba);
             tmp=tmp->siguiente;
+            pecados=0;
+            ba=0;
         }
             this->consulta=false;
     }
@@ -154,6 +155,8 @@ void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadr
             ba+=tmp->persona->buenasAcciones[6];
             this->listaPaises->insertarAPais(tmp->persona->pais,pecados,ba);
             tmp=tmp->siguiente;
+            pecados=0;
+            ba=0;
         }
         this->consulta=false;
     }

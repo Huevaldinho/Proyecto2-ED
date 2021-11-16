@@ -1,0 +1,137 @@
+Asmodeo	Pecado: lujuria
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Belfegor	Pecado: gula
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Mammón	Pecado: avaricia
+Cantidad de Humanos: 40	Promedio de pecados: 280
+Máximo de pecados: 348	 Mínimo de pecados: 251
+	Luciana Fernández, cantidad de pecados de avaricia: 299
+	Antonio Fernández, cantidad de pecados de avaricia: 276
+	César Martínez, cantidad de pecados de avaricia: 298
+	Antonella Martin, cantidad de pecados de avaricia: 294
+	Victoria Martin, cantidad de pecados de avaricia: 286
+	Kimberly Martin, cantidad de pecados de avaricia: 276
+	Marcos Martin, cantidad de pecados de avaricia: 256
+	Ricardo Martin, cantidad de pecados de avaricia: 262
+	Julián Pérez, cantidad de pecados de avaricia: 265
+	Luca Pérez, cantidad de pecados de avaricia: 263
+	Mariana Pérez, cantidad de pecados de avaricia: 255
+	Antonella Fernández, cantidad de pecados de avaricia: 298
+	Emily Fernández, cantidad de pecados de avaricia: 260
+	Luna García, cantidad de pecados de avaricia: 263
+	Jazmín Gómez, cantidad de pecados de avaricia: 253
+	Daniela Rodríguez, cantidad de pecados de avaricia: 284
+	Jerónimo Rodríguez, cantidad de pecados de avaricia: 282
+	Hugo Rodríguez, cantidad de pecados de avaricia: 273
+	Catalina Rodríguez, cantidad de pecados de avaricia: 256
+	Ashley López, cantidad de pecados de avaricia: 284
+	Juan David Martin, cantidad de pecados de avaricia: 277
+	Joshua Martin, cantidad de pecados de avaricia: 251
+	María Fernanda García, cantidad de pecados de avaricia: 273
+	Luciano Martínez, cantidad de pecados de avaricia: 263
+	Sara Martínez, cantidad de pecados de avaricia: 259
+	Victoria Gómez, cantidad de pecados de avaricia: 286
+	Mía Gómez, cantidad de pecados de avaricia: 339
+	Cristóbal Gómez, cantidad de pecados de avaricia: 291
+	Cristóbal Gómez, cantidad de pecados de avaricia: 261
+	Santino Martínez, cantidad de pecados de avaricia: 282
+	Roberto Rodríguez, cantidad de pecados de avaricia: 344
+	Kimberly Martin, cantidad de pecados de avaricia: 267
+	Axel Pérez, cantidad de pecados de avaricia: 255
+	Gael Pérez, cantidad de pecados de avaricia: 252
+	Matthew López, cantidad de pecados de avaricia: 348
+	Renata López, cantidad de pecados de avaricia: 337
+	Carla López, cantidad de pecados de avaricia: 320
+	Anthony López, cantidad de pecados de avaricia: 287
+	Valeria López, cantidad de pecados de avaricia: 276
+	María López, cantidad de pecados de avaricia: 273
+
+
+
+
+Abadón	Pecado: pereza
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Satán	Pecado: ira
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Belcebú	Pecado: envidia
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Lucifer	Pecado: soberbia
+Cantidad de Humanos: 48	Promedio de pecados: 300
+Máximo de pecados: 431	 Mínimo de pecados: 262
+	Maximiliano Martin, cantidad de pecados de soberbia: 264
+	Mariana Gómez, cantidad de pecados de soberbia: 300
+	Antonella Pérez, cantidad de pecados de soberbia: 271
+	Melanie Sánchez, cantidad de pecados de soberbia: 274
+	Natalia García, cantidad de pecados de soberbia: 364
+	Ian García, cantidad de pecados de soberbia: 358
+	Mía Sánchez, cantidad de pecados de soberbia: 273
+	Bruno López, cantidad de pecados de soberbia: 308
+	Dylan López, cantidad de pecados de soberbia: 270
+	Sofía González, cantidad de pecados de soberbia: 323
+	Miguel González, cantidad de pecados de soberbia: 269
+	Regina Pérez, cantidad de pecados de soberbia: 293
+	Dylan Pérez, cantidad de pecados de soberbia: 276
+	Valentín Martínez, cantidad de pecados de soberbia: 364
+	Miguel Ángel Martínez, cantidad de pecados de soberbia: 362
+	Emma Martínez, cantidad de pecados de soberbia: 270
+	Renata Martínez, cantidad de pecados de soberbia: 266
+	Juliana Martin, cantidad de pecados de soberbia: 275
+	Anthony Gómez, cantidad de pecados de soberbia: 339
+	Facundo Gómez, cantidad de pecados de soberbia: 311
+	Daniela Gómez, cantidad de pecados de soberbia: 263
+	Hugo Fernández, cantidad de pecados de soberbia: 283
+	Vanessa Fernández, cantidad de pecados de soberbia: 431
+	Martina Fernández, cantidad de pecados de soberbia: 378
+	Agustina Fernández, cantidad de pecados de soberbia: 331
+	Santino Fernández, cantidad de pecados de soberbia: 269
+	Maximiliano Rodríguez, cantidad de pecados de soberbia: 308
+	Natalia Rodríguez, cantidad de pecados de soberbia: 273
+	Isabella González, cantidad de pecados de soberbia: 276
+	Andrea Martin, cantidad de pecados de soberbia: 262
+	Maximiliano Rodríguez, cantidad de pecados de soberbia: 279
+	Luca Gómez, cantidad de pecados de soberbia: 340
+	Ashley Gómez, cantidad de pecados de soberbia: 271
+	Ricardo Pérez, cantidad de pecados de soberbia: 329
+	María José Pérez, cantidad de pecados de soberbia: 329
+	Jerónimo Pérez, cantidad de pecados de soberbia: 312
+	Samantha Pérez, cantidad de pecados de soberbia: 287
+	Emma Pérez, cantidad de pecados de soberbia: 282
+	Patricio González, cantidad de pecados de soberbia: 289
+	Matthew González, cantidad de pecados de soberbia: 272
+	Iker Martin, cantidad de pecados de soberbia: 269
+	Valeria Pérez, cantidad de pecados de soberbia: 267
+	Fernanda López, cantidad de pecados de soberbia: 316
+	Thiago López, cantidad de pecados de soberbia: 314
+	Antonella López, cantidad de pecados de soberbia: 297
+	Bautista Rodríguez, cantidad de pecados de soberbia: 277
+	Emma Sánchez, cantidad de pecados de soberbia: 338
+	Antonio Sánchez, cantidad de pecados de soberbia: 264
+
+
+
+

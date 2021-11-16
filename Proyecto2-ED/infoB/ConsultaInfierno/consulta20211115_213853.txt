@@ -1,0 +1,137 @@
+Asmodeo	Pecado: lujuria
+Cantidad de Humanos: 40	Promedio de pecados: 0
+Máximo de pecados: 418	 Mínimo de pecados: 253
+	Isabella Martínez, cantidad de pecados de lujuria: 270
+	Juan Andrés Martínez, cantidad de pecados de lujuria: 256
+	María José Rodríguez, cantidad de pecados de lujuria: 418
+	Esteban Rodríguez, cantidad de pecados de lujuria: 335
+	Juan Manuel Rodríguez, cantidad de pecados de lujuria: 317
+	Victoria Gómez, cantidad de pecados de lujuria: 308
+	Luciana Pérez, cantidad de pecados de lujuria: 258
+	Gabriela García, cantidad de pecados de lujuria: 256
+	Luciano Martínez, cantidad de pecados de lujuria: 262
+	Lucía González, cantidad de pecados de lujuria: 271
+	Kimberly Gómez, cantidad de pecados de lujuria: 298
+	Natalia Gómez, cantidad de pecados de lujuria: 254
+	Fernanda Martínez, cantidad de pecados de lujuria: 254
+	Daniela Rodríguez, cantidad de pecados de lujuria: 257
+	Valentino Fernández, cantidad de pecados de lujuria: 276
+	Alejandra López, cantidad de pecados de lujuria: 297
+	Mauricio López, cantidad de pecados de lujuria: 307
+	Axel González, cantidad de pecados de lujuria: 333
+	Luca González, cantidad de pecados de lujuria: 289
+	Melanie González, cantidad de pecados de lujuria: 276
+	Hugo González, cantidad de pecados de lujuria: 259
+	Luciano González, cantidad de pecados de lujuria: 257
+	Juanita Martin, cantidad de pecados de lujuria: 270
+	Cristóbal González, cantidad de pecados de lujuria: 288
+	Matthew González, cantidad de pecados de lujuria: 280
+	Luciana López, cantidad de pecados de lujuria: 266
+	Mariana Fernández, cantidad de pecados de lujuria: 265
+	Nicole Rodríguez, cantidad de pecados de lujuria: 338
+	Valentín Rodríguez, cantidad de pecados de lujuria: 274
+	Gabriela Rodríguez, cantidad de pecados de lujuria: 253
+	Nicole Fernández, cantidad de pecados de lujuria: 257
+	Jazmín García, cantidad de pecados de lujuria: 295
+	Monserrat González, cantidad de pecados de lujuria: 296
+	Luna González, cantidad de pecados de lujuria: 278
+	Monserrat González, cantidad de pecados de lujuria: 317
+	Miguel González, cantidad de pecados de lujuria: 257
+	Vanessa Fernández, cantidad de pecados de lujuria: 286
+	Ximena Sánchez, cantidad de pecados de lujuria: 386
+	Isabel Sánchez, cantidad de pecados de lujuria: 282
+	Nicole Sánchez, cantidad de pecados de lujuria: 268
+
+
+
+
+Belfegor	Pecado: gula
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Mammón	Pecado: avaricia
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Abadón	Pecado: pereza
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Satán	Pecado: ira
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Belcebú	Pecado: envidia
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Lucifer	Pecado: soberbia
+Cantidad de Humanos: 48	Promedio de pecados: 0
+Máximo de pecados: 349	 Mínimo de pecados: 256
+	María José López, cantidad de pecados de soberbia: 311
+	Paula Fernández, cantidad de pecados de soberbia: 277
+	Juliana Rodríguez, cantidad de pecados de soberbia: 260
+	Jazmín Martin, cantidad de pecados de soberbia: 321
+	Antonio Martin, cantidad de pecados de soberbia: 280
+	Isabella Martin, cantidad de pecados de soberbia: 269
+	Luciana Sánchez, cantidad de pecados de soberbia: 321
+	Maximiliano Sánchez, cantidad de pecados de soberbia: 260
+	Ricardo Sánchez, cantidad de pecados de soberbia: 349
+	Sergio Sánchez, cantidad de pecados de soberbia: 305
+	Álvaro Sánchez, cantidad de pecados de soberbia: 304
+	Fernanda Sánchez, cantidad de pecados de soberbia: 297
+	Sofía Sánchez, cantidad de pecados de soberbia: 287
+	Luciano Sánchez, cantidad de pecados de soberbia: 284
+	Simón Fernández, cantidad de pecados de soberbia: 277
+	Rafael Rodríguez, cantidad de pecados de soberbia: 304
+	Miguel Rodríguez, cantidad de pecados de soberbia: 291
+	Juan Andrés Rodríguez, cantidad de pecados de soberbia: 291
+	Isabella Gómez, cantidad de pecados de soberbia: 320
+	Natalia Gómez, cantidad de pecados de soberbia: 319
+	Daniela Pérez, cantidad de pecados de soberbia: 288
+	Agustina González, cantidad de pecados de soberbia: 344
+	Carla Sánchez, cantidad de pecados de soberbia: 346
+	Luciana Sánchez, cantidad de pecados de soberbia: 288
+	Valentín López, cantidad de pecados de soberbia: 278
+	Mario Rodríguez, cantidad de pecados de soberbia: 295
+	Juliana Rodríguez, cantidad de pecados de soberbia: 274
+	Briana Rodríguez, cantidad de pecados de soberbia: 338
+	Dylan Rodríguez, cantidad de pecados de soberbia: 330
+	Gabriela Rodríguez, cantidad de pecados de soberbia: 304
+	Paulin Sánchez, cantidad de pecados de soberbia: 310
+	Ian Sánchez, cantidad de pecados de soberbia: 271
+	Vanessa Sánchez, cantidad de pecados de soberbia: 264
+	Juan Sebastián Rodríguez, cantidad de pecados de soberbia: 284
+	María José Martin, cantidad de pecados de soberbia: 256
+	Emma Martin, cantidad de pecados de soberbia: 272
+	Patricio Martin, cantidad de pecados de soberbia: 256
+	Hugo Gómez, cantidad de pecados de soberbia: 298
+	María Fernanda Martin, cantidad de pecados de soberbia: 321
+	Anthony Martin, cantidad de pecados de soberbia: 259
+	Ximena Martin, cantidad de pecados de soberbia: 256
+	Luna López, cantidad de pecados de soberbia: 260
+	Sara Sánchez, cantidad de pecados de soberbia: 266
+	Mía Martínez, cantidad de pecados de soberbia: 260
+	Carla López, cantidad de pecados de soberbia: 330
+	Iker López, cantidad de pecados de soberbia: 323
+	Regina López, cantidad de pecados de soberbia: 270
+	Samantha Rodríguez, cantidad de pecados de soberbia: 264
+
+
+
+

@@ -1,5 +1,6 @@
 #include "infierno.h"
 
+
 Infierno::Infierno(int cantidadFamilias, ListaPersonas * personas){
     //Crea los demonios
     this->humanosMundo = personas;
@@ -75,6 +76,7 @@ void Infierno::escribirArchivo(Persona*persona,Demonio*demonio){
     QDateTime actual = QDateTime::currentDateTime();
 
     QFile file(this->archivoCondenacion);
+    //if(file.open(QIODevice::WriteOnly | QIODevice::Append | QIODevice::Text))
     if(file.open(QIODevice::WriteOnly | QIODevice::Append | QIODevice::Text))
     {
         QTextStream w(&file);
@@ -119,11 +121,13 @@ void Infierno::consulta(){
     {
         QTextStream w(&file);
         for (int i = 0 ; i<7 ; i++){
-//            int pa = this->demonios[i]->pecadosAcumulados;
-//            int pt = this->demonios[i]->personasTotales;
-//            qDebug()<<pa;
-//            qDebug()<<pt; //no sé porqué están en 0 si yo los sumo cuando condeno, como es división entre 0 se cae
-            int promedio = 1;//es pa/pt
+            int pa = this->demonios[i]->pecadosAcumulados;
+            int pt = this->demonios[i]->personasTotales;
+                qDebug()<<"PA: "<<pa;
+            qDebug()<<"PT: "<<pt; //no sé porqué están en 0 si yo los sumo cuando condeno, como es división entre 0 se cae
+            int promedio=0;
+            if (pt!=0)
+                promedio = pa/pt;//es pa/pt
             w <<
             this->demonios[i]->nombre << "\t" << "Pecado: " << this->demonios[i]->nombrePecado() << "\n" <<
             "Cantidad de Humanos: "<< QString::number(this->demonios[i]->personasTotales) <<"\tPromedio de pecados: "<<QString::number(promedio) <<"\n"<<
@@ -132,6 +136,8 @@ void Infierno::consulta(){
 
         }
         file.close();
+    }else{
+        qDebug()<<"ELSEEEEE";
     }
 }
 

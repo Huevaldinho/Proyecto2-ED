@@ -51,6 +51,7 @@ class Smtp;
 #include <QtWidgets/QMessageBox>
 #include <QByteArray>
 #include <QFile>
+#include <QMessageBox>
 #include <QFileInfo>
 
 #include "mainwindow.h"

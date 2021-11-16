@@ -19,11 +19,12 @@ int Cielo::funcionHash(int ID){
     rango = (ID/100)+1;//tenemos  99 999 (100 000) personas como maximo
     //se hace 100 000 entre 100 posiciones del arreglo para determinar el indice
     //para insertar
-    return rango;
+    return rango;//devuelve la posicion del arreglo donde se tiene que insertar
 }
-void Cielo::mostrarCielo(){
+void Cielo::mostrarCielo(){//Hacer el txt del cielo
     //Mandar a hacer el .txt
     for(int i=1;i<1001;i++){
+            //Esta funcion esta en arbolcielo
           this->hash[i]->escribirEnArchivoInorden(this->hash[i]->raiz,this->archivoCielo,i);
       }
 }
