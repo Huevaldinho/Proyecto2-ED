@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1409</width>
-    <height>659</height>
+    <height>763</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -66,8 +66,8 @@
    <widget class="QPushButton" name="btn_Pecar">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>70</y>
+      <x>10</x>
+      <y>20</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -79,8 +79,8 @@
    <widget class="QPushButton" name="btn_BuenasAcciones">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>130</y>
+      <x>10</x>
+      <y>80</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -92,8 +92,8 @@
    <widget class="QLabel" name="lbl_IDHumanosBuscado">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>230</y>
+      <x>20</x>
+      <y>150</y>
       <width>241</width>
       <height>31</height>
      </rect>
@@ -111,10 +111,10 @@
    <widget class="QPushButton" name="btn_BuscarHumano">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>310</y>
-      <width>111</width>
-      <height>41</height>
+      <x>190</x>
+      <y>190</y>
+      <width>91</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
@@ -124,8 +124,8 @@
    <widget class="QLineEdit" name="txt_HumanoBuscado">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>270</y>
+      <x>60</x>
+      <y>190</y>
       <width>113</width>
       <height>24</height>
      </rect>
@@ -134,9 +134,9 @@
    <widget class="QTextBrowser" name="txt_PecadosFamiliaHumanoBuscado">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>390</y>
-      <width>261</width>
+      <x>10</x>
+      <y>260</y>
+      <width>251</width>
       <height>192</height>
      </rect>
     </property>
@@ -144,8 +144,8 @@
    <widget class="QLabel" name="lbl_PecadosFamilia">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>360</y>
+      <x>70</x>
+      <y>230</y>
       <width>121</width>
       <height>16</height>
      </rect>
@@ -163,8 +163,8 @@
    <widget class="QLabel" name="lbl_BuenasAcciones">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>370</y>
+      <x>310</x>
+      <y>230</y>
       <width>181</width>
       <height>16</height>
      </rect>
@@ -182,8 +182,8 @@
    <widget class="QTextBrowser" name="txt_BuenasAccionesFamiliaHumanoBuscado">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>390</y>
+      <x>270</x>
+      <y>260</y>
       <width>261</width>
       <height>191</height>
      </rect>
@@ -632,6 +632,83 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_Consulta">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>480</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Apellidos</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Continentes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Paises</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Creencias</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesiones</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="lbl_ConsultaPor">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Consulta por:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnConsultaPor">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>480</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aceptar</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="lbl_txtConsultaPorResultado">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>520</y>
+      <width>371</width>
+      <height>141</height>
+     </rect>
     </property>
    </widget>
   </widget>

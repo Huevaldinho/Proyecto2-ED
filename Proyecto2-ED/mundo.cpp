@@ -4,6 +4,8 @@ Mundo::Mundo(){
     this->maximoHumanos=99999;
     this->porcentaje=0.01;
     this->cantidadHumanosParaCrearArbol=1000;//Cada 1000 debe crear un arbol nuevo
+    this->totalPecados=0;
+    this->totalba=0;
     //this->arbolMundo = new ArbolMundo();
     this->arbolMundo= new ArbolFamilia();//prueba arbol familia
     this->arbolMundo->apellidoFamilia="Arbol";
@@ -135,7 +137,6 @@ void Mundo::GenerarNpersonas(int n){
         //Despues de insertarlo en la lista lo va a meter a un arbol de familia
         this->listaFamilias->insertarFamilia(new Nodo(tmp));//Mete al mae al arbol familia
         //los hijos se le agregan en insertarFamilia
-
         tmp = NULL;
     }
     //qDebug()<<"TERMINA GENERAR PERSONAS - Personas en mundo: "<<this->listaPersonas->largo;
@@ -200,6 +201,9 @@ void Mundo::generarPecados(){
         tmp->persona->pecados[5]+=distribution(*QRandomGenerator::global());
         tmp->persona->pecados[6]+=distribution(*QRandomGenerator::global());
 
+        this->totalPecados+=tmp->persona->pecados[0]+tmp->persona->pecados[1]+tmp->persona->pecados[2]+
+        tmp->persona->pecados[3]+tmp->persona->pecados[4]+tmp->persona->pecados[5]+tmp->persona->pecados[6];
+
         if (tmp->persona->hijos->primerNodo!=NULL){
              tmpHijo = tmp->persona->hijos->primerNodo;
             while (tmpHijo!=NULL){
@@ -211,6 +215,9 @@ void Mundo::generarPecados(){
                 tmpHijo->persona->pecados[5]+=(tmp->persona->pecados[5]*0.5);
                 tmpHijo->persona->pecados[6]+=(tmp->persona->pecados[6]*0.5);
 
+                this->totalPecados+=tmpHijo->persona->pecados[0]+tmpHijo->persona->pecados[1]+tmpHijo->persona->pecados[2]+
+tmpHijo->persona->pecados[3]+tmpHijo->persona->pecados[4]+tmpHijo->persona->pecados[5]+tmpHijo->persona->pecados[6];
+
                 if (tmpHijo->persona->hijos->primerNodo!=NULL){
                     tmpNieto= tmpHijo->persona->hijos->primerNodo;
                     while (tmpNieto!=NULL){
@@ -221,6 +228,9 @@ void Mundo::generarPecados(){
                         tmpNieto->persona->pecados[4]+=(tmp->persona->pecados[4]*0.25);
                         tmpNieto->persona->pecados[5]+=(tmp->persona->pecados[5]*0.25);
                         tmpNieto->persona->pecados[6]+=(tmp->persona->pecados[6]*0.25);
+
+                        this->totalPecados+=tmpNieto->persona->pecados[0]+tmpNieto->persona->pecados[1]+tmpNieto->persona->pecados[2]+
+        tmpNieto->persona->pecados[3]+tmpNieto->persona->pecados[4]+tmpNieto->persona->pecados[5]+tmpNieto->persona->pecados[6];
 
                         tmpNieto=tmpNieto->siguiente;
                     }
@@ -246,6 +256,9 @@ void Mundo::generarBuenasAcciones(){
         tmp->persona->buenasAcciones[5]+=distribution(*QRandomGenerator::global());
         tmp->persona->buenasAcciones[6]+=distribution(*QRandomGenerator::global());
 
+        this->totalba+=tmp->persona->buenasAcciones[0]+tmp->persona->buenasAcciones[1]+tmp->persona->buenasAcciones[2]+
+tmp->persona->buenasAcciones[3]+tmp->persona->buenasAcciones[4]+tmp->persona->buenasAcciones[5]+tmp->persona->buenasAcciones[6];
+
         if (tmp->persona->hijos->primerNodo!=NULL){
             tmpHijo= tmp->persona->hijos->primerNodo;
             while (tmpHijo!=NULL){
@@ -256,6 +269,8 @@ void Mundo::generarBuenasAcciones(){
                 tmpHijo->persona->buenasAcciones[4]+=(tmp->persona->buenasAcciones[4]*0.5);
                 tmpHijo->persona->buenasAcciones[5]+=(tmp->persona->buenasAcciones[5]*0.5);
                 tmpHijo->persona->buenasAcciones[6]+=(tmp->persona->buenasAcciones[6]*0.5);
+                this->totalba+=tmpHijo->persona->buenasAcciones[0]+tmpHijo->persona->buenasAcciones[1]+tmpHijo->persona->buenasAcciones[2]+
+        tmpHijo->persona->buenasAcciones[3]+tmpHijo->persona->buenasAcciones[4]+tmpHijo->persona->buenasAcciones[5]+tmpHijo->persona->buenasAcciones[6];
 
                 if (tmpHijo->persona->hijos->primerNodo!=NULL){
                     tmpNieto= tmpHijo->persona->hijos->primerNodo;
@@ -267,6 +282,9 @@ void Mundo::generarBuenasAcciones(){
                         tmpNieto->persona->buenasAcciones[4]+=(tmp->persona->buenasAcciones[4]*0.25);
                         tmpNieto->persona->buenasAcciones[5]+=(tmp->persona->buenasAcciones[5]*0.25);
                         tmpNieto->persona->buenasAcciones[6]+=(tmp->persona->buenasAcciones[6]*0.25);
+
+                        this->totalba+=tmpNieto->persona->buenasAcciones[0]+tmpNieto->persona->buenasAcciones[1]+tmpNieto->persona->buenasAcciones[2]+
+                tmpNieto->persona->buenasAcciones[3]+tmpNieto->persona->buenasAcciones[4]+tmpNieto->persona->buenasAcciones[5]+tmpNieto->persona->buenasAcciones[6];
 
                         tmpNieto=tmpNieto->siguiente;
                     }

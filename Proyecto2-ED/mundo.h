@@ -20,6 +20,9 @@ class Mundo{
         int cantidadProfesiones;
         int cantidadCreencias;
 
+        long long totalPecados;
+        long long totalba;
+
         //Arreglos que se llenan con los .txt
         QString apellidos[1000];
         QString nombres[1000];

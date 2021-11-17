@@ -60,6 +60,13 @@ private slots:
 
     void on_btnGanador_clicked();
 
+    void on_btnConsultaPor_clicked();
+    void ConsultarPorApellido();
+    void ConsultarPorContinente();
+    void ConsultarPorPais();
+    void ConsultarPorCreencia();
+    void ConsultarPorProfesion();
+
 private:
     Ui::MainWindow *ui;
 };
