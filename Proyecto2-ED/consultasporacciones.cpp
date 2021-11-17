@@ -3,13 +3,14 @@
 ConsultasPorAcciones::ConsultasPorAcciones(){
     this->listaPersonas=NULL;
     this->IDBuscado=-1;
-    this->consulta=false;
     this->listaPaises=new ListaPaises;
     this->cielo=NULL;
     this->infierno=NULL;
+    this->mundo=NULL;
 }
-ConsultasPorAcciones::ConsultasPorAcciones(ListaPersonas * lista, Cielo * cieloMain, Infierno * infiMain){
+ConsultasPorAcciones::ConsultasPorAcciones(ListaPersonas * lista, Cielo * cieloMain, Infierno * infiMain,Mundo * mundoMain){
     this->listaPersonas=lista;
+    this->mundo=mundoMain;
     this->cielo=cieloMain;
     this->infierno=infiMain;
     this->IDBuscado=-1;
@@ -85,90 +86,97 @@ void ConsultasPorAcciones::AccionesFamilia(int IDaBuscar, QTextBrowser * cuadroT
     }
 }
 void ConsultasPorAcciones::TopTenAccionesPaises(int opcion,QTextBrowser * cuadroTexto){
-    Nodo * tmp = this->listaPersonas->primerNodo;
-    long long pecados=0;
-    long long ba=0;
-    if (this->consulta){
-        while (tmp!=NULL){
-            if (opcion==1){
-                pecados+=tmp->persona->pecados[0];
-                pecados+=tmp->persona->pecados[1];
-                pecados+=tmp->persona->pecados[2];
-                pecados+=tmp->persona->pecados[3];
-                pecados+=tmp->persona->pecados[4];
-                pecados+=tmp->persona->pecados[5];
-                pecados+=tmp->persona->pecados[6];
-            }else{
-                ba+=tmp->persona->buenasAcciones[0];
-                ba+=tmp->persona->buenasAcciones[1];
-                ba+=tmp->persona->buenasAcciones[2];
-                ba+=tmp->persona->buenasAcciones[3];
-                ba+=tmp->persona->buenasAcciones[4];
-                ba+=tmp->persona->buenasAcciones[5];
-                ba+=tmp->persona->buenasAcciones[6];
-            }
-            this->listaPaises->insertarAPais(tmp->persona->pais,pecados,ba);
-            tmp=tmp->siguiente;
-            pecados=0;
-            ba=0;
-        }
-            this->consulta=false;
+//    Nodo * tmpPersona = this->listaPersonas->primerNodo;
+//    if (this->listaPaises->primerPais==NULL){
+//        qDebug()<<"METE PAISES A ARRAY TOP TEN";
+//        for (int i=0;i<this->mundo->cantidadPaises;i++){//Mete todos los paises
+//                this->listaPaises->insertarAPais(this->mundo->paises[i],0,0);
+//        }
+//    }
+    ListaPaises * paisesTmp = new ListaPaises();
+    for (int i=0;i<this->mundo->cantidadPaises;i++){//Mete todos los paises
+            paisesTmp->insertarAPais(this->mundo->paises[i],0,0);
+    }
+    Nodo * tmpPersona = this->listaPersonas->primerNodo;
+    Pais * tmpPais;
+    int pecados=0;
+    int ba=0;
+
+    while (tmpPersona!=NULL){
+        //Suma de pecados de cada pesona
+        pecados+=tmpPersona->persona->pecados[0]+tmpPersona->persona->pecados[1]+tmpPersona->persona->pecados[2]+
+                tmpPersona->persona->pecados[3]+tmpPersona->persona->pecados[4]+tmpPersona->persona->pecados[5]+
+                tmpPersona->persona->pecados[6];
+        ba+=tmpPersona->persona->buenasAcciones[0]+tmpPersona->persona->buenasAcciones[1]+
+                tmpPersona->persona->buenasAcciones[2]+tmpPersona->persona->buenasAcciones[3]+
+                tmpPersona->persona->buenasAcciones[4]+tmpPersona->persona->buenasAcciones[5]+
+                tmpPersona->persona->buenasAcciones[6];
+        tmpPais = paisesTmp->buscarPorNombre(tmpPersona->persona->pais);
+        tmpPais->cantidadPecados +=pecados;
+        tmpPais->cantidadBuenasAcciones +=ba;
+
+        ba=0;
+        pecados=0;
+        tmpPersona=tmpPersona->siguiente;
     }
     cuadroTexto->clear();
+    Pais * tmp=paisesTmp->primerPais;
+
     if (opcion==1){ //Opcion 1: Top paises mas pecadores
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Top 10 Paises más pecadores");
-        this->listaPaises->OrdenarPaisesPorMasPecados();
-        Pais * tmp=this->listaPaises->primerPais;
+        paisesTmp->OrdenarPaisesPorMasPecados();
+        tmp=paisesTmp->primerPais;
         for (int i=0;i<10;i++){//Mete los primeros 10 paises mas pecadores
             if (tmp!=NULL){//solo por aquello jj
-                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+" - Pecados: "+QString::number(tmp->cantidadPecados));
+                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+
+                                     " - Pecados: "+QString::number(tmp->cantidadPecados));
                 tmp=tmp->siguiente;
             }
         }
     }else{//Opcion 2: Top paises con mas buenas acciones
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Top 10 Paises Con Más Buenas Acciones");
-        this->listaPaises->OrdenarPaisesPorMasBN();
-        Pais * tmp=this->listaPaises->primerPais;
+        paisesTmp->OrdenarPaisesPorMasBN();
+        tmp=paisesTmp->primerPais;
         for (int i=0;i<10;i++){
             if (tmp!=NULL){
-                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+" - Buenas Acciones: "+QString::number(tmp->cantidadBuenasAcciones));
+                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+
+                                     " - Buenas Acciones: "+QString::number(tmp->cantidadBuenasAcciones));
                 tmp=tmp->siguiente;
             }
         }
     }
 }
 void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadroTexto){
-    Nodo * tmp = this->listaPersonas->primerNodo;
+    ListaPaises * paisesTmp = new ListaPaises();
+    for (int i=0;i<this->mundo->cantidadPaises;i++){//Mete todos los paises
+            paisesTmp->insertarAPais(this->mundo->paises[i],0,0);
+    }
+    Nodo * tmpPersona = this->listaPersonas->primerNodo;
+    Pais * tmpPais;
     int pecados=0;
     int ba=0;
-    if (this->consulta){
-        while (tmp!=NULL){
-            pecados+=tmp->persona->pecados[0];
-            pecados+=tmp->persona->pecados[1];
-            pecados+=tmp->persona->pecados[2];
-            pecados+=tmp->persona->pecados[3];
-            pecados+=tmp->persona->pecados[4];
-            pecados+=tmp->persona->pecados[5];
-            pecados+=tmp->persona->pecados[6];
-            ba+=tmp->persona->buenasAcciones[0];
-            ba+=tmp->persona->buenasAcciones[1];
-            ba+=tmp->persona->buenasAcciones[2];
-            ba+=tmp->persona->buenasAcciones[3];
-            ba+=tmp->persona->buenasAcciones[4];
-            ba+=tmp->persona->buenasAcciones[5];
-            ba+=tmp->persona->buenasAcciones[6];
-            this->listaPaises->insertarAPais(tmp->persona->pais,pecados,ba);
-            tmp=tmp->siguiente;
-            pecados=0;
-            ba=0;
-        }
-        this->consulta=false;
+    while (tmpPersona!=NULL){
+        //Suma de pecados de cada pesona
+        pecados+=tmpPersona->persona->pecados[0]+tmpPersona->persona->pecados[1]+tmpPersona->persona->pecados[2]+
+                tmpPersona->persona->pecados[3]+tmpPersona->persona->pecados[4]+tmpPersona->persona->pecados[5]+
+                tmpPersona->persona->pecados[6];
+        ba+=tmpPersona->persona->buenasAcciones[0]+tmpPersona->persona->buenasAcciones[1]+
+                tmpPersona->persona->buenasAcciones[2]+tmpPersona->persona->buenasAcciones[3]+
+                tmpPersona->persona->buenasAcciones[4]+tmpPersona->persona->buenasAcciones[5]+
+                tmpPersona->persona->buenasAcciones[6];
+        tmpPais = paisesTmp->buscarPorNombre(tmpPersona->persona->pais);
+        tmpPais->cantidadPecados +=pecados;//No es este el error, entonces cual es?
+        tmpPais->cantidadBuenasAcciones +=ba;
+
+        ba=0;
+        pecados=0;
+        tmpPersona=tmpPersona->siguiente;
     }
     cuadroTexto->clear();
     if (opcion==1){
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Top 5 Paises Menos Pecadores");
-        this->listaPaises->OrdenarPaisesPorMasPecados();
-        Pais * tmp=this->listaPaises->ultimoPais;
+        paisesTmp->OrdenarPaisesPorMasPecados();
+        Pais * tmp=paisesTmp->ultimoPais;
         for (int i=0;i<5;i++){
             if (tmp!=NULL){
                 cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+" - Pecados: "+QString::number(tmp->cantidadPecados));
@@ -177,8 +185,8 @@ void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadr
         }
     }else{
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Top 5 Paises Con Menos Buenas Acciones");
-        this->listaPaises->OrdenarPaisesPorMasBN();
-        Pais * tmp=this->listaPaises->ultimoPais;
+       paisesTmp->OrdenarPaisesPorMasBN();
+        Pais * tmp=paisesTmp->ultimoPais;
         for (int i=0;i<5;i++){
             if (tmp!=NULL){
                 cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+" - Buenas Acciones: "+QString::number(tmp->cantidadBuenasAcciones));

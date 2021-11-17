@@ -18,7 +18,6 @@ void MainWindow::on_btn_GenerarHumanos_clicked(){//GENERAR HUMANOS
     bool ok = true;
     int nGenerar=this->ui->txt_CantidadHumanosGenerar->text().toDouble(&ok);
     this->mundo->GenerarNpersonas(nGenerar);
-    this->consultas->consulta=true;
     this->ui->lbl_CantidaNivelesArbol->setText(QString::number(this->mundo->arbolMundo->height(this->mundo->arbolMundo->raiz)));
     this->ui->lbl_CantidadDeNodos->setText(QString::number(this->mundo->arbolMundo->contadorNodos(this->mundo->arbolMundo->raiz)));
     this->ui->lbl_CantidadTotalHumanos->setText(QString::number(this->mundo->listaPersonas->largo));
@@ -31,11 +30,11 @@ void MainWindow::on_btn_GenerarHumanos_clicked(){//GENERAR HUMANOS
 }
 void MainWindow::on_btn_Pecar_clicked(){//PECAR
     this->mundo->generarPecados();
-    this->consultas->consulta=true;
+    this->mundo->ContarPecadosMundo();
 }
 void MainWindow::on_btn_BuenasAcciones_clicked(){//BUENAS ACCIONES
     this->mundo->generarBuenasAcciones();
-    this->consultas->consulta=true;
+    this->mundo->ContarBAMundo();
 }
 //TOPS
 void MainWindow::on_btn_BuscarHumano_clicked(){
@@ -301,13 +300,8 @@ void MainWindow::on_btnConsultaPor_clicked(){
 
 //Consultas
 void MainWindow::ConsultarPorApellido(){//Por apellido
-
-    /*
-        Ordena de mayor a menor
-        Muestra: Total- Porcentaje de todos los pecados/ba del mundo
-    */
-    //(pecadosFamilia/pecadosTotales)*100=porcentaje de pecados de esa familia con respecto al total
-    //igual para las ba
+    this->mundo->ContarPecadosMundo();
+    this->mundo->ContarBAMundo();
 
     ListaPaises * apellidosTmp = new ListaPaises();
     //void ListaPaises::insertarAPais(QString _nombre,long long  pecados,long long  ba)
@@ -316,6 +310,7 @@ void MainWindow::ConsultarPorApellido(){//Por apellido
     }
     Pais * tmp;
     Nodo * tmpPersona = this->mundo->listaPersonas->primerNodo;
+
     int pecados =0;
     int ba =0;
     while (tmpPersona!=NULL){
@@ -340,6 +335,7 @@ void MainWindow::ConsultarPorApellido(){//Por apellido
 
     this->ui->lbl_txtConsultaPorResultado->clear();
     tmp = apellidosTmp->primerPais;
+
     qDebug()<<"Total pecados mundo: "<<this->mundo->totalPecados;
     double cien=100;
     double resultado=0;
@@ -355,6 +351,7 @@ void MainWindow::ConsultarPorApellido(){//Por apellido
     //METER BUENAS ACCIONES
     apellidosTmp->OrdenarPaisesPorMasBN();
     tmp = apellidosTmp->primerPais;
+    this->mundo->ContarBAMundo();
     cien=100;
     resultado=0;
     this->ui->lbl_txtConsultaPorResultado->setText(this->ui->lbl_txtConsultaPorResultado->toPlainText()+"\nTotal buenas acciones mundo: "+QString::number(this->mundo->totalba)+'\n');
@@ -376,6 +373,8 @@ void MainWindow::ConsultarPorContinente(){//Por continente
 
 }
 void MainWindow::ConsultarPorPais(){//Por pais
+    this->mundo->ContarPecadosMundo();
+    this->mundo->ContarBAMundo();
     ListaPaises * paisesTmp = new ListaPaises();
     for (int i=0;i<this->mundo->cantidadPaises;i++){//Mete todos los paises
             paisesTmp->insertarAPais(this->mundo->paises[i],0,0);
@@ -401,7 +400,6 @@ void MainWindow::ConsultarPorPais(){//Por pais
         tmpPersona=tmpPersona->siguiente;
     }
     paisesTmp->OrdenarPaisesPorMasPecados();
-
     this->ui->lbl_txtConsultaPorResultado->clear();
     tmp = paisesTmp->primerPais;
     double cien=100;
@@ -433,6 +431,8 @@ void MainWindow::ConsultarPorPais(){//Por pais
 
 }
 void MainWindow::ConsultarPorCreencia(){//Por creencia
+    this->mundo->ContarPecadosMundo();
+    this->mundo->ContarBAMundo();
     ListaPaises * creenciaTmp = new ListaPaises();
     for (int i=0;i<this->mundo->cantidadCreencias;i++){//Mete todos las creencias
             creenciaTmp->insertarAPais(this->mundo->creencias[i],0,0);
@@ -458,7 +458,6 @@ void MainWindow::ConsultarPorCreencia(){//Por creencia
         tmpPersona=tmpPersona->siguiente;
     }
     creenciaTmp->OrdenarPaisesPorMasPecados();
-
     this->ui->lbl_txtConsultaPorResultado->clear();
     tmp = creenciaTmp->primerPais;
     double cien=100;
@@ -487,6 +486,8 @@ void MainWindow::ConsultarPorCreencia(){//Por creencia
     }
 }
 void MainWindow::ConsultarPorProfesion(){//Por profesion
+    this->mundo->ContarPecadosMundo();
+    this->mundo->ContarBAMundo();
     ListaPaises * profesionTmp = new ListaPaises();
     for (int i=0;i<this->mundo->cantidadProfesiones;i++){//Mete todos las creencias
             profesionTmp->insertarAPais(this->mundo->profesiones[i],0,0);
@@ -540,3 +541,4 @@ void MainWindow::ConsultarPorProfesion(){//Por profesion
         tmp=tmp->siguiente;
     }
 }
+

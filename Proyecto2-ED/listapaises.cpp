@@ -68,8 +68,8 @@ void ListaPaises::OrdenarPaisesPorMasPecados(){
                 nombre = aux->nombre;
 
                 aux->nombre=p->nombre;
-                aux->cantidadBuenasAcciones=p->cantidadBuenasAcciones;
-                aux->cantidadPecados=p->cantidadPecados;
+                aux->cantidadBuenasAcciones = p->cantidadBuenasAcciones;
+                aux->cantidadPecados = p->cantidadPecados;
 
                 p->nombre=nombre;
                 p->cantidadBuenasAcciones=bn;

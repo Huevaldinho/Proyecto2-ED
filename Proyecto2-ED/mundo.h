@@ -58,7 +58,8 @@ class Mundo{
         Pais * consultaBAtop5menos();
 
         void  CrearArbolMundo(int a,int b);
-
+        void ContarPecadosMundo();
+        void ContarBAMundo();
 
 };
 

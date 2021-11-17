@@ -14,12 +14,12 @@ class ConsultasPorAcciones{
         int IDBuscado;//A quien buscamos en el mundo para hacer el calculo de pecados por familia
         ListaPersonas * listaPersonas;
         ListaPaises * listaPaises;
-        bool consulta;
         Cielo * cielo;
+        Mundo * mundo;
         Infierno * infierno;
 
         ConsultasPorAcciones();
-        ConsultasPorAcciones(ListaPersonas *,Cielo *, Infierno *);
+        ConsultasPorAcciones(ListaPersonas *,Cielo *, Infierno *,Mundo *);
         void AccionesFamilia(int ID,QTextBrowser *,QTextBrowser *);//Recibe a la persona que buscamos por ID
         void AccionesHijos(Persona *,QTextBrowser *,QTextBrowser *);
         //Opcion 1: Top paises pecadores, Opcion 2: Top paises con mas buenas acciones

@@ -201,9 +201,6 @@ void Mundo::generarPecados(){
         tmp->persona->pecados[5]+=distribution(*QRandomGenerator::global());
         tmp->persona->pecados[6]+=distribution(*QRandomGenerator::global());
 
-        this->totalPecados+=tmp->persona->pecados[0]+tmp->persona->pecados[1]+tmp->persona->pecados[2]+
-        tmp->persona->pecados[3]+tmp->persona->pecados[4]+tmp->persona->pecados[5]+tmp->persona->pecados[6];
-
         if (tmp->persona->hijos->primerNodo!=NULL){
              tmpHijo = tmp->persona->hijos->primerNodo;
             while (tmpHijo!=NULL){
@@ -215,9 +212,6 @@ void Mundo::generarPecados(){
                 tmpHijo->persona->pecados[5]+=(tmp->persona->pecados[5]*0.5);
                 tmpHijo->persona->pecados[6]+=(tmp->persona->pecados[6]*0.5);
 
-                this->totalPecados+=tmpHijo->persona->pecados[0]+tmpHijo->persona->pecados[1]+tmpHijo->persona->pecados[2]+
-tmpHijo->persona->pecados[3]+tmpHijo->persona->pecados[4]+tmpHijo->persona->pecados[5]+tmpHijo->persona->pecados[6];
-
                 if (tmpHijo->persona->hijos->primerNodo!=NULL){
                     tmpNieto= tmpHijo->persona->hijos->primerNodo;
                     while (tmpNieto!=NULL){
@@ -228,9 +222,6 @@ tmpHijo->persona->pecados[3]+tmpHijo->persona->pecados[4]+tmpHijo->persona->peca
                         tmpNieto->persona->pecados[4]+=(tmp->persona->pecados[4]*0.25);
                         tmpNieto->persona->pecados[5]+=(tmp->persona->pecados[5]*0.25);
                         tmpNieto->persona->pecados[6]+=(tmp->persona->pecados[6]*0.25);
-
-                        this->totalPecados+=tmpNieto->persona->pecados[0]+tmpNieto->persona->pecados[1]+tmpNieto->persona->pecados[2]+
-        tmpNieto->persona->pecados[3]+tmpNieto->persona->pecados[4]+tmpNieto->persona->pecados[5]+tmpNieto->persona->pecados[6];
 
                         tmpNieto=tmpNieto->siguiente;
                     }
@@ -256,9 +247,6 @@ void Mundo::generarBuenasAcciones(){
         tmp->persona->buenasAcciones[5]+=distribution(*QRandomGenerator::global());
         tmp->persona->buenasAcciones[6]+=distribution(*QRandomGenerator::global());
 
-        this->totalba+=tmp->persona->buenasAcciones[0]+tmp->persona->buenasAcciones[1]+tmp->persona->buenasAcciones[2]+
-tmp->persona->buenasAcciones[3]+tmp->persona->buenasAcciones[4]+tmp->persona->buenasAcciones[5]+tmp->persona->buenasAcciones[6];
-
         if (tmp->persona->hijos->primerNodo!=NULL){
             tmpHijo= tmp->persona->hijos->primerNodo;
             while (tmpHijo!=NULL){
@@ -269,8 +257,6 @@ tmp->persona->buenasAcciones[3]+tmp->persona->buenasAcciones[4]+tmp->persona->bu
                 tmpHijo->persona->buenasAcciones[4]+=(tmp->persona->buenasAcciones[4]*0.5);
                 tmpHijo->persona->buenasAcciones[5]+=(tmp->persona->buenasAcciones[5]*0.5);
                 tmpHijo->persona->buenasAcciones[6]+=(tmp->persona->buenasAcciones[6]*0.5);
-                this->totalba+=tmpHijo->persona->buenasAcciones[0]+tmpHijo->persona->buenasAcciones[1]+tmpHijo->persona->buenasAcciones[2]+
-        tmpHijo->persona->buenasAcciones[3]+tmpHijo->persona->buenasAcciones[4]+tmpHijo->persona->buenasAcciones[5]+tmpHijo->persona->buenasAcciones[6];
 
                 if (tmpHijo->persona->hijos->primerNodo!=NULL){
                     tmpNieto= tmpHijo->persona->hijos->primerNodo;
@@ -283,9 +269,6 @@ tmp->persona->buenasAcciones[3]+tmp->persona->buenasAcciones[4]+tmp->persona->bu
                         tmpNieto->persona->buenasAcciones[5]+=(tmp->persona->buenasAcciones[5]*0.25);
                         tmpNieto->persona->buenasAcciones[6]+=(tmp->persona->buenasAcciones[6]*0.25);
 
-                        this->totalba+=tmpNieto->persona->buenasAcciones[0]+tmpNieto->persona->buenasAcciones[1]+tmpNieto->persona->buenasAcciones[2]+
-                tmpNieto->persona->buenasAcciones[3]+tmpNieto->persona->buenasAcciones[4]+tmpNieto->persona->buenasAcciones[5]+tmpNieto->persona->buenasAcciones[6];
-
                         tmpNieto=tmpNieto->siguiente;
                     }
                 }
@@ -294,4 +277,36 @@ tmp->persona->buenasAcciones[3]+tmp->persona->buenasAcciones[4]+tmp->persona->bu
         }
         tmp=tmp->siguiente;
     }
+}
+void Mundo::ContarPecadosMundo(){
+    Nodo * tmp = this->listaPersonas->primerNodo;
+    long long pecados=0;
+    while (tmp!=NULL){
+        pecados+=tmp->persona->pecados[0];
+        pecados+=tmp->persona->pecados[1];
+        pecados+=tmp->persona->pecados[2];
+        pecados+=tmp->persona->pecados[3];
+        pecados+=tmp->persona->pecados[4];
+        pecados+=tmp->persona->pecados[5];
+        pecados+=tmp->persona->pecados[6];
+
+        tmp=tmp->siguiente;
+    }
+    this->totalPecados=pecados;
+}
+void Mundo::ContarBAMundo(){
+    Nodo * tmp = this->listaPersonas->primerNodo;
+    long long ba=0;
+    while (tmp!=NULL){
+        ba+=tmp->persona->buenasAcciones[0];
+        ba+=tmp->persona->buenasAcciones[1];
+        ba+=tmp->persona->buenasAcciones[2];
+        ba+=tmp->persona->buenasAcciones[3];
+        ba+=tmp->persona->buenasAcciones[4];
+        ba+=tmp->persona->buenasAcciones[5];
+        ba+=tmp->persona->buenasAcciones[6];
+
+        tmp=tmp->siguiente;
+    }
+    this->totalba=ba;
 }
