@@ -226,4 +226,11 @@ void ArbolFamilia::mostrarArbol(NodoArbol*arbol , int cont){
         mostrarArbol(arbol->hijoizquierdo, cont + 1);
     }
 }
-
+ListaPersonas * ArbolFamilia::ArbolALista(NodoArbol * t, ListaPersonas * familia){
+    if (t == NULL)
+       return NULL;
+   ArbolALista(t->hijoizquierdo, familia);
+   familia->insertadoEspecialOrdenadoMenorAMayor(t->nodoPersona->persona);
+   ArbolALista(t->hijoderecho,familia);
+   return familia;
+}

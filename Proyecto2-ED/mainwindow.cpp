@@ -542,3 +542,21 @@ void MainWindow::ConsultarPorProfesion(){//Por profesion
     }
 }
 
+//Muestra los apellidos y paises
+void MainWindow::on_btnBuscarFamiliaVer_clicked(){
+    //Boton para llenar los combobox de buscar por familia
+    //Llena los apellidos
+    for (int i=0;i<this->mundo->cantidadApellidos;i++){
+        this->ui->comboBoxBuscarFamiliaApellido->addItem(this->mundo->apellidos[i]);
+    }
+    //Llena los paises
+    for (int i=0;i<this->mundo->cantidadPaises;i++){
+        this->ui->comboBoxBuscarFamiliaPais->addItem(this->mundo->paises[i]);
+    }
+}
+//Toma la familia seleccionadad para buscar la info
+void MainWindow::on_btnBuscarFamilia_clicked(){
+    //Llama funcion para sacar toda la info
+    this->consultas->BuscarFamilia(this->ui->comboBoxBuscarFamiliaApellido->currentText(),this->ui->comboBoxBuscarFamiliaPais->currentText(),this->ui->lbl_txtBuscarFamilia);
+}
+

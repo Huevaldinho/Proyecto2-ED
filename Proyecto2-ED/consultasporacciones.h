@@ -29,7 +29,9 @@ class ConsultasPorAcciones{
         //Consultas Cielo vs Infierno
         void DeterminarGanado(QTextBrowser * cuadroInfi,QTextBrowser * cuadroCielo,QLabel * ganador);
         long long ElGanadorInfierno(QTextBrowser *);
-         long long ElGanadorCielo(QTextBrowser *);
+        long long ElGanadorCielo(QTextBrowser *);
+        void BuscarFamilia(QString, QString,QTextBrowser *);
+        QVector<int> DeterminarPorcentajeDeFamilia(ListaPersonas *);
 
 
 };

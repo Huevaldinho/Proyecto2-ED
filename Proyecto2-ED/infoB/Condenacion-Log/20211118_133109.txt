@@ -1,0 +1,414 @@
+2021-11-18 13:31:10	 Humano 69905. María José Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 181 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 23092. Thiago García, de Vietnam. Murió el 2021-11-18 condenado(a) por 178 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31511. Gabriela Martin, de España. Murió el 2021-11-18 condenado(a) por 175 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 54801. Juan Manuel López, de Suiza. Murió el 2021-11-18 condenado(a) por 170 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 14932. Emily Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 166 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 37947. Vanessa Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 163 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 90350. Jerónimo Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 163 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 26199. María Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 162 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19068. Miguel Ángel López, de Ecuador. Murió el 2021-11-18 condenado(a) por 160 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 75277. Juan Sebastián Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 159 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 69333. Thiago López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 159 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 197. Jazmín Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 158 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 49703. Antonella Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 157 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 59657. Ashley López, de España. Murió el 2021-11-18 condenado(a) por 156 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 97266. Hugo García, de Portugal. Murió el 2021-11-18 condenado(a) por 156 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 16230. Jonathan Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 154 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 49215. Pedro Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 154 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 33653. Luciano López, de Uruguay. Murió el 2021-11-18 condenado(a) por 152 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 49941. Pedro López, de Suiza. Murió el 2021-11-18 condenado(a) por 151 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 33470. Anthony Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 151 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 48046. Anthony González, de Ecuador. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 76072. Simón González, de Suiza. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 78440. Vanessa González, de Uruguay. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 46476. Victoria Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 58974. Kimberly Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31291. Matthew Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 3285. Antonella Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 90761. Andrea Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 4897. Daniela López, de España. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 86909. Jonathan Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 150 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 95444. Briana López, de España. Murió el 2021-11-18 condenado(a) por 149 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 83685. Rafael Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 149 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 14212. Gael Martin, de España. Murió el 2021-11-18 condenado(a) por 149 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 38424. Julián López, de Tailandia. Murió el 2021-11-18 condenado(a) por 149 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 79832. Guillermo García, de Honduras. Murió el 2021-11-18 condenado(a) por 148 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19294. Thiago López, de Tailandia. Murió el 2021-11-18 condenado(a) por 148 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 58837. Juliana Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 148 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 51404. Renata Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 148 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 99578. Camila Martin, de España. Murió el 2021-11-18 condenado(a) por 148 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 49376. Martina Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 147 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 94977. Juliana Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 147 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 7962. Samantha Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 146 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 20783. Cristóbal López, de Italia. Murió el 2021-11-18 condenado(a) por 146 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 96624. Joshua López, de Uruguay. Murió el 2021-11-18 condenado(a) por 146 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 90302. Iker Martin, de España. Murió el 2021-11-18 condenado(a) por 146 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 51160. Marcos Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 146 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 44503. Camila López, de Ecuador. Murió el 2021-11-18 condenado(a) por 146 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 80860. Camila González, de Ecuador. Murió el 2021-11-18 condenado(a) por 145 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 7518. Renata Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 144 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 32457. Antonia Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 144 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 5175. Valeria González, de Italia. Murió el 2021-11-18 condenado(a) por 143 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 15440. Gael Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 143 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 99698. Mario García, de Vietnam. Murió el 2021-11-18 condenado(a) por 143 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 61787. Mariana Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 143 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 81714. María José Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 142 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 21644. Isabel García, de Vietnam. Murió el 2021-11-18 condenado(a) por 142 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 22352. Oscar García, de Honduras. Murió el 2021-11-18 condenado(a) por 142 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 60469. Joshua Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 142 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 63683. Allison Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 142 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 12736. Luciano González, de Honduras. Murió el 2021-11-18 condenado(a) por 142 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 46939. Renata Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 142 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 7221. Valentino Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 141 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 34837. Juan David Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 141 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 3425. Natalia González, de España. Murió el 2021-11-18 condenado(a) por 141 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 62618. Valeria Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 141 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 574. Juanita Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 141 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 65570. María José Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 141 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 10980. Maximiliano Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 140 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 1242. María José Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 140 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 96152. Melanie García, de Italia. Murió el 2021-11-18 condenado(a) por 139 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 66494. Iker Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 139 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 82284. Iker Pérez, de España. Murió el 2021-11-18 condenado(a) por 139 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 62201. Carla Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 138 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 61081. Sergio Fernández, de España. Murió el 2021-11-18 condenado(a) por 138 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19483. Ana Sofía Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 138 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 2831. Luca Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 138 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 25038. Emily García, de Honduras. Murió el 2021-11-18 condenado(a) por 138 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 43755. Renata García, de Vietnam. Murió el 2021-11-18 condenado(a) por 138 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 23670. Juanita García, de Honduras. Murió el 2021-11-18 condenado(a) por 138 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 50786. Camila Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 56694. Jonathan Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 61417. Antonio López, de Suiza. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 40100. Kimberly Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 25064. Joshua Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 13189. César Gómez, de España. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 78465. Gabriela González, de Vietnam. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 89169. Julián Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 7099. Facundo Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 22659. Kimberly Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 17027. Juan Andrés López, de Honduras. Murió el 2021-11-18 condenado(a) por 137 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31454. Roberto Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 27445. Juan Sebastián Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 16579. Sofía Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 68287. Julián Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 65497. Antonio Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 56275. Álvaro Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 39492. Iker Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 79857. Luca Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 14286. Juan Sebastián Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 36888. Nicole García, de Portugal. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 84500. Sofía Martin, de España. Murió el 2021-11-18 condenado(a) por 136 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 23623. Nicole Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 90297. Camila García, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 49998. Antonella Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 4552. Iker González, de Portugal. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 50646. Thiago García, de Tailandia. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 94689. Matthew Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 89236. Simón Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31915. Antonio Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 60655. Matthew Martínez, de España. Murió el 2021-11-18 condenado(a) por 135 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 80945. Hugo Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 16524. Carla Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 55753. Valentín Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 6947. Pedro Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 8313. Paulin González, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 96296. Marcos Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 91694. Juan David Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 8142. Mauricio Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 8523. Valentina Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 91746. Gabriela García, de Tailandia. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 34964. Ashley Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 33087. Juliana Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 134 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 91559. María Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19650. Ximena Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 72597. Dylan García, de Italia. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 22342. Juanita Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 17835. Luca Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19043. Bautista González, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 54178. Briana Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19664. María Fernanda López, de Italia. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 1408. Mariana Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 58525. Juliana Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 47489. Antonia González, de Ecuador. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 53483. Fernanda Martin, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 30461. Mario López, de Italia. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 96332. Bruno García, de Italia. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 16844. Facundo González, de Uruguay. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 47856. Martina Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 50136. Catalina Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 77326. Andrea Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 74918. Ashley González, de Portugal. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 54339. Thiago Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 75151. Valentín Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 26531. Diego Alejandro Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 56424. Gonzalo González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 17985. Franco Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 7285. Antonia González, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 7054. Gael Martínez, de España. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 95071. Juan Sebastián Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 91085. Emilia Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 21528. Anthony Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 48412. Juanita Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 97594. Oscar Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 61880. Kimberly Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 63679. María Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 54085. Ximena Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 34240. Lucía Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 7101. Dylan Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 17033. Franco Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 73917. Carla González, de Vietnam. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 75916. Juliana Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 90506. Hugo Martínez, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 11941. Oscar Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 12716. Simón Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 29393. Juan Manuel Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 89090. Mario García, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 52780. Ximena Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 45614. Sara Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 21280. Franco Martin, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 3330. Paula Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 85100. Mía García, de Portugal. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 3183. Briana Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 88799. Rafael Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 131 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 49401. Mía Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 18656. Axel Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 70725. Isabel Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 6103. Andrea Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 14170. Mariana Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 63725. Kimberly López, de España. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 11136. Regina Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 8954. Gael Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 54502. Abril Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 9235. María José Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 28710. Roberto Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 11857. Valentín Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 57391. Regina Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 84440. Pedro Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 78166. Jerónimo Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 68536. Mariana Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 130 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 81044. Mía García, de Italia. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 61652. Vanessa López, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 4517. Gabriela García, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 18773. Marcos Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 41152. Luciano García, de Portugal. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 13789. Isabel Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 58776. Juanita López, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 57215. Natalia Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19398. Franco López, de Italia. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 3195. Guillermo Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 8209. Miguel Ángel Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 41225. Natalia García, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 45637. Martina Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 85608. Franco López, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 25173. Camila Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 61332. Pedro Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 90410. Carla Fernández, de España. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 54633. Diego Alejandro Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 73348. Rafael Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 23792. Kimberly Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 94019. Andrea Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 14346. Ashley Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 58784. Antonella Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 59012. Martina Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 89354. Antonella Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 91522. Ashley Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31989. Juan Andrés González, de Vietnam. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 30905. Samantha García, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 89094. Joshua Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 72058. Jonathan García, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 9894. Julián Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19210. Vanessa González, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 9317. Santino Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 23238. Regina Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 27811. Ricardo Fernández, de España. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 46419. Briana Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 64804. María Fernanda López, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 76435. Emilia Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 94307. Valentín López, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31131. Paulin Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 99687. Victoria García, de Honduras. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 12393. Valentina González, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 39979. Sara Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 16074. Franco Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 41477. Ashley González, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 67280. Ashley González, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 39265. Franco González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 85705. Daniela Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 93609. Roberto González, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 40422. Andrea Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 73165. María Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 86979. Monserrat González, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 3006. Ximena Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 17950. Thiago García, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 85259. Patricio Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 20425. Facundo Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 69081. Miguel Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 34573. María Fernanda Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 96630. Oscar Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 87510. Oscar Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 68592. Abril Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 60442. Melanie Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 88823. Franco Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 48577. Hugo López, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 32722. Lucía Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 18737. Ana Sofía García, de Suiza. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 45177. Luciana González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 82039. Ximena Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 16174. Joshua Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 82670. Ana Sofía Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 53407. Juan Manuel Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 60644. Catalina Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 65482. Bautista García, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 47663. Abril Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 37508. Ricardo Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 99203. Paula López, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 33075. Gonzalo García, de Vietnam. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 77894. Agustina Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 53659. Sara López, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 13101. Antonia Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 71914. Mario Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 98225. Diego Alejandro Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 26761. Franco Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 59748. Bautista López, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 90298. Esteban García, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 94158. Melanie Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 1953. Esteban Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 92958. Hugo Martínez, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 65051. Vanessa Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 50435. Emma Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 86472. Ian González, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 42690. Julián Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 97123. Dylan Pérez, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 96148. Bautista Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 71465. Julián López, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19936. Emilia Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 68225. Axel Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 24693. Antonia Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 69935. Patricio López, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 3007. Lucía Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 25000. Mauricio Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 56990. Emily Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 125 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 78400. Juanita Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 5855. Rafael González, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 63876. Isabella Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 95199. Paulin Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 70928. Valentín Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 78672. Paulin González, de Honduras. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 94764. Julián González, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 74101. Monserrat Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 72067. Gabriela Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 81194. Matthew González, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 849. Joshua González, de Ecuador. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 95979. Mía García, de Honduras. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 43911. Bautista Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 91557. Laura Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 69163. Gabriela García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 22357. Simón López, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 9880. Maximiliano Martin, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 57297. Sofía Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 43430. Ashley Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 84408. Miguel Ángel Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 77723. Valentina Sánchez, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 35177. Emily Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31356. Paula Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 57440. Ricardo González, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 67964. Laura Martin, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 24876. Andrea Martin, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 39635. Fernanda Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 9816. Pedro Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 99624. Gonzalo Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 63039. Juan Andrés Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 9845. Abril García, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 13130. Mariana Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 38855. Miguel García, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 74208. Luna Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 5719. Lucía Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 81937. Martina López, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 11855. Juanita Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 73605. Sergio García, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 82044. Pedro Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 88787. Mía Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 93336. Laura Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 28324. Nicole García, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 41236. Luca Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 72008. Emilia Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 181. Santino García, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 6626. Gabriela Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 97106. Mariana Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19387. Catalina Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 21468. Álvaro González, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 55077. Jerónimo Martin, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 53012. Valentín Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 29487. Allison López, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 33103. Esteban Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 99771. Victoria Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 99744. Juliana López, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 80162. Maximiliano López, de Uruguay. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 69635. Juan Andrés Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 14934. Cristóbal López, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 41796. Carla Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 29054. Oscar Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 40692. Briana Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 82899. Carla Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 27235. Sergio Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 6088. Mario Martin, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 9729. Lucía Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 6140. Daniela López, de Uruguay. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 58395. María Fernanda López, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 94178. Juan Manuel Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 35424. Sara López, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 54781. Luna García, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 50967. Iker Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 50855. Marcos López, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 35407. Anthony Martínez, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 66009. Ashley Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 26103. Axel García, de Tailandia. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 26439. Andrea López, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 62570. Axel Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 57061. Iker Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 91181. Jerónimo Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 27805. Vanessa Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 18883. Juliana Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 83929. Luca Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 50879. Agustina Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 99995. Briana Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 95217. Daniela Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 23482. Samantha Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 79426. Mauricio López, de España. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 78349. Valentín Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 52018. Iker Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 24445. Antonia Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 19787. Samantha Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 30589. Hugo Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 84560. Juan Andrés Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 76131. Guillermo Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31519. Valentina Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 55502. Natalia González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 73302. Paulin Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 98228. Rafael González, de Tailandia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 56390. Antonio Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 31656. Guillermo Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 52899. Carla Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 2468. Ashley Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 26703. Álvaro González, de Italia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 23642. Gael Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 25209. Juan Manuel Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 22718. Allison Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 88601. Iker Gómez, de España. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 52926. Joshua López, de Tailandia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 71278. Monserrat López, de Tailandia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 60379. Jazmín Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 75574. Isabella Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 55151. Kimberly Fernández, de España. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 28148. Miguel Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 79570. Ian González, de Italia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 60813. Julián Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 33934. Regina López, de España. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 84406. Mariana Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 21504. Laura Martin, de Italia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 33766. Luna López, de Italia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 69953. Facundo Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 34061. Ricardo Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 92730. Camila Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.
+2021-11-18 13:31:10	 Humano 5954. Vanessa Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 121 pecados de pereza y 0 acciones de diligencia por el demonio Abadón.

@@ -237,3 +237,89 @@ void ConsultasPorAcciones::DeterminarGanado(QTextBrowser * cuadroTextoInfierno,Q
         ganador->setText("Empate");
     }
 }
+void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBuscado,QTextBrowser * cuadroTexto){
+    //Encuentra la familia solicitada
+    NodoListaFalimias * familiaBuscada=this->mundo->listaFamilias->buscarFamilia(apellidoBuscado,paisBuscado);
+    //Pasa el arbol de familia a una LD
+    ListaPersonas * familiaLista = familiaBuscada->familia->ArbolALista(familiaBuscada->familia->raiz,new ListaPersonas ());
+    //Ordena la lista de mas pecadores a menos pecadores
+    familiaLista->OrdenarPorMasPecado(familiaLista);
+    //Saca el porcentaje de humanos en mundo, infierno y cielo
+    QVector <int> porcentajes = DeterminarPorcentajeDeFamilia(familiaLista);
+    //FALTA Meter en GUI
+    cuadroTexto->clear();
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\t Familia \n "+familiaBuscada->familia->apellidoFamilia+" "
+                 +familiaBuscada->familia->paisFamilia+QString::number(familiaLista->largo)+" personas.\n");
+    cuadroTexto->setText(cuadroTexto->toPlainText()+'\n');//Enter
+    Nodo * tmp = familiaLista->primerNodo;
+    Nodo * tmpHijo=NULL;
+    int pecados=0;
+    while (tmp!=NULL){
+        //FALTA HIJOS
+        pecados=tmp->persona->pecados[0]+tmp->persona->pecados[1]+tmp->persona->pecados[2]+tmp->persona->pecados[3]+
+                tmp->persona->pecados[4]+tmp->persona->pecados[5]+tmp->persona->pecados[6];
+        cuadroTexto->setText(cuadroTexto->toPlainText()+" - Pecados: "+QString::number(pecados)+
+                             "\n - Nombre: "+tmp->persona->nombre+" - Apellido: "+tmp->persona->apellido+
+                             " - Pais: "+tmp->persona->pais+" - ID: "+QString::number(tmp->persona->ID)+"\n");
+        if (tmp->persona->estado==-1)
+            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Infierno\n");
+        else if (tmp->persona->estado==0)
+            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Mundo\n");
+        else
+            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Cielo\n");
+        cuadroTexto->setText(cuadroTexto->toPlainText()+'\n');//Enter
+
+        if (tmp->persona->hijos->primerNodo!=NULL){
+            tmpHijo= tmp->persona->hijos->primerNodo;
+            cuadroTexto->setText(cuadroTexto->toPlainText()+"\tHijos\n");
+            while (tmpHijo!=NULL){
+                pecados=tmpHijo->persona->pecados[0]+tmpHijo->persona->pecados[1]+tmpHijo->persona->pecados[2]+
+                        tmpHijo->persona->pecados[3]+tmpHijo->persona->pecados[4]+tmpHijo->persona->pecados[5]+
+                        tmpHijo->persona->pecados[6];
+
+                cuadroTexto->setText(cuadroTexto->toPlainText()+" - Pecados: "+QString::number(pecados)+
+                                     "\n - Nombre: "+tmpHijo->persona->nombre+" - Apellido: "+
+                                     tmpHijo->persona->apellido+" - Pais: "+tmpHijo->persona->pais+
+                                     " - ID: "+QString::number(tmpHijo->persona->ID)+"\n");
+                if (tmpHijo->persona->estado==-1)
+                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Infierno\n");
+                else if (tmpHijo->persona->estado==0)
+                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Mundo\n");
+                else
+                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Cielo\n");
+                cuadroTexto->setText(cuadroTexto->toPlainText()+'\n');//Enter
+
+                tmpHijo=tmpHijo->siguiente;
+            }
+            cuadroTexto->setText(cuadroTexto->toPlainText()+"\tFin hijos \n");
+        }else{
+            cuadroTexto->setText(cuadroTexto->toPlainText()+"\t NO tiene hijos\n");
+        }
+        tmp=tmp->siguiente;
+    }
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\tPorcentajes\n"+" - Mundo: "+
+                         QString::number(porcentajes[0])+"% - Infierno: "+QString::number(porcentajes[1])+
+            "% - Cielo: "+QString::number(porcentajes[2])+'%');
+}
+QVector<int> ConsultasPorAcciones::DeterminarPorcentajeDeFamilia(ListaPersonas * lista){
+    double mundo=0;double infierno=0;double cielo=0;
+    Nodo * tmp= lista->primerNodo;
+    while (tmp!=NULL){
+        if (tmp->persona->estado==0)
+            mundo++;
+        else if (tmp->persona->estado==-1)
+            infierno++;
+        else
+            cielo++;
+        tmp=tmp->siguiente;
+    }
+    //Falta un 1%
+    mundo = (mundo*100)/lista->largo;
+    infierno = (infierno*100)/lista->largo;
+    cielo = (cielo*100)/lista->largo;
+
+    QVector<int> porcentajes;
+    porcentajes.resize(3);
+    porcentajes[0]=mundo;porcentajes[1]=infierno;porcentajes[2]=cielo;
+    return porcentajes;
+}

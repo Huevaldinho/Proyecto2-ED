@@ -63,16 +63,16 @@ void Demonio::OrdenarHeap(){
         Para probar que funciona le meto random a los arreglos
         */
         //qDebug()<<"SUPUESTO DATO DEL TIPO DE PECADO DE: "<<this->nombre;
-        uniform_int_distribution<int> distribution (0,100); //random
-        int k=0;
-        while (k<this->cantidadFamilias){
-            if (this->heapFamilias[k]->apellido!=""){
-                this->heapFamilias[k]->contadorPecadosFamilia=distribution(*QRandomGenerator::global());;
-                //this->heapFamilias[k]->contadorPecadosFamilia=100-k;
-                k++;
-            }else
-                break;
-        }
+//        uniform_int_distribution<int> distribution (0,100); //random
+//        int k=0;
+//        while (k<this->cantidadFamilias){
+//            if (this->heapFamilias[k]->apellido!=""){
+//                this->heapFamilias[k]->contadorPecadosFamilia=distribution(*QRandomGenerator::global());;
+//                //this->heapFamilias[k]->contadorPecadosFamilia=100-k;
+//                k++;
+//            }else
+//                break;
+//        }
         //Estas lineas de arriba son solo para probar, estos datos son los uqe se toman en la
         //condenacion
         //Esta es la parte que ordena

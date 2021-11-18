@@ -75,6 +75,12 @@ public:
     QLabel *lbl_ConsultaPor;
     QPushButton *btnConsultaPor;
     QTextBrowser *lbl_txtConsultaPorResultado;
+    QPushButton *btnBuscarFamilia;
+    QLabel *lbl_BuscarFamilia;
+    QComboBox *comboBoxBuscarFamiliaApellido;
+    QComboBox *comboBoxBuscarFamiliaPais;
+    QPushButton *btnBuscarFamiliaVer;
+    QTextBrowser *lbl_txtBuscarFamilia;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -253,7 +259,26 @@ public:
         btnConsultaPor->setGeometry(QRect(230, 480, 80, 25));
         lbl_txtConsultaPorResultado = new QTextBrowser(centralwidget);
         lbl_txtConsultaPorResultado->setObjectName(QString::fromUtf8("lbl_txtConsultaPorResultado"));
-        lbl_txtConsultaPorResultado->setGeometry(QRect(50, 520, 371, 141));
+        lbl_txtConsultaPorResultado->setGeometry(QRect(20, 510, 371, 141));
+        btnBuscarFamilia = new QPushButton(centralwidget);
+        btnBuscarFamilia->setObjectName(QString::fromUtf8("btnBuscarFamilia"));
+        btnBuscarFamilia->setGeometry(QRect(440, 670, 80, 25));
+        lbl_BuscarFamilia = new QLabel(centralwidget);
+        lbl_BuscarFamilia->setObjectName(QString::fromUtf8("lbl_BuscarFamilia"));
+        lbl_BuscarFamilia->setGeometry(QRect(420, 550, 101, 16));
+        lbl_BuscarFamilia->setFont(font2);
+        comboBoxBuscarFamiliaApellido = new QComboBox(centralwidget);
+        comboBoxBuscarFamiliaApellido->setObjectName(QString::fromUtf8("comboBoxBuscarFamiliaApellido"));
+        comboBoxBuscarFamiliaApellido->setGeometry(QRect(420, 590, 121, 24));
+        comboBoxBuscarFamiliaPais = new QComboBox(centralwidget);
+        comboBoxBuscarFamiliaPais->setObjectName(QString::fromUtf8("comboBoxBuscarFamiliaPais"));
+        comboBoxBuscarFamiliaPais->setGeometry(QRect(420, 630, 121, 24));
+        btnBuscarFamiliaVer = new QPushButton(centralwidget);
+        btnBuscarFamiliaVer->setObjectName(QString::fromUtf8("btnBuscarFamiliaVer"));
+        btnBuscarFamiliaVer->setGeometry(QRect(530, 550, 41, 25));
+        lbl_txtBuscarFamilia = new QTextBrowser(centralwidget);
+        lbl_txtBuscarFamilia->setObjectName(QString::fromUtf8("lbl_txtBuscarFamilia"));
+        lbl_txtBuscarFamilia->setGeometry(QRect(590, 590, 321, 121));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -314,6 +339,9 @@ public:
 
         lbl_ConsultaPor->setText(QCoreApplication::translate("MainWindow", "Consulta por:", nullptr));
         btnConsultaPor->setText(QCoreApplication::translate("MainWindow", "Aceptar", nullptr));
+        btnBuscarFamilia->setText(QCoreApplication::translate("MainWindow", "Aceptar", nullptr));
+        lbl_BuscarFamilia->setText(QCoreApplication::translate("MainWindow", "Buscar Familia:", nullptr));
+        btnBuscarFamiliaVer->setText(QCoreApplication::translate("MainWindow", "Ver", nullptr));
     } // retranslateUi
 
 };

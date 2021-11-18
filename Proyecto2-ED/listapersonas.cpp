@@ -295,3 +295,38 @@ Nodo * ListaPersonas::buscarPorID(int buscado){
     }
     return tmp;//NULL
 }
+
+void ListaPersonas::OrdenarPorMasPecado(ListaPersonas * lista){
+    Nodo * p = lista->primerNodo;
+    Persona * aux = NULL;
+    Nodo *j = NULL;
+    int pecadosP=0;
+    int pecadosJ=0;
+
+    while(p != NULL){
+         j = p ->siguiente;
+        while(j != NULL){
+            pecadosP = p->persona->pecados[0]+p->persona->pecados[1]+p->persona->pecados[2]+
+                    p->persona->pecados[3]+p->persona->pecados[4]+p->persona->pecados[5]+
+                    p->persona->pecados[6];
+            pecadosJ = j->persona->pecados[0]+j->persona->pecados[1]+j->persona->pecados[2]+
+                    j->persona->pecados[3]+j->persona->pecados[4]+j->persona->pecados[5]+
+                    j->persona->pecados[6];
+            if(pecadosP <= pecadosJ){
+                aux= j->persona;
+                j->persona=p->persona;
+                p->persona=aux;
+//                int aux = j->element;
+//                j->element = p->element;
+//                p->element = aux;
+
+            }
+            pecadosP=0;
+            pecadosJ=0;
+            aux=NULL;
+            j = j->siguiente;
+        }
+        p = p->siguiente;
+    }
+
+}

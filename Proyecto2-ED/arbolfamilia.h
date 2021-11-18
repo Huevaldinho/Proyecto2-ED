@@ -32,6 +32,7 @@ class ArbolFamilia{
         void insertarAListaDesdeArbol(NodoArbol *arbol,Nodo * nodoPersona);
         bool esHoja(NodoArbol * arbol);
         void mostrarArbol(NodoArbol*arbol , int cont);
+        ListaPersonas * ArbolALista(NodoArbol * arbol, ListaPersonas *);
 
 };
 

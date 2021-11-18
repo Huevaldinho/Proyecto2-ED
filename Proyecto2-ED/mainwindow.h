@@ -67,6 +67,10 @@ private slots:
     void ConsultarPorCreencia();
     void ConsultarPorProfesion();
 
+    void on_btnBuscarFamiliaVer_clicked();
+
+    void on_btnBuscarFamilia_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

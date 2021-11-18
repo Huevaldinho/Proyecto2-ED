@@ -1,0 +1,474 @@
+2021-11-18 12:06:02	 Humano 59141. Juan Manuel Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 6703. Mía García, de Italia. Murió el 2021-11-18 condenado(a) por 116 pecados de soberbia y 21 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 32890. Ximena García, de Italia. Murió el 2021-11-18 condenado(a) por 113 pecados de soberbia y 16 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 87668. Josué Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 112 pecados de soberbia y 2 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 7264. Monserrat Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 111 pecados de soberbia y 31 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 67001. Roberto López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 110 pecados de soberbia y 17 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 75877. Mariana González, de Honduras. Murió el 2021-11-18 condenado(a) por 109 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 48347. Juanita Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 108 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53635. Antonio Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 107 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 15223. Sofía Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 106 pecados de soberbia y 67 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 46841. Bruno González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 104 pecados de soberbia y 11 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 49436. Oscar Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 104 pecados de soberbia y 7 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 47451. Iker Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 102 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 45542. Melanie González, de Portugal. Murió el 2021-11-18 condenado(a) por 101 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 31336. Juan Manuel Fernández, de España. Murió el 2021-11-18 condenado(a) por 100 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 7024. Maximiliano Martínez, de España. Murió el 2021-11-18 condenado(a) por 100 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 23097. Juan David Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 99 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 61717. Mario Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 99 pecados de soberbia y 27 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 5167. María José Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 99 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 67075. Mía González, de Portugal. Murió el 2021-11-18 condenado(a) por 98 pecados de soberbia y 79 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 2643. Rafael González, de Honduras. Murió el 2021-11-18 condenado(a) por 98 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 6157. Vanessa Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 98 pecados de soberbia y 59 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39316. Allison González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 98 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 43049. María José Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 97 pecados de soberbia y 23 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 12053. Miguel García, de Portugal. Murió el 2021-11-18 condenado(a) por 97 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 43209. Emilia Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 97 pecados de soberbia y 27 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 85496. Diego Alejandro Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 96 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 94377. Esteban Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 96 pecados de soberbia y 17 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 99488. Miguel Ángel Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 96 pecados de soberbia y 12 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 33242. Mauricio Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 96 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14799. Josué González, de Uruguay. Murió el 2021-11-18 condenado(a) por 96 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 5088. Abril López, de Ecuador. Murió el 2021-11-18 condenado(a) por 96 pecados de soberbia y 13 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 26226. Catalina Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 94 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 66623. Valentín Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 94 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 28320. Andrea Martin, de Italia. Murió el 2021-11-18 condenado(a) por 93 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 27273. Antonia García, de Italia. Murió el 2021-11-18 condenado(a) por 93 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13828. Mariana Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 92 pecados de soberbia y 17 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 75265. Pedro García, de Honduras. Murió el 2021-11-18 condenado(a) por 92 pecados de soberbia y 51 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 15775. Diego Alejandro Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 92 pecados de soberbia y 31 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 60885. Luciano Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 92 pecados de soberbia y 6 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 5340. Julián López, de Portugal. Murió el 2021-11-18 condenado(a) por 92 pecados de soberbia y 17 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 45169. Antonella Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 92 pecados de soberbia y 14 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 17156. Juan Manuel González, de Tailandia. Murió el 2021-11-18 condenado(a) por 92 pecados de soberbia y 60 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 22224. Roberto Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 91 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 9592. Luciano Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 91 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 64408. Gabriela Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 91 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 37834. César González, de Tailandia. Murió el 2021-11-18 condenado(a) por 91 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 57732. Jerónimo García, de Portugal. Murió el 2021-11-18 condenado(a) por 91 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 36703. Mariana García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 91 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 85352. Ricardo González, de Uruguay. Murió el 2021-11-18 condenado(a) por 90 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 35781. Abril Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 90 pecados de soberbia y 29 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 98051. Juanita Martin, de Italia. Murió el 2021-11-18 condenado(a) por 90 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 31051. Renata García, de Italia. Murió el 2021-11-18 condenado(a) por 90 pecados de soberbia y 59 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 46157. Samantha Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 90 pecados de soberbia y 19 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 27026. Valentino Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13401. Cristóbal Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 58631. Ian Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 19 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 43026. Camila Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 82955. Catalina González, de Honduras. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 37 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 6544. Axel Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 16 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 74390. Rafael González, de Uruguay. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 73472. Facundo Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 18870. Catalina González, de Tailandia. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 73 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19417. Martina Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 89 pecados de soberbia y 17 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 44693. Juliana González, de Uruguay. Murió el 2021-11-18 condenado(a) por 88 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 86031. Anthony Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 88 pecados de soberbia y 77 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 6442. Maximiliano Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 88 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 3894. Maximiliano López, de España. Murió el 2021-11-18 condenado(a) por 88 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 75125. Miguel Ángel Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 88 pecados de soberbia y 71 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 16020. Marcos López, de Tailandia. Murió el 2021-11-18 condenado(a) por 87 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 61313. Melanie García, de España. Murió el 2021-11-18 condenado(a) por 87 pecados de soberbia y 54 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 45921. Ashley Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 87 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 1108. Luciana Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 87 pecados de soberbia y 58 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 72206. Emma Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 87 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 57236. Mía Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 87 pecados de soberbia y 31 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 45933. Dylan Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 87 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 27647. Gonzalo Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 52486. Sara Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 9 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 81084. Pedro Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 14 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 38102. Sofía Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 2659. Melanie García, de Honduras. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 70962. Allison Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 33687. Juanita Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 54 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 9246. Antonella Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 42116. Daniela Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 86 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 8590. Gael Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 10711. Juan Sebastián Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 28 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 69540. Ximena Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 72942. Lucía López, de Tailandia. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 84289. Martina López, de Italia. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 59 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 93446. Daniela López, de Ecuador. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 22 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 69362. Cristóbal González, de Honduras. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 47 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 78724. Isabella Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 25156. Sara García, de Suiza. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 90898. Cristóbal López, de Tailandia. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 21 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 22863. Catalina Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 85 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 94063. Camila Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 84 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 66766. Natalia Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 84 pecados de soberbia y 62 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 45946. Jerónimo González, de Italia. Murió el 2021-11-18 condenado(a) por 83 pecados de soberbia y 19 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53979. Valentino Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 83 pecados de soberbia y 17 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 99630. Ricardo Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 83 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 24890. Axel Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 83 pecados de soberbia y 27 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 15794. Axel Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 83 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 10461. Bruno Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 82 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 24702. Gonzalo Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 82 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 72631. Camila López, de España. Murió el 2021-11-18 condenado(a) por 82 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 74555. Valentino Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 82 pecados de soberbia y 22 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 7915. Laura Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 82 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 75418. Miguel Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 82 pecados de soberbia y 23 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 93262. Rafael Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 82 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 24727. María García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 82 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 79276. Ian Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 68 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39208. Jazmín García, de Portugal. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 73139. Valentina Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 23 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 90029. Gonzalo Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 37 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 81435. Melanie Martínez, de España. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 67859. Isabella Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 31202. Samantha Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 83 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13645. Paula González, de Uruguay. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 44682. Miguel Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 9829. Agustina Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 80062. Diego Alejandro Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 81 pecados de soberbia y 13 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 50278. Luna López, de Tailandia. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 51 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19689. Diego Alejandro García, de Portugal. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 47 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 98058. Bautista Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 57 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 85449. Abril González, de Tailandia. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 92 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 34667. Ashley Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 5514. Ian Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 77941. Luciano García, de Italia. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 55879. Emma Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 19 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 69346. Pedro Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 51072. Miguel Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13970. Diego Alejandro Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 71308. Lucía Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 33075. Vanessa García, de Italia. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 48477. Gonzalo Sánchez, de España. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 37473. Facundo Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 80 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 87000. Juan Sebastián Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 21 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 62026. Lucía Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 21 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 71060. Gabriela González, de Portugal. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 23 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 24993. Ashley López, de Italia. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 70 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 54657. Jerónimo López, de Tailandia. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 72496. Joshua Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 21242. Álvaro López, de España. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 88947. Juan David López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 60 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 65923. Miguel Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 10 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 89716. Diego Alejandro Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 79 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 88578. Laura Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53197. Paula Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 82060. Valeria Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 48 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 60946. Matthew Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 19 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39849. Facundo Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20168. Thiago Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 96631. Mía Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20688. Ricardo Fernández, de España. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 65 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 21768. Valentín Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 78 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 58739. Juan Sebastián Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 33543. Hugo García, de Portugal. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 63 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 55892. Gael Sánchez, de España. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 31 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 42467. Sergio González, de Uruguay. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 47 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 66041. Alejandra García, de Suiza. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 76369. Roberto Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 60480. Valentín Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 24176. Ximena González, de Portugal. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 73226. Joshua González, de Portugal. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 73 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 98153. Camila González, de Vietnam. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 67765. Camila Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 77 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 67656. Ian Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 1411. Oscar Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 51368. Kimberly Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 18 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20547. Lucía Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 26 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 85418. Victoria Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 61 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 43632. Ian Fernández, de España. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 10935. Renata Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 81 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 36859. Oscar García, de Tailandia. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 78588. Dylan González, de Italia. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 18955. Laura Sánchez, de España. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39077. Valeria Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 19 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20038. Ana Sofía Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 60 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 79318. Samantha Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 97264. Mauricio Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 76 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 51456. Ana Sofía Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 28833. Esteban Fernández, de España. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 30910. Luciana Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 57 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 59239. Facundo Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 52424. Emily Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 52584. Kimberly Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 45764. Antonella Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 34421. Isabella Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 37 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 28509. Simón Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53897. Juliana Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 54934. Catalina Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 3068. Andrea García, de Suiza. Murió el 2021-11-18 condenado(a) por 75 pecados de soberbia y 26 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 41830. Ximena González, de Uruguay. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 56 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 36815. Victoria Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 7 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 58705. Ashley López, de Uruguay. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 31 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 69888. Valentino Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 84485. Facundo Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 95206. Jonathan Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 85774. Vanessa Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 66 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 45543. Iker López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 22 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 41275. Camila García, de Tailandia. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 75028. Sara García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 45033. Axel Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 70 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 37735. Hugo Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 73539. Pedro García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 81820. Anthony García, de Tailandia. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20687. Antonella Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 19 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 18670. Juliana López, de Vietnam. Murió el 2021-11-18 condenado(a) por 74 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 2037. Josué Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 44075. María Fernanda Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 83 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 81782. Joshua Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 64044. Ricardo Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 72269. Jerónimo Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 1912. Bruno González, de Portugal. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 10 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 64886. Cristóbal Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 15 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 25228. María José García, de Portugal. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 81222. Antonio González, de Uruguay. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 94665. Valentín Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 27 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 29417. Guillermo Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 41051. Rafael Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 27 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 33884. Emily Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 47405. Valentina Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 25469. Luna López, de Uruguay. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 43935. Marcos García, de Ecuador. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 25923. Ricardo Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 48 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 32737. Guillermo Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 23 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 51162. Anthony Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 29 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 77045. Santino González, de Portugal. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 77 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14248. Roberto Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 55712. Valentino Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 73 pecados de soberbia y 27 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 68429. María Fernanda Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 47097. Ashley Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 37 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 47605. Iker González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 41147. Alejandra Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 51 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 68474. Antonella Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 76142. Agustina Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 62 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 50150. Roberto Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 23 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20249. Joshua Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 6 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20640. Josué González, de Uruguay. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 48 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 42496. Jerónimo Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 48928. Mario Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 31 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53005. Isabel Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 60 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 4929. Daniela Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 72 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39812. Juan Sebastián Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 71892. Luca Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 0 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 60717. Mauricio López, de Uruguay. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19088. Camila García, de Vietnam. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 54 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 57268. Mario Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 4856. Antonella Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 10093. Jerónimo Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 57290. María Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 15878. Agustina García, de Italia. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 61 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 1486. Abril Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 7 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 24223. Franco Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 76 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39034. Andrea Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 49806. Paulin Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 1103. Antonio Fernández, de España. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 9 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 86757. Valentín García, de Honduras. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 88237. Gael López, de Portugal. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14212. Franco García, de Honduras. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 70587. Dylan Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13867. Bautista Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 71855. Ximena González, de Tailandia. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 67296. Maximiliano Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 71 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14214. Álvaro González, de Honduras. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 79246. Lucía Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 47 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 94296. Juan David Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 29 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19614. Sergio García, de Italia. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 94830. Oscar Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 67 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 93530. Fernanda Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 91372. Camila Martínez, de España. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 35974. Paula Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19165. Catalina Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39668. Andrea Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 35499. Emily González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 25826. Carla Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 51 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14519. Natalia Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 16602. Gabriela Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 9217. Jerónimo Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 50917. Isabella Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 47342. Miguel Ángel Martin, de Italia. Murió el 2021-11-18 condenado(a) por 70 pecados de soberbia y 64 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 60644. Alejandra López, de España. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 69 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53091. Mauricio Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 29 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 99641. Santino González, de Suiza. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 10230. Natalia López, de Portugal. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 7092. Josué García, de Ecuador. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 12623. Axel González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 63154. Ricardo Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 64 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 67318. Mario Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 49198. Patricio Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 41893. Mario Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 30891. Valentina Martin, de España. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 36041. Ana Sofía Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 83639. Luciano Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 37 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 55192. Gonzalo García, de Italia. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 55562. Valeria Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 56 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 83236. Dylan Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 15177. Nicole González, de Portugal. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 12 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 69645. Hugo Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 66786. Victoria Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 68 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 59825. Monserrat Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 56 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 89878. Cristóbal Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 27 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 2616. Julián Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 81 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53928. Samantha Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 123 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 93696. Anthony García, de España. Murió el 2021-11-18 condenado(a) por 69 pecados de soberbia y 65 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 46661. Lucía Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 60 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 83317. Camila López, de Honduras. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 10216. Nicole López, de Portugal. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 22 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 51877. Monserrat Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 48 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 34099. Mario Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 12670. Anthony Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 61478. Valentina Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 23553. Sofía Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 62 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 30487. Sofía Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 53 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14978. Valeria González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 64 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 98363. Emily Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 28 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 34639. Franco Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 93833. Paula García, de Portugal. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 98 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 71485. Ashley Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 46776. Ashley González, de Ecuador. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 3 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 36967. Catalina González, de Vietnam. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 72989. Joshua Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 95012. Maximiliano García, de Suiza. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 63 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 46677. Paulin Martin, de España. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 65 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 8445. Sofía Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 59375. Juan Andrés Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 31 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 60470. Josué López, de España. Murió el 2021-11-18 condenado(a) por 68 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 64809. Renata Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 29 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 87058. Renata Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 51 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 74533. Andrea Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 28338. Franco Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 21784. Gonzalo Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 34981. Agustina Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 61 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 18972. Juan David Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 90203. Juan Manuel López, de España. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 3964. Mariana Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 73 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 25076. Bruno Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 31 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 58364. Sergio Gómez, de España. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 16 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19789. Miguel López, de Ecuador. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 54 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 65250. Kimberly Martin, de España. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 61 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 61446. Victoria López, de España. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20022. Martina García, de Suiza. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 62548. Daniela Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 56 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 96621. Antonia González, de Uruguay. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 61 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 44687. Hugo Fernández, de España. Murió el 2021-11-18 condenado(a) por 67 pecados de soberbia y 23 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 62803. Regina Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 5 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 34173. Jerónimo Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 62 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 88931. Guillermo Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 28 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53808. Julián García, de Tailandia. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 30029. Dylan Martínez, de España. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 86480. Andrea Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20670. Julián Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39151. Joshua Sánchez, de España. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 54 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14770. Mariana López, de Suiza. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 12613. Miguel Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 65 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19358. Gonzalo Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20844. Laura Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 12508. Mauricio Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13117. Valentina González, de Uruguay. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 78300. María Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 66 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 3399. Melanie Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 90824. Oscar García, de Italia. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 61 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 74137. Mario González, de Uruguay. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 73 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 53694. Simón López, de Ecuador. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 52 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 68172. Antonella Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 76415. Simón Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20502. Gael Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 26 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 83487. Juanita Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 18 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 52669. Dylan López, de Tailandia. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 15 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 32422. Natalia Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 36 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 9716. Diego Alejandro García, de Honduras. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 50419. Facundo Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 42635. Gael González, de Tailandia. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 26 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 44854. Ana Sofía Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 85502. Gael López, de Suiza. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 74483. Monserrat Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 71 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 38460. Antonella García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19250. Fernanda Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 51 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 25974. Juan Sebastián Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 1433. María Fernanda Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 10 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 73900. Simón González, de Tailandia. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 21 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 26160. Emma Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 57159. Martina González, de Uruguay. Murió el 2021-11-18 condenado(a) por 65 pecados de soberbia y 80 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14657. Bruno Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 52392. Isabella López, de Tailandia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 75 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 4358. Ashley Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 58 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 5043. Allison Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 9 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 43357. Juanita Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 47 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 78666. Antonio Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 72084. Vanessa González, de Italia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 63 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 24716. Daniela Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 14157. Isabella Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 21 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 93770. Iker Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 48 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 41746. Jerónimo Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 54 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 63407. Mariana González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 72 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19430. Juan Manuel García, de Tailandia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 49315. Hugo Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 46819. Bautista García, de Italia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 46976. Ana Sofía Martin, de Italia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 60 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 71813. Juan Sebastián Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 29 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 64972. Rafael Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 67 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 81200. Ashley Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 51 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 73446. Carla Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 64 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 42840. Iker Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 64 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39568. Isabel Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 67 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 15111. Martina Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 28274. César Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 576. Mauricio Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 63 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 49907. Natalia Pérez, de España. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 38 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 6427. Kimberly López, de España. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 47 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 59219. Melanie Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 80851. Bautista Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 84 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 88345. Josué Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 8028. Ian González, de Honduras. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 91884. Ximena García, de Suiza. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 35387. Sara Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 75 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 5887. Juan Sebastián Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 41 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 34621. Lucía Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 68 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 85937. Fernanda López, de Uruguay. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 16 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 71611. Kimberly Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 49 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 48002. Juan Andrés Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 55202. Juan David Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 55 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 60719. María José Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 71 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 19260. Martina Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 48 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 22189. Matthew Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 53 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39950. Santino Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 40 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39313. Esteban Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 56162. Bruno Fernández, de España. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 58 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 92527. Alejandra Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 61 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 69930. Roberto Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 85 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 63291. Andrea González, de Italia. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 29 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 82110. Dylan Martin, de Italia. Murió el 2021-11-18 condenado(a) por 63 pecados de soberbia y 2 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 64588. Briana Martin, de Italia. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 39517. Juliana Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 47 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 99874. Emilia González, de Italia. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 37 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 61272. Iker Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 42 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 91778. Guillermo Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 68 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13555. Emily Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 16 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 25589. Thiago García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 89 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 94857. Paulin Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 22 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 76843. Allison Martínez, de España. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 44 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 84436. Franco Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 17 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 43258. Rafael García, de Vietnam. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 8 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 76055. Josué González, de Tailandia. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 33900. Maximiliano González, de Tailandia. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 113 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 66945. Luca López, de Portugal. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 15380. Maximiliano Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 25 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 20470. Álvaro Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 34 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 80386. Facundo Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 48 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 63560. Bruno López, de Honduras. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 33 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 50215. Juan Sebastián Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 17 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 22939. Sofía Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 60 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 82538. Isabel Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 37 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 58074. Paulin López, de Portugal. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 69 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 36481. Laura López, de Tailandia. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 30 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 89528. Fernanda Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 66 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 42419. Nicole Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 53 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 26429. Renata Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 57 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 15418. Nicole López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 17187. Carla Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 42707. Isabel Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 32 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 95032. Vanessa Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 50 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 80446. Renata López, de Ecuador. Murió el 2021-11-18 condenado(a) por 62 pecados de soberbia y 21 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 83319. Monserrat Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 67 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 54140. Juan Manuel García, de España. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 43279. Pedro Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 46 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 38950. Antonella López, de Ecuador. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 43 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 4309. Laura Fernández, de España. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 35 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 31374. Álvaro Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 39 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 80429. Ian González, de Tailandia. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 89 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13134. Juan Manuel Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 45 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 13173. Roberto Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 24 acciones de humildad por el demonio Lucifer.
+2021-11-18 12:06:02	 Humano 47392. Samantha Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 61 pecados de soberbia y 20 acciones de humildad por el demonio Lucifer.

@@ -1,0 +1,473 @@
+2021-11-18 13:31:03	 Humano 12754. Emily Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 169 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 82269. María Fernanda Fernández, de España. Murió el 2021-11-18 condenado(a) por 168 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 13411. Agustina Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 164 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 54911. Briana Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 164 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 98619. Nicole Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 163 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43273. Álvaro Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 162 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 15631. Juan David Fernández, de España. Murió el 2021-11-18 condenado(a) por 158 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 53638. Miguel Ángel Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 156 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 94997. Miguel Ángel González, de Vietnam. Murió el 2021-11-18 condenado(a) por 156 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 71085. Samantha Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 156 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 92133. Iker Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 156 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 11042. Dylan López, de Honduras. Murió el 2021-11-18 condenado(a) por 155 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 89424. Jazmín Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 155 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 71050. Gabriela García, de España. Murió el 2021-11-18 condenado(a) por 155 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 20329. Vanessa Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 155 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 22763. Emilia González, de España. Murió el 2021-11-18 condenado(a) por 155 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 68504. María José Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 155 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 97630. Juan David Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 155 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 88791. Emma López, de Italia. Murió el 2021-11-18 condenado(a) por 154 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 49794. Juan Andrés García, de Tailandia. Murió el 2021-11-18 condenado(a) por 154 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 51906. Jazmín Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 153 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 35838. Valeria López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 153 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 73010. Renata Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 153 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 85702. Sara Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 153 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 58679. Gael Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 153 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 31408. Juan Andrés Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 153 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 90626. Mario López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 153 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 29199. Samantha López, de España. Murió el 2021-11-18 condenado(a) por 152 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43364. Emily Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 152 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 10467. Julián Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 151 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 61288. Ana Sofía Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 151 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 11959. Luciano Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 151 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 86832. Lucía Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 151 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28037. Vanessa Fernández, de España. Murió el 2021-11-18 condenado(a) por 151 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32440. Matthew González, de Suiza. Murió el 2021-11-18 condenado(a) por 151 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 69889. Oscar Gómez, de España. Murió el 2021-11-18 condenado(a) por 150 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 30531. Gonzalo González, de Vietnam. Murió el 2021-11-18 condenado(a) por 150 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 39996. Maximiliano Martin, de Italia. Murió el 2021-11-18 condenado(a) por 150 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 7117. Patricio Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 150 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28204. Camila Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 149 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81175. Luca Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 149 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 58106. Fernanda Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 149 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 5916. Mía González, de Suiza. Murió el 2021-11-18 condenado(a) por 149 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 56555. Ana Sofía López, de Vietnam. Murió el 2021-11-18 condenado(a) por 149 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 50577. Mariana Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 148 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 47421. Joshua López, de Uruguay. Murió el 2021-11-18 condenado(a) por 148 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 4043. Kimberly Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 147 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 12193. Renata Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 147 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 92011. Ana Sofía Fernández, de España. Murió el 2021-11-18 condenado(a) por 147 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 31101. Agustina Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 147 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 13076. Josué Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 147 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 6336. Bruno López, de España. Murió el 2021-11-18 condenado(a) por 147 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 20361. Regina Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 146 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 96209. Franco Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 146 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 78078. Pedro Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 146 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43047. Victoria Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 146 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 31787. Luciano Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 146 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 22960. Juanita Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 146 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 19246. Matthew Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 146 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 31028. Rafael López, de España. Murió el 2021-11-18 condenado(a) por 145 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 91208. Valentín Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 145 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81078. Martina Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 145 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 14923. Luna Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 145 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 35256. Alejandra Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 145 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 20186. Luca Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 145 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 37192. Jonathan Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 145 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 56497. Valeria Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 145 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 84221. Juan David García, de Honduras. Murió el 2021-11-18 condenado(a) por 144 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 91242. Marcos Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 144 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42599. Guillermo Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 21455. Alejandra López, de Uruguay. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 8563. Franco Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 48813. Mario Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 41839. Camila Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 1371. Paulin Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 19053. Patricio Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32080. Julián Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 36569. Juliana López, de España. Murió el 2021-11-18 condenado(a) por 143 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 47650. Pedro Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 142 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 38829. Matthew Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 142 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 40898. Marcos López, de Uruguay. Murió el 2021-11-18 condenado(a) por 142 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43161. Cristóbal Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 142 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 12707. Ximena García, de Vietnam. Murió el 2021-11-18 condenado(a) por 142 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42687. María Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 141 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 74139. Allison García, de Vietnam. Murió el 2021-11-18 condenado(a) por 141 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 62033. Nicole Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 141 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 76291. Isabella Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 141 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 45219. Antonia Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 141 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 65743. Dylan González, de Honduras. Murió el 2021-11-18 condenado(a) por 141 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 67939. Josué Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 141 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 19783. Miguel Ángel Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 141 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 89399. Mauricio Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 140 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 6923. Ximena Martin, de España. Murió el 2021-11-18 condenado(a) por 140 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 91909. Martina Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 140 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 54442. Allison Fernández, de España. Murió el 2021-11-18 condenado(a) por 140 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 75053. María Fernanda García, de Ecuador. Murió el 2021-11-18 condenado(a) por 140 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 54766. Emily Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 140 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 22501. Pedro González, de España. Murió el 2021-11-18 condenado(a) por 140 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 73773. Juliana Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 139 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 96884. Juliana Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 139 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 58093. Isabella Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 139 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 24052. Jonathan Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 139 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 25530. Antonella Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 139 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 57221. Juanita Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 139 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 10893. Nicole Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 139 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 17399. Kimberly García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 20285. César Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 138 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 16656. Jazmín Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 138 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 80174. Daniela Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 50491. Álvaro González, de Ecuador. Murió el 2021-11-18 condenado(a) por 138 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 16089. Carla Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 3994. Franco Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 138 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 21365. Emily López, de Honduras. Murió el 2021-11-18 condenado(a) por 138 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 30977. Emilia Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28159. Cristóbal García, de Vietnam. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 7493. Luca Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 18577. Juan Andrés López, de Italia. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 71519. Luna López, de Italia. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 69981. Oscar Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 49621. Paula Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 48399. Isabel González, de Ecuador. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 25887. Simón González, de Uruguay. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 60073. María José García, de España. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 61141. Jazmín Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 37494. Thiago Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66083. Juanita Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 44648. Allison Martin, de España. Murió el 2021-11-18 condenado(a) por 137 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 76891. Carla López, de Uruguay. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 73045. Mariana González, de Suiza. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 93894. Renata Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43535. Fernanda López, de Portugal. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 51151. Camila Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 34768. Mariana Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 64504. Antonia Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81100. Rafael González, de Portugal. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66588. María José Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 40358. Oscar Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 49497. Allison García, de Vietnam. Murió el 2021-11-18 condenado(a) por 136 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 71426. Jerónimo Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81057. Ian González, de Uruguay. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 14483. Emma Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66084. Rafael López, de Italia. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 70093. Axel Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 99311. Alejandra Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 17988. Nicole López, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 714. Franco Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 7821. Ximena Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 9738. Emilia Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 14064. Antonia Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 40454. Pedro Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 33631. Oscar Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43149. Santino López, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 45860. Oscar García, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 58443. Valentina Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32913. Samantha Sánchez, de España. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 19959. César Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 135 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 17966. Ana Sofía Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 68888. Oscar González, de Vietnam. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66473. Isabel Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 82294. Pedro Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 474. Bruno Martin, de España. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 5964. Santino Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 91427. Luna Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 38209. Sergio Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 54152. Maximiliano Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 99111. Juanita Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 53935. Vanessa López, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81618. Joshua Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 48819. Valentín Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 5568. Iker González, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 45801. Samantha Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 44111. Natalia Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 79901. Agustina González, de Honduras. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 9874. Gael García, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66068. Jazmín Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 91749. Juanita Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 76235. Rafael González, de Honduras. Murió el 2021-11-18 condenado(a) por 134 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 33875. Isabel Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 39863. Gonzalo Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81274. Luca Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 39227. Bruno Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 58764. Ana Sofía Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 62150. Juanita Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 92736. Ana Sofía García, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 5074. Patricio Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 99162. Abril Fernández, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32809. Santino Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 76780. Ximena Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 27875. Martina Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 72589. Axel Pérez, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28811. Mario Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 4336. Nicole Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 51288. Iker Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 133 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 87914. Vanessa Pérez, de España. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 27193. Mauricio Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 46983. Abril Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 68503. Álvaro Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 23667. Sara Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 27762. Abril Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 45804. Andrea Pérez, de España. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 53204. Thiago García, de Ecuador. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 45513. Emma López, de Uruguay. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 37357. Gabriela González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 38205. Pedro Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 4851. Catalina González, de Ecuador. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 96780. Anthony Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 17219. Renata Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42578. Abril Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 7010. María José Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 97970. Jonathan López, de España. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 90671. Agustina Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 132 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 22091. Victoria González, de Portugal. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42887. Ricardo Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 53510. Carla Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 60833. Isabel Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 35409. Mauricio Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 88822. Anthony Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 99385. Daniela Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32235. Valeria Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 8846. Valentina González, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 60343. Valentino Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 18251. Luca García, de Portugal. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 49323. Andrea López, de Portugal. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81809. Ximena Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 24301. María Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 39254. Mía García, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 760. Pedro Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32185. Valeria López, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 36886. Victoria García, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 98083. Victoria Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43011. Abril González, de Portugal. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 73915. Ximena Pérez, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 39065. Gael Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 91098. Sofía Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 78767. Julián Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28708. María Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 48847. Juan Andrés Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 93117. Fernanda Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 95214. Ximena García, de Vietnam. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 68509. Briana Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 40597. Ana Sofía Pérez, de España. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 30725. Emilia López, de Italia. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 80061. Mario García, de España. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 80846. Antonio González, de España. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 30751. Guillermo García, de Honduras. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 34720. Luca Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 77157. Facundo Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 54518. Mía Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 8848. Ashley García, de Italia. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 29153. Patricio Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 27469. Emma González, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 25185. Ana Sofía Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 21193. Kimberly González, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 63713. Diego Alejandro Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43507. Isabella Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 49446. Iker García, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 50302. Guillermo López, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 30955. Luciano Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 3965. Mario López, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 36318. Ashley López, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 48533. Esteban López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 573. Juliana García, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 95438. Samantha Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 17959. Allison Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 91005. Monserrat González, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66138. Luca García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 15633. Melanie Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 26219. Dylan González, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 68955. Agustina Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 84561. Samantha López, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28854. Simón López, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 63942. Diego Alejandro Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 49933. María José Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 1859. Cristóbal Fernández, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 97481. Julián Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 71948. Anthony Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 34162. Melanie González, de Italia. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 34198. Emily Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 47099. Juan Manuel González, de España. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 31158. Simón González, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 26583. Lucía Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 61931. Briana Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81859. Valeria Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 36769. Luna Martínez, de España. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 79041. Oscar López, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 45736. Alejandra Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 47310. Fernanda Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 56969. Anthony Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 69115. Roberto García, de España. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 85038. María José Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 52743. Sergio Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 26172. Paula Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 88850. Miguel Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 51942. Iker González, de Portugal. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 8653. Gabriela López, de Vietnam. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 58856. Marcos Sánchez, de España. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 60066. Monserrat Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 128 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 72714. Lucía Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 22168. Emily Martínez, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 27969. Carla Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 92744. Emma López, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42349. Isabella Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 67938. Daniela Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 48072. Miguel Ángel García, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 2625. Isabel López, de Suiza. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 4395. Allison López, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 5246. Hugo Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 62663. Bautista Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 91587. Pedro Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 4835. Emma Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 1262. Miguel López, de Honduras. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 60891. Isabella Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81324. Antonella Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 13972. Nicole Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 31321. Isabel Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 39651. Carla González, de Suiza. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 85737. Camila López, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 47938. Abril Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 55108. Oscar Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 50731. Joshua Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 68442. Antonio López, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 92876. Antonella Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 23998. Esteban Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 60856. Miguel Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 52947. Maximiliano Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 62188. Sara González, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 67754. Andrea García, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66923. Gonzalo López, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 34039. Juan Sebastián Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 71300. Guillermo López, de Suiza. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 69431. Antonio Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 72409. Melanie López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 90598. Jerónimo Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 78684. Regina García, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 84413. Fernanda Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32763. Ian Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 51910. Natalia Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 73825. Sofía Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 17911. Agustina Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 6537. Victoria Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 24411. Renata Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 40857. César González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 68395. Paulin Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 98276. Álvaro Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66136. Ian Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 51259. Diego Alejandro Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 64193. Valentino Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 4890. Antonia Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 18270. Mario Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 5500. Roberto Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 88623. Miguel Martin, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 8156. Emilia Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 37799. Valentino García, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 7270. Sara Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 96490. Gael Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 126 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 93667. Gabriela Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 88630. Renata García, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 23526. Emma Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 70196. Guillermo Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 65416. Julián Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 13393. Kimberly González, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 5468. César Fernández, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 78353. Antonella Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 16329. Isabel Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 9293. Dylan Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 8086. Andrea López, de Vietnam. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 37901. Briana Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32791. Miguel González, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 72319. Hugo González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81651. Lucía López, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 8284. Daniela García, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 55868. Luna López, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 57719. Lucía García, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 79078. Samantha González, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 48369. Mía García, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 93337. Monserrat López, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 69558. Paulin López, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81907. Isabel García, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 66343. Axel Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 74117. Catalina Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 22047. Roberto Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 89446. Antonio Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 94717. Fernanda Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 39240. Paula Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 43313. Thiago Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 99386. Facundo Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 63267. Carla Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 7361. Isabel García, de Honduras. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 98714. Paula Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42749. Pedro Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28759. Samantha Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 52604. Melanie Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 87172. Mario Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 85186. Miguel Ángel Martin, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 21143. Antonella Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 65910. Gael Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 19535. Simón Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 58559. Franco Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 49675. Gael Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32620. Lucía Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 69119. Miguel López, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 67982. Martina Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 88192. Camila Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 2069. Ana Sofía Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 95200. Miguel Ángel Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 9344. Hugo Sánchez, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 53769. Cristóbal Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 87835. Thiago Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 2534. Pedro Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 63307. Bautista López, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 54552. Josué Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 49494. Victoria Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 86808. Gael López, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 85661. Melanie Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42730. Renata Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 22086. Franco Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 65851. Gabriela Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 99613. Anthony Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 69073. Valentín Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 73294. Julián Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 72254. Patricio López, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 3188. Agustina Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 83191. Simón Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 40220. Mía García, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 1181. Melanie Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 58900. Thiago Pérez, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 98427. Nicole Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 31966. María Fernanda Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28643. Diego Alejandro Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 81630. Juliana Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 62984. Rafael González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 17636. Lucía Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 23732. Fernanda Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 28915. Juan David Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 72341. Thiago Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 7097. Bautista Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 79881. Valentino Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42168. Ximena Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 23255. Matthew Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 5621. Antonella Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 93118. Simón González, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 33787. Simón López, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 64522. Marcos López, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 51500. Jonathan Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 70770. Thiago Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 56243. Roberto Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 55821. Emilia Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 48805. Antonia Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 77984. Jazmín López, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 24572. Paulin Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 26804. Isabel Gómez, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 85263. Melanie Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 88954. Miguel Ángel Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 80035. Catalina Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 15337. Agustina García, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 46801. Lucía Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 60910. Ricardo López, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 84038. Josué Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 50764. Jerónimo Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 55168. Hugo Martin, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 14909. Hugo García, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 52463. Juanita Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 27369. Valeria Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 19941. Joshua Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 94116. Paula Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 31239. Renata Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 17411. Valentino García, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 13542. Roberto González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 32238. Dylan Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 42491. Lucía Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 89861. Antonio Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 80706. Victoria Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.
+2021-11-18 13:31:03	 Humano 3400. Martina González, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de avaricia y 0 acciones de donación por el demonio Mammón.

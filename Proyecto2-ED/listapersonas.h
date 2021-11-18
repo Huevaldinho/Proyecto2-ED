@@ -31,5 +31,6 @@ class ListaPersonas{
         Nodo * buscarMitad();
         void insertarEnPosicion(int);
         Nodo * buscarEnPosicion(int);
+        void OrdenarPorMasPecado(ListaPersonas *);
 };
 #endif // LISTAPERSONAS_H
