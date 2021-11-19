@@ -14,10 +14,10 @@ EQ            = =
 
 CC            = /Library/Developer/CommandLineTools/usr/bin/clang
 CXX           = /Library/Developer/CommandLineTools/usr/bin/clang++
-DEFINES       = -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
+DEFINES       = -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -g $(EXPORT_ARCH_ARGS) -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mmacosx-version-min=10.14 -Wall -Wextra -fPIC $(DEFINES)
 CXXFLAGS      = -pipe -stdlib=libc++ -g -std=gnu++1z $(EXPORT_ARCH_ARGS) -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mmacosx-version-min=10.14 -Wall -Wextra -fPIC $(DEFINES)
-INCPATH       = -I../Proyecto2-ED -I. -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers -I. -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AGL.framework/Headers -I. -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AGL.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/macx-clang -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib
+INCPATH       = -I../Proyecto2-ED -I. -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtNetwork.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers -I. -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AGL.framework/Headers -I. -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AGL.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/macx-clang -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib
 QMAKE         = /Users/sebastianbermudez/Qt/6.1.3/macos/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -40,7 +40,7 @@ DISTNAME      = Proyecto2-ED1.0.0
 DISTDIR = /Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/build-Proyecto2-ED-Qt_6_1_3_for_macOS-Debug/.tmp/Proyecto2-ED1.0.0
 LINK          = /Library/Developer/CommandLineTools/usr/bin/clang++
 LFLAGS        = -stdlib=libc++ -headerpad_max_install_names $(EXPORT_ARCH_ARGS) -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mmacosx-version-min=10.14 -Wl,-rpath,@executable_path/../Frameworks -Wl,-rpath,/Users/sebastianbermudez/Qt/6.1.3/macos/lib
-LIBS          = $(SUBLIBS) -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib -framework QtWidgets -framework QtGui -framework AppKit -framework ImageIO -framework Metal -framework QtCore -framework DiskArbitration -framework IOKit -framework AGL -framework OpenGL   
+LIBS          = $(SUBLIBS) -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib -framework QtWidgets -framework QtGui -framework AppKit -framework ImageIO -framework Metal -framework QtNetwork -framework QtCore -framework DiskArbitration -framework IOKit -framework AGL -framework OpenGL   
 AR            = /Library/Developer/CommandLineTools/usr/bin/ar cq
 RANLIB        = /Library/Developer/CommandLineTools/usr/bin/ranlib -s
 SED           = sed
@@ -55,6 +55,7 @@ OBJECTS_DIR   = ./
 SOURCES       = ../Proyecto2-ED/arbolcielo.cpp \
 		../Proyecto2-ED/arbolfamilia.cpp \
 		../Proyecto2-ED/arbolmundo.cpp \
+		../Proyecto2-ED/arboltriario.cpp \
 		../Proyecto2-ED/archivos.cpp \
 		../Proyecto2-ED/cielo.cpp \
 		../Proyecto2-ED/consultasporacciones.cpp \
@@ -78,6 +79,7 @@ SOURCES       = ../Proyecto2-ED/arbolcielo.cpp \
 OBJECTS       = arbolcielo.o \
 		arbolfamilia.o \
 		arbolmundo.o \
+		arboltriario.o \
 		archivos.o \
 		cielo.o \
 		consultasporacciones.o \
@@ -228,9 +230,11 @@ DIST          = /Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/spec_pr
 		/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/yacc.prf \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/lex.prf \
 		../Proyecto2-ED/Proyecto2-ED.pro ../Proyecto2-ED/Estructuras.h \
+		../Proyecto2-ED/angel.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/arbolfamilia.h \
 		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/arboltriario.h \
 		../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/consultasporacciones.h \
@@ -251,6 +255,7 @@ DIST          = /Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/spec_pr
 		../Proyecto2-ED/smtp.h ../Proyecto2-ED/arbolcielo.cpp \
 		../Proyecto2-ED/arbolfamilia.cpp \
 		../Proyecto2-ED/arbolmundo.cpp \
+		../Proyecto2-ED/arboltriario.cpp \
 		../Proyecto2-ED/archivos.cpp \
 		../Proyecto2-ED/cielo.cpp \
 		../Proyecto2-ED/consultasporacciones.cpp \
@@ -424,6 +429,7 @@ Makefile: ../Proyecto2-ED/Proyecto2-ED.pro /Users/sebastianbermudez/Qt/6.1.3/mac
 		../Proyecto2-ED/rsc.qrc \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Resources/QtWidgets.prl \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Resources/QtGui.prl \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtNetwork.framework/Resources/QtNetwork.prl \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Resources/QtCore.prl
 	$(QMAKE) -o Makefile ../Proyecto2-ED/Proyecto2-ED.pro -spec macx-clang CONFIG+=debug CONFIG+=qml_debug
 /Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/spec_pre.prf:
@@ -558,6 +564,7 @@ Makefile: ../Proyecto2-ED/Proyecto2-ED.pro /Users/sebastianbermudez/Qt/6.1.3/mac
 ../Proyecto2-ED/rsc.qrc:
 /Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Resources/QtWidgets.prl:
 /Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Resources/QtGui.prl:
+/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtNetwork.framework/Resources/QtNetwork.prl:
 /Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Resources/QtCore.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ../Proyecto2-ED/Proyecto2-ED.pro -spec macx-clang CONFIG+=debug CONFIG+=qml_debug
@@ -590,8 +597,8 @@ distdir: FORCE
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents ../Proyecto2-ED/rsc.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../Proyecto2-ED/Estructuras.h ../Proyecto2-ED/arbolcielo.h ../Proyecto2-ED/arbolfamilia.h ../Proyecto2-ED/arbolmundo.h ../Proyecto2-ED/archivos.h ../Proyecto2-ED/cielo.h ../Proyecto2-ED/consultasporacciones.h ../Proyecto2-ED/demonio.h ../Proyecto2-ED/familiaheapdemonio.h ../Proyecto2-ED/infierno.h ../Proyecto2-ED/listafamilias.h ../Proyecto2-ED/listapaises.h ../Proyecto2-ED/listapersonas.h ../Proyecto2-ED/mainwindow.h ../Proyecto2-ED/mundo.h ../Proyecto2-ED/nodo.h ../Proyecto2-ED/nodoarbol.h ../Proyecto2-ED/nodoarbolhashcielo.h ../Proyecto2-ED/nodolistafalimias.h ../Proyecto2-ED/pais.h ../Proyecto2-ED/persona.h ../Proyecto2-ED/smtp.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../Proyecto2-ED/arbolcielo.cpp ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/cielo.cpp ../Proyecto2-ED/consultasporacciones.cpp ../Proyecto2-ED/demonio.cpp ../Proyecto2-ED/familiaheapdemonio.cpp ../Proyecto2-ED/infierno.cpp ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listapaises.cpp ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbolhashcielo.cpp ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/smtp.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../Proyecto2-ED/Estructuras.h ../Proyecto2-ED/angel.h ../Proyecto2-ED/arbolcielo.h ../Proyecto2-ED/arbolfamilia.h ../Proyecto2-ED/arbolmundo.h ../Proyecto2-ED/arboltriario.h ../Proyecto2-ED/archivos.h ../Proyecto2-ED/cielo.h ../Proyecto2-ED/consultasporacciones.h ../Proyecto2-ED/demonio.h ../Proyecto2-ED/familiaheapdemonio.h ../Proyecto2-ED/infierno.h ../Proyecto2-ED/listafamilias.h ../Proyecto2-ED/listapaises.h ../Proyecto2-ED/listapersonas.h ../Proyecto2-ED/mainwindow.h ../Proyecto2-ED/mundo.h ../Proyecto2-ED/nodo.h ../Proyecto2-ED/nodoarbol.h ../Proyecto2-ED/nodoarbolhashcielo.h ../Proyecto2-ED/nodolistafalimias.h ../Proyecto2-ED/pais.h ../Proyecto2-ED/persona.h ../Proyecto2-ED/smtp.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../Proyecto2-ED/arbolcielo.cpp ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arboltriario.cpp ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/cielo.cpp ../Proyecto2-ED/consultasporacciones.cpp ../Proyecto2-ED/demonio.cpp ../Proyecto2-ED/familiaheapdemonio.cpp ../Proyecto2-ED/infierno.cpp ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listapaises.cpp ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbolhashcielo.cpp ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/smtp.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../Proyecto2-ED/mainwindow.ui $(DISTDIR)/
 
 
@@ -666,8 +673,12 @@ moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/pais.h \
 		../Proyecto2-ED/persona.h \
@@ -681,8 +692,6 @@ moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -691,9 +700,11 @@ moc_mainwindow.cpp: ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
 		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h \
 		moc_predefs.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/libexec/moc
-	/Users/sebastianbermudez/Qt/6.1.3/macos/libexec/moc $(DEFINES) --include /Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/build-Proyecto2-ED-Qt_6_1_3_for_macOS-Debug/moc_predefs.h -I/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/macx-clang -I/Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/Proyecto2-ED -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers -I. -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/usr/include -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib ../Proyecto2-ED/mainwindow.h -o moc_mainwindow.cpp
+	/Users/sebastianbermudez/Qt/6.1.3/macos/libexec/moc $(DEFINES) --include /Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/build-Proyecto2-ED-Qt_6_1_3_for_macOS-Debug/moc_predefs.h -I/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/macx-clang -I/Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/Proyecto2-ED -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtNetwork.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers -I. -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/usr/include -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib ../Proyecto2-ED/mainwindow.h -o moc_mainwindow.cpp
 
 moc_smtp.cpp: ../Proyecto2-ED/smtp.h \
 		../Proyecto2-ED/Estructuras.h \
@@ -714,8 +725,12 @@ moc_smtp.cpp: ../Proyecto2-ED/smtp.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -731,8 +746,6 @@ moc_smtp.cpp: ../Proyecto2-ED/smtp.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -741,9 +754,11 @@ moc_smtp.cpp: ../Proyecto2-ED/smtp.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
 		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h \
 		moc_predefs.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/libexec/moc
-	/Users/sebastianbermudez/Qt/6.1.3/macos/libexec/moc $(DEFINES) --include /Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/build-Proyecto2-ED-Qt_6_1_3_for_macOS-Debug/moc_predefs.h -I/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/macx-clang -I/Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/Proyecto2-ED -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers -I. -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/usr/include -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib ../Proyecto2-ED/smtp.h -o moc_smtp.cpp
+	/Users/sebastianbermudez/Qt/6.1.3/macos/libexec/moc $(DEFINES) --include /Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/build-Proyecto2-ED-Qt_6_1_3_for_macOS-Debug/moc_predefs.h -I/Users/sebastianbermudez/Qt/6.1.3/macos/mkspecs/macx-clang -I/Users/sebastianbermudez/Documents/CodesS2/GitHub/Proyecto2-ED/Proyecto2-ED -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtGui.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtNetwork.framework/Headers -I/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers -I. -I/Library/Developer/CommandLineTools/usr/include/c++/v1 -I/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/Library/Developer/CommandLineTools/usr/include -F/Users/sebastianbermudez/Qt/6.1.3/macos/lib ../Proyecto2-ED/smtp.h -o moc_smtp.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -787,8 +802,12 @@ arbolcielo.o: ../Proyecto2-ED/arbolcielo.cpp ../Proyecto2-ED/arbolcielo.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -804,15 +823,15 @@ arbolcielo.o: ../Proyecto2-ED/arbolcielo.cpp ../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o arbolcielo.o ../Proyecto2-ED/arbolcielo.cpp
 
 arbolfamilia.o: ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolfamilia.h \
@@ -834,8 +853,12 @@ arbolfamilia.o: ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolfamilia.h 
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -850,8 +873,6 @@ arbolfamilia.o: ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolfamilia.h 
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -859,7 +880,9 @@ arbolfamilia.o: ../Proyecto2-ED/arbolfamilia.cpp ../Proyecto2-ED/arbolfamilia.h 
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o arbolfamilia.o ../Proyecto2-ED/arbolfamilia.cpp
 
 arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h \
@@ -881,8 +904,12 @@ arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -897,8 +924,6 @@ arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -906,8 +931,61 @@ arbolmundo.o: ../Proyecto2-ED/arbolmundo.cpp ../Proyecto2-ED/arbolmundo.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o arbolmundo.o ../Proyecto2-ED/arbolmundo.cpp
+
+arboltriario.o: ../Proyecto2-ED/arboltriario.cpp ../Proyecto2-ED/arboltriario.h \
+		../Proyecto2-ED/Estructuras.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QString \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qstring.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDate \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdatetime.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDateTime \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QDebug \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qdebug.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFile \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfile.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QRandomGenerator \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qrandom.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QTextBrowser \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qtextbrowser.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QTextStream \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+		../Proyecto2-ED/mainwindow.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
+		../Proyecto2-ED/pais.h \
+		../Proyecto2-ED/persona.h \
+		../Proyecto2-ED/listapersonas.h \
+		../Proyecto2-ED/mundo.h \
+		../Proyecto2-ED/nodo.h \
+		../Proyecto2-ED/archivos.h \
+		../Proyecto2-ED/arbolmundo.h \
+		../Proyecto2-ED/nodoarbol.h \
+		../Proyecto2-ED/arbolfamilia.h \
+		../Proyecto2-ED/listafamilias.h \
+		../Proyecto2-ED/nodolistafalimias.h \
+		../Proyecto2-ED/consultasporacciones.h \
+		../Proyecto2-ED/listapaises.h \
+		../Proyecto2-ED/demonio.h \
+		../Proyecto2-ED/infierno.h \
+		../Proyecto2-ED/familiaheapdemonio.h \
+		../Proyecto2-ED/cielo.h \
+		../Proyecto2-ED/arbolcielo.h \
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o arboltriario.o ../Proyecto2-ED/arboltriario.cpp
 
 archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/Estructuras.h \
@@ -928,8 +1006,12 @@ archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -944,8 +1026,6 @@ archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -953,7 +1033,9 @@ archivos.o: ../Proyecto2-ED/archivos.cpp ../Proyecto2-ED/archivos.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o archivos.o ../Proyecto2-ED/archivos.cpp
 
 cielo.o: ../Proyecto2-ED/cielo.cpp ../Proyecto2-ED/cielo.h \
@@ -975,8 +1057,12 @@ cielo.o: ../Proyecto2-ED/cielo.cpp ../Proyecto2-ED/cielo.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -992,15 +1078,15 @@ cielo.o: ../Proyecto2-ED/cielo.cpp ../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cielo.o ../Proyecto2-ED/cielo.cpp
 
 consultasporacciones.o: ../Proyecto2-ED/consultasporacciones.cpp ../Proyecto2-ED/consultasporacciones.h \
@@ -1022,8 +1108,12 @@ consultasporacciones.o: ../Proyecto2-ED/consultasporacciones.cpp ../Proyecto2-ED
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1046,8 +1136,8 @@ consultasporacciones.o: ../Proyecto2-ED/consultasporacciones.cpp ../Proyecto2-ED
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
 		../Proyecto2-ED/smtp.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o consultasporacciones.o ../Proyecto2-ED/consultasporacciones.cpp
 
 demonio.o: ../Proyecto2-ED/demonio.cpp ../Proyecto2-ED/demonio.h \
@@ -1069,8 +1159,12 @@ demonio.o: ../Proyecto2-ED/demonio.cpp ../Proyecto2-ED/demonio.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1086,15 +1180,15 @@ demonio.o: ../Proyecto2-ED/demonio.cpp ../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o demonio.o ../Proyecto2-ED/demonio.cpp
 
 familiaheapdemonio.o: ../Proyecto2-ED/familiaheapdemonio.cpp ../Proyecto2-ED/familiaheapdemonio.h \
@@ -1116,8 +1210,12 @@ familiaheapdemonio.o: ../Proyecto2-ED/familiaheapdemonio.cpp ../Proyecto2-ED/fam
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1133,15 +1231,15 @@ familiaheapdemonio.o: ../Proyecto2-ED/familiaheapdemonio.cpp ../Proyecto2-ED/fam
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o familiaheapdemonio.o ../Proyecto2-ED/familiaheapdemonio.cpp
 
 infierno.o: ../Proyecto2-ED/infierno.cpp ../Proyecto2-ED/infierno.h \
@@ -1163,8 +1261,12 @@ infierno.o: ../Proyecto2-ED/infierno.cpp ../Proyecto2-ED/infierno.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1180,15 +1282,15 @@ infierno.o: ../Proyecto2-ED/infierno.cpp ../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o infierno.o ../Proyecto2-ED/infierno.cpp
 
 listafamilias.o: ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listafamilias.h \
@@ -1210,8 +1312,12 @@ listafamilias.o: ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listafamilias
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1226,8 +1332,6 @@ listafamilias.o: ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listafamilias
 		../Proyecto2-ED/arbolfamilia.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1235,7 +1339,9 @@ listafamilias.o: ../Proyecto2-ED/listafamilias.cpp ../Proyecto2-ED/listafamilias
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o listafamilias.o ../Proyecto2-ED/listafamilias.cpp
 
 listapaises.o: ../Proyecto2-ED/listapaises.cpp ../Proyecto2-ED/listapaises.h \
@@ -1257,8 +1363,12 @@ listapaises.o: ../Proyecto2-ED/listapaises.cpp ../Proyecto2-ED/listapaises.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1274,15 +1384,15 @@ listapaises.o: ../Proyecto2-ED/listapaises.cpp ../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o listapaises.o ../Proyecto2-ED/listapaises.cpp
 
 listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas.h \
@@ -1304,8 +1414,12 @@ listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1320,8 +1434,6 @@ listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1329,7 +1441,9 @@ listapersonas.o: ../Proyecto2-ED/listapersonas.cpp ../Proyecto2-ED/listapersonas
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o listapersonas.o ../Proyecto2-ED/listapersonas.cpp
 
 main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
@@ -1353,8 +1467,12 @@ main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/pais.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
@@ -1367,8 +1485,6 @@ main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1377,6 +1493,8 @@ main.o: ../Proyecto2-ED/main.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
 		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QApplication \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qapplication.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../Proyecto2-ED/main.cpp
@@ -1402,8 +1520,12 @@ mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/pais.h \
 		../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listapersonas.h \
@@ -1416,8 +1538,6 @@ mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1426,6 +1546,8 @@ mainwindow.o: ../Proyecto2-ED/mainwindow.cpp ../Proyecto2-ED/mainwindow.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
 		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../Proyecto2-ED/mainwindow.cpp
 
@@ -1448,8 +1570,12 @@ mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1464,8 +1590,6 @@ mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1473,7 +1597,9 @@ mundo.o: ../Proyecto2-ED/mundo.cpp ../Proyecto2-ED/mundo.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mundo.o ../Proyecto2-ED/mundo.cpp
 
 nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
@@ -1495,8 +1621,12 @@ nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1511,8 +1641,6 @@ nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1520,7 +1648,9 @@ nodo.o: ../Proyecto2-ED/nodo.cpp ../Proyecto2-ED/nodo.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o nodo.o ../Proyecto2-ED/nodo.cpp
 
 nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
@@ -1542,8 +1672,12 @@ nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1558,8 +1692,6 @@ nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1567,7 +1699,9 @@ nodoarbol.o: ../Proyecto2-ED/nodoarbol.cpp ../Proyecto2-ED/nodoarbol.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o nodoarbol.o ../Proyecto2-ED/nodoarbol.cpp
 
 nodoarbolhashcielo.o: ../Proyecto2-ED/nodoarbolhashcielo.cpp ../Proyecto2-ED/nodoarbolhashcielo.h \
@@ -1589,8 +1723,12 @@ nodoarbolhashcielo.o: ../Proyecto2-ED/nodoarbolhashcielo.cpp ../Proyecto2-ED/nod
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1606,15 +1744,15 @@ nodoarbolhashcielo.o: ../Proyecto2-ED/nodoarbolhashcielo.cpp ../Proyecto2-ED/nod
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o nodoarbolhashcielo.o ../Proyecto2-ED/nodoarbolhashcielo.cpp
 
 nodolistafalimias.o: ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/nodolistafalimias.h \
@@ -1636,8 +1774,12 @@ nodolistafalimias.o: ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/nodol
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1652,8 +1794,6 @@ nodolistafalimias.o: ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/nodol
 		../Proyecto2-ED/arbolfamilia.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1661,7 +1801,9 @@ nodolistafalimias.o: ../Proyecto2-ED/nodolistafalimias.cpp ../Proyecto2-ED/nodol
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o nodolistafalimias.o ../Proyecto2-ED/nodolistafalimias.cpp
 
 persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
@@ -1683,8 +1825,12 @@ persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1699,8 +1845,6 @@ persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
@@ -1708,7 +1852,9 @@ persona.o: ../Proyecto2-ED/persona.cpp ../Proyecto2-ED/persona.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
 		../Proyecto2-ED/nodoarbolhashcielo.h \
-		../Proyecto2-ED/smtp.h
+		../Proyecto2-ED/smtp.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o persona.o ../Proyecto2-ED/persona.cpp
 
 smtp.o: ../Proyecto2-ED/smtp.cpp ../Proyecto2-ED/smtp.h \
@@ -1730,8 +1876,12 @@ smtp.o: ../Proyecto2-ED/smtp.cpp ../Proyecto2-ED/smtp.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qtextstream.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QByteArray \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qbytearray.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/QFileInfo \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QLabel \
+		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qlabel.h \
 		../Proyecto2-ED/mainwindow.h \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -1747,15 +1897,15 @@ smtp.o: ../Proyecto2-ED/smtp.cpp ../Proyecto2-ED/smtp.h \
 		../Proyecto2-ED/listafamilias.h \
 		../Proyecto2-ED/nodolistafalimias.h \
 		../Proyecto2-ED/consultasporacciones.h \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Users/sebastianbermudez/Qt/6.1.3/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
 		../Proyecto2-ED/listapaises.h \
 		../Proyecto2-ED/demonio.h \
 		../Proyecto2-ED/infierno.h \
 		../Proyecto2-ED/familiaheapdemonio.h \
 		../Proyecto2-ED/cielo.h \
 		../Proyecto2-ED/arbolcielo.h \
-		../Proyecto2-ED/nodoarbolhashcielo.h
+		../Proyecto2-ED/nodoarbolhashcielo.h \
+		../Proyecto2-ED/angel.h \
+		../Proyecto2-ED/arboltriario.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o smtp.o ../Proyecto2-ED/smtp.cpp
 
 qrc_rsc.o: qrc_rsc.cpp 

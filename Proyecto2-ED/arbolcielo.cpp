@@ -178,3 +178,6 @@ cantidadPecados<<" pecados vs "<<cantidadBN<<" buenas acciones por el angel "<<"
    }
    escribirEnArchivoInorden(t->hijoderecho,nombreArchivo,i);
 }
+void ArbolCielo::insert(Persona*p){
+    this->raiz=insert(this->raiz,p);
+}

@@ -1,471 +1,0 @@
-2021-11-18 13:12:55	 Humano 38995. Samantha Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 179 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 33304. Antonia Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 171 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4452. Roberto Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 166 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 47554. Ricardo Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 164 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 35390. Franco López, de Uruguay. Murió el 2021-11-18 condenado(a) por 164 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 89649. Luciana Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 163 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 82201. Isabella Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 162 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 92537. Guillermo López, de Italia. Murió el 2021-11-18 condenado(a) por 162 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 97193. Hugo González, de Vietnam. Murió el 2021-11-18 condenado(a) por 161 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 19212. Anthony Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 161 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 30436. María José Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 161 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 32818. Valentino Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 160 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 17820. Juan Andrés Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 159 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 50981. Gabriela Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 158 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 37423. Mauricio González, de Vietnam. Murió el 2021-11-18 condenado(a) por 157 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 82141. Juanita López, de Italia. Murió el 2021-11-18 condenado(a) por 157 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 81441. Agustina Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 157 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 72970. Vanessa López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 156 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70883. Mauricio Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 156 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 67323. Abril López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 156 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 50015. Cristóbal Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 155 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 6894. Isabella Martin, de Italia. Murió el 2021-11-18 condenado(a) por 155 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 93718. César Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 155 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10649. Victoria Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 155 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 2506. Lucía Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 154 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 84764. Camila Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 154 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 67247. Briana Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 154 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94387. Juan Andrés Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 154 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 99958. Valentín Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 153 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 66376. Rafael Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 153 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 28726. Melanie González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 152 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 6694. Andrea López, de Suiza. Murió el 2021-11-18 condenado(a) por 152 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 51013. Matthew Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 152 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 49468. Luciano Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 152 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 28423. Maximiliano Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 151 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25636. Nicole Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 150 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 32046. Vanessa Martínez, de España. Murió el 2021-11-18 condenado(a) por 150 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 30671. María Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 150 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 95933. Ricardo Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 150 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10393. Anthony Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 149 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 89103. Guillermo Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 149 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 62161. Abril López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 149 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 89321. Antonella Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 148 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 16458. Samantha Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 147 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 56295. Axel Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 147 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 24907. Joshua Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 146 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 21057. María Fernanda Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 146 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 58666. Juanita Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 146 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 96871. Kimberly López, de Ecuador. Murió el 2021-11-18 condenado(a) por 146 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 37999. Antonella Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 146 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23398. Mauricio Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 464. Ximena Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94650. Natalia García, de Honduras. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 83953. Mario González, de Vietnam. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 95568. Juan David Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 53859. Catalina Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 55444. Antonia Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94565. Ana Sofía Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 68927. Facundo Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 145 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 7087. Gael Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 144 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 12036. Kimberly Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 144 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 75859. Juanita Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 144 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 72431. Marcos Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 144 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 3421. Ricardo González, de Suiza. Murió el 2021-11-18 condenado(a) por 144 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 60418. Vanessa Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 144 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 97880. Roberto Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 143 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 79189. Jerónimo Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 143 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 27149. Rafael Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 143 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 76920. Luciana Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 143 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 40107. Miguel Ángel Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 143 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 13931. Valentina Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 143 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 21333. Juanita Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 143 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 18205. Luca Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 143 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 84326. Mauricio González, de Italia. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 47448. María García, de Suiza. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 45042. Simón Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 324. César Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 62139. Facundo Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 78505. Cristóbal Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23601. Facundo Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94874. Valentino Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 56268. Ximena Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 61799. Patricio Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 142 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 39993. Kimberly Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 141 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 47396. Mariana Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 141 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 14908. Juan David García, de Honduras. Murió el 2021-11-18 condenado(a) por 141 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 92509. Guillermo Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 141 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 80194. Anthony Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 141 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 67783. Samantha Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 140 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 24052. Samantha López, de España. Murió el 2021-11-18 condenado(a) por 140 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 69716. Juanita Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 140 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 71790. Juan Andrés Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 140 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 98603. Mariana Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 140 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 12040. Valentín López, de Uruguay. Murió el 2021-11-18 condenado(a) por 140 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 33652. Victoria García, de Ecuador. Murió el 2021-11-18 condenado(a) por 140 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 68312. Juanita García, de Honduras. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 27526. Diego Alejandro Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 52219. Emily Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 47686. Simón García, de Honduras. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 41393. Melanie Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 5469. Juan Manuel Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 17499. Josué López, de Uruguay. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 66287. Fernanda López, de Suiza. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 41249. María Fernanda López, de Portugal. Murió el 2021-11-18 condenado(a) por 139 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 90016. Natalia Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 86291. Melanie García, de Italia. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 99867. Santino López, de Uruguay. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 59565. Mario Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 1629. Martina Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 29546. Josué Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 76173. Kimberly Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 62451. Monserrat Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 28833. Julián Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25946. Roberto Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 52161. Briana Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 86054. Luna González, de Italia. Murió el 2021-11-18 condenado(a) por 138 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 26879. Paula Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 73410. Monserrat Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 137 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 44403. Guillermo Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 137 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 35431. Kimberly Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 137 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 67641. César Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 22817. Monserrat González, de España. Murió el 2021-11-18 condenado(a) por 137 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 60912. Daniela Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 137 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10541. Sara López, de Italia. Murió el 2021-11-18 condenado(a) por 137 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 57816. Antonio Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 1998. Daniela Fernández, de España. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 65338. Monserrat Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94357. Valentino Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 97774. Valeria López, de Ecuador. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 28723. Luciano González, de Suiza. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 32957. Gonzalo Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 85721. Daniela Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 57234. María Fernanda López, de Honduras. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 32508. María González, de Portugal. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 11515. Renata Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 136 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 80150. Natalia Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4810. Álvaro Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 85872. Oscar García, de Tailandia. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 85926. Luciana Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10052. Victoria Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 90053. Jonathan Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 78410. Fernanda López, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 27941. Antonia García, de Suiza. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70742. Briana López, de Ecuador. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 86932. Juliana Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 17064. Anthony García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 62758. Gael López, de Uruguay. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 88587. Valentín Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 22514. Briana Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 50738. Catalina Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 17679. Camila Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 135 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 45657. Matthew Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 78467. Monserrat López, de Italia. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4590. Emma Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 8123. Valentín Martin, de Italia. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70471. Sergio García, de Vietnam. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 59984. Axel García, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4801. Mía Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94450. Catalina González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 12651. Ian Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 39742. Marcos González, de Vietnam. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 2668. Sofía González, de Uruguay. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25664. Cristóbal Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 7722. Álvaro Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 134 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 99848. Santino Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 9595. Gonzalo López, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 71186. Sergio Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 7437. Luna Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 44659. Valentino Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 45667. Iker Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 50006. Cristóbal Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 39332. Agustina Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25894. Vanessa López, de Uruguay. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 80999. Laura Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 43406. Agustina González, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 86964. Sara Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 38047. Monserrat González, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 96812. Emilia Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 79263. Ricardo López, de Portugal. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 76497. Sofía González, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 18189. Agustina Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 52912. Álvaro Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 8694. Mía Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 45084. Simón Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 38690. Antonia López, de Tailandia. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 40509. Valentina González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 48948. Ashley Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 76422. Jerónimo Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70869. Antonia García, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70785. Carla García, de Tailandia. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 24580. Valentín Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 65129. Paulin Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 72834. Ian Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 68554. Samantha Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 98672. César Martínez, de Portugal. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 91956. Miguel Ángel López, de Honduras. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 67389. Victoria López, de Ecuador. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 47902. Lucía Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 5257. Luca López, de Honduras. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 87410. Renata García, de España. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 48172. Antonella García, de Tailandia. Murió el 2021-11-18 condenado(a) por 132 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 17605. Paula López, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 58603. Isabella García, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 72312. Paulin Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 17544. Sofía Martínez, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 41376. Antonio Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 60528. Valentina Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4879. Álvaro Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 80842. Antonia González, de Suiza. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 14733. Camila González, de Italia. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 97234. Alejandra González, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 45096. Renata García, de Vietnam. Murió el 2021-11-18 condenado(a) por 131 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 33560. Oscar López, de España. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 50213. Maximiliano Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 50751. Lucía López, de Vietnam. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 14729. Axel Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 56730. María José Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 52863. Emma López, de Uruguay. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 5626. Ashley Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 91449. Emilia Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 32418. Jonathan García, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 5529. Julián Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94838. Isabella Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 63986. Catalina Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 87112. Alejandra Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 86643. Álvaro Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4064. Diego Alejandro Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 78540. Nicole Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10846. Iker Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 11666. Isabella García, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 88388. Guillermo Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23124. Victoria González, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 56585. Paulin Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23090. Victoria López, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 9481. Thiago López, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 89776. Diego Alejandro Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 30628. Paulin Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 130 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 24633. Ricardo Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 52187. Joshua Martin, de Italia. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 64166. Nicole Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 86160. María José Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 2888. Monserrat Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10948. Nicole Martin, de Italia. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 14497. Rafael Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 80670. Jonathan Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 91178. Alejandra Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 39650. Patricio López, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 2120. Julián Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 79381. Ian López, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 24023. Julián Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25631. Jerónimo López, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 29239. Carla Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 54208. Juan Sebastián González, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 61954. Abril García, de Portugal. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 59377. Sara López, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 16623. Gabriela González, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 35086. Anthony Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 26452. Laura Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23206. Renata González, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70458. Nicole Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 48013. Jazmín Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 43493. Isabella González, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 71081. Lucía Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70723. Laura Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 40496. Antonella Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 85542. Daniela Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 29880. Laura Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 45951. Juliana García, de Vietnam. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 66577. Emily Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25992. Gabriela Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 64761. Jerónimo Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 95829. Sergio González, de Portugal. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 82824. Paula García, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 24954. Gonzalo Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 5774. Bruno García, de Portugal. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 82156. Miguel Ángel Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 77596. Fernanda Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 53917. Ximena González, de Honduras. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 34946. Melanie López, de Vietnam. Murió el 2021-11-18 condenado(a) por 128 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 69768. Mía Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 55936. Gonzalo Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 7400. María Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 876. Briana Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 35470. Antonella Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 22456. Laura Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 30088. Álvaro García, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 64786. Natalia García, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 87097. Thiago Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 99028. María Fernanda Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 67132. Briana Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 85377. Mauricio Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 44530. Iker Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 30445. Josué García, de Honduras. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 58056. Axel González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 44220. Santino Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 5575. Gael González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 97481. Miguel Ángel García, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 88951. Maximiliano Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 77508. Sara López, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 42537. Luca Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 44881. Gael López, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4892. Antonella Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 83823. Camila Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 81014. Thiago Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 43268. Dylan Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 8982. Ana Sofía Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 27707. Julián García, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 42599. Gael Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 14163. Miguel Ángel Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 75232. Bautista Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 42600. Facundo Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 43433. Martina Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 22748. Valeria Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 3074. Luciano Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 46374. Cristóbal Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 34232. Sergio González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 19934. Guillermo Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 73512. Rafael Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 7473. María Fernanda Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 63391. Juliana Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 72131. Joshua Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94654. Simón Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 1293. Briana García, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 22616. Mariana Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 93322. Gabriela Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 63788. Samantha Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 50573. Mauricio Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 30113. Paulin Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 73681. Juliana Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10743. Valentino González, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 83651. María López, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 1887. Regina Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 126 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 11591. María José Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 3043. Juliana González, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 69028. Emily Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 71473. María Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 42173. Bautista Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 58. Juan David Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 91094. Emma Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 37591. Juan Manuel García, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 7175. Samantha García, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 63417. Regina López, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 53415. Juan Sebastián Gómez, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 79090. Juan Sebastián Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4880. Kimberly Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 52589. Cristóbal Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 53791. Jerónimo González, de Vietnam. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 55202. Esteban Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 15880. Marcos Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 89577. Juan Manuel Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 68798. Gabriela Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 24383. Martina Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 63798. Hugo Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 63825. Dylan Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23303. Franco López, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 22280. Camila González, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70107. Rafael González, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 90841. Sergio Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 85582. Samantha Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 3530. Juan David Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 17387. Santino López, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 29049. Emilia Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 61310. Kimberly Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 94712. Jerónimo Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 82698. Mariana Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 99305. Oscar Sánchez, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 4998. Juan Andrés Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 57619. María José Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 39102. Juan Manuel Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 48260. Valentina Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 28319. Regina Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70357. Simón Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 98082. Victoria Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 52692. César González, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 30736. María José Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25553. Matthew González, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 56461. Juanita García, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 47079. Matthew Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 81499. Nicole González, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 50572. Gonzalo Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 3110. Regina Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 18025. Juan Andrés Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 32996. Sofía Martin, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 20228. Melanie García, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 35968. Daniela Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 68908. Juan David Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 6933. Mía Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 33698. Antonio González, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 54566. Bruno Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 124 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 9819. Valentino Martínez, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 76991. Matthew Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 29924. Ana Sofía García, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 99695. Gael García, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 1691. Patricio Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 56140. Miguel López, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 42888. Emilia Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 2370. Allison López, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 52350. Mariana Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10424. Paula Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 3515. Sergio Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 35736. Agustina García, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 84376. Matthew López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 98474. María José Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 66233. Sara Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 45730. Ashley Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 79559. Guillermo Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 98180. Mario Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 64791. Dylan Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 744. Alejandra Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 90402. Antonia Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 31729. Luciano López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 20777. Facundo Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 64878. Juan Sebastián Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 29076. Nicole Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 35292. Marcos Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 5777. Oscar Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25577. Axel Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 80214. Sara López, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 53317. Thiago Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 49382. Agustina Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 96627. Jazmín Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 21551. Antonella García, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 25331. Gonzalo Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 79834. Matthew González, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 89082. Ricardo Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 83657. Isabel López, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 72570. Julián Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 68737. Bautista Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23162. Juliana Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 89664. Gabriela Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 34896. Ian Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 19873. Miguel Ángel Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10383. Abril Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 6899. Luca Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 42277. Sergio Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 61498. Hugo Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 80969. Diego Alejandro Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 51850. Samantha Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 11964. Daniela Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 86383. Oscar García, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 47279. Julián López, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 24202. Regina Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 33979. Gael Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 27913. Renata Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 73510. Ana Sofía García, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 47084. Gael Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 33870. Facundo Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 93337. Briana Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 5566. Jerónimo García, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 88998. Isabella Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 22045. Hugo González, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 11339. Luciano Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 61842. Rafael Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 97110. Simón López, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 45422. Melanie Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 79507. Natalia González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 18816. Allison Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 13893. Antonio Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10970. Simón Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23209. Luna Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 19342. Esteban García, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 20495. Agustina Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 20072. Patricio Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 70625. Matthew Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 95981. Anthony Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 23620. Victoria Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 20964. Antonio López, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 83017. María Fernanda Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 12741. Santino Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 10487. María José Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.
-2021-11-18 13:12:55	 Humano 84830. Luna Gómez, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de ira y 0 acciones de calma por el demonio Satán.

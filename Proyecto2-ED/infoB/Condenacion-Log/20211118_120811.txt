@@ -1,454 +1,0 @@
-2021-11-18 12:08:11	 Humano 2039. Juan Manuel González, de Honduras. Murió el 2021-11-18 condenado(a) por 444 pecados de gula y 19 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 82408. Fernanda Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 438 pecados de gula y 78 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 46324. Sofía González, de Ecuador. Murió el 2021-11-18 condenado(a) por 417 pecados de gula y 88 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 67959. Nicole López, de Vietnam. Murió el 2021-11-18 condenado(a) por 415 pecados de gula y 85 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 92732. Juan Sebastián Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 398 pecados de gula y 89 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 84437. Ximena Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 386 pecados de gula y 117 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 42056. Sergio Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 382 pecados de gula y 70 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 53000. Diego Alejandro Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 381 pecados de gula y 79 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 53911. Ashley Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 376 pecados de gula y 108 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 7958. Isabella Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 371 pecados de gula y 47 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 44300. Dylan Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 369 pecados de gula y 107 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 59122. Paulin Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 368 pecados de gula y 82 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 32151. Dylan Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 366 pecados de gula y 100 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 24907. Dylan García, de España. Murió el 2021-11-18 condenado(a) por 366 pecados de gula y 75 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 14109. Emily Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 363 pecados de gula y 72 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 43460. Nicole Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 363 pecados de gula y 20 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 75746. Emilia Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 360 pecados de gula y 55 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 86390. Diego Alejandro González, de Vietnam. Murió el 2021-11-18 condenado(a) por 360 pecados de gula y 44 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 9994. Santino García, de Portugal. Murió el 2021-11-18 condenado(a) por 360 pecados de gula y 139 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 69088. Emily López, de Vietnam. Murió el 2021-11-18 condenado(a) por 357 pecados de gula y 79 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 67660. Melanie Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 357 pecados de gula y 114 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 54738. Anthony Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 357 pecados de gula y 150 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 87338. Jerónimo López, de Vietnam. Murió el 2021-11-18 condenado(a) por 356 pecados de gula y 60 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 48170. Martina García, de Ecuador. Murió el 2021-11-18 condenado(a) por 356 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 83928. Antonio Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 354 pecados de gula y 46 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 51285. Alejandra Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 353 pecados de gula y 73 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 8958. Sergio López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 352 pecados de gula y 132 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 92566. Antonella García, de Suiza. Murió el 2021-11-18 condenado(a) por 352 pecados de gula y 105 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 92032. Jonathan Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 352 pecados de gula y 121 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 7489. Paula Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 351 pecados de gula y 95 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 35098. Andrea López, de Ecuador. Murió el 2021-11-18 condenado(a) por 350 pecados de gula y 122 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 33144. Juan Andrés Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 348 pecados de gula y 83 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 75753. Valentino González, de Uruguay. Murió el 2021-11-18 condenado(a) por 347 pecados de gula y 104 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 84196. Agustina Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 346 pecados de gula y 94 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 30680. Gael Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 346 pecados de gula y 19 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 19659. Juan Andrés González, de Vietnam. Murió el 2021-11-18 condenado(a) por 345 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 50029. Antonio Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 343 pecados de gula y 118 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 19472. Fernanda Martínez, de España. Murió el 2021-11-18 condenado(a) por 343 pecados de gula y 51 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 24094. Allison González, de Ecuador. Murió el 2021-11-18 condenado(a) por 342 pecados de gula y 72 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 78346. Bruno González, de Ecuador. Murió el 2021-11-18 condenado(a) por 342 pecados de gula y 69 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 42385. Álvaro Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 342 pecados de gula y 69 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 55444. Axel Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 342 pecados de gula y 61 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 99139. Antonio Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 341 pecados de gula y 38 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 2733. Bautista Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 341 pecados de gula y 40 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 59050. Miguel Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 340 pecados de gula y 32 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 85029. Emily Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 340 pecados de gula y 72 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 19412. Luca Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 340 pecados de gula y 71 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 85005. Ian García, de Portugal. Murió el 2021-11-18 condenado(a) por 340 pecados de gula y 124 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 87336. Gonzalo Martínez, de España. Murió el 2021-11-18 condenado(a) por 339 pecados de gula y 94 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 54706. Ian Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 339 pecados de gula y 49 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 54. Daniela Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 338 pecados de gula y 33 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:11	 Humano 63210. Camila García, de Portugal. Murió el 2021-11-18 condenado(a) por 337 pecados de gula y 55 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 4252. Cristóbal López, de Vietnam. Murió el 2021-11-18 condenado(a) por 337 pecados de gula y 77 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 44120. Gael García, de España. Murió el 2021-11-18 condenado(a) por 337 pecados de gula y 95 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 29284. Luna Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 337 pecados de gula y 47 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 51291. Mauricio López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 336 pecados de gula y 93 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 35056. Rafael Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 335 pecados de gula y 87 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 61806. Esteban Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 335 pecados de gula y 135 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 40254. Thiago López, de Italia. Murió el 2021-11-18 condenado(a) por 334 pecados de gula y 29 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 85180. Valentino Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 333 pecados de gula y 35 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 22658. Facundo Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 332 pecados de gula y 101 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 68446. Andrea Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 331 pecados de gula y 27 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 9597. Simón Martin, de España. Murió el 2021-11-18 condenado(a) por 331 pecados de gula y 53 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 64108. Valentino Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 331 pecados de gula y 38 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 81479. Gonzalo Pérez, de España. Murió el 2021-11-18 condenado(a) por 331 pecados de gula y 84 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 75117. Alejandra Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 330 pecados de gula y 22 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 6346. Axel Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 329 pecados de gula y 74 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 86385. Monserrat Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 327 pecados de gula y 111 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 27540. Ana Sofía Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 327 pecados de gula y 13 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 73424. Allison García, de Ecuador. Murió el 2021-11-18 condenado(a) por 327 pecados de gula y 51 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 29294. Mariana Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 327 pecados de gula y 61 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 13026. Daniela Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 327 pecados de gula y 58 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 59186. Alejandra Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 326 pecados de gula y 63 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 76133. Valentino Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 324 pecados de gula y 43 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 14172. Roberto Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 323 pecados de gula y 7 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 83221. Mario García, de Italia. Murió el 2021-11-18 condenado(a) por 323 pecados de gula y 50 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 36692. Valentín García, de Honduras. Murió el 2021-11-18 condenado(a) por 322 pecados de gula y 43 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 86654. Lucía Martin, de Italia. Murió el 2021-11-18 condenado(a) por 321 pecados de gula y 117 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 56066. Guillermo López, de España. Murió el 2021-11-18 condenado(a) por 321 pecados de gula y 73 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 44298. Luciano García, de Italia. Murió el 2021-11-18 condenado(a) por 321 pecados de gula y 67 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 18074. Ian Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 321 pecados de gula y 45 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 37141. Isabel Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 321 pecados de gula y 20 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 34126. Nicole Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 320 pecados de gula y 78 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 21642. Monserrat Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 320 pecados de gula y 36 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 80714. Isabella Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 320 pecados de gula y 114 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 74299. Miguel Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 319 pecados de gula y 27 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 47165. Valentín Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 319 pecados de gula y 77 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 49312. Esteban García, de Ecuador. Murió el 2021-11-18 condenado(a) por 319 pecados de gula y 129 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 11873. Luca López, de Vietnam. Murió el 2021-11-18 condenado(a) por 319 pecados de gula y 113 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 58330. Facundo García, de Vietnam. Murió el 2021-11-18 condenado(a) por 319 pecados de gula y 114 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 26168. Ana Sofía López, de Italia. Murió el 2021-11-18 condenado(a) por 318 pecados de gula y 84 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 29859. Nicole Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 317 pecados de gula y 43 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 5690. Ricardo Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 317 pecados de gula y 91 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 97027. Fernanda López, de Vietnam. Murió el 2021-11-18 condenado(a) por 316 pecados de gula y 116 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 21260. Miguel Ángel Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 316 pecados de gula y 67 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42155. Paula Martínez, de España. Murió el 2021-11-18 condenado(a) por 316 pecados de gula y 9 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 91905. Samantha González, de Uruguay. Murió el 2021-11-18 condenado(a) por 315 pecados de gula y 58 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 79774. Julián García, de Ecuador. Murió el 2021-11-18 condenado(a) por 314 pecados de gula y 70 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 1485. Rafael Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 313 pecados de gula y 125 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 39918. Diego Alejandro López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 313 pecados de gula y 50 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 99697. Cristóbal Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 313 pecados de gula y 96 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 24453. Victoria Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 313 pecados de gula y 69 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 96834. Andrea López, de Vietnam. Murió el 2021-11-18 condenado(a) por 313 pecados de gula y 67 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 45328. Luciana Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 313 pecados de gula y 30 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 11989. Simón García, de Tailandia. Murió el 2021-11-18 condenado(a) por 312 pecados de gula y 69 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 52908. Fernanda González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 312 pecados de gula y 43 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 66569. Patricio Martin, de España. Murió el 2021-11-18 condenado(a) por 311 pecados de gula y 67 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 63157. Mario García, de Tailandia. Murió el 2021-11-18 condenado(a) por 311 pecados de gula y 70 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 68340. Catalina Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 311 pecados de gula y 100 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 82680. Oscar Pérez, de España. Murió el 2021-11-18 condenado(a) por 310 pecados de gula y 35 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 79468. Alejandra Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 310 pecados de gula y 62 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 12271. Lucía López, de Tailandia. Murió el 2021-11-18 condenado(a) por 310 pecados de gula y 87 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 91210. Miguel Ángel Martin, de Italia. Murió el 2021-11-18 condenado(a) por 309 pecados de gula y 58 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 79243. Luciano Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 309 pecados de gula y 128 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 96639. Sofía González, de Honduras. Murió el 2021-11-18 condenado(a) por 308 pecados de gula y 86 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 13114. Gonzalo Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 308 pecados de gula y 69 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 41872. Isabel Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 308 pecados de gula y 57 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 96756. Jonathan Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 308 pecados de gula y 105 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 1208. Samantha López, de Ecuador. Murió el 2021-11-18 condenado(a) por 308 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 27373. Abril Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 308 pecados de gula y 44 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 20535. Emilia Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 308 pecados de gula y 25 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 69128. Guillermo Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 307 pecados de gula y 83 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 6826. Jerónimo Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 307 pecados de gula y 48 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 64552. Mauricio González, de Portugal. Murió el 2021-11-18 condenado(a) por 307 pecados de gula y 90 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 30289. Axel Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 307 pecados de gula y 75 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 54807. Emilia García, de Ecuador. Murió el 2021-11-18 condenado(a) por 306 pecados de gula y 100 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 43854. Paulin Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 306 pecados de gula y 67 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 40784. Mario Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 306 pecados de gula y 74 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 38637. Daniela Pérez, de España. Murió el 2021-11-18 condenado(a) por 305 pecados de gula y 82 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 2917. Jazmín Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 305 pecados de gula y 70 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 34331. Ashley López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 305 pecados de gula y 69 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 77021. Facundo Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 305 pecados de gula y 99 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 43714. Roberto Martínez, de España. Murió el 2021-11-18 condenado(a) por 305 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 68419. Sergio Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 304 pecados de gula y 127 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 11929. Sergio Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 304 pecados de gula y 52 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 14839. Jazmín Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 304 pecados de gula y 26 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 16843. Thiago López, de España. Murió el 2021-11-18 condenado(a) por 303 pecados de gula y 59 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 76049. Ricardo Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 303 pecados de gula y 25 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 10928. Lucía Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 303 pecados de gula y 35 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 11525. Emilia García, de Italia. Murió el 2021-11-18 condenado(a) por 303 pecados de gula y 68 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 26927. Ashley Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 303 pecados de gula y 32 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 72141. Iker González, de Ecuador. Murió el 2021-11-18 condenado(a) por 303 pecados de gula y 40 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 70465. Julián Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 302 pecados de gula y 29 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 50194. María José Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 302 pecados de gula y 53 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 37086. Mía Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 109 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 74752. Mía Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 97 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 91162. Briana López, de Portugal. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 63 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 75875. Andrea Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 32 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42378. Esteban López, de Vietnam. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 135 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 95634. Ian García, de Suiza. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 73 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 30001. Ricardo Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 86 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 5116. Jerónimo Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 69 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 87597. Dylan Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 301 pecados de gula y 46 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 6402. Antonia Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 300 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 91567. Emma Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 300 pecados de gula y 71 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 55507. Emma González, de Portugal. Murió el 2021-11-18 condenado(a) por 300 pecados de gula y 95 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 51006. Sofía Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 300 pecados de gula y 57 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 56799. Luca Gómez, de España. Murió el 2021-11-18 condenado(a) por 300 pecados de gula y 41 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 81867. Valentín Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 300 pecados de gula y 116 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 55296. Victoria Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 299 pecados de gula y 52 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 49722. Juan Andrés Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 299 pecados de gula y 28 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 97267. Iker González, de Honduras. Murió el 2021-11-18 condenado(a) por 299 pecados de gula y 39 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 48604. Thiago Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 299 pecados de gula y 33 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 89362. Agustina Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 298 pecados de gula y 53 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 78681. Vanessa Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 298 pecados de gula y 97 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 33883. Miguel Ángel González, de Honduras. Murió el 2021-11-18 condenado(a) por 298 pecados de gula y 119 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 74603. Rafael López, de Suiza. Murió el 2021-11-18 condenado(a) por 298 pecados de gula y 45 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 93682. Nicole González, de Vietnam. Murió el 2021-11-18 condenado(a) por 298 pecados de gula y 80 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 10594. Nicole Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 297 pecados de gula y 39 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 89574. María Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 297 pecados de gula y 39 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 31396. Ricardo García, de Ecuador. Murió el 2021-11-18 condenado(a) por 297 pecados de gula y 127 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 75069. Juanita Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 297 pecados de gula y 51 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 24236. Valentino Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 297 pecados de gula y 68 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 39289. Matthew López, de Vietnam. Murió el 2021-11-18 condenado(a) por 297 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 73321. Roberto García, de Vietnam. Murió el 2021-11-18 condenado(a) por 296 pecados de gula y 73 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 64651. Juan Manuel Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 296 pecados de gula y 41 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 64767. Ashley Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 296 pecados de gula y 60 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 88244. Paula Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 296 pecados de gula y 74 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 87024. Samantha Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 296 pecados de gula y 33 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 41907. Axel Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 296 pecados de gula y 54 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 87231. Isabella López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 295 pecados de gula y 111 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 12162. Camila Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 295 pecados de gula y 90 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 34693. Emily Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 295 pecados de gula y 41 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 99054. Fernanda Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 295 pecados de gula y 90 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 19386. Jerónimo Martin, de Italia. Murió el 2021-11-18 condenado(a) por 295 pecados de gula y 35 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 65055. Alejandra Pérez, de España. Murió el 2021-11-18 condenado(a) por 295 pecados de gula y 111 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 75370. Guillermo García, de Honduras. Murió el 2021-11-18 condenado(a) por 295 pecados de gula y 57 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 76766. César Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 294 pecados de gula y 127 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 95201. Andrea Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 294 pecados de gula y 42 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 4530. Franco Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 294 pecados de gula y 30 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 48952. Pedro Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 294 pecados de gula y 47 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 47516. Monserrat Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 294 pecados de gula y 22 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 66498. María José López, de Uruguay. Murió el 2021-11-18 condenado(a) por 293 pecados de gula y 47 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 26708. Juan Sebastián González, de Italia. Murió el 2021-11-18 condenado(a) por 293 pecados de gula y 102 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 69179. Gael Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 293 pecados de gula y 78 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 76741. Gabriela Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 293 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 34142. Thiago Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 293 pecados de gula y 20 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 10870. Regina Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 293 pecados de gula y 83 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 90205. Natalia López, de Ecuador. Murió el 2021-11-18 condenado(a) por 293 pecados de gula y 26 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 26678. María García, de Italia. Murió el 2021-11-18 condenado(a) por 293 pecados de gula y 64 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 11319. Paula Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 292 pecados de gula y 66 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 36350. Catalina Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 292 pecados de gula y 59 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 1791. Juanita Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 292 pecados de gula y 137 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 33844. Ashley Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 292 pecados de gula y 47 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 84603. César Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 292 pecados de gula y 64 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 38502. Maximiliano Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 292 pecados de gula y 51 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 74399. Antonio López, de España. Murió el 2021-11-18 condenado(a) por 291 pecados de gula y 62 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 9386. Agustina Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 291 pecados de gula y 104 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 5462. Natalia Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 291 pecados de gula y 83 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 83819. Antonio González, de España. Murió el 2021-11-18 condenado(a) por 291 pecados de gula y 59 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 56086. Natalia López, de Ecuador. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 81832. Luciana López, de Vietnam. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 83 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 24008. Joshua González, de Portugal. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 67312. Jazmín García, de Italia. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 62 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 63618. María José Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 94 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 18203. Carla López, de España. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 92 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 63451. Ricardo García, de Ecuador. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 95270. Valentina Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 29 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42149. Emilia Sánchez, de España. Murió el 2021-11-18 condenado(a) por 290 pecados de gula y 55 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 82846. Ana Sofía Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 289 pecados de gula y 84 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 94283. Dylan Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 289 pecados de gula y 77 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 98651. Mauricio Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 289 pecados de gula y 74 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 27010. Cristóbal Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 289 pecados de gula y 92 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 35263. Juan Andrés Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 94 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 24957. Diego Alejandro González, de Ecuador. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 63399. Abril Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 53 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 79530. Ricardo González, de Honduras. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 18 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 41294. Abril Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 52 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 13701. Sara García, de Uruguay. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 52 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 67813. Jonathan Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 79 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 69393. Gonzalo Pérez, de España. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 72 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 64919. Emma López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 288 pecados de gula y 63 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 75093. Franco Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 287 pecados de gula y 45 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 34359. Lucía González, de Uruguay. Murió el 2021-11-18 condenado(a) por 287 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 86003. Julián Martin, de España. Murió el 2021-11-18 condenado(a) por 287 pecados de gula y 73 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 43692. Valentina Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 287 pecados de gula y 124 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 36036. Roberto Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 287 pecados de gula y 53 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 81891. Thiago González, de Honduras. Murió el 2021-11-18 condenado(a) por 286 pecados de gula y 29 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 6172. Emilia Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 286 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 77932. Andrea Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 286 pecados de gula y 53 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 79144. Joshua Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 286 pecados de gula y 105 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 29518. Luciano García, de Honduras. Murió el 2021-11-18 condenado(a) por 285 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 12359. Juan David Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 285 pecados de gula y 64 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 94540. Jazmín García, de Suiza. Murió el 2021-11-18 condenado(a) por 285 pecados de gula y 60 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 74382. Josué Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 285 pecados de gula y 52 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 41327. Luciano Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 285 pecados de gula y 48 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 36642. Samantha López, de Ecuador. Murió el 2021-11-18 condenado(a) por 285 pecados de gula y 97 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 33817. Jerónimo López, de Vietnam. Murió el 2021-11-18 condenado(a) por 285 pecados de gula y 44 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 59267. Renata López, de Vietnam. Murió el 2021-11-18 condenado(a) por 284 pecados de gula y 118 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 89892. Paula Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 284 pecados de gula y 38 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 57802. Emma Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 284 pecados de gula y 40 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 5006. Pedro González, de Vietnam. Murió el 2021-11-18 condenado(a) por 284 pecados de gula y 43 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42673. Nicole García, de Vietnam. Murió el 2021-11-18 condenado(a) por 284 pecados de gula y 39 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 40506. Facundo Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 38 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 19984. Nicole García, de Suiza. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 37 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 83753. Isabella Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 84 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 48524. Rafael Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 64 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 44635. Ian Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 141 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 31578. Monserrat González, de Vietnam. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 28 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 36348. Santino López, de Italia. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 50 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 50771. Matthew González, de Uruguay. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 44 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 50530. Jonathan Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 42 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 91003. Diego Alejandro Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 283 pecados de gula y 61 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 2688. Regina González, de Suiza. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 31 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 72877. Monserrat López, de Tailandia. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 39862. Jonathan González, de España. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 118 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 3676. Juan Sebastián Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 35 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 37943. Gabriela Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 31 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 6606. Iker Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 94 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 46202. Dylan Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 85 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 21630. Bautista Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 49 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 39734. Maximiliano Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 37 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 38630. Diego Alejandro Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 34 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 7505. María Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 35 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 85792. Isabel Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 282 pecados de gula y 3 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 58098. Santino Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 281 pecados de gula y 108 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 87968. Sofía Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 281 pecados de gula y 100 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 10088. Valentín Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 281 pecados de gula y 66 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 26913. César López, de Tailandia. Murió el 2021-11-18 condenado(a) por 281 pecados de gula y 70 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 56438. Jerónimo González, de Ecuador. Murió el 2021-11-18 condenado(a) por 281 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 43613. Facundo Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 281 pecados de gula y 52 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 52162. Fernanda Martin, de España. Murió el 2021-11-18 condenado(a) por 281 pecados de gula y 93 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 12982. Mauricio Gómez, de España. Murió el 2021-11-18 condenado(a) por 281 pecados de gula y 102 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 21823. Jazmín Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 24 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 90308. Hugo Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 75 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 26298. Martina Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 80 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 84135. Luna Sánchez, de España. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 63 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 73989. Ashley González, de Portugal. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 67 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 51261. Ashley Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 40 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 67730. Daniela López, de Portugal. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 21 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42723. Alejandra Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 39 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 18298. Agustina Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 280 pecados de gula y 55 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 55345. Jerónimo Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 279 pecados de gula y 144 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 54486. Emma López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 279 pecados de gula y 19 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 58633. Jazmín González, de Tailandia. Murió el 2021-11-18 condenado(a) por 279 pecados de gula y 54 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 25024. Renata López, de Italia. Murió el 2021-11-18 condenado(a) por 279 pecados de gula y 119 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 58767. Andrea Martínez, de España. Murió el 2021-11-18 condenado(a) por 279 pecados de gula y 134 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 79973. Valentina Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 279 pecados de gula y 80 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 21343. Andrea Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 279 pecados de gula y 60 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 14451. Anthony Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 278 pecados de gula y 65 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 93934. Joshua Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 278 pecados de gula y 15 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 76448. Catalina Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 278 pecados de gula y 56 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42425. Catalina González, de España. Murió el 2021-11-18 condenado(a) por 278 pecados de gula y 9 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 34395. Kimberly Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 278 pecados de gula y 74 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 18159. Catalina Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 278 pecados de gula y 41 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 17536. Ana Sofía Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 278 pecados de gula y 59 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 83760. Matthew Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 278 pecados de gula y 22 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 70402. Santino Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 277 pecados de gula y 68 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 52539. Axel Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 277 pecados de gula y 66 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 18285. Josué López, de Honduras. Murió el 2021-11-18 condenado(a) por 277 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 75460. Rafael Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 277 pecados de gula y 74 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 49983. Juanita Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 277 pecados de gula y 88 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 25748. Regina Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 91 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 99286. Juliana Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 79 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 70469. Sara Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 68 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 78369. Victoria Sánchez, de España. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 24 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 67659. Joshua Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 98 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 87967. Hugo Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 72 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 51152. César González, de Ecuador. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 35 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 128. Diego Alejandro Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 33 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 30321. Facundo Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 41 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 313. Emily Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 82 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 55519. Antonio Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 97 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 97265. Abril Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 57 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 47268. Luciana Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 276 pecados de gula y 47 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 5104. Gabriela Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 275 pecados de gula y 82 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 84514. Axel Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 275 pecados de gula y 102 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 58360. Valentín Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 275 pecados de gula y 75 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 23036. Marcos Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 275 pecados de gula y 130 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 14006. Simón Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 275 pecados de gula y 48 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 97255. Iker García, de Tailandia. Murió el 2021-11-18 condenado(a) por 275 pecados de gula y 62 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 67787. Regina Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 275 pecados de gula y 36 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 96475. Valentín Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 275 pecados de gula y 96 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 36332. Briana Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 274 pecados de gula y 64 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 237. Anthony Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 274 pecados de gula y 71 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 14670. Andrea Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 274 pecados de gula y 90 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 65874. Renata Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 274 pecados de gula y 78 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 39016. Jonathan González, de Italia. Murió el 2021-11-18 condenado(a) por 273 pecados de gula y 89 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 71088. César González, de Ecuador. Murió el 2021-11-18 condenado(a) por 273 pecados de gula y 101 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 34571. Joshua López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 273 pecados de gula y 46 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 96925. Joshua González, de Suiza. Murió el 2021-11-18 condenado(a) por 273 pecados de gula y 32 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 80056. César Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 81 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 59775. Simón López, de Ecuador. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 101 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 58819. Maximiliano Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 65 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 73470. Jazmín Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 48 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 455. Valentín Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 62 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42937. Antonella González, de Portugal. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 88 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 22466. Simón Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 80 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 86012. Valentín Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 67 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 33482. Emma Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 73 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 33691. Ricardo González, de Portugal. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 108 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 1723. Kimberly Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 272 pecados de gula y 41 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 3227. Hugo Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 23 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42755. Ian López, de Portugal. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 65 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 3822. Facundo Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 45 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 23779. Valentina Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 29 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 2067. Martina Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 45 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 1543. Sergio Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 100 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 51449. Alejandra Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 102 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 78187. Bruno Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 75 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 64430. Mariana González, de Honduras. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 47 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 91215. Luciana González, de España. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 7 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 44388. Facundo Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 56 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 13770. Daniela López, de Italia. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 96 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 78037. Miguel Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 271 pecados de gula y 49 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 50954. Ana Sofía Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 98 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 72360. Álvaro Martínez, de España. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 11 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 90221. Roberto López, de España. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 52 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 22572. Jerónimo López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 32 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 76506. María José Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 106 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 3151. Roberto Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 48 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 5619. Joshua Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 15 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 45389. María Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 59 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 4079. Antonella González, de Honduras. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 57 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 22220. Patricio López, de Vietnam. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 56 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 25358. Oscar López, de Suiza. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 84 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 30900. Luca García, de Suiza. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 54 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 89879. Sergio Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 35 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 6238. Samantha González, de Italia. Murió el 2021-11-18 condenado(a) por 270 pecados de gula y 51 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 15118. Monserrat Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 87 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 76740. Matthew Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 33 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 88236. Sergio Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 78 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 62527. Axel González, de Ecuador. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 84 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 26917. Valentina Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 88 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 29959. Alejandra Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 73 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 53348. Bautista Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 117 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 35603. Victoria Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 26 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 14807. Laura Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 90 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 91482. Ian González, de Portugal. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 71 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 69233. Victoria López, de Suiza. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 102 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 74695. Nicole Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 23 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 74185. Julián García, de Ecuador. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 56 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 16284. Emily Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 269 pecados de gula y 65 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 80004. Renata Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 52 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 38608. Joshua López, de Suiza. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 118 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 86710. Carla Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 46 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 50459. Ana Sofía Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 73 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 78362. Juan Andrés Martin, de Italia. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 55 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 98231. Mauricio Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 101 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 86357. Luciana Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 94 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 97569. Julián Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 69 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 21635. Luciano García, de Suiza. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 87 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 72744. Ashley Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 50 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 1464. Cristóbal Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 36 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 56136. Antonia García, de Suiza. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 86 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 17492. María José Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 45 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 82532. Diego Alejandro Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 64 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 16895. Juan Manuel Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 51 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 53754. María Fernanda Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 268 pecados de gula y 39 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 55999. Juan Andrés López, de Tailandia. Murió el 2021-11-18 condenado(a) por 267 pecados de gula y 38 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 63727. Thiago Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 267 pecados de gula y 67 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 3697. Gabriela Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 267 pecados de gula y 92 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 11779. Juanita Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 267 pecados de gula y 119 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 10409. María Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 267 pecados de gula y 71 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 90739. Matthew Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 267 pecados de gula y 111 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 82079. Paula López, de Tailandia. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 101 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 57916. Gonzalo Rodríguez, de Portugal. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 75 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 80825. Jerónimo Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 1497. Rafael Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 46 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 14897. Pedro Martínez, de España. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 79 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 3536. Juanita Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 116 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 42145. Juan Sebastián González, de Tailandia. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 44 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 7477. Cristóbal Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 74 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 56843. Martina Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 78 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 52266. Nicole Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 39 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 29903. Anthony González, de España. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 27 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 53164. Juliana García, de Honduras. Murió el 2021-11-18 condenado(a) por 266 pecados de gula y 47 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 15955. Diego Alejandro Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 80 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 86528. Maximiliano García, de Ecuador. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 37 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 49804. Patricio Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 48 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 62336. Valentino Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 57 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 17814. Valentino González, de Honduras. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 38 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 44893. Thiago López, de Ecuador. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 23 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 90640. Lucía Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 87 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 51065. Nicole Martin, de Italia. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 76 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 40459. Antonio Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 36 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 2702. Vanessa Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 265 pecados de gula y 83 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 24765. Miguel Ángel Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 19 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 15778. Patricio Martin, de España. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 46 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 63700. Diego Alejandro González, de Portugal. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 165 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 23146. Sara González, de Tailandia. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 60 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 10022. Regina García, de Tailandia. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 43 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 29394. Cristóbal Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 29 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 60438. Esteban Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 44 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 51653. Kimberly Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 77 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 69025. Franco González, de Suiza. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 79 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 79615. Allison Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 83 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 30591. Paulin Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 93 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 59893. Maximiliano Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 264 pecados de gula y 82 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 67411. Kimberly García, de Suiza. Murió el 2021-11-18 condenado(a) por 263 pecados de gula y 85 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 57761. Samantha Martínez, de España. Murió el 2021-11-18 condenado(a) por 263 pecados de gula y 185 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 92898. Facundo Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 263 pecados de gula y 30 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 22196. Pedro López, de Uruguay. Murió el 2021-11-18 condenado(a) por 263 pecados de gula y 38 acciones de ayuno por el demonio Belfegor.
-2021-11-18 12:08:12	 Humano 98028. Jonathan Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 263 pecados de gula y 62 acciones de ayuno por el demonio Belfegor.

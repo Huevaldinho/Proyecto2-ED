@@ -35,6 +35,8 @@ class Cielo;
 class ArbolCielo;
 class NodoArbolHashCielo;
 class Smtp;
+struct Angel;
+class ArbolTriario;
 
 #include <QString>
 #include <QDate>
@@ -76,7 +78,8 @@ class Smtp;
 #include "arbolcielo.h"
 #include "nodoarbolhashcielo.h"
 #include "smtp.h"
-
+#include "angel.h"
+#include "arboltriario.h"
 
 using namespace std;
 

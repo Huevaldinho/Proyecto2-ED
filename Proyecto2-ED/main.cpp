@@ -11,6 +11,7 @@ int main(int argc, char *argv[]){
     Infierno * infiernoMain = new Infierno(mundo->cantidadApellidos*mundo->cantidadPaises,mundo->listaPersonas);
     Cielo * cieloMain = new Cielo(infiernoMain);
     ConsultasPorAcciones * consultasMain = new ConsultasPorAcciones(mundo->listaPersonas,cieloMain,infiernoMain,mundo);
+
     /*
         REVISAR LOS TOP, LAS CANTIDADES SON MAYORES
         ERROR EN CONSULTASPORACCIONES, se estan sumando cuando pecados no deben y por eso

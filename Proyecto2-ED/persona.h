@@ -19,6 +19,7 @@ class Persona{
         int pecados[7];         //Pecados
         int buenasAcciones[7];  //Buenas acciones
         Persona * padre;
+        Angel * angel;
         int cantidadHijos;
         ListaPersonas * hijos;
         //Para la salvacion
@@ -26,6 +27,9 @@ class Persona{
 
         Persona();
         Persona(int,QString,QString,QString,QString,QString,QString);//ID,Nombre,Apellido,Pais,Creencia,Profesion
+        int sumaTotalPecados();
+        int sumaTotalBuenasAcciones();
+        int diferenciaPecadosBuenasAcciones();
         void imprimir();
 
 /*                  Posicion en el arreglo

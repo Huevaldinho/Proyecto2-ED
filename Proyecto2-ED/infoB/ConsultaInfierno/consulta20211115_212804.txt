@@ -1,258 +1,0 @@
-Asmodeo	Pecado: lujuria
-Cantidad de Humanos: 20	Promedio de pecados: 1
-Máximo de pecados: 386	 Mínimo de pecados: 257
-	Oscar Gómez, cantidad de pecados de lujuria: 269
-	Jonathan García, cantidad de pecados de lujuria: 264
-	Emma García, cantidad de pecados de lujuria: 257
-	Iker Martin, cantidad de pecados de lujuria: 285
-	Lucía García, cantidad de pecados de lujuria: 264
-	Briana González, cantidad de pecados de lujuria: 276
-	Emilia Rodríguez, cantidad de pecados de lujuria: 281
-	Gael Rodríguez, cantidad de pecados de lujuria: 258
-	Matthew Martin, cantidad de pecados de lujuria: 259
-	Juliana Martínez, cantidad de pecados de lujuria: 332
-	Emilia Martínez, cantidad de pecados de lujuria: 261
-	Anthony Sánchez, cantidad de pecados de lujuria: 386
-	Antonia Sánchez, cantidad de pecados de lujuria: 287
-	Paulin Sánchez, cantidad de pecados de lujuria: 267
-	Josué López, cantidad de pecados de lujuria: 266
-	Natalia González, cantidad de pecados de lujuria: 291
-	Daniela González, cantidad de pecados de lujuria: 285
-	Juanita González, cantidad de pecados de lujuria: 273
-	César Martin, cantidad de pecados de lujuria: 320
-	Josué Martin, cantidad de pecados de lujuria: 298
-
-
-
-
-Belfegor	Pecado: gula
-Cantidad de Humanos: 18	Promedio de pecados: 1
-Máximo de pecados: 337	 Mínimo de pecados: 264
-	Gonzalo Martin, cantidad de pecados de gula: 266
-	Marcos Pérez, cantidad de pecados de gula: 337
-	Vanessa Pérez, cantidad de pecados de gula: 323
-	Antonio Pérez, cantidad de pecados de gula: 268
-	Marcos Sánchez, cantidad de pecados de gula: 284
-	María José González, cantidad de pecados de gula: 300
-	Oscar González, cantidad de pecados de gula: 296
-	Maximiliano González, cantidad de pecados de gula: 265
-	Jazmín López, cantidad de pecados de gula: 269
-	Catalina Rodríguez, cantidad de pecados de gula: 293
-	Luna Martin, cantidad de pecados de gula: 289
-	Emilia García, cantidad de pecados de gula: 283
-	Miguel Ángel Rodríguez, cantidad de pecados de gula: 282
-	Miguel Ángel Gómez, cantidad de pecados de gula: 264
-	Allison Gómez, cantidad de pecados de gula: 266
-	María José García, cantidad de pecados de gula: 269
-	Valentina Fernández, cantidad de pecados de gula: 284
-	Jonathan García, cantidad de pecados de gula: 286
-
-
-
-
-Mammón	Pecado: avaricia
-Cantidad de Humanos: 29	Promedio de pecados: 1
-Máximo de pecados: 314	 Mínimo de pecados: 248
-	Ian Gómez, cantidad de pecados de avaricia: 294
-	Bautista Fernández, cantidad de pecados de avaricia: 248
-	Axel González, cantidad de pecados de avaricia: 296
-	Antonella González, cantidad de pecados de avaricia: 287
-	Antonia González, cantidad de pecados de avaricia: 285
-	Renata González, cantidad de pecados de avaricia: 273
-	Juanita Rodríguez, cantidad de pecados de avaricia: 274
-	Mía Martin, cantidad de pecados de avaricia: 284
-	Daniela García, cantidad de pecados de avaricia: 307
-	Isabel Pérez, cantidad de pecados de avaricia: 314
-	Mía Pérez, cantidad de pecados de avaricia: 264
-	Hugo Pérez, cantidad de pecados de avaricia: 251
-	Miguel López, cantidad de pecados de avaricia: 258
-	Paulin Fernández, cantidad de pecados de avaricia: 279
-	Kimberly Fernández, cantidad de pecados de avaricia: 254
-	Franco Fernández, cantidad de pecados de avaricia: 257
-	Gabriela García, cantidad de pecados de avaricia: 306
-	Thiago García, cantidad de pecados de avaricia: 267
-	Juan Sebastián García, cantidad de pecados de avaricia: 265
-	Patricio Sánchez, cantidad de pecados de avaricia: 296
-	Esteban Pérez, cantidad de pecados de avaricia: 295
-	Carla Sánchez, cantidad de pecados de avaricia: 248
-	Patricio Fernández, cantidad de pecados de avaricia: 283
-	Juan David Fernández, cantidad de pecados de avaricia: 254
-	Facundo Rodríguez, cantidad de pecados de avaricia: 309
-	Valeria Fernández, cantidad de pecados de avaricia: 257
-	Emily López, cantidad de pecados de avaricia: 310
-	Joshua López, cantidad de pecados de avaricia: 291
-	Kimberly López, cantidad de pecados de avaricia: 254
-
-
-
-
-Abadón	Pecado: pereza
-Cantidad de Humanos: 26	Promedio de pecados: 1
-Máximo de pecados: 319	 Mínimo de pecados: 261
-	Luciana Rodríguez, cantidad de pecados de pereza: 281
-	Mario López, cantidad de pecados de pereza: 267
-	Diego Alejandro Gómez, cantidad de pecados de pereza: 261
-	Martina Sánchez, cantidad de pecados de pereza: 284
-	Marcos Sánchez, cantidad de pecados de pereza: 261
-	Hugo Martínez, cantidad de pecados de pereza: 268
-	Ashley Martínez, cantidad de pecados de pereza: 264
-	Ximena López, cantidad de pecados de pereza: 309
-	Juan Sebastián Martínez, cantidad de pecados de pereza: 301
-	Juan David García, cantidad de pecados de pereza: 261
-	Facundo González, cantidad de pecados de pereza: 263
-	Matthew González, cantidad de pecados de pereza: 305
-	Facundo Fernández, cantidad de pecados de pereza: 319
-	Rafael Fernández, cantidad de pecados de pereza: 311
-	Marcos Fernández, cantidad de pecados de pereza: 291
-	Gael Sánchez, cantidad de pecados de pereza: 290
-	Monserrat Sánchez, cantidad de pecados de pereza: 286
-	Roberto Sánchez, cantidad de pecados de pereza: 283
-	Juan Manuel Sánchez, cantidad de pecados de pereza: 282
-	Isabella González, cantidad de pecados de pereza: 269
-	Maximiliano Martínez, cantidad de pecados de pereza: 308
-	Facundo Martínez, cantidad de pecados de pereza: 282
-	Diego Alejandro Martínez, cantidad de pecados de pereza: 275
-	Facundo Martin, cantidad de pecados de pereza: 264
-	Victoria García, cantidad de pecados de pereza: 268
-	Roberto Rodríguez, cantidad de pecados de pereza: 263
-
-
-
-
-Satán	Pecado: ira
-Cantidad de Humanos: 39	Promedio de pecados: 1
-Máximo de pecados: 381	 Mínimo de pecados: 250
-	Emilia López, cantidad de pecados de ira: 273
-	Esteban López, cantidad de pecados de ira: 274
-	Santino González, cantidad de pecados de ira: 311
-	Sara González, cantidad de pecados de ira: 275
-	Camila Pérez, cantidad de pecados de ira: 317
-	Gael Pérez, cantidad de pecados de ira: 281
-	Briana Rodríguez, cantidad de pecados de ira: 287
-	Samantha González, cantidad de pecados de ira: 263
-	Monserrat López, cantidad de pecados de ira: 285
-	Alejandra Sánchez, cantidad de pecados de ira: 293
-	Melanie Sánchez, cantidad de pecados de ira: 267
-	Juanita Gómez, cantidad de pecados de ira: 284
-	Paulin Gómez, cantidad de pecados de ira: 275
-	Lucía Gómez, cantidad de pecados de ira: 250
-	Jonathan Martínez, cantidad de pecados de ira: 276
-	Jerónimo Martínez, cantidad de pecados de ira: 258
-	Kimberly Gómez, cantidad de pecados de ira: 266
-	Álvaro Rodríguez, cantidad de pecados de ira: 301
-	César Rodríguez, cantidad de pecados de ira: 295
-	Facundo Rodríguez, cantidad de pecados de ira: 267
-	Joshua Sánchez, cantidad de pecados de ira: 278
-	Oscar González, cantidad de pecados de ira: 277
-	Emily Pérez, cantidad de pecados de ira: 381
-	Simón Pérez, cantidad de pecados de ira: 369
-	Juan Manuel Pérez, cantidad de pecados de ira: 323
-	Josué Pérez, cantidad de pecados de ira: 305
-	Franco Pérez, cantidad de pecados de ira: 299
-	Emilia Pérez, cantidad de pecados de ira: 298
-	Agustina Pérez, cantidad de pecados de ira: 287
-	Santino Pérez, cantidad de pecados de ira: 284
-	Paula López, cantidad de pecados de ira: 261
-	Ian López, cantidad de pecados de ira: 289
-	Franco López, cantidad de pecados de ira: 257
-	Valentino Martínez, cantidad de pecados de ira: 263
-	Iker Gómez, cantidad de pecados de ira: 319
-	Paula Gómez, cantidad de pecados de ira: 307
-	Juan David Gómez, cantidad de pecados de ira: 304
-	Natalia Gómez, cantidad de pecados de ira: 251
-	Marcos Rodríguez, cantidad de pecados de ira: 250
-
-
-
-
-Belcebú	Pecado: envidia
-Cantidad de Humanos: 29	Promedio de pecados: 1
-Máximo de pecados: 374	 Mínimo de pecados: 260
-	Marcos Sánchez, cantidad de pecados de envidia: 374
-	César Sánchez, cantidad de pecados de envidia: 343
-	Andrea Sánchez, cantidad de pecados de envidia: 287
-	Laura González, cantidad de pecados de envidia: 309
-	Valentina González, cantidad de pecados de envidia: 294
-	Juan Andrés González, cantidad de pecados de envidia: 285
-	Juan Manuel González, cantidad de pecados de envidia: 263
-	Vanessa García, cantidad de pecados de envidia: 281
-	Regina García, cantidad de pecados de envidia: 263
-	Carla López, cantidad de pecados de envidia: 260
-	Lucía López, cantidad de pecados de envidia: 300
-	Lucía López, cantidad de pecados de envidia: 279
-	Gonzalo López, cantidad de pecados de envidia: 261
-	Anthony Martínez, cantidad de pecados de envidia: 279
-	Melanie Fernández, cantidad de pecados de envidia: 300
-	Gonzalo Fernández, cantidad de pecados de envidia: 296
-	Ricardo Fernández, cantidad de pecados de envidia: 269
-	Laura Martin, cantidad de pecados de envidia: 329
-	Briana García, cantidad de pecados de envidia: 261
-	Dylan Martínez, cantidad de pecados de envidia: 291
-	Melanie López, cantidad de pecados de envidia: 299
-	Ashley López, cantidad de pecados de envidia: 288
-	Jazmín Gómez, cantidad de pecados de envidia: 263
-	Juan Manuel López, cantidad de pecados de envidia: 288
-	Andrea López, cantidad de pecados de envidia: 270
-	Pedro Rodríguez, cantidad de pecados de envidia: 267
-	Nicole López, cantidad de pecados de envidia: 264
-	Valentina López, cantidad de pecados de envidia: 276
-	Hugo González, cantidad de pecados de envidia: 269
-
-
-
-
-Lucifer	Pecado: soberbia
-Cantidad de Humanos: 48	Promedio de pecados: 1
-Máximo de pecados: 390	 Mínimo de pecados: 248
-	Briana Martínez, cantidad de pecados de soberbia: 270
-	Oscar Fernández, cantidad de pecados de soberbia: 282
-	Alejandra Gómez, cantidad de pecados de soberbia: 390
-	Sara Gómez, cantidad de pecados de soberbia: 315
-	Regina Gómez, cantidad de pecados de soberbia: 272
-	Sofía Gómez, cantidad de pecados de soberbia: 270
-	Kimberly Gómez, cantidad de pecados de soberbia: 248
-	Isabella Gómez, cantidad de pecados de soberbia: 351
-	Rafael Sánchez, cantidad de pecados de soberbia: 248
-	Catalina Rodríguez, cantidad de pecados de soberbia: 312
-	Victoria Rodríguez, cantidad de pecados de soberbia: 302
-	Daniela Martínez, cantidad de pecados de soberbia: 270
-	Isabel Sánchez, cantidad de pecados de soberbia: 284
-	Diego Alejandro Sánchez, cantidad de pecados de soberbia: 252
-	Juan Manuel Pérez, cantidad de pecados de soberbia: 275
-	Miguel Ángel Pérez, cantidad de pecados de soberbia: 273
-	Matthew Rodríguez, cantidad de pecados de soberbia: 317
-	César Rodríguez, cantidad de pecados de soberbia: 299
-	Gael Rodríguez, cantidad de pecados de soberbia: 255
-	Sergio Rodríguez, cantidad de pecados de soberbia: 254
-	Miguel Ángel López, cantidad de pecados de soberbia: 263
-	Monserrat González, cantidad de pecados de soberbia: 261
-	Emilia González, cantidad de pecados de soberbia: 254
-	Regina García, cantidad de pecados de soberbia: 257
-	Mario Martin, cantidad de pecados de soberbia: 328
-	Mauricio Martin, cantidad de pecados de soberbia: 294
-	Emilia Martin, cantidad de pecados de soberbia: 262
-	Esteban Rodríguez, cantidad de pecados de soberbia: 282
-	Roberto Rodríguez, cantidad de pecados de soberbia: 272
-	Renata Pérez, cantidad de pecados de soberbia: 271
-	Sergio Pérez, cantidad de pecados de soberbia: 250
-	Marcos Gómez, cantidad de pecados de soberbia: 250
-	Camila Martin, cantidad de pecados de soberbia: 252
-	Daniela García, cantidad de pecados de soberbia: 278
-	Isabella López, cantidad de pecados de soberbia: 296
-	Maximiliano López, cantidad de pecados de soberbia: 257
-	Luciana Sánchez, cantidad de pecados de soberbia: 269
-	Diego Alejandro López, cantidad de pecados de soberbia: 258
-	Camila López, cantidad de pecados de soberbia: 248
-	Gael González, cantidad de pecados de soberbia: 280
-	Camila González, cantidad de pecados de soberbia: 258
-	Patricio González, cantidad de pecados de soberbia: 298
-	Antonio Gómez, cantidad de pecados de soberbia: 327
-	Nicole Gómez, cantidad de pecados de soberbia: 280
-	Diego Alejandro Gómez, cantidad de pecados de soberbia: 278
-	Thiago García, cantidad de pecados de soberbia: 289
-	Jonathan García, cantidad de pecados de soberbia: 258
-	Gonzalo Sánchez, cantidad de pecados de soberbia: 248
-
-
-
-

@@ -56,22 +56,15 @@ void MainWindow::on_btn_Top5PaisesMenosBuenos_clicked(){
 }
 //CONDENACION
 void MainWindow::on_btnCondenacionLucifer_clicked(){//LUCIFER
-    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
-    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionB+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Lucifer"));
-
-
 
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
@@ -82,19 +75,13 @@ void MainWindow::on_btnCondenacionLucifer_clicked(){//LUCIFER
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Lucifer","\nAdjunto encuentra la información de la condenación de Lucifer.");
     this->files.clear();
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Lucifer creado");
+    QMessageBox::information(this,"Archivo enviado y generado","\nReporte de condenación de Lucifer creado");
 }
 void MainWindow::on_btnCondenacionBelcebu_clicked(){//BELCEBU
-    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
-    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
-
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionB+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -111,18 +98,13 @@ void MainWindow::on_btnCondenacionBelcebu_clicked(){//BELCEBU
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Belcebú","\nAdjunto encuentra la información de la condenación de Belcebú.");
     this->files.clear();
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Belcebú creado");
+    QMessageBox::information(this,"Archivo enviado y generado","\nReporte de condenación de Belcebú creado");
 }
 void MainWindow::on_btnCondenacionSatan_clicked(){//SATAN
-    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
-    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionB+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -138,18 +120,13 @@ void MainWindow::on_btnCondenacionSatan_clicked(){//SATAN
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Satán","\nAdjunto encuentra la información de la condenación de Satán.");
     this->files.clear();
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Satán creado");
+    QMessageBox::information(this,"Archivo enviado y generado","\nReporte de condenación de Satán creado");
 }
 void MainWindow::on_btnCondenacionAbadon_clicked(){//ABADON
-    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
-    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionB+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -166,18 +143,13 @@ void MainWindow::on_btnCondenacionAbadon_clicked(){//ABADON
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Abadón","\nAdjunto encuentra la información de la condenación de Abadón.");
     this->files.clear();
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Abadón creado");
+    QMessageBox::information(this,"Archivo enviado y generado","\nReporte de condenación de Abadón creado");
 }
 void MainWindow::on_btnCondenacionMammon_clicked(){//MAMMON
-    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
-    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionB+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
@@ -194,24 +166,18 @@ void MainWindow::on_btnCondenacionMammon_clicked(){//MAMMON
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Mammón","\nAdjunto encuentra la información de la condenación de Mammón.");
     this->files.clear();
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Mammón creado");
+    QMessageBox::information(this,"Archivo enviado y generado","\nReporte de condenación de Mammón creado");
 }
 void MainWindow::on_btnCondenacionBelfegor_clicked(){//BELFEGOR
-    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
-    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionB+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Belfegor"));
-
 
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
@@ -222,24 +188,18 @@ void MainWindow::on_btnCondenacionBelfegor_clicked(){//BELFEGOR
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Belfegor","\nAdjunto encuentra la información de la condenación de Belfegor.");
     this->files.clear();
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Belfegor creado");
+    QMessageBox::information(this,"Archivo enviado y generado","\nReporte de condenación de Belfegor creado");
 }
 void MainWindow::on_btnCondenacionAsmodeo_clicked(){//ASMODEO
-    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
-    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
-    QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-
     QDateTime actual = QDateTime::currentDateTime();
-    this->infierno->archivoCondenacion=pathInfiernoCondenacionH+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    QString pathInfiernoCondenacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    QString pathInfiernoCondenacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Condenacion-Log/";
+    this->infierno->archivoCondenacion=pathInfiernoCondenacionB+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
     this->infierno->OrdenarHeapsDemonios();
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Asmodeo"));
-
 
     Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
@@ -249,22 +209,36 @@ void MainWindow::on_btnCondenacionAsmodeo_clicked(){//ASMODEO
     else
         smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com", "Reporte de condenación de Asmodeo","\nAdjunto encuentra la información de la condenación de Asmodeo.");
     this->files.clear();
-    QMessageBox::information(this,"Archivo Generado","\nReporte de condenación de Asmodeo creado");
+    QMessageBox::information(this,"Archivo enviado y generado","\nReporte de condenación de Asmodeo creado");
 }
 void MainWindow::on_btnConsultaInfierno_clicked(){
     QDateTime actual = QDateTime::currentDateTime();
     QString pathInfiernoConsultaH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
-    this->infierno->archivoConsulta=pathInfiernoConsultaH+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+    QString pathInfiernoConsultaB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/ConsultaInfierno/";
+    this->infierno->archivoConsulta=pathInfiernoConsultaB+"consulta"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
     this->infierno->consulta();
-    QMessageBox::information(this,"Archivo Generado","\nSe ha creado el archivo de consulta del infierno");
+    QMessageBox::information(this,"Archivo generado","\nSe ha creado el archivo de consulta del infierno");
 
 }
 void MainWindow::on_btnSalvar_clicked(){//Salvacion
-    qDebug()<<"SALVACION";
+    QDateTime actual = QDateTime::currentDateTime();
+    QString pathSalvacionB="/Users/sebastianbermudez/Documents/CodesS2/Github/Proyecto2-ED/Proyecto2-ED/infoB/Salvacion/";
+    QString pathSalvacionH="D:/OneDrive - Estudiantes ITCR/Documentos/GitHub/ED/Proyecto2-ED/Proyecto2-ED/infoB/Salvacion/";
+    this->cielo->archivoCielo=pathSalvacionB+"salvacion"+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
+
+    this->cielo->salvacion();
+
+    Smtp* smtp = new Smtp("correoFinDelMundo@gmail.com", "A123456789z!", "smtp.gmail.com", 465);
+    connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
+    files.append(this->infierno->archivoCondenacion);
+    if( !files.isEmpty() )
+        smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com" , "Reporte de salvación","\nAdjunto encuentra la información de la salvación por los ángeles disponibles.", files );
+    else
+        smtp->sendMail("correoFinDelMundo@gmail.com", "correoFinDelMundo@gmail.com" , "Reporte de salvación","\nAdjunto encuentra la información de la salvación por los ángeles disponibles.");
+    this->files.clear();
+    QMessageBox::information(this,"Archivo enviado y generado","\nReporte de salvación creado");
 
 }
-
-
 void MainWindow::on_btnGanador_clicked(){
     this->consultas->DeterminarGanado(this->ui->lbl_txtGanadorInfnerno,this->ui->lbl_txtGanadorCielo,
                                       this->ui->lbl_GanadorFinal);

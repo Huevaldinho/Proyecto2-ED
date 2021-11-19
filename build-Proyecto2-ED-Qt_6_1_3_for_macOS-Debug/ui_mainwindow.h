@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -63,6 +64,23 @@ public:
     QPushButton *btnCondenacionAsmodeo;
     QLabel *lblCondenar_2;
     QPushButton *btnConsultaInfierno;
+    QLabel *lblSalcacion;
+    QPushButton *btnSalvar;
+    QLabel *lblGanador;
+    QPushButton *btnGanador;
+    QTextBrowser *lbl_txtGanadorInfnerno;
+    QTextBrowser *lbl_txtGanadorCielo;
+    QLabel *lbl_GanadorFinal;
+    QComboBox *comboBox_Consulta;
+    QLabel *lbl_ConsultaPor;
+    QPushButton *btnConsultaPor;
+    QTextBrowser *lbl_txtConsultaPorResultado;
+    QPushButton *btnBuscarFamilia;
+    QLabel *lbl_BuscarFamilia;
+    QComboBox *comboBoxBuscarFamiliaApellido;
+    QComboBox *comboBoxBuscarFamiliaPais;
+    QPushButton *btnBuscarFamiliaVer;
+    QTextBrowser *lbl_txtBuscarFamilia;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -70,7 +88,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(1317, 659);
+        MainWindow->resize(1409, 763);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         btn_GenerarHumanos = new QPushButton(centralwidget);
@@ -92,36 +110,36 @@ public:
         lbl_IngreseCantidadHumanos->setFont(font1);
         btn_Pecar = new QPushButton(centralwidget);
         btn_Pecar->setObjectName(QString::fromUtf8("btn_Pecar"));
-        btn_Pecar->setGeometry(QRect(80, 70, 131, 51));
+        btn_Pecar->setGeometry(QRect(10, 20, 131, 51));
         btn_BuenasAcciones = new QPushButton(centralwidget);
         btn_BuenasAcciones->setObjectName(QString::fromUtf8("btn_BuenasAcciones"));
-        btn_BuenasAcciones->setGeometry(QRect(80, 130, 131, 51));
+        btn_BuenasAcciones->setGeometry(QRect(10, 80, 131, 51));
         lbl_IDHumanosBuscado = new QLabel(centralwidget);
         lbl_IDHumanosBuscado->setObjectName(QString::fromUtf8("lbl_IDHumanosBuscado"));
-        lbl_IDHumanosBuscado->setGeometry(QRect(50, 230, 241, 31));
+        lbl_IDHumanosBuscado->setGeometry(QRect(20, 150, 241, 31));
         QFont font2;
         font2.setBold(true);
         lbl_IDHumanosBuscado->setFont(font2);
         btn_BuscarHumano = new QPushButton(centralwidget);
         btn_BuscarHumano->setObjectName(QString::fromUtf8("btn_BuscarHumano"));
-        btn_BuscarHumano->setGeometry(QRect(90, 310, 111, 41));
+        btn_BuscarHumano->setGeometry(QRect(190, 190, 91, 31));
         txt_HumanoBuscado = new QLineEdit(centralwidget);
         txt_HumanoBuscado->setObjectName(QString::fromUtf8("txt_HumanoBuscado"));
-        txt_HumanoBuscado->setGeometry(QRect(90, 270, 113, 24));
+        txt_HumanoBuscado->setGeometry(QRect(60, 190, 113, 24));
         txt_PecadosFamiliaHumanoBuscado = new QTextBrowser(centralwidget);
         txt_PecadosFamiliaHumanoBuscado->setObjectName(QString::fromUtf8("txt_PecadosFamiliaHumanoBuscado"));
-        txt_PecadosFamiliaHumanoBuscado->setGeometry(QRect(30, 390, 261, 192));
+        txt_PecadosFamiliaHumanoBuscado->setGeometry(QRect(10, 260, 251, 192));
         lbl_PecadosFamilia = new QLabel(centralwidget);
         lbl_PecadosFamilia->setObjectName(QString::fromUtf8("lbl_PecadosFamilia"));
-        lbl_PecadosFamilia->setGeometry(QRect(40, 360, 121, 16));
+        lbl_PecadosFamilia->setGeometry(QRect(70, 230, 121, 16));
         lbl_PecadosFamilia->setFont(font2);
         lbl_BuenasAcciones = new QLabel(centralwidget);
         lbl_BuenasAcciones->setObjectName(QString::fromUtf8("lbl_BuenasAcciones"));
-        lbl_BuenasAcciones->setGeometry(QRect(320, 370, 181, 16));
+        lbl_BuenasAcciones->setGeometry(QRect(310, 230, 181, 16));
         lbl_BuenasAcciones->setFont(font2);
         txt_BuenasAccionesFamiliaHumanoBuscado = new QTextBrowser(centralwidget);
         txt_BuenasAccionesFamiliaHumanoBuscado->setObjectName(QString::fromUtf8("txt_BuenasAccionesFamiliaHumanoBuscado"));
-        txt_BuenasAccionesFamiliaHumanoBuscado->setGeometry(QRect(320, 390, 261, 191));
+        txt_BuenasAccionesFamiliaHumanoBuscado->setGeometry(QRect(270, 260, 261, 191));
         groupBox = new QGroupBox(centralwidget);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(590, 230, 491, 351));
@@ -200,10 +218,71 @@ public:
         btnConsultaInfierno = new QPushButton(centralwidget);
         btnConsultaInfierno->setObjectName(QString::fromUtf8("btnConsultaInfierno"));
         btnConsultaInfierno->setGeometry(QRect(1200, 70, 80, 24));
+        lblSalcacion = new QLabel(centralwidget);
+        lblSalcacion->setObjectName(QString::fromUtf8("lblSalcacion"));
+        lblSalcacion->setGeometry(QRect(1210, 120, 61, 16));
+        lblSalcacion->setFont(font2);
+        btnSalvar = new QPushButton(centralwidget);
+        btnSalvar->setObjectName(QString::fromUtf8("btnSalvar"));
+        btnSalvar->setGeometry(QRect(1200, 150, 80, 25));
+        lblGanador = new QLabel(centralwidget);
+        lblGanador->setObjectName(QString::fromUtf8("lblGanador"));
+        lblGanador->setGeometry(QRect(1160, 230, 101, 16));
+        lblGanador->setFont(font2);
+        btnGanador = new QPushButton(centralwidget);
+        btnGanador->setObjectName(QString::fromUtf8("btnGanador"));
+        btnGanador->setGeometry(QRect(1160, 250, 80, 25));
+        lbl_txtGanadorInfnerno = new QTextBrowser(centralwidget);
+        lbl_txtGanadorInfnerno->setObjectName(QString::fromUtf8("lbl_txtGanadorInfnerno"));
+        lbl_txtGanadorInfnerno->setGeometry(QRect(1110, 330, 256, 121));
+        lbl_txtGanadorCielo = new QTextBrowser(centralwidget);
+        lbl_txtGanadorCielo->setObjectName(QString::fromUtf8("lbl_txtGanadorCielo"));
+        lbl_txtGanadorCielo->setGeometry(QRect(1110, 470, 261, 121));
+        lbl_GanadorFinal = new QLabel(centralwidget);
+        lbl_GanadorFinal->setObjectName(QString::fromUtf8("lbl_GanadorFinal"));
+        lbl_GanadorFinal->setGeometry(QRect(1110, 300, 251, 16));
+        lbl_GanadorFinal->setFont(font2);
+        comboBox_Consulta = new QComboBox(centralwidget);
+        comboBox_Consulta->addItem(QString());
+        comboBox_Consulta->addItem(QString());
+        comboBox_Consulta->addItem(QString());
+        comboBox_Consulta->addItem(QString());
+        comboBox_Consulta->addItem(QString());
+        comboBox_Consulta->setObjectName(QString::fromUtf8("comboBox_Consulta"));
+        comboBox_Consulta->setGeometry(QRect(130, 480, 75, 24));
+        lbl_ConsultaPor = new QLabel(centralwidget);
+        lbl_ConsultaPor->setObjectName(QString::fromUtf8("lbl_ConsultaPor"));
+        lbl_ConsultaPor->setGeometry(QRect(20, 480, 91, 16));
+        lbl_ConsultaPor->setFont(font2);
+        btnConsultaPor = new QPushButton(centralwidget);
+        btnConsultaPor->setObjectName(QString::fromUtf8("btnConsultaPor"));
+        btnConsultaPor->setGeometry(QRect(230, 480, 80, 25));
+        lbl_txtConsultaPorResultado = new QTextBrowser(centralwidget);
+        lbl_txtConsultaPorResultado->setObjectName(QString::fromUtf8("lbl_txtConsultaPorResultado"));
+        lbl_txtConsultaPorResultado->setGeometry(QRect(20, 510, 371, 141));
+        btnBuscarFamilia = new QPushButton(centralwidget);
+        btnBuscarFamilia->setObjectName(QString::fromUtf8("btnBuscarFamilia"));
+        btnBuscarFamilia->setGeometry(QRect(440, 670, 80, 25));
+        lbl_BuscarFamilia = new QLabel(centralwidget);
+        lbl_BuscarFamilia->setObjectName(QString::fromUtf8("lbl_BuscarFamilia"));
+        lbl_BuscarFamilia->setGeometry(QRect(420, 550, 101, 16));
+        lbl_BuscarFamilia->setFont(font2);
+        comboBoxBuscarFamiliaApellido = new QComboBox(centralwidget);
+        comboBoxBuscarFamiliaApellido->setObjectName(QString::fromUtf8("comboBoxBuscarFamiliaApellido"));
+        comboBoxBuscarFamiliaApellido->setGeometry(QRect(420, 590, 121, 24));
+        comboBoxBuscarFamiliaPais = new QComboBox(centralwidget);
+        comboBoxBuscarFamiliaPais->setObjectName(QString::fromUtf8("comboBoxBuscarFamiliaPais"));
+        comboBoxBuscarFamiliaPais->setGeometry(QRect(420, 630, 121, 24));
+        btnBuscarFamiliaVer = new QPushButton(centralwidget);
+        btnBuscarFamiliaVer->setObjectName(QString::fromUtf8("btnBuscarFamiliaVer"));
+        btnBuscarFamiliaVer->setGeometry(QRect(530, 550, 41, 25));
+        lbl_txtBuscarFamilia = new QTextBrowser(centralwidget);
+        lbl_txtBuscarFamilia->setObjectName(QString::fromUtf8("lbl_txtBuscarFamilia"));
+        lbl_txtBuscarFamilia->setGeometry(QRect(590, 590, 321, 121));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1317, 21));
+        menubar->setGeometry(QRect(0, 0, 1409, 25));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -247,6 +326,22 @@ public:
         btnCondenacionAsmodeo->setText(QCoreApplication::translate("MainWindow", "Asmodeo", nullptr));
         lblCondenar_2->setText(QCoreApplication::translate("MainWindow", "Consulta", nullptr));
         btnConsultaInfierno->setText(QCoreApplication::translate("MainWindow", "Infierno", nullptr));
+        lblSalcacion->setText(QCoreApplication::translate("MainWindow", "Salvaci\303\263n", nullptr));
+        btnSalvar->setText(QCoreApplication::translate("MainWindow", "Salvar", nullptr));
+        lblGanador->setText(QCoreApplication::translate("MainWindow", "El Ganador", nullptr));
+        btnGanador->setText(QCoreApplication::translate("MainWindow", "Ganador", nullptr));
+        lbl_GanadorFinal->setText(QString());
+        comboBox_Consulta->setItemText(0, QCoreApplication::translate("MainWindow", "Apellidos", nullptr));
+        comboBox_Consulta->setItemText(1, QCoreApplication::translate("MainWindow", "Continentes", nullptr));
+        comboBox_Consulta->setItemText(2, QCoreApplication::translate("MainWindow", "Paises", nullptr));
+        comboBox_Consulta->setItemText(3, QCoreApplication::translate("MainWindow", "Creencias", nullptr));
+        comboBox_Consulta->setItemText(4, QCoreApplication::translate("MainWindow", "Profesiones", nullptr));
+
+        lbl_ConsultaPor->setText(QCoreApplication::translate("MainWindow", "Consulta por:", nullptr));
+        btnConsultaPor->setText(QCoreApplication::translate("MainWindow", "Aceptar", nullptr));
+        btnBuscarFamilia->setText(QCoreApplication::translate("MainWindow", "Aceptar", nullptr));
+        lbl_BuscarFamilia->setText(QCoreApplication::translate("MainWindow", "Buscar Familia:", nullptr));
+        btnBuscarFamiliaVer->setText(QCoreApplication::translate("MainWindow", "Ver", nullptr));
     } // retranslateUi
 
 };

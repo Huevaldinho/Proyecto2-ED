@@ -106,7 +106,7 @@ void Infierno::Condenar(Demonio*demonio){
     for (int i = this->humanosMundo->largo-1;i>(this->humanosMundo->largo-porcentaje);i--){
         if (personas[i]->estado!=-1){//si no está muerto
             personas[i]->estado = -1; //lo mata
-            demonio->pecadosAcumulados+=personas[i]->pecados[pecado];
+            demonio->pecadosAcumulados+=(personas[i]->pecados[pecado]+personas[i]->buenasAcciones[pecado]);
             demonio->baAcumuladas+=personas[i]->buenasAcciones[pecado];
             demonio->personasTotales++;
             demonio->heapFamilias[demonio->BuscarFamilia(personas[i]->apellido,personas[i]->pais)]->listaPersonas->insertarAlFinal(personas[i]);//mete al muerto en el heap del demonio de su familia

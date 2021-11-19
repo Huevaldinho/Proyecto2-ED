@@ -31,9 +31,9 @@ Mundo::Mundo(){
     this->listaFamilias = new ListaFamilias();//Crea la lista (raices arboles) de familias
 
 }
-int Mundo::GenerarIDRandom(){
+int Mundo::GenerarIDRandom(int n){
     int limite_inferior = 0;
-    int limite_superior=this->maximoHumanos;
+    int limite_superior=n;
     uniform_int_distribution<int> distribution (limite_inferior,limite_superior); //random
     int variable = distribution(*QRandomGenerator::global());
     return variable;
@@ -106,11 +106,11 @@ QString Mundo::GenerarCorreo(QString nombre, QString apellido){
         correo+="gmail.com";
     return correo;
 }
-Persona * Mundo::generarPersona(){
+Persona * Mundo::generarPersona(int n){
     uniform_int_distribution<int> distribution (0,4); //random
     int hijos = distribution(*QRandomGenerator::global()); //random hijos 0-4
 
-    int id = GenerarIDRandom();
+    int id = GenerarIDRandom(n);
     QString apellido = GenerarApellidoRandom();
     QString nombre = GenerarNombreRandom();
     QString pais = GenerarPaisRandom();
@@ -127,7 +127,7 @@ Persona * Mundo::generarPersona(){
 void Mundo::GenerarNpersonas(int n){
     Persona * tmp = NULL;
     for (int i=0;i<n;i++){
-        tmp = generarPersona();
+        tmp = generarPersona(n);
         PuedoGenerarArbol(this->listaPersonas->largo);
         if(this->arbolMundo->raiz!=NULL){
             this->arbolMundo->insertarAListaDesdeArbol(this->arbolMundo->raiz,new Nodo(tmp));

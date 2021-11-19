@@ -12,6 +12,7 @@ SOURCES += \
     arbolcielo.cpp \
     arbolfamilia.cpp \
     arbolmundo.cpp \
+    arboltriario.cpp \
     archivos.cpp \
     cielo.cpp \
     consultasporacciones.cpp \
@@ -33,9 +34,11 @@ SOURCES += \
 
 HEADERS += \
     Estructuras.h \
+    angel.h \
     arbolcielo.h \
     arbolfamilia.h \
     arbolmundo.h \
+    arboltriario.h \
     archivos.h \
     cielo.h \
     consultasporacciones.h \

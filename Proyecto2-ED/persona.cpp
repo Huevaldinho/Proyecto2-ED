@@ -13,6 +13,7 @@ Persona::Persona(){
         this->buenasAcciones[i]=0;
     }
     this->padre=NULL;
+    this->angel=NULL;
     this->hijos = new ListaPersonas();
 }
 //ID,Nombre,Apellido,Pais,Creencia,Profesion
@@ -25,6 +26,7 @@ Persona::Persona(int _ID,QString _nombre,QString _apellido,QString _pais,QString
     this->creencia=_creencia;
     this->profesion=_profesion;
     this->correo=_correo;
+    this->angel=NULL;
     this->fechaNacimiento = QDate::currentDate();  //Fecha de nacimiento //Se limpia?
     this->horaNacimiento = QTime::currentTime();   //Hora de nacimiento QDate esta bien??
     this->sizeArrays=7;
@@ -38,4 +40,19 @@ Persona::Persona(int _ID,QString _nombre,QString _apellido,QString _pais,QString
 }
 void Persona::imprimir(){
           qDebug()<<"<-"<<this->ID<<"->";
+}
+int Persona::sumaTotalPecados(){
+    int s = 0;
+    for (int i = 0 ; i<7 ; i++)
+        s+=this->pecados[i];
+    return s;
+}
+int Persona::sumaTotalBuenasAcciones(){
+    int s = 0;
+    for (int i = 0 ; i<7 ; i++)
+        s+=this->buenasAcciones[i];
+    return s;
+}
+int Persona::diferenciaPecadosBuenasAcciones(){
+    return sumaTotalBuenasAcciones()-sumaTotalPecados();
 }

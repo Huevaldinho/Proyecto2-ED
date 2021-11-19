@@ -142,7 +142,8 @@ QString Demonio::detallePecadores(){
     for (int i = 0 ; i < this->cantidadFamilias ; i++){
         Nodo * tmp = this->heapFamilias[i]->listaPersonas->primerNodo;
         while (tmp!=NULL){
-            s+="\t"+tmp->persona->nombre+" "+tmp->persona->apellido+", cantidad de pecados de "+this->nombrePecado()+": "+QString::number(tmp->persona->pecados[this->posicionPecadoEnArreglo])+"\n";
+            if (tmp->persona->estado==-1)
+                s+="\t"+tmp->persona->nombre+" "+tmp->persona->apellido+", cantidad de pecados de "+this->nombrePecado()+": "+QString::number(tmp->persona->pecados[this->posicionPecadoEnArreglo])+"\n";
             tmp=tmp->siguiente;
         }
     }

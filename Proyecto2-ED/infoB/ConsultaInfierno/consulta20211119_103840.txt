@@ -1,0 +1,134 @@
+Asmodeo	Pecado: lujuria
+Cantidad de Humanos: 25	Promedio de pecados: 228
+Máximo de pecados: 248	 Mínimo de pecados: 94
+	Monserrat García, cantidad de pecados de lujuria: 180
+	Pedro García, cantidad de pecados de lujuria: 126
+	Agustina García, cantidad de pecados de lujuria: 101
+	Rafael Sánchez, cantidad de pecados de lujuria: 94
+	Ian Martin, cantidad de pecados de lujuria: 118
+	Emilia Fernández, cantidad de pecados de lujuria: 193
+	Regina Fernández, cantidad de pecados de lujuria: 109
+	Nicole Gómez, cantidad de pecados de lujuria: 154
+	Iker Gómez, cantidad de pecados de lujuria: 95
+	Carla Martin, cantidad de pecados de lujuria: 107
+	Andrea Fernández, cantidad de pecados de lujuria: 156
+	Lucía Fernández, cantidad de pecados de lujuria: 105
+	Franco López, cantidad de pecados de lujuria: 146
+	Thiago Rodríguez, cantidad de pecados de lujuria: 95
+	Valeria García, cantidad de pecados de lujuria: 111
+	Luciana López, cantidad de pecados de lujuria: 136
+	Valeria García, cantidad de pecados de lujuria: 248
+	María Fernanda García, cantidad de pecados de lujuria: 198
+	Paula Rodríguez, cantidad de pecados de lujuria: 99
+	Camila Martin, cantidad de pecados de lujuria: 122
+	Jazmín Pérez, cantidad de pecados de lujuria: 109
+	Miguel Ángel Rodríguez, cantidad de pecados de lujuria: 96
+	Natalia López, cantidad de pecados de lujuria: 104
+	Lucía González, cantidad de pecados de lujuria: 113
+	Emily Fernández, cantidad de pecados de lujuria: 95
+
+
+
+
+Belfegor	Pecado: gula
+Cantidad de Humanos: 31	Promedio de pecados: 231
+Máximo de pecados: 200	 Mínimo de pecados: 102
+	Emily García, cantidad de pecados de gula: 102
+	Simón García, cantidad de pecados de gula: 121
+	Axel Pérez, cantidad de pecados de gula: 113
+	Juan Sebastián Martin, cantidad de pecados de gula: 102
+	Joshua Fernández, cantidad de pecados de gula: 120
+	Nicole Rodríguez, cantidad de pecados de gula: 114
+	Patricio González, cantidad de pecados de gula: 150
+	María José García, cantidad de pecados de gula: 107
+	Josué López, cantidad de pecados de gula: 108
+	Gonzalo Fernández, cantidad de pecados de gula: 138
+	Paula Fernández, cantidad de pecados de gula: 118
+	Patricio López, cantidad de pecados de gula: 111
+	María José González, cantidad de pecados de gula: 109
+	Cristóbal González, cantidad de pecados de gula: 108
+	Luna González, cantidad de pecados de gula: 105
+	Diego Alejandro Pérez, cantidad de pecados de gula: 108
+	Juanita Martin, cantidad de pecados de gula: 138
+	Kimberly Martin, cantidad de pecados de gula: 112
+	Cristóbal Gómez, cantidad de pecados de gula: 123
+	Sara Pérez, cantidad de pecados de gula: 140
+	Isabella Pérez, cantidad de pecados de gula: 121
+	Juliana Rodríguez, cantidad de pecados de gula: 200
+	Abril Rodríguez, cantidad de pecados de gula: 144
+	Antonia Rodríguez, cantidad de pecados de gula: 105
+	Vanessa García, cantidad de pecados de gula: 129
+	Pedro Gómez, cantidad de pecados de gula: 169
+	Gael Gómez, cantidad de pecados de gula: 151
+	Paulin Gómez, cantidad de pecados de gula: 146
+	Carla Gómez, cantidad de pecados de gula: 130
+	Valentino Gómez, cantidad de pecados de gula: 126
+	Daniela Gómez, cantidad de pecados de gula: 108
+
+
+
+
+Mammón	Pecado: avaricia
+Cantidad de Humanos: 29	Promedio de pecados: 232
+Máximo de pecados: 155	 Mínimo de pecados: 96
+	Miguel Martínez, cantidad de pecados de avaricia: 96
+	Kimberly González, cantidad de pecados de avaricia: 100
+	Antonia Rodríguez, cantidad de pecados de avaricia: 109
+	César Rodríguez, cantidad de pecados de avaricia: 105
+	Carla Gómez, cantidad de pecados de avaricia: 124
+	Luca Gómez, cantidad de pecados de avaricia: 99
+	Dylan Gómez, cantidad de pecados de avaricia: 97
+	Vanessa Fernández, cantidad de pecados de avaricia: 134
+	Kimberly Fernández, cantidad de pecados de avaricia: 100
+	César López, cantidad de pecados de avaricia: 115
+	Anthony López, cantidad de pecados de avaricia: 96
+	Pedro García, cantidad de pecados de avaricia: 144
+	Alejandra López, cantidad de pecados de avaricia: 108
+	Laura López, cantidad de pecados de avaricia: 101
+	Renata González, cantidad de pecados de avaricia: 150
+	Pedro González, cantidad de pecados de avaricia: 98
+	Emily García, cantidad de pecados de avaricia: 155
+	Emily García, cantidad de pecados de avaricia: 120
+	Allison Fernández, cantidad de pecados de avaricia: 136
+	Ximena Sánchez, cantidad de pecados de avaricia: 154
+	Diego Alejandro Pérez, cantidad de pecados de avaricia: 99
+	Monserrat Pérez, cantidad de pecados de avaricia: 123
+	Valentín Pérez, cantidad de pecados de avaricia: 109
+	Luciano Rodríguez, cantidad de pecados de avaricia: 117
+	Mía Rodríguez, cantidad de pecados de avaricia: 117
+	Dylan Rodríguez, cantidad de pecados de avaricia: 129
+	Andrea Rodríguez, cantidad de pecados de avaricia: 123
+	Andrea Rodríguez, cantidad de pecados de avaricia: 103
+	Ashley Sánchez, cantidad de pecados de avaricia: 127
+
+
+
+
+Abadón	Pecado: pereza
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Satán	Pecado: ira
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Belcebú	Pecado: envidia
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Lucifer	Pecado: soberbia
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+

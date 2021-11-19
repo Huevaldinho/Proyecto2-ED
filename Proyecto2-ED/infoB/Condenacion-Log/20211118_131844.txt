@@ -1,475 +1,0 @@
-2021-11-18 13:18:44	 Humano 3515. Vanessa Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 174 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 44847. Rafael Fernández, de España. Murió el 2021-11-18 condenado(a) por 170 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 56776. Vanessa González, de Suiza. Murió el 2021-11-18 condenado(a) por 168 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 37215. Cristóbal Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 168 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 53620. Daniela Martínez, de España. Murió el 2021-11-18 condenado(a) por 166 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80536. Gabriela Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 164 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 7757. Catalina García, de Vietnam. Murió el 2021-11-18 condenado(a) por 163 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 42820. Valeria García, de Italia. Murió el 2021-11-18 condenado(a) por 163 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 59677. Guillermo García, de Vietnam. Murió el 2021-11-18 condenado(a) por 162 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 16987. Ashley Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 160 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 26988. Renata Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 159 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 52264. Jerónimo Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 158 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 96749. Nicole González, de Vietnam. Murió el 2021-11-18 condenado(a) por 158 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 29907. Miguel Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 158 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 42735. Dylan López, de Vietnam. Murió el 2021-11-18 condenado(a) por 157 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 51704. Diego Alejandro Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 157 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 74403. Andrea González, de Ecuador. Murió el 2021-11-18 condenado(a) por 156 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 36696. Daniela López, de Honduras. Murió el 2021-11-18 condenado(a) por 155 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 88940. Axel García, de Uruguay. Murió el 2021-11-18 condenado(a) por 155 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 1287. Jonathan Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 154 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 55854. Antonella García, de Tailandia. Murió el 2021-11-18 condenado(a) por 154 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 24414. Mauricio González, de Suiza. Murió el 2021-11-18 condenado(a) por 154 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 69317. Regina Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 153 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 43747. Mariana González, de Vietnam. Murió el 2021-11-18 condenado(a) por 153 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 65689. María Fernanda Gómez, de España. Murió el 2021-11-18 condenado(a) por 153 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 44853. Antonio Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 153 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 33160. Cristóbal Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 152 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 45371. Kimberly González, de Suiza. Murió el 2021-11-18 condenado(a) por 152 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 38835. Diego Alejandro Martin, de Italia. Murió el 2021-11-18 condenado(a) por 151 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 78726. Laura Martínez, de España. Murió el 2021-11-18 condenado(a) por 151 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 37610. María López, de Honduras. Murió el 2021-11-18 condenado(a) por 151 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 83658. Juan Sebastián Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 151 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 22090. Catalina Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 151 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 69495. Mariana Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 150 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 99829. Allison Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 150 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 75738. Diego Alejandro Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 150 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 67227. Ashley Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 150 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 87901. Emma Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 149 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77025. Bruno Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 149 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77534. Carla González, de Suiza. Murió el 2021-11-18 condenado(a) por 149 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 48266. Juan Sebastián Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 148 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 76717. Bruno Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 147 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 58851. Natalia Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 147 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 64852. Kimberly Martínez, de España. Murió el 2021-11-18 condenado(a) por 147 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80466. Alejandra López, de Portugal. Murió el 2021-11-18 condenado(a) por 147 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 48261. Marcos López, de España. Murió el 2021-11-18 condenado(a) por 147 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 14770. Luciana Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 146 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 66767. Lucía Sánchez, de España. Murió el 2021-11-18 condenado(a) por 146 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 43112. Miguel Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 146 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2815. Hugo Martínez, de España. Murió el 2021-11-18 condenado(a) por 146 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 55403. Alejandra Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 39893. Juan David Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 6891. Valeria Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 1568. Luciano García, de Vietnam. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 86634. Camila Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 7829. Catalina Martínez, de España. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 99452. Valeria Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 84795. Gael Martínez, de España. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 29234. Natalia Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 145 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 12442. Emilia López, de Ecuador. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 31422. María Fernanda García, de Italia. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49397. Ian Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 35113. Juliana Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 97068. Jerónimo Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 11675. Antonella Pérez, de España. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 78956. Ashley López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 64604. Sara Martin, de Italia. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 43137. Valentín Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 83903. Álvaro Martin, de España. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 17039. Daniela Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 39264. Paula Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 99205. Ian Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 144 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 86232. Luna García, de Italia. Murió el 2021-11-18 condenado(a) por 143 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 96926. Maximiliano Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 143 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 94034. María Fernández, de España. Murió el 2021-11-18 condenado(a) por 143 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 69882. Agustina López, de Vietnam. Murió el 2021-11-18 condenado(a) por 142 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 42161. María José González, de Honduras. Murió el 2021-11-18 condenado(a) por 142 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 47065. Luciana Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 142 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 70385. Sergio Fernández, de Vietnam. Murió el 2021-11-18 condenado(a) por 142 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 51610. Santino Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 142 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 23836. Martina Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 142 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 97316. Rafael Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 142 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 16282. Sofía González, de Italia. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 28158. Luciano Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 4889. Juan David Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 97845. Fernanda López, de Italia. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 63151. Allison Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 90633. Miguel Ángel Martínez, de España. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 13660. Samantha García, de Italia. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 8309. Victoria Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 23746. Miguel Ángel Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 141 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 96604. Antonia Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 33613. Anthony Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 18623. Sofía Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 50043. Valentino Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 41742. Valentino González, de Suiza. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 18397. Facundo Fernández, de España. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 52541. Mía Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 671. Luciana Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 51917. Antonio Martínez, de España. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 31261. Diego Alejandro Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 140 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 51868. Juliana Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 15899. Iker López, de Tailandia. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 60173. Mario Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 19128. Vanessa García, de Italia. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 50835. Sofía García, de Tailandia. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 19092. Vanessa Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 67813. María Fernández, de España. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 30415. Esteban Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 24179. Camila García, de Vietnam. Murió el 2021-11-18 condenado(a) por 139 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 13125. Matthew Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 91735. Mía Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 30171. María García, de Ecuador. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77209. Kimberly García, de Tailandia. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 47561. Sara Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 4406. Simón González, de Portugal. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 17710. Abril López, de Ecuador. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 34368. Mía López, de Tailandia. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 10895. Juan David Martínez, de España. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 58906. Thiago García, de España. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2086. Miguel Ángel Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 46200. Paula Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 29866. Jonathan Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 16362. Andrea Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3386. Ricardo García, de Portugal. Murió el 2021-11-18 condenado(a) por 138 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 20036. Bruno García, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 7541. Miguel López, de Vietnam. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 81228. Briana Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 51590. Juan Andrés López, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 74775. Rafael Martínez, de España. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 53178. Isabel Martínez, de España. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 31989. Guillermo García, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 76685. Santino López, de Honduras. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 83202. Catalina Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 78064. Sergio Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 12272. Luca Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 99165. Josué Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 12545. Laura Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 62661. Juan Manuel González, de Italia. Murió el 2021-11-18 condenado(a) por 137 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 1910. Jonathan Sánchez, de España. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 43807. Juan Andrés Gómez, de España. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80223. Allison López, de Tailandia. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 70961. Nicole García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80022. Ana Sofía Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 90708. Briana Pérez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 610. Mía Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 87892. Lucía Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 62956. Franco Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 79857. Iker Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 34497. Dylan López, de Honduras. Murió el 2021-11-18 condenado(a) por 136 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77118. Luna García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 11472. Natalia Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 649. Paula López, de Honduras. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 33830. Mía Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 5766. Josué Sánchez, de España. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 9310. Luca Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 40119. Ashley López, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 95090. María José García, de Portugal. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 91059. Luca Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 67935. Ana Sofía García, de Suiza. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 35431. Jerónimo Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 91293. Paulin Sánchez, de Italia. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 5514. Joshua Martin, de Italia. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 58109. Martina Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 19096. Bautista García, de Vietnam. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77099. Ana Sofía Martínez, de España. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 22699. Agustina Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49835. Marcos Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 76017. Luca Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 135 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3089. Vanessa López, de Suiza. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 9286. Gabriela López, de España. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 19928. Jonathan Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3564. Ana Sofía Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 40869. Ana Sofía Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 90891. Roberto Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 93732. Valentino Martínez, de España. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 13762. Gabriela Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 51862. Hugo Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49788. Vanessa Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 76948. Santino Fernández, de Honduras. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 86122. Gonzalo González, de Vietnam. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 40460. Ricardo Martínez, de España. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 14073. Ximena Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 134 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 78538. Simón García, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 642. Ricardo García, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 66853. Santino González, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 30346. Esteban González, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 5400. Gonzalo Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 45845. Roberto Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 30601. Oscar López, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 67243. Samantha Rodríguez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 45283. Mario Martin, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 87753. Andrea Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 56894. Juliana Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 13752. Valentino Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3198. Regina López, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 32330. Daniela Martínez, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 50153. Franco Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 93025. Luciana Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 61724. Vanessa López, de Vietnam. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 93469. Martina García, de Tailandia. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 23027. Juliana López, de Honduras. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 60399. Ana Sofía Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80090. Juan David Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3170. María José Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 35279. Simón García, de España. Murió el 2021-11-18 condenado(a) por 133 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 73055. Juan Andrés García, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 44595. Victoria Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 47821. Fernanda Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 30551. Valentina Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 41264. Bautista García, de Uruguay. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2268. Ricardo Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 903. Facundo García, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 6712. Ana Sofía Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 83968. Axel López, de Ecuador. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 78226. Rafael Martínez, de España. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 85921. Josué Martínez, de España. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49633. Emilia Fernández, de España. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 6348. Agustina Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 98558. Álvaro García, de Ecuador. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 83032. Gonzalo Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 39828. Isabella Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 28639. Joshua Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 53412. Monserrat López, de Suiza. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 20379. Fernanda Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 95995. Valeria Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 132 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3730. Laura González, de Italia. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 79968. Abril Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2510. Fernanda López, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 1067. Miguel Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 20107. Camila García, de Ecuador. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 90801. Gonzalo López, de Vietnam. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 25327. Martina González, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 93730. Catalina Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 81780. Daniela Fernández, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 23524. Bautista García, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 17258. Emily Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 96758. Juliana López, de Suiza. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 78777. Isabella García, de Italia. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 78968. Gael Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 24914. Juliana Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 15717. Julián Sánchez, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 62893. Dylan García, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 7997. Facundo Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77498. Franco González, de Tailandia. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 6716. Emilia Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 1120. Matthew Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2952. Rafael Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77596. Juan Manuel Rodríguez, de España. Murió el 2021-11-18 condenado(a) por 131 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 62436. Juan Andrés Pérez, de España. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 18144. Alejandra García, de Ecuador. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 40224. Luna Martin, de Italia. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 45188. Jerónimo Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 25881. Sofía Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 85693. Simón Martínez, de España. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 41065. Bautista Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 11418. Santino García, de Ecuador. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 78391. Victoria González, de Vietnam. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 81198. Juan Manuel Sánchez, de Tailandia. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80610. Gael Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 27506. Kimberly Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 79419. Sofía García, de Vietnam. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 51843. Emma Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 27084. Andrea Martin, de Ecuador. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 23266. Agustina Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 26014. Mariana Rodríguez, de Suiza. Murió el 2021-11-18 condenado(a) por 130 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2220. Isabella Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 60687. Luca Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 88723. Miguel Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 12004. Thiago Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 1866. Laura Rodríguez, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 81043. Vanessa Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 60326. Ashley Martínez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 62186. Valeria García, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 8284. Valentín Sánchez, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 18718. Sergio Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3960. Antonella Martínez, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 39307. Ricardo Gómez, de Tailandia. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 61706. Martina García, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 35197. Camila Sánchez, de Ecuador. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 69594. Pedro López, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 60372. Mario González, de Suiza. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 95586. Martina Fernández, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 44563. Julián López, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 48162. Mía Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 841. Regina Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 36819. Vanessa Rodríguez, de Vietnam. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 86949. Rafael López, de Portugal. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 21214. Mario Martínez, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3099. Isabella Pérez, de España. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49751. Álvaro Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 129 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49851. María González, de Ecuador. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 62290. Jerónimo Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 40432. Laura Martínez, de España. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 4871. Guillermo Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 81200. Antonia Sánchez, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 5201. Mario González, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 36495. Álvaro García, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 50404. Ximena García, de Portugal. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 22576. Guillermo Pérez, de Honduras. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 72360. Mariana García, de Ecuador. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 39449. Axel Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 13797. Nicole Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 29644. Ricardo Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 90173. Juan Manuel López, de Honduras. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 86049. Mauricio García, de Italia. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 9200. Iker Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 21240. Monserrat García, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 26151. Ximena Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49452. Mía Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 25886. Samantha López, de Ecuador. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 97041. Bruno García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 39328. Luciana González, de Uruguay. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 48695. Facundo Rodríguez, de Tailandia. Murió el 2021-11-18 condenado(a) por 128 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 95392. Julián Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 16948. Joshua Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 30068. Nicole Martínez, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 64957. Bruno Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 82681. Thiago García, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 90355. Mario García, de Vietnam. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 89809. Emily Martínez, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 8857. Kimberly García, de Suiza. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 7164. Anthony Gómez, de Suiza. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77101. Mauricio Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 31037. Allison Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 60118. Dylan Martínez, de España. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 53365. Juan David Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 20443. Mía Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 42499. Lucía Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2931. Antonella López, de Honduras. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 84583. Facundo García, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 97965. Juanita Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 16211. Martina Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 75599. Allison Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 32009. Sofía González, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 23248. Anthony Rodríguez, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49702. Mauricio Sánchez, de Honduras. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 84856. Oscar García, de Italia. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 62992. Emily Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 127 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 99999. Juan Sebastián López, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 66958. Camila Sánchez, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 81389. Monserrat López, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 31728. Emma Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 72688. Josué Martínez, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 64745. Axel Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 42000. María Fernanda Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 62113. Simón González, de Uruguay. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 57987. Hugo Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 87597. Marcos Martin, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 88734. Gonzalo Sánchez, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 98929. Sergio Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 58226. Gael Gómez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 31909. Daniela Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 55033. Juan Sebastián González, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 258. Juan Manuel Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 59478. Ximena González, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 91858. Esteban Pérez, de Tailandia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 16046. Valeria López, de Honduras. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 64927. Julián Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 20007. Sergio Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 97323. Luciano González, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 66038. Gael García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 92892. Mario Martin, de España. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 91819. Kimberly González, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 29752. Cristóbal López, de Portugal. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 20526. Iker García, de Italia. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 22936. Mariana López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 126 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 61546. Mía González, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 56136. Esteban Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 75917. Catalina Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 38943. Agustina Sánchez, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 14353. Paulin Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 26823. Isabel Fernández, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 57895. Marcos Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 60514. Antonia Martin, de Uruguay. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 13105. Samantha González, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 42963. Juliana Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 63992. Juanita García, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 53830. Juan Manuel Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 13814. César Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80676. María José Sánchez, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2300. Fernanda Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 91426. Martina Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77993. Vanessa García, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 40686. Emilia Martínez, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 44510. Fernanda Gómez, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 95248. Luciana Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 58172. Emma Martin, de Portugal. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 77606. Monserrat Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 40096. Miguel Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 81306. Isabella Martínez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 73566. Ashley Martin, de Honduras. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 72652. Miguel Ángel González, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 30552. Sara Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 34124. Gael Martínez, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 14208. Joshua López, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 59893. Valentín Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 57307. Jonathan Fernández, de España. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 96259. Alejandra Pérez, de Suiza. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 79248. Cristóbal Martin, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 16237. Kimberly Gómez, de Ecuador. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 43699. Oscar González, de Italia. Murió el 2021-11-18 condenado(a) por 125 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 66530. Juliana Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 34666. Andrea García, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 74472. Martina Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 69125. Simón González, de Tailandia. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 69962. Daniela Gómez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 21375. Gonzalo Sánchez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2035. Jerónimo López, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 27098. Ian Pérez, de Ecuador. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 40339. Carla Martin, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 68462. Thiago García, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 93364. Patricio Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 34090. Juanita López, de Ecuador. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 54417. Josué Martin, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 67710. Jazmín Sánchez, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3783. Simón Pérez, de Vietnam. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 63105. Mauricio Pérez, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 43839. Thiago Martínez, de Italia. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80346. Valeria Gómez, de Portugal. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 30227. Emma Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 48660. Paula López, de Suiza. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 60109. Diego Alejandro García, de España. Murió el 2021-11-18 condenado(a) por 124 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 94665. Jerónimo Pérez, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 3434. Miguel Ángel García, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 70708. Cristóbal González, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 66938. Alejandra Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 67537. Sofía González, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 66654. Anthony Fernández, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 4534. Agustina García, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 33445. Antonella Martínez, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 85740. Ana Sofía González, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 32532. Emily Fernández, de Italia. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 71657. Agustina Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 44909. Ian López, de Vietnam. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 9636. Esteban Martin, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 15241. Nicole García, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 50555. Luciana González, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 38865. Antonia Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 16085. Ana Sofía González, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 8030. Natalia Martínez, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 97578. Valentina Martínez, de Tailandia. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 48924. Jazmín Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 69144. Emilia Gómez, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 2471. Mario Fernández, de Suiza. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 21959. Luciano Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 46314. Luca López, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 87792. Rafael Gómez, de Uruguay. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 12424. Gael Martínez, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 55285. Antonia Martínez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 61080. Pedro López, de Ecuador. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 12179. Vanessa García, de Portugal. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 49377. Hugo Gómez, de España. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 41138. Cristóbal Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 33693. Regina Gómez, de Honduras. Murió el 2021-11-18 condenado(a) por 123 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 34389. Ian López, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 94214. Mía Sánchez, de Suiza. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 66484. Regina Martin, de Tailandia. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 81680. Miguel Ángel López, de España. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 11501. Valentino López, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 55801. Ian Pérez, de Uruguay. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 50129. Luca Rodríguez, de Honduras. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 28503. Oscar López, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 56867. Jazmín López, de Tailandia. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 82665. Matthew Sánchez, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 89373. Sofía García, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 80695. Melanie López, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 85901. Gabriela García, de Tailandia. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 67770. Emma García, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 4448. Jazmín Rodríguez, de Uruguay. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 11177. Agustina Fernández, de Ecuador. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 47867. Diego Alejandro Fernández, de Portugal. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 11616. Franco Fernández, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 51497. Isabella García, de Costa Rica. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.
-2021-11-18 13:18:44	 Humano 33619. Emilia González, de Italia. Murió el 2021-11-18 condenado(a) por 122 pecados de lujuria y 0 acciones de castidad por el demonio Asmodeo.

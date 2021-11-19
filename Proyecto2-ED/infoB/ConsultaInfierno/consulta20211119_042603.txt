@@ -1,0 +1,159 @@
+Asmodeo	Pecado: lujuria
+Cantidad de Humanos: 23	Promedio de pecados: 253
+Máximo de pecados: 179	 Mínimo de pecados: 97
+	Álvaro Fernández, cantidad de pecados de lujuria: 139
+	Valentina Fernández, cantidad de pecados de lujuria: 105
+	María Rodríguez, cantidad de pecados de lujuria: 97
+	Luciano Rodríguez, cantidad de pecados de lujuria: 106
+	Allison Martínez, cantidad de pecados de lujuria: 179
+	Abril Martínez, cantidad de pecados de lujuria: 168
+	Carla Martínez, cantidad de pecados de lujuria: 136
+	Allison López, cantidad de pecados de lujuria: 115
+	Ricardo Martínez, cantidad de pecados de lujuria: 114
+	Isabel Fernández, cantidad de pecados de lujuria: 149
+	Josué Martin, cantidad de pecados de lujuria: 121
+	Axel Martínez, cantidad de pecados de lujuria: 105
+	Julián Martin, cantidad de pecados de lujuria: 121
+	Antonio Gómez, cantidad de pecados de lujuria: 115
+	María Fernanda Pérez, cantidad de pecados de lujuria: 131
+	Vanessa Martínez, cantidad de pecados de lujuria: 111
+	Natalia Rodríguez, cantidad de pecados de lujuria: 101
+	Isabella González, cantidad de pecados de lujuria: 112
+	Juan David García, cantidad de pecados de lujuria: 112
+	Axel García, cantidad de pecados de lujuria: 111
+	María José Fernández, cantidad de pecados de lujuria: 126
+	Isabella Fernández, cantidad de pecados de lujuria: 116
+	Iker Fernández, cantidad de pecados de lujuria: 107
+
+
+
+
+Belfegor	Pecado: gula
+Cantidad de Humanos: 27	Promedio de pecados: 235
+Máximo de pecados: 165	 Mínimo de pecados: 101
+	Jazmín Rodríguez, cantidad de pecados de gula: 122
+	Dylan Rodríguez, cantidad de pecados de gula: 119
+	Catalina Pérez, cantidad de pecados de gula: 120
+	Juanita Pérez, cantidad de pecados de gula: 105
+	Ana Sofía Rodríguez, cantidad de pecados de gula: 121
+	Briana García, cantidad de pecados de gula: 157
+	Valentín García, cantidad de pecados de gula: 105
+	Valeria Sánchez, cantidad de pecados de gula: 109
+	Diego Alejandro González, cantidad de pecados de gula: 165
+	Maximiliano Gómez, cantidad de pecados de gula: 116
+	Marcos López, cantidad de pecados de gula: 112
+	Sara García, cantidad de pecados de gula: 102
+	Paula López, cantidad de pecados de gula: 110
+	Daniela González, cantidad de pecados de gula: 152
+	Emma González, cantidad de pecados de gula: 101
+	Renata Martínez, cantidad de pecados de gula: 109
+	Antonio Fernández, cantidad de pecados de gula: 102
+	Axel Martínez, cantidad de pecados de gula: 109
+	Regina Martin, cantidad de pecados de gula: 121
+	Sara García, cantidad de pecados de gula: 102
+	Facundo González, cantidad de pecados de gula: 109
+	Julián Pérez, cantidad de pecados de gula: 119
+	Ana Sofía López, cantidad de pecados de gula: 157
+	Juanita González, cantidad de pecados de gula: 101
+	Sofía Fernández, cantidad de pecados de gula: 111
+	Paula Martínez, cantidad de pecados de gula: 104
+	Daniela González, cantidad de pecados de gula: 110
+
+
+
+
+Mammón	Pecado: avaricia
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Abadón	Pecado: pereza
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+
+Satán	Pecado: ira
+Cantidad de Humanos: 29	Promedio de pecados: 235
+Máximo de pecados: 184	 Mínimo de pecados: 97
+	Monserrat Pérez, cantidad de pecados de ira: 104
+	Patricio Rodríguez, cantidad de pecados de ira: 116
+	Monserrat Sánchez, cantidad de pecados de ira: 131
+	Melanie Sánchez, cantidad de pecados de ira: 125
+	Catalina García, cantidad de pecados de ira: 141
+	Juan Sebastián López, cantidad de pecados de ira: 178
+	Luca García, cantidad de pecados de ira: 126
+	Marcos García, cantidad de pecados de ira: 97
+	Hugo Martínez, cantidad de pecados de ira: 184
+	Sara Martínez, cantidad de pecados de ira: 180
+	Jonathan Martínez, cantidad de pecados de ira: 111
+	Hugo López, cantidad de pecados de ira: 103
+	Maximiliano García, cantidad de pecados de ira: 150
+	Vanessa García, cantidad de pecados de ira: 99
+	Lucía Martínez, cantidad de pecados de ira: 146
+	Valeria Martínez, cantidad de pecados de ira: 145
+	Álvaro Martínez, cantidad de pecados de ira: 127
+	Josué Martínez, cantidad de pecados de ira: 99
+	Carla Martínez, cantidad de pecados de ira: 125
+	Alejandra Martínez, cantidad de pecados de ira: 112
+	Bautista Martínez, cantidad de pecados de ira: 133
+	Bautista Gómez, cantidad de pecados de ira: 100
+	Daniela Martínez, cantidad de pecados de ira: 113
+	Anthony Martin, cantidad de pecados de ira: 106
+	Santino Rodríguez, cantidad de pecados de ira: 108
+	Allison López, cantidad de pecados de ira: 101
+	Rafael García, cantidad de pecados de ira: 110
+	César Fernández, cantidad de pecados de ira: 142
+	Emily Gómez, cantidad de pecados de ira: 122
+
+
+
+
+Belcebú	Pecado: envidia
+Cantidad de Humanos: 31	Promedio de pecados: 206
+Máximo de pecados: 165	 Mínimo de pecados: 84
+	Isabella López, cantidad de pecados de envidia: 86
+	Ashley García, cantidad de pecados de envidia: 124
+	Álvaro Martínez, cantidad de pecados de envidia: 89
+	Emma García, cantidad de pecados de envidia: 120
+	Victoria Gómez, cantidad de pecados de envidia: 85
+	Jonathan Martin, cantidad de pecados de envidia: 93
+	Carla Martínez, cantidad de pecados de envidia: 85
+	Marcos Martin, cantidad de pecados de envidia: 88
+	Andrea Sánchez, cantidad de pecados de envidia: 112
+	Sergio Sánchez, cantidad de pecados de envidia: 85
+	Laura González, cantidad de pecados de envidia: 163
+	Ximena González, cantidad de pecados de envidia: 116
+	Franco González, cantidad de pecados de envidia: 114
+	Joshua Martin, cantidad de pecados de envidia: 107
+	Luciana Martin, cantidad de pecados de envidia: 93
+	Valentina García, cantidad de pecados de envidia: 165
+	María José García, cantidad de pecados de envidia: 119
+	María Gómez, cantidad de pecados de envidia: 109
+	Juliana Pérez, cantidad de pecados de envidia: 86
+	Josué Rodríguez, cantidad de pecados de envidia: 107
+	Ana Sofía Pérez, cantidad de pecados de envidia: 97
+	Miguel Pérez, cantidad de pecados de envidia: 96
+	Patricio Martin, cantidad de pecados de envidia: 133
+	Álvaro Pérez, cantidad de pecados de envidia: 94
+	Valentín López, cantidad de pecados de envidia: 110
+	Valentino Gómez, cantidad de pecados de envidia: 96
+	María Fernanda González, cantidad de pecados de envidia: 116
+	Axel González, cantidad de pecados de envidia: 112
+	Pedro Pérez, cantidad de pecados de envidia: 107
+	Luna García, cantidad de pecados de envidia: 111
+	Isabel Fernández, cantidad de pecados de envidia: 84
+
+
+
+
+Lucifer	Pecado: soberbia
+Cantidad de Humanos: 0	Promedio de pecados: 0
+Máximo de pecados: 0	 Mínimo de pecados: 0
+
+
+
+

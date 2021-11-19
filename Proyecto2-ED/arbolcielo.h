@@ -18,6 +18,7 @@ class ArbolCielo{//Almacena personas rescatadas del infierno
         NodoArbolHashCielo *rl_rotat(NodoArbolHashCielo *);//
         NodoArbolHashCielo * balance(NodoArbolHashCielo *);//
         NodoArbolHashCielo * insert(NodoArbolHashCielo*,  Persona * persona);//
+        void insert(Persona *);
         void show(NodoArbolHashCielo*, int);//
         void inorder(NodoArbolHashCielo *);//
         void preorder(NodoArbolHashCielo *);//
