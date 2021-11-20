@@ -1,6 +1,7 @@
 debug/arbolcielo.o
 debug/arbolfamilia.o
 debug/arbolmundo.o
+debug/arboltriario.o
 debug/archivos.o
 debug/cielo.o
 debug/consultasporacciones.o

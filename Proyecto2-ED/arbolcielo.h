@@ -26,6 +26,8 @@ class ArbolCielo{//Almacena personas rescatadas del infierno
         bool esHoja(NodoArbolHashCielo * arbol);
         void mostrarArbol(NodoArbolHashCielo * arbol , int cont);
         void escribirEnArchivoInorden(NodoArbolHashCielo *,QString,int);
+        QVector<int> pecadosCielo(NodoArbolHashCielo *,QVector<int>);
+        QVector<int> baCielo(NodoArbolHashCielo *,QVector<int>);
 };
 
 #endif // ARBOLCIELO_H

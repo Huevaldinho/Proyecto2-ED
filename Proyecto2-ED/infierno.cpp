@@ -149,7 +149,7 @@ QVector <int> Infierno::CantidadPecadosInfierno(){
     for (int i=0;i<7;i++)
         pecados[i]=0;
     for (int i=0;i<7;i++){
-        pecados[i]=this->demonios[i]->pecadosAcumulados;
+        pecados[i]=this->demonios[i]->pecadosAcumulados;//pecado por tipo de demonio
     }
     return pecados;
 }
@@ -159,6 +159,6 @@ QVector <int> Infierno::CantidadBAInfierno(){
     for (int i=0;i<7;i++)
         ba[i]=0;
     for (int i=0;i<7;i++)
-        ba[i]=this->demonios[i]->baAcumuladas;
+        ba[i]=this->demonios[i]->baAcumuladas;//ba por tipo de demonio
     return ba;
 }

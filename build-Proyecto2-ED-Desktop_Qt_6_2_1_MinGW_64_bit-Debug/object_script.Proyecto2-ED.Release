@@ -1,6 +1,7 @@
 release/arbolcielo.o
 release/arbolfamilia.o
 release/arbolmundo.o
+release/arboltriario.o
 release/archivos.o
 release/cielo.o
 release/consultasporacciones.o

@@ -87,5 +87,60 @@ void Cielo::hacerArreglo(){
         tmp=tmp->siguiente;;
     }
 }
+QVector <int> Cielo::CantidadPecadosCielo(){
+    //Contar pecados en todo el cielo
+    QVector<int> pecados;
+    pecados.resize(7);
+    QVector<int> pecadosTmp;
+    pecadosTmp.resize(7);
+    for (int i=1;i<this->hash.size();i++){
+        pecadosTmp[0]=0;
+        pecadosTmp[1]=0;
+        pecadosTmp[2]=0;
+        pecadosTmp[3]=0;
+        pecadosTmp[4]=0;
+        pecadosTmp[5]=0;
+        pecadosTmp[6]=0;
+        if (hash[i]->raiz!=NULL){
+            pecadosTmp=this->hash[i]->pecadosCielo(this->hash[i]->raiz,pecadosTmp);
+            pecados[0]+=pecadosTmp[0];
+            pecados[1]+=pecadosTmp[1];
+            pecados[2]+=pecadosTmp[2];
+            pecados[3]+=pecadosTmp[3];
+            pecados[4]+=pecadosTmp[4];
+            pecados[5]+=pecadosTmp[5];
+            pecados[6]+=pecadosTmp[6];
+        }
+    }
+    return pecados;
+}
+QVector <int> Cielo::CantidadBACielo(){
+    //Contar ba en todo el cielo
+    QVector<int> ba;
+    ba.resize(7);
+    QVector<int> baTmp;
+    baTmp.resize(7);
 
+    for (int i=1;i<this->hash.size();i++){
+        baTmp[0]=0;
+        baTmp[1]=0;
+        baTmp[2]=0;
+        baTmp[3]=0;
+        baTmp[4]=0;
+        baTmp[5]=0;
+        baTmp[6]=0;
+
+        if (hash[i]->raiz!=NULL){
+            baTmp = this->hash[i]->baCielo(this->hash[i]->raiz,baTmp);
+            ba[0]+=baTmp[0];
+            ba[1]+=baTmp[1];
+            ba[2]+=baTmp[2];
+            ba[3]+=baTmp[3];
+            ba[4]+=baTmp[4];
+            ba[5]+=baTmp[5];
+            ba[6]+=baTmp[6];
+        }
+    }
+    return ba;
+}
 

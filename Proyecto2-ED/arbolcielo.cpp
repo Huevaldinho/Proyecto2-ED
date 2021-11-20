@@ -181,3 +181,39 @@ cantidadPecados<<" pecados vs "<<cantidadBN<<" buenas acciones por el angel "<<"
 void ArbolCielo::insert(Persona*p){
     this->raiz=insert(this->raiz,p);
 }
+QVector<int> ArbolCielo::pecadosCielo(NodoArbolHashCielo * t, QVector<int> pecados){
+    if (t == NULL){
+        return pecados;
+    }
+
+   pecadosCielo(t->hijoizquierdo,pecados);
+
+    pecados[0]+=t->persona->pecados[0];
+    pecados[1]+=t->persona->pecados[1];
+    pecados[2]+=t->persona->pecados[2];
+    pecados[3]+=t->persona->pecados[3];
+    pecados[4]+=t->persona->pecados[4];
+    pecados[5]+=t->persona->pecados[5];
+    pecados[6]+=t->persona->pecados[6];
+
+   pecadosCielo(t->hijoderecho,pecados);
+   return pecados;
+}
+QVector<int> ArbolCielo::baCielo(NodoArbolHashCielo * t,QVector<int> ba){
+    if (t == NULL){
+        return ba;
+    }
+
+   baCielo(t->hijoizquierdo,ba);
+
+    ba[0]+=t->persona->buenasAcciones[0];
+    ba[1]+=t->persona->buenasAcciones[1];
+    ba[2]+=t->persona->buenasAcciones[2];
+    ba[3]+=t->persona->buenasAcciones[3];
+    ba[4]+=t->persona->buenasAcciones[4];
+    ba[5]+=t->persona->buenasAcciones[5];
+    ba[6]+=t->persona->buenasAcciones[6];
+
+   baCielo(t->hijoderecho,ba);
+   return ba;
+}
