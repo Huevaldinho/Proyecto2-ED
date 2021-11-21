@@ -9,7 +9,7 @@ Archivos::Archivos(){
 }
 void Archivos::lecturaApellidos(QString * apellidos){
     QString data="";
-    QString filename(":/txt/archivosTxt/apellidos1000.txt");
+    QString filename(":/txt/archivosTxt/apellidos100.txt");
     QFile file(filename);
 
     if(!file.open(QIODevice::ReadOnly)) {
@@ -60,7 +60,7 @@ void Archivos::lecturaNombres(QString * nombres){
 
 }
 void Archivos::lecturaPaises(QString * paises){
-    QString filename(":/txt/archivosTxt/paises100.txt");
+    QString filename(":/txt/archivosTxt/paises10.txt");
     QString data="";
     QFile file(filename);
 

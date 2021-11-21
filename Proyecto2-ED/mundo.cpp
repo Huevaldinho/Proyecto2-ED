@@ -6,7 +6,6 @@ Mundo::Mundo(){
     this->cantidadHumanosParaCrearArbol=1000;//Cada 1000 debe crear un arbol nuevo
     this->totalPecados=0;
     this->totalba=0;
-    //this->arbolMundo = new ArbolMundo();
     this->arbolMundo= new ArbolFamilia();//prueba arbol familia
     this->arbolMundo->apellidoFamilia="Arbol";
     this->arbolMundo->paisFamilia="Mundo";

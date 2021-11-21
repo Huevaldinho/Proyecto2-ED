@@ -267,8 +267,6 @@ void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBu
                      +paisBuscado+QString::number(0)+" personas.\n");
         return;
     }
-
-
     //Pasa el arbol de familia a una LD
     ListaPersonas * familiaLista=NULL;
     if (familiaBuscada!=NULL){
@@ -289,7 +287,6 @@ void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBu
     Nodo * tmpHijo=NULL;
     int pecados=0;
     while (tmp!=NULL){
-        //FALTA HIJOS
         pecados=tmp->persona->pecados[0]+tmp->persona->pecados[1]+tmp->persona->pecados[2]+tmp->persona->pecados[3]+
                 tmp->persona->pecados[4]+tmp->persona->pecados[5]+tmp->persona->pecados[6];
         cuadroTexto->setText(cuadroTexto->toPlainText()+" - Pecados: "+QString::number(pecados)+

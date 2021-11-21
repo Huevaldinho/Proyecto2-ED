@@ -64,7 +64,9 @@ void MainWindow::on_btnCondenacionLucifer_clicked(){//LUCIFER
     this->infierno->archivoCondenacion=pathInfiernoCondenacionB+actual.date().toString("yyyyMMdd")+"_"+actual.time().toString("hhmmss")+".txt";
 
     this->infierno->MeterFamiliaALosHeap();
+    qDebug()<<"Condenar lucifer termina de meter familias a los heap";
     this->infierno->OrdenarHeapsDemonios();
+    qDebug()<<"Condenar lucifer termina ordenar heaps";
 
     this->infierno->Condenar(this->infierno->buscarDemonio("Lucifer"));
 
