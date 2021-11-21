@@ -260,10 +260,24 @@ void ConsultasPorAcciones::DeterminarGanado(QTextBrowser * cuadroTextoInfierno,Q
 void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBuscado,QTextBrowser * cuadroTexto){
     //Encuentra la familia solicitada
     NodoListaFalimias * familiaBuscada=this->mundo->listaFamilias->buscarFamilia(apellidoBuscado,paisBuscado);
+    if (familiaBuscada==NULL){
+        qDebug()<<"Familia buscada no tiene miembros...";
+        cuadroTexto->clear();
+        cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\t Familia \n "+apellidoBuscado+" "
+                     +paisBuscado+QString::number(0)+" personas.\n");
+        return;
+    }
+
+
     //Pasa el arbol de familia a una LD
-    ListaPersonas * familiaLista = familiaBuscada->familia->ArbolALista(familiaBuscada->familia->raiz,new ListaPersonas ());
-    //Ordena la lista de mas pecadores a menos pecadores
-    familiaLista->OrdenarPorMasPecado(familiaLista);
+    ListaPersonas * familiaLista=NULL;
+    if (familiaBuscada!=NULL){
+        familiaLista = familiaBuscada->familia->ArbolALista(familiaBuscada->familia->raiz,new ListaPersonas ());
+        //Ordena la lista de mas pecadores a menos pecadores
+        familiaLista->OrdenarPorMasPecado(familiaLista);
+    }
+
+
     //Saca el porcentaje de humanos en mundo, infierno y cielo
     QVector <int> porcentajes = DeterminarPorcentajeDeFamilia(familiaLista);
     //FALTA Meter en GUI
@@ -323,23 +337,27 @@ void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBu
 }
 QVector<int> ConsultasPorAcciones::DeterminarPorcentajeDeFamilia(ListaPersonas * lista){
     double mundo=0;double infierno=0;double cielo=0;
-    Nodo * tmp= lista->primerNodo;
-    while (tmp!=NULL){
-        if (tmp->persona->estado==0)
-            mundo++;
-        else if (tmp->persona->estado==-1)
-            infierno++;
-        else
-            cielo++;
-        tmp=tmp->siguiente;
-    }
-    //Falta un 1%
-    mundo = (mundo*100)/lista->largo;
-    infierno = (infierno*100)/lista->largo;
-    cielo = (cielo*100)/lista->largo;
 
+    if (lista!=NULL){
+        Nodo * tmp= lista->primerNodo;
+        while (tmp!=NULL){
+            if (tmp->persona->estado==0)
+                mundo++;
+            else if (tmp->persona->estado==-1)
+                infierno++;
+            else
+                cielo++;
+            tmp=tmp->siguiente;
+        }
+        //Falta un 1%
+        mundo = (mundo*100)/lista->largo;
+        infierno = (infierno*100)/lista->largo;
+        cielo = (cielo*100)/lista->largo;
+    }
     QVector<int> porcentajes;
     porcentajes.resize(3);
-    porcentajes[0]=mundo;porcentajes[1]=infierno;porcentajes[2]=cielo;
+    porcentajes[0]=mundo;
+    porcentajes[1]=infierno;
+    porcentajes[2]=cielo;
     return porcentajes;
 }

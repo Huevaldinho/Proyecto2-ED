@@ -9,7 +9,7 @@ Archivos::Archivos(){
 }
 void Archivos::lecturaApellidos(QString * apellidos){
     QString data="";
-    QString filename(":/txt/archivosTxt/apellidos10.txt");
+    QString filename(":/txt/archivosTxt/apellidos1000.txt");
     QFile file(filename);
 
     if(!file.open(QIODevice::ReadOnly)) {
@@ -30,9 +30,10 @@ void Archivos::lecturaApellidos(QString * apellidos){
         }
     }
     file.close();
+    qDebug()<<"TERMINA DE CARGAR APELLIDOS DEL .TEXT";
 }
 void Archivos::lecturaNombres(QString * nombres){
-    QString filename(":/txt/archivosTxt/nombres100.txt");
+    QString filename(":/txt/archivosTxt/nombres1000.txt");
     QString data="";
     QFile file(filename);
 
@@ -55,10 +56,11 @@ void Archivos::lecturaNombres(QString * nombres){
         }
     }
     file.close();
+    qDebug()<<"TERMINA DE CARGAR NOMBRES DEL .TEXT";
 
 }
 void Archivos::lecturaPaises(QString * paises){
-    QString filename(":/txt/archivosTxt/paises10.txt");
+    QString filename(":/txt/archivosTxt/paises100.txt");
     QString data="";
     QFile file(filename);
 
@@ -80,6 +82,7 @@ void Archivos::lecturaPaises(QString * paises){
         }
     }
     file.close();
+    qDebug()<<"TERMINA DE CARGAR PAISES DEL .TEXT";
 }
 void Archivos::lecturaProfesiones(QString * profesiones){
     QString filename(":/txt/archivosTxt/profesiones50.txt");
@@ -104,6 +107,7 @@ void Archivos::lecturaProfesiones(QString * profesiones){
         }
     }
     file.close();
+    qDebug()<<"TERMINA DE CARGAR PROFESIONES DEL .TEXT";
 }
 void Archivos::lecturaCreencias(QString * creencias){
     QString filename(":/txt/archivosTxt/creencias.txt");
@@ -128,6 +132,7 @@ void Archivos::lecturaCreencias(QString * creencias){
         }
     }
     file.close();
+    qDebug()<<"TERMINA DE CARGAR CREENCIAS DEL .TEXT";
 }
 
 //Por si acaso dejo esto aqui

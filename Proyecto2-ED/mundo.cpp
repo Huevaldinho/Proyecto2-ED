@@ -119,7 +119,6 @@ Persona * Mundo::generarPersona(int n){
     QString correo = GenerarCorreo(nombre,apellido);
     Persona * persona = new Persona(id,nombre,apellido,pais,creencia,profesion,correo);
     persona->cantidadHijos=hijos;
-
     return persona;
 
 }
@@ -139,7 +138,6 @@ void Mundo::GenerarNpersonas(int n){
         //los hijos se le agregan en insertarFamilia
         tmp = NULL;
     }
-    //qDebug()<<"TERMINA GENERAR PERSONAS - Personas en mundo: "<<this->listaPersonas->largo;
 }
 void Mundo::CrearArbolMundo(int bloques,int ciclos){
     Nodo * mitad = this->listaPersonas->buscarMitad();

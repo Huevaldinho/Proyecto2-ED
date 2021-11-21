@@ -23,10 +23,12 @@ void MainWindow::on_btn_GenerarHumanos_clicked(){//GENERAR HUMANOS
     this->ui->lbl_CantidadTotalHumanos->setText(QString::number(this->mundo->listaPersonas->largo));
     this->ui->txt_InformacionUltimoNivelArbol->clear();
     this->mundo->arbolMundo->InformacionUltimoNivel(this->mundo->arbolMundo->raiz,this->ui->txt_InformacionUltimoNivelArbol);
-    //Infierno
-    this->infierno->MeterFamiliaALosHeap();
-    //this->infierno->imprimirFamiliasDeminios();
-    this->infierno->OrdenarHeapsDemonios();
+    qDebug()<<"Termina de crear la informacion de la generacion de humanos";
+    //A PARTIR DE ACA EL PROGRAMA SE PEGA
+//    //Infierno
+//    this->infierno->MeterFamiliaALosHeap();
+//    //this->infierno->imprimirFamiliasDeminios();
+//    this->infierno->OrdenarHeapsDemonios();
 }
 void MainWindow::on_btn_Pecar_clicked(){//PECAR
     this->mundo->generarPecados();
