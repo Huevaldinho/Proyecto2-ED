@@ -1,14 +1,7 @@
 Afganistán
 Albania
 Alemania
-Andorra
-Angola
-Antigua y Barbuda
-Arabia Saudita
-Argelia
 Argentina
-Armenia
-Australia
 Austria
 Azerbaiyán
 Bahamas
@@ -19,15 +12,7 @@ Bélgica
 Belice
 Benín
 Bielorrusia
-Birmania
 Bolivia
-Bosnia y Herzegovina
-Botsuana
-Brasil
-Brunéi
-Bulgaria
-Burkina Faso
-Burundi
 Bután
 Cabo Verde
 Camboya
@@ -60,33 +45,15 @@ España
 Estados Unidos
 Estonia
 Etiopía
-Filipinas
-Finlandia
 Fiyi
 Francia
-Gabón
 Gambia
 Georgia
 Ghana
 Granada
 Grecia
 Guatemala
-Guyana
-Guinea
-Uruguay
-Portugal
-Haití
-Honduras
-Hungría
-India
-Indonesia
 Irak
-Irán
-Irlanda
-Islandia
-Islas Marshall
-Islas Salomón
-Israel
 Italia
 Jamaica
 Japón
@@ -96,5 +63,3 @@ Kenia
 Kirguistán
 Suiza
 Kuwait
-Laos
-Lesoto

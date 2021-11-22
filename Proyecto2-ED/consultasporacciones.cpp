@@ -19,7 +19,7 @@ ConsultasPorAcciones::ConsultasPorAcciones(ListaPersonas * lista, Cielo * cieloM
 void ConsultasPorAcciones::AccionesHijos(Persona * hijo,QTextBrowser * cuadroTextoPecados,QTextBrowser * cuadroTextoBuenasAcciones){
     cuadroTextoPecados->setText(cuadroTextoPecados->toPlainText()+"\n Hijo de "+hijo->padre->nombre+" - "+hijo->nombre);
     cuadroTextoBuenasAcciones->setText(cuadroTextoBuenasAcciones->toPlainText()+"\n Hijos de "+hijo->padre->nombre+" - "+hijo->nombre);
-    QString pecado1 = "Lujiria: "+QString::number(hijo->pecados[0]);
+    QString pecado1 = ":\nLujuria: "+QString::number(hijo->pecados[0]);
     QString pecado2 = " - Gula: "+QString::number(hijo->pecados[1]);
     QString pecado3 = " - Avaricia: " +QString::number(hijo->pecados[2]);
     QString pecado4 = " - Pereza: " +QString::number(hijo->pecados[3]);
@@ -54,7 +54,7 @@ void ConsultasPorAcciones::AccionesFamilia(int IDaBuscar, QTextBrowser * cuadroT
         cuadroTextoPecados->setText(cuadroTextoPecados->toPlainText() + QString::number(buscado->ID)+" - " + buscado->nombre +" "+ buscado->apellido);
         cuadroTextoBuenasAcciones->setText(cuadroTextoBuenasAcciones->toPlainText() + QString::number(buscado->ID)+" - " + buscado->nombre +" "+ buscado->apellido);
 
-        QString pecado1 = "Lujiria: "+QString::number(buscado->pecados[0]);
+        QString pecado1 = ":\nLujuria: "+QString::number(buscado->pecados[0]);
         QString pecado2 = " - Gula: "+QString::number(buscado->pecados[1]);
         QString pecado3 = " - Avaricia: " +QString::number(buscado->pecados[2]);
         QString pecado4 = " - Pereza: " +QString::number(buscado->pecados[3]);
@@ -128,7 +128,7 @@ void ConsultasPorAcciones::TopTenAccionesPaises(int opcion,QTextBrowser * cuadro
         tmp=paisesTmp->primerPais;
         for (int i=0;i<10;i++){//Mete los primeros 10 paises mas pecadores
             if (tmp!=NULL){//solo por aquello jj
-                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+
+                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n País: "+tmp->nombre+
                                      " - Pecados: "+QString::number(tmp->cantidadPecados));
                 tmp=tmp->siguiente;
             }
@@ -139,7 +139,7 @@ void ConsultasPorAcciones::TopTenAccionesPaises(int opcion,QTextBrowser * cuadro
         tmp=paisesTmp->primerPais;
         for (int i=0;i<10;i++){
             if (tmp!=NULL){
-                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+
+                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n País: "+tmp->nombre+
                                      " - Buenas Acciones: "+QString::number(tmp->cantidadBuenasAcciones));
                 tmp=tmp->siguiente;
             }
@@ -179,7 +179,7 @@ void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadr
         Pais * tmp=paisesTmp->ultimoPais;
         for (int i=0;i<5;i++){
             if (tmp!=NULL){
-                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+" - Pecados: "+QString::number(tmp->cantidadPecados));
+                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n País: "+tmp->nombre+" - Pecados: "+QString::number(tmp->cantidadPecados));
                 tmp=tmp->anterior;
             }
         }
@@ -189,7 +189,7 @@ void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadr
         Pais * tmp=paisesTmp->ultimoPais;
         for (int i=0;i<5;i++){
             if (tmp!=NULL){
-                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Pais: "+tmp->nombre+" - Buenas Acciones: "+QString::number(tmp->cantidadBuenasAcciones));
+                cuadroTexto->setText(cuadroTexto->toPlainText()+"\n País: "+tmp->nombre+" - Buenas Acciones: "+QString::number(tmp->cantidadBuenasAcciones));
                 tmp=tmp->anterior;
             }
         }
@@ -205,13 +205,13 @@ void ConsultasPorAcciones::TopFiveAccionesPaises(int opcion,QTextBrowser * cuadr
     for (int i=0;i<7;i++){
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Cantidad pecado "+QString::number(i)+": "+QString::number(pecado[i])+"\n");
     }
-    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Total pecados: "+QString::number(
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\nTotal pecados: "+QString::number(
 pecado[0]+pecado[1]+pecado[2]+pecado[3]+pecado[4]+pecado[5]+pecado[6]));
     cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\n\tBuenas acciones infierno: \n");
     for (int i=0;i<7;i++){
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Cantidad ba "+QString::number(i)+": "+QString::number(ba[i])+"\n");
     }
-    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Total Buenas Acciones: "+QString::number(
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\nTotal buenas acciones: "+QString::number(
 ba[0]+ba[1]+ba[2]+ba[3]+ba[4]+ba[5]+ba[6]));
     long long neto=0;
     for (int i=0;i<7;i++){
@@ -223,8 +223,8 @@ ba[0]+ba[1]+ba[2]+ba[3]+ba[4]+ba[5]+ba[6]));
 long long ConsultasPorAcciones::ElGanadorCielo(QTextBrowser * cuadroTexto){
     //Hacer lo mismo que ElGanadorInfierno
     //Hacer funcion para contar pecados en el cielo/ba
-    QVector<int> pecado=this->cielo->CantidadPecadosCielo();
-    QVector<int> ba=this->cielo->CantidadBACielo();
+    QVector<long long> pecado=this->cielo->CantidadPecadosCielo();
+    QVector<long long> ba=this->cielo->CantidadBACielo();
     cuadroTexto->clear();
     cuadroTexto->setText(cuadroTexto->toPlainText()+"\tPecados cielo: \n");
     for (int i=0;i<7;i++){
@@ -236,7 +236,7 @@ pecado[0]+pecado[1]+pecado[2]+pecado[3]+pecado[4]+pecado[5]+pecado[6]));
     for (int i=0;i<7;i++){
         cuadroTexto->setText(cuadroTexto->toPlainText()+"Cantidad ba "+QString::number(i)+": "+QString::number(ba[i])+"\n");
     }
-    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n Total Buenas Acciones: "+QString::number(
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\nTotal buenas acciones: "+QString::number(
 ba[0]+ba[1]+ba[2]+ba[3]+ba[4]+ba[5]+ba[6]));
     long long neto=0;
     for (int i=0;i<7;i++){
@@ -264,7 +264,7 @@ void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBu
         qDebug()<<"Familia buscada no tiene miembros...";
         cuadroTexto->clear();
         cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\t Familia \n "+apellidoBuscado+" "
-                     +paisBuscado+QString::number(0)+" personas.\n");
+                     +paisBuscado+" - "+QString::number(0)+" personas.\n");
         return;
     }
     //Pasa el arbol de familia a una LD
@@ -281,7 +281,7 @@ void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBu
     //FALTA Meter en GUI
     cuadroTexto->clear();
     cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\t Familia \n "+familiaBuscada->familia->apellidoFamilia+" "
-                 +familiaBuscada->familia->paisFamilia+QString::number(familiaLista->largo)+" personas.\n");
+                 +familiaBuscada->familia->paisFamilia+" "+QString::number(familiaLista->largo)+" personas.\n");
     cuadroTexto->setText(cuadroTexto->toPlainText()+'\n');//Enter
     Nodo * tmp = familiaLista->primerNodo;
     Nodo * tmpHijo=NULL;
@@ -291,13 +291,13 @@ void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBu
                 tmp->persona->pecados[4]+tmp->persona->pecados[5]+tmp->persona->pecados[6];
         cuadroTexto->setText(cuadroTexto->toPlainText()+" - Pecados: "+QString::number(pecados)+
                              "\n - Nombre: "+tmp->persona->nombre+" - Apellido: "+tmp->persona->apellido+
-                             " - Pais: "+tmp->persona->pais+" - ID: "+QString::number(tmp->persona->ID)+"\n");
+                             " - País: "+tmp->persona->pais+" - ID: "+QString::number(tmp->persona->ID)+"\n");
         if (tmp->persona->estado==-1)
-            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Infierno\n");
+            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicación: Infierno\n");
         else if (tmp->persona->estado==0)
-            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Mundo\n");
+            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicación: Mundo\n");
         else
-            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Cielo\n");
+            cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicación: Cielo\n");
         cuadroTexto->setText(cuadroTexto->toPlainText()+'\n');//Enter
 
         if (tmp->persona->hijos->primerNodo!=NULL){
@@ -313,24 +313,24 @@ void ConsultasPorAcciones::BuscarFamilia(QString apellidoBuscado, QString paisBu
                                      tmpHijo->persona->apellido+" - Pais: "+tmpHijo->persona->pais+
                                      " - ID: "+QString::number(tmpHijo->persona->ID)+"\n");
                 if (tmpHijo->persona->estado==-1)
-                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Infierno\n");
+                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicación: Infierno\n");
                 else if (tmpHijo->persona->estado==0)
-                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Mundo\n");
+                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicación: Mundo\n");
                 else
-                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicacion: Cielo\n");
+                    cuadroTexto->setText(cuadroTexto->toPlainText()+" - Ubicación: Cielo\n");
                 cuadroTexto->setText(cuadroTexto->toPlainText()+'\n');//Enter
 
                 tmpHijo=tmpHijo->siguiente;
             }
-            cuadroTexto->setText(cuadroTexto->toPlainText()+"\tFin hijos \n");
+            cuadroTexto->setText(cuadroTexto->toPlainText()+"\tFin hijos.\n");
         }else{
-            cuadroTexto->setText(cuadroTexto->toPlainText()+"\t NO tiene hijos\n");
+            cuadroTexto->setText(cuadroTexto->toPlainText()+"\t No tiene hijos\n");
         }
         tmp=tmp->siguiente;
     }
-    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\tPorcentajes\n"+" - Mundo: "+
-                         QString::number(porcentajes[0])+"% - Infierno: "+QString::number(porcentajes[1])+
-            "% - Cielo: "+QString::number(porcentajes[2])+'%');
+    cuadroTexto->setText(cuadroTexto->toPlainText()+"\n\tPorcentajes\n"+"Mundo: "+
+                         QString::number(porcentajes[0])+"%\nInfierno: "+QString::number(porcentajes[1])+
+            "%\nCielo: "+QString::number(porcentajes[2])+'%');
 }
 QVector<int> ConsultasPorAcciones::DeterminarPorcentajeDeFamilia(ListaPersonas * lista){
     double mundo=0;double infierno=0;double cielo=0;

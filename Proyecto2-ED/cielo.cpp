@@ -87,9 +87,9 @@ void Cielo::hacerArreglo(){
         tmp=tmp->siguiente;;
     }
 }
-QVector <int> Cielo::CantidadPecadosCielo(){
+QVector <long long> Cielo::CantidadPecadosCielo(){
     //Contar pecados en todo el cielo
-    QVector<int> pecados;
+    QVector<long long> pecados;
     pecados.resize(7);
     QVector<int> pecadosTmp;
     pecadosTmp.resize(7);
@@ -114,9 +114,9 @@ QVector <int> Cielo::CantidadPecadosCielo(){
     }
     return pecados;
 }
-QVector <int> Cielo::CantidadBACielo(){
+QVector <long long> Cielo::CantidadBACielo(){
     //Contar ba en todo el cielo
-    QVector<int> ba;
+    QVector<long long> ba;
     ba.resize(7);
     QVector<int> baTmp;
     baTmp.resize(7);

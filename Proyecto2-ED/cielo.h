@@ -20,8 +20,8 @@ class Cielo{
         void escribirEnArchivo(Persona *);
         void hacerArreglo();
         QVector<Persona*> p;
-        QVector <int> CantidadPecadosCielo();
-        QVector <int> CantidadBACielo();
+        QVector <long long> CantidadPecadosCielo();
+        QVector <long long> CantidadBACielo();
 };
 
 #endif // CIELO_H

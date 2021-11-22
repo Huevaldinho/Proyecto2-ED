@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
         REVISAR LOS TOP, LAS CANTIDADES SON MAYORES
         ERROR EN CONSULTASPORACCIONES, se estan sumando cuando pecados no deben y por eso
         no salen las cuentas
-*/
+    */
 
 
     MainWindow w;
